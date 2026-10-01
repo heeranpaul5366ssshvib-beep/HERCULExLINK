@@ -1,0 +1,16 @@
+{
+  "report": "Frontier gap report (Phase 9P)",
+  "timestamp": "2026-09-24T09:00:00.000000+00:00",
+  "CURRENT_CAPABILITIES": ["torch/numpy LM backends", "CPU training + ckpt/resume", "DDP harness", "SFT path", "13+1 eval suites", "adaptation loop", "moral analyzer", "KV/streaming inference", "local web product", "release gate"],
+  "MEASURED_CAPABILITIES": {"adaptation_synthetic": "0.0->1.0", "coding_repair": "0.0->1.0 (3 tasks)", "research_grounding": 0.5, "dataset_AB": "v2 wins", "kv_speedup_micro": 1.6, "model_suites_nano": "~0 (honest)"},
+  "UNTRAINED_CAPABILITIES": ["reasoning/math/coding/tool/research model skill (~0)", "multilingual generation", "long-context retrieval"],
+  "GPU_BLOCKERS": ["0 CUDA devices: all GPU/AMP/DDP-multi/FSDP/100M NOT_RUN"],
+  "COMPUTE_LIMITS": ["8.5GB RAM (100M+ CPU blocked)", "2 cores (slow CPU training)"],
+  "DATA_LIMITS": ["seed 6.4K docs, 45% dup", "no Bengali/Hindi sourced data", "postdata synthetic-only", "no ARC data (policy)"],
+  "MODEL_LIMITS": ["largest validated runnable: s50m CPU; 100M+ need GPU"],
+  "POST_TRAINING_LIMITS": ["SFT 20-step nano UNCHANGED", "no learned reward model", "no DPO run"],
+  "AGENT_LIMITS": ["adaptation proven on synthetic+repo tasks only", "no production deployment"],
+  "EVALUATION_RESULTS": "phase7_eval.json + freeze bb82be72728b6ae5; ceiling 1.0; nano ~0",
+  "SAFETY_RESULTS": "gates intact; refusal 0.0 untrained; widening blocked",
+  "WEB_STATUS": "IMPLEMENTED local-first (loopback+token+rate-limit); public TLS proxy required (not configured)"
+}

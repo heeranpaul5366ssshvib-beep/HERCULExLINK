@@ -1,0 +1,5 @@
+START
+CWD=C:\Users\hp\HERCULE
+PYTHON=C:\Users\hp\HERCULE\.venv\Scripts\python.exe
+after path insert
+imported RI ok

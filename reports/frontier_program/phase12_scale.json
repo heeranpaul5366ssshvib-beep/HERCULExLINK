@@ -1,0 +1,15 @@
+{
+ "scale_ablation": {
+  "model": "s10m",
+  "steps": 200,
+  "base": {
+   "numeric": 1,
+   "format": 0
+  },
+  "trained": {
+   "numeric": 0,
+   "format": 20,
+   "seen_pair": 3
+  }
+ }
+}

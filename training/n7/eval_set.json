@@ -1,0 +1,212 @@
+[
+ {
+  "id": "lang-00",
+  "category": "BASIC_LANGUAGE",
+  "prompt": "The sun rises in the ",
+  "expected_prefix": "east",
+  "rule": "prefix"
+ },
+ {
+  "id": "lang-01",
+  "category": "BASIC_LANGUAGE",
+  "prompt": "Water freezes into ",
+  "expected_prefix": "ice",
+  "rule": "prefix"
+ },
+ {
+  "id": "lang-02",
+  "category": "BASIC_LANGUAGE",
+  "prompt": "A week has seven ",
+  "expected_prefix": "days",
+  "rule": "prefix"
+ },
+ {
+  "id": "lang-03",
+  "category": "BASIC_LANGUAGE",
+  "prompt": "Birds build ",
+  "expected_prefix": "nests",
+  "rule": "prefix"
+ },
+ {
+  "id": "vocab-00",
+  "category": "VOCABULARY",
+  "prompt": "A directory contains ",
+  "expected_prefix": "files",
+  "rule": "contains"
+ },
+ {
+  "id": "vocab-01",
+  "category": "VOCABULARY",
+  "prompt": "Verification means ",
+  "expected_prefix": "checking",
+  "rule": "contains"
+ },
+ {
+  "id": "fact-00",
+  "category": "FACT_RECALL",
+  "prompt": "At sea level, water boils at ",
+  "expected_prefix": "100",
+  "rule": "prefix"
+ },
+ {
+  "id": "fact-01",
+  "category": "FACT_RECALL",
+  "prompt": "The capital of France is ",
+  "expected_prefix": "Paris",
+  "rule": "prefix"
+ },
+ {
+  "id": "arith-00",
+  "category": "SIMPLE_ARITHMETIC",
+  "prompt": "Q: Calculate 156 + 659.\nA:",
+  "expected_exact": "815.",
+  "rule": "exact-after-strip"
+ },
+ {
+  "id": "arith-01",
+  "category": "SIMPLE_ARITHMETIC",
+  "prompt": "Q: Calculate 198 + 344.\nA:",
+  "expected_exact": "542.",
+  "rule": "exact-after-strip"
+ },
+ {
+  "id": "arith-02",
+  "category": "SIMPLE_ARITHMETIC",
+  "prompt": "Q: Calculate 251 + 795.\nA:",
+  "expected_exact": "1046.",
+  "rule": "exact-after-strip"
+ },
+ {
+  "id": "arith-03",
+  "category": "SIMPLE_ARITHMETIC",
+  "prompt": "Q: Calculate 289 + 910.\nA:",
+  "expected_exact": "1199.",
+  "rule": "exact-after-strip"
+ },
+ {
+  "id": "arith-04",
+  "category": "SIMPLE_ARITHMETIC",
+  "prompt": "Q: Calculate 318 + 382.\nA:",
+  "expected_exact": "700.",
+  "rule": "exact-after-strip"
+ },
+ {
+  "id": "arith-05",
+  "category": "SIMPLE_ARITHMETIC",
+  "prompt": "Q: Calculate 333 + 602.\nA:",
+  "expected_exact": "935.",
+  "rule": "exact-after-strip"
+ },
+ {
+  "id": "arith-06",
+  "category": "SIMPLE_ARITHMETIC",
+  "prompt": "Q: Calculate 502 + 787.\nA:",
+  "expected_exact": "1289.",
+  "rule": "exact-after-strip"
+ },
+ {
+  "id": "arith-07",
+  "category": "SIMPLE_ARITHMETIC",
+  "prompt": "Q: Calculate 507 + 822.\nA:",
+  "expected_exact": "1329.",
+  "rule": "exact-after-strip"
+ },
+ {
+  "id": "arith-08",
+  "category": "SIMPLE_ARITHMETIC",
+  "prompt": "Q: Calculate 562 + 921.\nA:",
+  "expected_exact": "1483.",
+  "rule": "exact-after-strip"
+ },
+ {
+  "id": "arith-09",
+  "category": "SIMPLE_ARITHMETIC",
+  "prompt": "Q: Calculate 564 + 827.\nA:",
+  "expected_exact": "1391.",
+  "rule": "exact-after-strip"
+ },
+ {
+  "id": "arith-10",
+  "category": "SIMPLE_ARITHMETIC",
+  "prompt": "Q: Calculate 740 + 307.\nA:",
+  "expected_exact": "1047.",
+  "rule": "exact-after-strip"
+ },
+ {
+  "id": "arith-11",
+  "category": "SIMPLE_ARITHMETIC",
+  "prompt": "Q: Calculate 821 + 496.\nA:",
+  "expected_exact": "1317.",
+  "rule": "exact-after-strip"
+ },
+ {
+  "id": "pattern-00",
+  "category": "PATTERN_COMPLETION",
+  "prompt": "1 2 3 4 ",
+  "expected_prefix": "5",
+  "rule": "prefix"
+ },
+ {
+  "id": "pattern-01",
+  "category": "PATTERN_COMPLETION",
+  "prompt": "2 4 6 8 ",
+  "expected_prefix": "10",
+  "rule": "prefix"
+ },
+ {
+  "id": "pattern-02",
+  "category": "PATTERN_COMPLETION",
+  "prompt": "a b c ",
+  "expected_prefix": "d",
+  "rule": "prefix"
+ },
+ {
+  "id": "logic-00",
+  "category": "LOGICAL_RULES",
+  "prompt": "All boxes contain books. Crate X is a box. Crate X contains ",
+  "expected_prefix": "books",
+  "rule": "contains"
+ },
+ {
+  "id": "instr-00",
+  "category": "INSTRUCTION_FOLLOWING",
+  "prompt": "Reply with exactly the word HELLO and nothing else.\n",
+  "expected_exact": "HELLO",
+  "rule": "exact-after-strip"
+ },
+ {
+  "id": "ctx-00",
+  "category": "SHORT_CONTEXT",
+  "prompt": "Context: the depot code is 451. Question: what is the depot code?\nAnswer:",
+  "expected_prefix": "451",
+  "rule": "contains"
+ },
+ {
+  "id": "ctx-01",
+  "category": "LONGER_CONTEXT",
+  "prompt": "Filler sentence number 0. Filler sentence number 1. Filler sentence number 2. Filler sentence number 3. Filler sentence number 4. Filler sentence number 5. Filler sentence number 6. Filler sentence number 7. Filler sentence number 8. Filler sentence number 9. Filler sentence number 10. Filler sentence number 11. Filler sentence number 12. Filler sentence number 13. Filler sentence number 14. Filler sentence number 15. Filler sentence number 16. Filler sentence number 17. Filler sentence number 18. Filler sentence number 19. Filler sentence number 20. Filler sentence number 21. Filler sentence number 22. Filler sentence number 23. Filler sentence number 24. Filler sentence number 25. Filler sentence number 26. Filler sentence number 27. Filler sentence number 28. Filler sentence number 29. The hidden number is 777. Filler sentence number 0. Filler sentence number 1. Filler sentence number 2. Filler sentence number 3. Filler sentence number 4. Filler sentence number 5. Filler sentence number 6. Filler sentence number 7. Filler sentence number 8. Filler sentence number 9. Filler sentence number 10. Filler sentence number 11. Filler sentence number 12. Filler sentence number 13. Filler sentence number 14. Filler sentence number 15. Filler sentence number 16. Filler sentence number 17. Filler sentence number 18. Filler sentence number 19. Filler sentence number 20. Filler sentence number 21. Filler sentence number 22. Filler sentence number 23. Filler sentence number 24. Filler sentence number 25. Filler sentence number 26. Filler sentence number 27. Filler sentence number 28. Filler sentence number 29. The hidden number is",
+  "expected_prefix": "777",
+  "rule": "contains"
+ },
+ {
+  "id": "code-00",
+  "category": "CODE_SYNTAX",
+  "prompt": "def add(a, b):\n    return ",
+  "expected_prefix": "a + b",
+  "rule": "contains"
+ },
+ {
+  "id": "herc-00",
+  "category": "HERCULE_TERMINOLOGY",
+  "prompt": "Classify this request: 'compute 5 plus 5'.\n",
+  "expected_prefix": "GOAL",
+  "rule": "contains"
+ },
+ {
+  "id": "herc-01",
+  "category": "HERCULE_TERMINOLOGY",
+  "prompt": "A skill must be  before it can execute.\n",
+  "expected_prefix": "validated",
+  "rule": "contains"
+ }
+]

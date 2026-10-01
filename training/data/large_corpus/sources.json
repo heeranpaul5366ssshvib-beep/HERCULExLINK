@@ -1,0 +1,9 @@
+[
+  {
+    "name": "hercule-tokenizer-corpus",
+    "license": "HERCULE-authored (MIT, repo)",
+    "origin": "hercule-authored",
+    "version": "v1",
+    "files": ["tokenizer_corpus_100m.txt"]
+  }
+]

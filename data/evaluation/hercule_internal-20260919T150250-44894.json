@@ -1,0 +1,75 @@
+{
+  "run_id": "hercule_internal-20260919T150250-44894",
+  "scope": "hercule_internal",
+  "version": "1.1.0",
+  "model": "mock",
+  "provider": "mock",
+  "started_at": "2026-09-19T15:02:50.897918+00:00",
+  "finished_at": "2026-09-19T15:02:55.398489+00:00",
+  "wall_ms": 4500.54,
+  "config": {
+    "mode": "quick",
+    "suites": [],
+    "model": null,
+    "timeout_s": 120.0,
+    "max_tasks": 0,
+    "parallel": 1,
+    "live": true,
+    "baseline": false
+  },
+  "counts": {
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "error": 0,
+    "timeout": 0
+  },
+  "results": [
+    {
+      "task_id": "hercule-plan-contract-009",
+      "suite_id": "hercule_internal",
+      "category": "HERCULE_INTERNAL",
+      "outcome": "failed",
+      "score": 0.0,
+      "latency_ms": 4500.532,
+      "detail": "",
+      "observed": {
+        "task_id": "",
+        "status": "failed",
+        "result": {},
+        "verification": {},
+        "retries": 0,
+        "execution_summary": "",
+        "error": "subsystem='planner' operation='reference-resolution' exception='AMBIGUOUS_REFERENCE step-2 reference matches multiple objects; clarify which one candidates=['C:\\\\Users\\\\hp\\\\HERCULE\\\\plan.txt', 'C:\\\\Users\\\\hp\\\\HERCULE\\\\decision_test.txt', 'plan.txt']' recovery='clarify' result='failed'",
+        "reasoning": {
+          "mode": "EXPERT",
+          "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+          "provider": "builtin",
+          "reason": "hard request (score=11, risk=HIGH); model: largest installed model",
+          "budget": {
+            "max_tokens": 512,
+            "timeout_s": 90,
+            "max_passes": 4,
+            "max_context_chars": 2500,
+            "max_tool_calls": 16
+          },
+          "risk": "HIGH",
+          "latency_ms": 0.0,
+          "passes": 0
+        },
+        "correlation_id": "brain-9f14e6a625cf",
+        "latency_ms": 4499.564
+      },
+      "expected": null,
+      "timings": {},
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "READ_ONLY",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-19T15:02:55.398470+00:00"
+    }
+  ]
+}

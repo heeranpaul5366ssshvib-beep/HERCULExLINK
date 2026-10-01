@@ -1,0 +1,11999 @@
+Q: Calculate 555 - 384.
+A: 171.
+
+
+Q: Calculate 532 + 147.
+A: 679.
+
+
+Q: Calculate 626 - 606.
+A: 20.
+
+
+Q: Calculate 837 - 398.
+A: 439.
+
+
+Q: Calculate 195 * 166.
+A: 32370.
+
+
+Q: Calculate 648 - 585.
+A: 63.
+
+
+Q: Calculate 142 * 119.
+A: 16898.
+
+
+Q: Calculate 222 - 175.
+A: 47.
+
+
+Q: Calculate 195 + 803.
+A: 998.
+
+
+Q: Calculate 661 + 236.
+A: 897.
+
+
+Q: Calculate 190 + 712.
+A: 902.
+
+
+Q: Calculate 556 + 173.
+A: 729.
+
+
+Q: Calculate 771 + 422.
+A: 1193.
+
+
+Q: Calculate 346 - 228.
+A: 118.
+
+
+Q: Calculate 898 - 284.
+A: 614.
+
+
+Q: Calculate 600 - 144.
+A: 456.
+
+
+Q: Calculate 947 - 534.
+A: 413.
+
+
+Q: Calculate 100 + 490.
+A: 590.
+
+
+Q: Calculate 188 * 103.
+A: 19364.
+
+
+Q: Calculate 177 * 110.
+A: 19470.
+
+
+Q: Calculate 360 - 312.
+A: 48.
+
+
+Q: Calculate 990 + 291.
+A: 1281.
+
+
+Q: Calculate 836 - 760.
+A: 76.
+
+
+Q: Calculate 858 - 487.
+A: 371.
+
+
+Q: Calculate 962 - 423.
+A: 539.
+
+
+Q: Calculate 615 - 531.
+A: 84.
+
+
+Q: Calculate 507 + 254.
+A: 761.
+
+
+Q: Calculate 172 * 146.
+A: 25112.
+
+
+Q: Calculate 572 + 451.
+A: 1023.
+
+
+Q: Calculate 460 - 390.
+A: 70.
+
+
+Q: Calculate 521 - 430.
+A: 91.
+
+
+Q: Calculate 149 * 108.
+A: 16092.
+
+
+Q: Calculate 427 - 218.
+A: 209.
+
+
+Q: Calculate 325 - 236.
+A: 89.
+
+
+Q: Calculate 352 - 283.
+A: 69.
+
+
+Q: Calculate 185 * 157.
+A: 29045.
+
+
+Q: Calculate 631 - 242.
+A: 389.
+
+
+Q: Calculate 985 - 747.
+A: 238.
+
+
+Q: Calculate 951 - 436.
+A: 515.
+
+
+Q: Calculate 450 - 303.
+A: 147.
+
+
+Q: Calculate 152 * 198.
+A: 30096.
+
+
+Q: Calculate 175 * 184.
+A: 32200.
+
+
+Q: Calculate 694 - 392.
+A: 302.
+
+
+Q: Calculate 363 - 306.
+A: 57.
+
+
+Q: Calculate 178 * 130.
+A: 23140.
+
+
+Q: Calculate 287 + 794.
+A: 1081.
+
+
+Q: Calculate 275 + 950.
+A: 1225.
+
+
+Q: Calculate 123 * 118.
+A: 14514.
+
+
+Q: Calculate 400 + 631.
+A: 1031.
+
+
+Q: Calculate 877 - 230.
+A: 647.
+
+
+Q: Calculate 569 + 705.
+A: 1274.
+
+
+Q: Calculate 171 * 158.
+A: 27018.
+
+
+Q: Calculate 490 - 337.
+A: 153.
+
+
+Q: Calculate 616 + 704.
+A: 1320.
+
+
+Q: Calculate 593 + 213.
+A: 806.
+
+
+Q: Calculate 671 + 359.
+A: 1030.
+
+
+Q: Calculate 743 - 691.
+A: 52.
+
+
+Q: Calculate 699 - 583.
+A: 116.
+
+
+Q: Calculate 779 - 541.
+A: 238.
+
+
+Q: Calculate 618 - 507.
+A: 111.
+
+
+Q: Calculate 902 - 555.
+A: 347.
+
+
+Q: Calculate 401 + 873.
+A: 1274.
+
+
+Q: Calculate 731 + 224.
+A: 955.
+
+
+Q: Calculate 512 - 209.
+A: 303.
+
+
+Q: Calculate 633 - 217.
+A: 416.
+
+
+Q: Calculate 569 - 456.
+A: 113.
+
+
+Q: Calculate 624 + 202.
+A: 826.
+
+
+Q: Calculate 846 + 350.
+A: 1196.
+
+
+Q: Calculate 905 + 218.
+A: 1123.
+
+
+Q: Calculate 171 * 185.
+A: 31635.
+
+
+Q: Calculate 179 + 725.
+A: 904.
+
+
+Q: Calculate 915 - 494.
+A: 421.
+
+
+Q: Calculate 722 - 404.
+A: 318.
+
+
+Q: Calculate 394 + 756.
+A: 1150.
+
+
+Q: Calculate 534 - 103.
+A: 431.
+
+
+Q: Calculate 352 - 328.
+A: 24.
+
+
+Q: Calculate 567 + 810.
+A: 1377.
+
+
+Q: Calculate 704 + 127.
+A: 831.
+
+
+Q: Calculate 594 - 393.
+A: 201.
+
+
+Q: Calculate 195 * 147.
+A: 28665.
+
+
+Q: Calculate 625 + 939.
+A: 1564.
+
+
+Q: Calculate 111 * 183.
+A: 20313.
+
+
+Q: Calculate 975 + 495.
+A: 1470.
+
+
+Q: Calculate 849 + 353.
+A: 1202.
+
+
+Q: Calculate 653 + 616.
+A: 1269.
+
+
+Q: Calculate 637 + 621.
+A: 1258.
+
+
+Q: Calculate 135 * 165.
+A: 22275.
+
+
+Q: Calculate 987 + 394.
+A: 1381.
+
+
+Q: Calculate 945 - 456.
+A: 489.
+
+
+Q: Calculate 156 * 180.
+A: 28080.
+
+
+Q: Calculate 147 + 541.
+A: 688.
+
+
+Q: Calculate 357 - 180.
+A: 177.
+
+
+Q: Calculate 856 - 827.
+A: 29.
+
+
+Q: Calculate 128 * 184.
+A: 23552.
+
+
+Q: Calculate 168 * 185.
+A: 31080.
+
+
+Q: Calculate 629 - 240.
+A: 389.
+
+
+Q: Calculate 855 - 709.
+A: 146.
+
+
+Q: Calculate 186 * 142.
+A: 26412.
+
+
+Q: Calculate 187 * 178.
+A: 33286.
+
+
+Q: Calculate 150 * 123.
+A: 18450.
+
+
+Q: Calculate 752 + 774.
+A: 1526.
+
+
+Q: Calculate 110 * 124.
+A: 13640.
+
+
+Q: Calculate 510 - 111.
+A: 399.
+
+
+Q: Calculate 794 - 429.
+A: 365.
+
+
+Q: Calculate 853 + 951.
+A: 1804.
+
+
+Q: Calculate 895 + 461.
+A: 1356.
+
+
+Q: Calculate 899 + 136.
+A: 1035.
+
+
+Q: Calculate 322 - 226.
+A: 96.
+
+
+Q: Calculate 619 - 124.
+A: 495.
+
+
+Q: Calculate 181 + 584.
+A: 765.
+
+
+Q: Calculate 171 * 121.
+A: 20691.
+
+
+Q: Calculate 123 * 177.
+A: 21771.
+
+
+Q: Calculate 126 * 144.
+A: 18144.
+
+
+Q: Calculate 101 * 162.
+A: 16362.
+
+
+Q: Calculate 171 * 163.
+A: 27873.
+
+
+Q: Calculate 112 * 131.
+A: 14672.
+
+
+Q: Calculate 536 + 793.
+A: 1329.
+
+
+Q: Calculate 801 - 178.
+A: 623.
+
+
+Q: Calculate 112 * 167.
+A: 18704.
+
+
+Q: Calculate 886 - 651.
+A: 235.
+
+
+Q: Calculate 106 * 176.
+A: 18656.
+
+
+Q: Calculate 339 - 223.
+A: 116.
+
+
+Q: Calculate 962 + 973.
+A: 1935.
+
+
+Q: Calculate 755 + 361.
+A: 1116.
+
+
+Q: Calculate 517 - 349.
+A: 168.
+
+
+Q: Calculate 562 + 336.
+A: 898.
+
+
+Q: Calculate 137 * 150.
+A: 20550.
+
+
+Q: Calculate 994 + 256.
+A: 1250.
+
+
+Q: Calculate 769 - 265.
+A: 504.
+
+
+Q: Calculate 703 - 228.
+A: 475.
+
+
+Q: Calculate 929 - 901.
+A: 28.
+
+
+Q: Calculate 180 * 173.
+A: 31140.
+
+
+Q: Calculate 982 - 683.
+A: 299.
+
+
+Q: Calculate 111 + 346.
+A: 457.
+
+
+Q: Calculate 613 + 194.
+A: 807.
+
+
+Q: Calculate 148 * 157.
+A: 23236.
+
+
+Q: Calculate 181 * 123.
+A: 22263.
+
+
+Q: Calculate 830 - 533.
+A: 297.
+
+
+Q: Calculate 112 * 188.
+A: 21056.
+
+
+Q: Calculate 332 + 676.
+A: 1008.
+
+
+Q: Calculate 937 - 506.
+A: 431.
+
+
+Q: Calculate 607 + 643.
+A: 1250.
+
+
+Q: Calculate 911 + 725.
+A: 1636.
+
+
+Q: Calculate 146 + 893.
+A: 1039.
+
+
+Q: Calculate 699 - 177.
+A: 522.
+
+
+Q: Calculate 680 - 190.
+A: 490.
+
+
+Q: Calculate 135 + 776.
+A: 911.
+
+
+Q: Calculate 838 - 577.
+A: 261.
+
+
+Q: Calculate 249 - 223.
+A: 26.
+
+
+Q: Calculate 415 - 305.
+A: 110.
+
+
+Q: Calculate 166 * 156.
+A: 25896.
+
+
+Q: Calculate 645 + 101.
+A: 746.
+
+
+Q: Calculate 497 + 508.
+A: 1005.
+
+
+Q: Calculate 509 + 543.
+A: 1052.
+
+
+Q: Calculate 168 * 108.
+A: 18144.
+
+
+Q: Calculate 150 * 143.
+A: 21450.
+
+
+Q: Calculate 144 * 122.
+A: 17568.
+
+
+Q: Calculate 163 * 152.
+A: 24776.
+
+
+Q: Calculate 901 - 366.
+A: 535.
+
+
+Q: Calculate 906 + 812.
+A: 1718.
+
+
+Q: Calculate 365 - 209.
+A: 156.
+
+
+Q: Calculate 436 + 822.
+A: 1258.
+
+
+Q: Calculate 123 * 173.
+A: 21279.
+
+
+Q: Calculate 885 + 846.
+A: 1731.
+
+
+Q: Calculate 199 * 141.
+A: 28059.
+
+
+Q: Calculate 272 + 713.
+A: 985.
+
+
+Q: Calculate 115 * 136.
+A: 15640.
+
+
+Q: Calculate 191 * 107.
+A: 20437.
+
+
+Q: Calculate 381 + 523.
+A: 904.
+
+
+Q: Calculate 103 * 119.
+A: 12257.
+
+
+Q: Calculate 336 + 365.
+A: 701.
+
+
+Q: Calculate 446 + 758.
+A: 1204.
+
+
+Q: Calculate 859 - 780.
+A: 79.
+
+
+Q: Calculate 175 * 161.
+A: 28175.
+
+
+Q: Calculate 219 + 844.
+A: 1063.
+
+
+Q: Calculate 176 * 182.
+A: 32032.
+
+
+Q: Calculate 877 + 415.
+A: 1292.
+
+
+Q: Calculate 129 * 174.
+A: 22446.
+
+
+Q: Calculate 108 * 107.
+A: 11556.
+
+
+Q: Calculate 474 + 144.
+A: 618.
+
+
+Q: Calculate 805 - 294.
+A: 511.
+
+
+Q: Calculate 914 - 283.
+A: 631.
+
+
+Q: Calculate 198 + 102.
+A: 300.
+
+
+Q: Calculate 863 - 470.
+A: 393.
+
+
+Q: Calculate 407 + 509.
+A: 916.
+
+
+Q: Calculate 200 + 816.
+A: 1016.
+
+
+Q: Calculate 458 - 253.
+A: 205.
+
+
+Q: Calculate 101 + 186.
+A: 287.
+
+
+Q: Calculate 872 - 832.
+A: 40.
+
+
+Q: Calculate 178 * 134.
+A: 23852.
+
+
+Q: Calculate 116 * 138.
+A: 16008.
+
+
+Q: Calculate 876 - 433.
+A: 443.
+
+
+Q: Calculate 536 + 691.
+A: 1227.
+
+
+Q: Calculate 784 + 651.
+A: 1435.
+
+
+Q: Calculate 195 * 110.
+A: 21450.
+
+
+Q: Calculate 104 * 186.
+A: 19344.
+
+
+Q: Calculate 154 * 195.
+A: 30030.
+
+
+Q: Calculate 678 + 618.
+A: 1296.
+
+
+Q: Calculate 106 * 127.
+A: 13462.
+
+
+Q: Calculate 108 + 133.
+A: 241.
+
+
+Q: Calculate 190 - 162.
+A: 28.
+
+
+Q: Calculate 914 - 399.
+A: 515.
+
+
+Q: Calculate 845 - 601.
+A: 244.
+
+
+Q: Calculate 841 + 402.
+A: 1243.
+
+
+Q: Calculate 617 - 106.
+A: 511.
+
+
+Q: Calculate 980 - 766.
+A: 214.
+
+
+Q: Calculate 932 - 215.
+A: 717.
+
+
+Q: Calculate 181 * 171.
+A: 30951.
+
+
+Q: Calculate 183 + 672.
+A: 855.
+
+
+Q: Calculate 132 * 172.
+A: 22704.
+
+
+Q: Calculate 159 * 193.
+A: 30687.
+
+
+Q: Calculate 371 - 107.
+A: 264.
+
+
+Q: Calculate 175 + 306.
+A: 481.
+
+
+Q: Calculate 134 * 111.
+A: 14874.
+
+
+Q: Calculate 638 + 169.
+A: 807.
+
+
+Q: Calculate 133 * 160.
+A: 21280.
+
+
+Q: Calculate 500 + 156.
+A: 656.
+
+
+Q: Calculate 861 + 495.
+A: 1356.
+
+
+Q: Calculate 927 - 375.
+A: 552.
+
+
+Q: Calculate 683 - 469.
+A: 214.
+
+
+Q: Calculate 932 + 331.
+A: 1263.
+
+
+Q: Calculate 371 + 971.
+A: 1342.
+
+
+Q: Calculate 966 + 767.
+A: 1733.
+
+
+Q: Calculate 182 * 177.
+A: 32214.
+
+
+Q: Calculate 326 + 546.
+A: 872.
+
+
+Q: Calculate 828 + 318.
+A: 1146.
+
+
+Q: Calculate 639 - 177.
+A: 462.
+
+
+Q: Calculate 106 * 139.
+A: 14734.
+
+
+Q: Calculate 177 * 181.
+A: 32037.
+
+
+Q: Calculate 131 * 130.
+A: 17030.
+
+
+Q: Calculate 965 - 363.
+A: 602.
+
+
+Q: Calculate 605 + 596.
+A: 1201.
+
+
+Q: Calculate 899 + 413.
+A: 1312.
+
+
+Q: Calculate 563 - 159.
+A: 404.
+
+
+Q: Calculate 779 - 155.
+A: 624.
+
+
+Q: Calculate 660 - 351.
+A: 309.
+
+
+Q: Calculate 158 + 945.
+A: 1103.
+
+
+Q: Calculate 832 - 163.
+A: 669.
+
+
+Q: Calculate 116 * 105.
+A: 12180.
+
+
+Q: Calculate 416 + 190.
+A: 606.
+
+
+Q: Calculate 186 * 141.
+A: 26226.
+
+
+Q: Calculate 721 + 276.
+A: 997.
+
+
+Q: Calculate 363 + 273.
+A: 636.
+
+
+Q: Calculate 612 + 775.
+A: 1387.
+
+
+Q: Calculate 170 * 163.
+A: 27710.
+
+
+Q: Calculate 895 - 297.
+A: 598.
+
+
+Q: Calculate 113 * 109.
+A: 12317.
+
+
+Q: Calculate 196 * 166.
+A: 32536.
+
+
+Q: Calculate 238 + 900.
+A: 1138.
+
+
+Q: Calculate 961 + 486.
+A: 1447.
+
+
+Q: Calculate 865 - 176.
+A: 689.
+
+
+Q: Calculate 570 + 554.
+A: 1124.
+
+
+Q: Calculate 717 + 918.
+A: 1635.
+
+
+Q: Calculate 165 + 207.
+A: 372.
+
+
+Q: Calculate 693 + 749.
+A: 1442.
+
+
+Q: Calculate 948 - 512.
+A: 436.
+
+
+Q: Calculate 126 * 188.
+A: 23688.
+
+
+Q: Calculate 507 - 297.
+A: 210.
+
+
+Q: Calculate 986 + 699.
+A: 1685.
+
+
+Q: Calculate 118 + 885.
+A: 1003.
+
+
+Q: Calculate 159 * 122.
+A: 19398.
+
+
+Q: Calculate 137 * 183.
+A: 25071.
+
+
+Q: Calculate 573 + 154.
+A: 727.
+
+
+Q: Calculate 162 * 103.
+A: 16686.
+
+
+Q: Calculate 182 * 139.
+A: 25298.
+
+
+Q: Calculate 412 - 410.
+A: 2.
+
+
+Q: Calculate 495 - 185.
+A: 310.
+
+
+Q: Calculate 167 * 146.
+A: 24382.
+
+
+Q: Calculate 134 * 141.
+A: 18894.
+
+
+Q: Calculate 120 * 175.
+A: 21000.
+
+
+Q: Calculate 195 * 124.
+A: 24180.
+
+
+Q: Calculate 766 + 880.
+A: 1646.
+
+
+Q: Calculate 259 + 933.
+A: 1192.
+
+
+Q: Calculate 751 - 100.
+A: 651.
+
+
+Q: Calculate 904 - 382.
+A: 522.
+
+
+Q: Calculate 723 - 491.
+A: 232.
+
+
+Q: Calculate 119 * 165.
+A: 19635.
+
+
+Q: Calculate 663 - 264.
+A: 399.
+
+
+Q: Calculate 928 + 299.
+A: 1227.
+
+
+Q: Calculate 796 - 128.
+A: 668.
+
+
+Q: Calculate 886 - 806.
+A: 80.
+
+
+Q: Calculate 223 + 720.
+A: 943.
+
+
+Q: Calculate 938 + 307.
+A: 1245.
+
+
+Q: Calculate 986 + 769.
+A: 1755.
+
+
+Q: Calculate 145 * 139.
+A: 20155.
+
+
+Q: Calculate 779 - 518.
+A: 261.
+
+
+Q: Calculate 789 - 548.
+A: 241.
+
+
+Q: Calculate 135 * 195.
+A: 26325.
+
+
+Q: Calculate 996 - 648.
+A: 348.
+
+
+Q: Calculate 129 * 143.
+A: 18447.
+
+
+Q: Calculate 762 + 924.
+A: 1686.
+
+
+Q: Calculate 344 + 969.
+A: 1313.
+
+
+Q: Calculate 196 * 141.
+A: 27636.
+
+
+Q: Calculate 126 + 758.
+A: 884.
+
+
+Q: Calculate 964 - 427.
+A: 537.
+
+
+Q: Calculate 921 - 191.
+A: 730.
+
+
+Q: Calculate 325 + 861.
+A: 1186.
+
+
+Q: Calculate 999 - 229.
+A: 770.
+
+
+Q: Calculate 594 + 734.
+A: 1328.
+
+
+Q: Calculate 101 * 169.
+A: 17069.
+
+
+Q: Calculate 387 + 951.
+A: 1338.
+
+
+Q: Calculate 958 - 723.
+A: 235.
+
+
+Q: Calculate 139 * 186.
+A: 25854.
+
+
+Q: Calculate 163 * 153.
+A: 24939.
+
+
+Q: Calculate 290 + 663.
+A: 953.
+
+
+Q: Calculate 164 * 162.
+A: 26568.
+
+
+Q: Calculate 112 * 169.
+A: 18928.
+
+
+Q: Calculate 702 - 273.
+A: 429.
+
+
+Q: Calculate 574 + 387.
+A: 961.
+
+
+Q: Calculate 240 + 269.
+A: 509.
+
+
+Q: Calculate 736 + 315.
+A: 1051.
+
+
+Q: Calculate 929 - 871.
+A: 58.
+
+
+Q: Calculate 718 + 199.
+A: 917.
+
+
+Q: Calculate 642 + 966.
+A: 1608.
+
+
+Q: Calculate 962 - 890.
+A: 72.
+
+
+Q: Calculate 817 - 270.
+A: 547.
+
+
+Q: Calculate 320 + 359.
+A: 679.
+
+
+Q: Calculate 183 * 151.
+A: 27633.
+
+
+Q: Calculate 593 - 130.
+A: 463.
+
+
+Q: Calculate 546 - 118.
+A: 428.
+
+
+Q: Calculate 256 - 222.
+A: 34.
+
+
+Q: Calculate 570 - 151.
+A: 419.
+
+
+Q: Calculate 238 + 951.
+A: 1189.
+
+
+Q: Calculate 157 * 176.
+A: 27632.
+
+
+Q: Calculate 843 - 236.
+A: 607.
+
+
+Q: Calculate 194 * 111.
+A: 21534.
+
+
+Q: Calculate 650 + 693.
+A: 1343.
+
+
+Q: Calculate 197 * 150.
+A: 29550.
+
+
+Q: Calculate 481 - 271.
+A: 210.
+
+
+Q: Calculate 997 - 544.
+A: 453.
+
+
+Q: Calculate 666 + 447.
+A: 1113.
+
+
+Q: Calculate 517 + 738.
+A: 1255.
+
+
+Q: Calculate 116 * 122.
+A: 14152.
+
+
+Q: Calculate 605 + 901.
+A: 1506.
+
+
+Q: Calculate 132 * 138.
+A: 18216.
+
+
+Q: Calculate 804 - 653.
+A: 151.
+
+
+Q: Calculate 366 - 198.
+A: 168.
+
+
+Q: Calculate 483 + 144.
+A: 627.
+
+
+Q: Calculate 132 * 136.
+A: 17952.
+
+
+Q: Calculate 172 * 113.
+A: 19436.
+
+
+Q: Calculate 528 - 225.
+A: 303.
+
+
+Q: Calculate 117 * 189.
+A: 22113.
+
+
+Q: Calculate 870 + 935.
+A: 1805.
+
+
+Q: Calculate 159 * 110.
+A: 17490.
+
+
+Q: Calculate 597 - 576.
+A: 21.
+
+
+Q: Calculate 557 + 348.
+A: 905.
+
+
+Q: Calculate 636 + 343.
+A: 979.
+
+
+Q: Calculate 344 + 889.
+A: 1233.
+
+
+Q: Calculate 121 * 177.
+A: 21417.
+
+
+Q: Calculate 908 - 128.
+A: 780.
+
+
+Q: Calculate 149 * 190.
+A: 28310.
+
+
+Q: Calculate 549 + 632.
+A: 1181.
+
+
+Q: Calculate 754 - 239.
+A: 515.
+
+
+Q: Calculate 122 * 191.
+A: 23302.
+
+
+Q: Calculate 444 + 914.
+A: 1358.
+
+
+Q: Calculate 806 - 446.
+A: 360.
+
+
+Q: Calculate 625 + 778.
+A: 1403.
+
+
+Q: Calculate 109 * 145.
+A: 15805.
+
+
+Q: Calculate 169 * 192.
+A: 32448.
+
+
+Q: Calculate 150 * 191.
+A: 28650.
+
+
+Q: Calculate 675 - 115.
+A: 560.
+
+
+Q: Calculate 178 * 124.
+A: 22072.
+
+
+Q: Calculate 676 + 876.
+A: 1552.
+
+
+Q: Calculate 108 * 119.
+A: 12852.
+
+
+Q: Calculate 288 + 333.
+A: 621.
+
+
+Q: Calculate 106 * 195.
+A: 20670.
+
+
+Q: Calculate 185 * 189.
+A: 34965.
+
+
+Q: Calculate 855 - 184.
+A: 671.
+
+
+Q: Calculate 612 + 610.
+A: 1222.
+
+
+Q: Calculate 172 * 104.
+A: 17888.
+
+
+Q: Calculate 105 * 171.
+A: 17955.
+
+
+Q: Calculate 580 + 302.
+A: 882.
+
+
+Q: Calculate 193 + 940.
+A: 1133.
+
+
+Q: Calculate 128 * 129.
+A: 16512.
+
+
+Q: Calculate 117 * 172.
+A: 20124.
+
+
+Q: Calculate 766 + 353.
+A: 1119.
+
+
+Q: Calculate 736 + 629.
+A: 1365.
+
+
+Q: Calculate 260 + 252.
+A: 512.
+
+
+Q: Calculate 980 - 172.
+A: 808.
+
+
+Q: Calculate 904 + 936.
+A: 1840.
+
+
+Q: Calculate 347 + 550.
+A: 897.
+
+
+Q: Calculate 693 - 420.
+A: 273.
+
+
+Q: Calculate 563 - 473.
+A: 90.
+
+
+Q: Calculate 720 + 603.
+A: 1323.
+
+
+Q: Calculate 789 - 659.
+A: 130.
+
+
+Q: Calculate 145 * 134.
+A: 19430.
+
+
+Q: Calculate 118 * 156.
+A: 18408.
+
+
+Q: Calculate 666 + 707.
+A: 1373.
+
+
+Q: Calculate 103 + 376.
+A: 479.
+
+
+Q: Calculate 427 - 168.
+A: 259.
+
+
+Q: Calculate 566 - 516.
+A: 50.
+
+
+Q: Calculate 898 - 557.
+A: 341.
+
+
+Q: Calculate 387 - 210.
+A: 177.
+
+
+Q: Calculate 156 * 178.
+A: 27768.
+
+
+Q: Calculate 322 + 489.
+A: 811.
+
+
+Q: Calculate 539 + 725.
+A: 1264.
+
+
+Q: Calculate 156 * 108.
+A: 16848.
+
+
+Q: Calculate 997 + 429.
+A: 1426.
+
+
+Q: Calculate 827 - 387.
+A: 440.
+
+
+Q: Calculate 170 * 189.
+A: 32130.
+
+
+Q: Calculate 873 - 750.
+A: 123.
+
+
+Q: Calculate 787 - 600.
+A: 187.
+
+
+Q: Calculate 554 + 670.
+A: 1224.
+
+
+Q: Calculate 325 - 193.
+A: 132.
+
+
+Q: Calculate 801 - 720.
+A: 81.
+
+
+Q: Calculate 165 + 201.
+A: 366.
+
+
+Q: Calculate 713 - 700.
+A: 13.
+
+
+Q: Calculate 454 - 409.
+A: 45.
+
+
+Q: Calculate 116 + 560.
+A: 676.
+
+
+Q: Calculate 793 + 888.
+A: 1681.
+
+
+Q: Calculate 128 * 163.
+A: 20864.
+
+
+Q: Calculate 223 + 898.
+A: 1121.
+
+
+Q: Calculate 314 + 954.
+A: 1268.
+
+
+Q: Calculate 984 - 545.
+A: 439.
+
+
+Q: Calculate 698 - 377.
+A: 321.
+
+
+Q: Calculate 868 + 941.
+A: 1809.
+
+
+Q: Calculate 167 * 142.
+A: 23714.
+
+
+Q: Calculate 806 - 322.
+A: 484.
+
+
+Q: Calculate 169 * 128.
+A: 21632.
+
+
+Q: Calculate 118 * 119.
+A: 14042.
+
+
+Q: Calculate 243 - 196.
+A: 47.
+
+
+Q: Calculate 326 - 245.
+A: 81.
+
+
+Q: Calculate 393 - 374.
+A: 19.
+
+
+Q: Calculate 831 + 523.
+A: 1354.
+
+
+Q: Calculate 501 - 202.
+A: 299.
+
+
+Q: Calculate 135 * 145.
+A: 19575.
+
+
+Q: Calculate 174 + 879.
+A: 1053.
+
+
+Q: Calculate 140 * 163.
+A: 22820.
+
+
+Q: Calculate 671 - 362.
+A: 309.
+
+
+Q: Calculate 600 - 411.
+A: 189.
+
+
+Q: Calculate 335 - 184.
+A: 151.
+
+
+Q: Calculate 322 + 482.
+A: 804.
+
+
+Q: Calculate 594 - 323.
+A: 271.
+
+
+Q: Calculate 328 - 109.
+A: 219.
+
+
+Q: Calculate 946 - 867.
+A: 79.
+
+
+Q: Calculate 133 * 114.
+A: 15162.
+
+
+Q: Calculate 702 + 447.
+A: 1149.
+
+
+Q: Calculate 571 + 194.
+A: 765.
+
+
+Q: Calculate 502 - 454.
+A: 48.
+
+
+Q: Calculate 302 - 271.
+A: 31.
+
+
+Q: Calculate 127 * 194.
+A: 24638.
+
+
+Q: Calculate 278 + 490.
+A: 768.
+
+
+Q: Calculate 644 + 396.
+A: 1040.
+
+
+Q: Calculate 893 - 544.
+A: 349.
+
+
+Q: Calculate 144 + 903.
+A: 1047.
+
+
+Q: Calculate 195 * 137.
+A: 26715.
+
+
+Q: Calculate 921 - 278.
+A: 643.
+
+
+Q: Calculate 178 * 178.
+A: 31684.
+
+
+Q: Calculate 644 + 865.
+A: 1509.
+
+
+Q: Calculate 670 + 536.
+A: 1206.
+
+
+Q: Calculate 142 * 173.
+A: 24566.
+
+
+Q: Calculate 131 * 147.
+A: 19257.
+
+
+Q: Calculate 416 + 623.
+A: 1039.
+
+
+Q: Calculate 126 * 109.
+A: 13734.
+
+
+Q: Calculate 138 * 112.
+A: 15456.
+
+
+Q: Calculate 352 + 814.
+A: 1166.
+
+
+Q: Calculate 549 - 397.
+A: 152.
+
+
+Q: Calculate 181 * 189.
+A: 34209.
+
+
+Q: Calculate 502 + 162.
+A: 664.
+
+
+Q: Calculate 826 - 125.
+A: 701.
+
+
+Q: Calculate 156 * 151.
+A: 23556.
+
+
+Q: Calculate 720 - 174.
+A: 546.
+
+
+Q: Calculate 660 + 879.
+A: 1539.
+
+
+Q: Calculate 973 - 130.
+A: 843.
+
+
+Q: Calculate 722 - 686.
+A: 36.
+
+
+Q: Calculate 531 + 436.
+A: 967.
+
+
+Q: Calculate 617 + 982.
+A: 1599.
+
+
+Q: Calculate 975 - 865.
+A: 110.
+
+
+Q: Calculate 129 * 184.
+A: 23736.
+
+
+Q: Calculate 863 + 215.
+A: 1078.
+
+
+Q: Calculate 168 * 143.
+A: 24024.
+
+
+Q: Calculate 213 + 288.
+A: 501.
+
+
+Q: Calculate 527 + 649.
+A: 1176.
+
+
+Q: Calculate 583 - 261.
+A: 322.
+
+
+Q: Calculate 153 * 194.
+A: 29682.
+
+
+Q: Calculate 162 * 113.
+A: 18306.
+
+
+Q: Calculate 559 - 108.
+A: 451.
+
+
+Q: Calculate 555 + 346.
+A: 901.
+
+
+Q: Calculate 155 * 138.
+A: 21390.
+
+
+Q: Calculate 225 + 859.
+A: 1084.
+
+
+Q: Calculate 339 + 155.
+A: 494.
+
+
+Q: Calculate 185 * 101.
+A: 18685.
+
+
+Q: Calculate 475 - 103.
+A: 372.
+
+
+Q: Calculate 860 + 290.
+A: 1150.
+
+
+Q: Calculate 717 - 116.
+A: 601.
+
+
+Q: Calculate 191 * 125.
+A: 23875.
+
+
+Q: Calculate 164 * 110.
+A: 18040.
+
+
+Q: Calculate 195 * 198.
+A: 38610.
+
+
+Q: Calculate 632 - 203.
+A: 429.
+
+
+Q: Calculate 755 - 358.
+A: 397.
+
+
+Q: Calculate 595 - 387.
+A: 208.
+
+
+Q: Calculate 188 * 131.
+A: 24628.
+
+
+Q: Calculate 129 * 196.
+A: 25284.
+
+
+Q: Calculate 868 - 622.
+A: 246.
+
+
+Q: Calculate 342 + 682.
+A: 1024.
+
+
+Q: Calculate 347 - 241.
+A: 106.
+
+
+Q: Calculate 138 * 122.
+A: 16836.
+
+
+Q: Calculate 454 - 291.
+A: 163.
+
+
+Q: Calculate 155 * 182.
+A: 28210.
+
+
+Q: Calculate 129 * 128.
+A: 16512.
+
+
+Q: Calculate 555 - 124.
+A: 431.
+
+
+Q: Calculate 326 + 809.
+A: 1135.
+
+
+Q: Calculate 530 - 221.
+A: 309.
+
+
+Q: Calculate 233 + 568.
+A: 801.
+
+
+Q: Calculate 561 + 838.
+A: 1399.
+
+
+Q: Calculate 128 - 110.
+A: 18.
+
+
+Q: Calculate 764 + 433.
+A: 1197.
+
+
+Q: Calculate 479 - 113.
+A: 366.
+
+
+Q: Calculate 965 + 554.
+A: 1519.
+
+
+Q: Calculate 142 * 106.
+A: 15052.
+
+
+Q: Calculate 127 * 184.
+A: 23368.
+
+
+Q: Calculate 390 + 547.
+A: 937.
+
+
+Q: Calculate 697 + 303.
+A: 1000.
+
+
+Q: Calculate 866 - 385.
+A: 481.
+
+
+Q: Calculate 280 - 279.
+A: 1.
+
+
+Q: Calculate 727 - 670.
+A: 57.
+
+
+Q: Calculate 158 * 114.
+A: 18012.
+
+
+Q: Calculate 177 * 142.
+A: 25134.
+
+
+Q: Calculate 140 * 183.
+A: 25620.
+
+
+Q: Calculate 759 + 676.
+A: 1435.
+
+
+Q: Calculate 234 + 623.
+A: 857.
+
+
+Q: Calculate 413 + 842.
+A: 1255.
+
+
+Q: Calculate 154 * 149.
+A: 22946.
+
+
+Q: Calculate 982 + 841.
+A: 1823.
+
+
+Q: Calculate 280 + 508.
+A: 788.
+
+
+Q: Calculate 536 + 769.
+A: 1305.
+
+
+Q: Calculate 854 + 496.
+A: 1350.
+
+
+Q: Calculate 779 + 517.
+A: 1296.
+
+
+Q: Calculate 814 - 488.
+A: 326.
+
+
+Q: Calculate 202 - 151.
+A: 51.
+
+
+Q: Calculate 189 * 137.
+A: 25893.
+
+
+Q: Calculate 955 - 436.
+A: 519.
+
+
+Q: Calculate 668 + 138.
+A: 806.
+
+
+Q: Calculate 161 * 130.
+A: 20930.
+
+
+Q: Calculate 192 * 127.
+A: 24384.
+
+
+Q: Calculate 981 - 415.
+A: 566.
+
+
+Q: Calculate 109 * 134.
+A: 14606.
+
+
+Q: Calculate 548 - 393.
+A: 155.
+
+
+Q: Calculate 186 * 144.
+A: 26784.
+
+
+Q: Calculate 788 + 801.
+A: 1589.
+
+
+Q: Calculate 116 * 129.
+A: 14964.
+
+
+Q: Calculate 301 + 900.
+A: 1201.
+
+
+Q: Calculate 873 - 819.
+A: 54.
+
+
+Q: Calculate 151 * 194.
+A: 29294.
+
+
+Q: Calculate 122 * 185.
+A: 22570.
+
+
+Q: Calculate 103 * 196.
+A: 20188.
+
+
+Q: Calculate 171 * 175.
+A: 29925.
+
+
+Q: Calculate 171 * 123.
+A: 21033.
+
+
+Q: Calculate 120 * 153.
+A: 18360.
+
+
+Q: Calculate 545 + 338.
+A: 883.
+
+
+Q: Calculate 424 + 423.
+A: 847.
+
+
+Q: Calculate 654 - 374.
+A: 280.
+
+
+Q: Calculate 961 + 112.
+A: 1073.
+
+
+Q: Calculate 150 * 177.
+A: 26550.
+
+
+Q: Calculate 498 + 935.
+A: 1433.
+
+
+Q: Calculate 870 + 905.
+A: 1775.
+
+
+Q: Calculate 949 - 299.
+A: 650.
+
+
+Q: Calculate 633 - 394.
+A: 239.
+
+
+Q: Calculate 162 + 925.
+A: 1087.
+
+
+Q: Calculate 306 + 388.
+A: 694.
+
+
+Q: Calculate 154 * 113.
+A: 17402.
+
+
+Q: Calculate 114 * 107.
+A: 12198.
+
+
+Q: Calculate 143 * 177.
+A: 25311.
+
+
+Q: Calculate 119 * 193.
+A: 22967.
+
+
+Q: Calculate 193 * 102.
+A: 19686.
+
+
+Q: Calculate 145 * 104.
+A: 15080.
+
+
+Q: Calculate 132 * 181.
+A: 23892.
+
+
+Q: Calculate 210 + 639.
+A: 849.
+
+
+Q: Calculate 154 + 546.
+A: 700.
+
+
+Q: Calculate 612 - 144.
+A: 468.
+
+
+Q: Calculate 645 + 391.
+A: 1036.
+
+
+Q: Calculate 349 - 238.
+A: 111.
+
+
+Q: Calculate 215 - 179.
+A: 36.
+
+
+Q: Calculate 763 - 478.
+A: 285.
+
+
+Q: Calculate 972 + 121.
+A: 1093.
+
+
+Q: Calculate 897 - 192.
+A: 705.
+
+
+Q: Calculate 668 - 620.
+A: 48.
+
+
+Q: Calculate 137 * 160.
+A: 21920.
+
+
+Q: Calculate 872 + 745.
+A: 1617.
+
+
+Q: Calculate 874 + 805.
+A: 1679.
+
+
+Q: Calculate 296 - 278.
+A: 18.
+
+
+Q: Calculate 159 * 163.
+A: 25917.
+
+
+Q: Calculate 716 - 715.
+A: 1.
+
+
+Q: Calculate 142 * 164.
+A: 23288.
+
+
+Q: Calculate 834 - 213.
+A: 621.
+
+
+Q: Calculate 984 - 841.
+A: 143.
+
+
+Q: Calculate 135 * 171.
+A: 23085.
+
+
+Q: Calculate 724 + 778.
+A: 1502.
+
+
+Q: Calculate 314 + 684.
+A: 998.
+
+
+Q: Calculate 172 * 122.
+A: 20984.
+
+
+Q: Calculate 331 + 424.
+A: 755.
+
+
+Q: Calculate 335 + 930.
+A: 1265.
+
+
+Q: Calculate 717 + 336.
+A: 1053.
+
+
+Q: Calculate 655 - 279.
+A: 376.
+
+
+Q: Calculate 136 * 116.
+A: 15776.
+
+
+Q: Calculate 693 + 193.
+A: 886.
+
+
+Q: Calculate 199 * 185.
+A: 36815.
+
+
+Q: Calculate 479 + 888.
+A: 1367.
+
+
+Q: Calculate 318 + 324.
+A: 642.
+
+
+Q: Calculate 802 + 651.
+A: 1453.
+
+
+Q: Calculate 189 * 145.
+A: 27405.
+
+
+Q: Calculate 114 * 125.
+A: 14250.
+
+
+Q: Calculate 334 + 658.
+A: 992.
+
+
+Q: Calculate 305 + 950.
+A: 1255.
+
+
+Q: Calculate 911 + 152.
+A: 1063.
+
+
+Q: Calculate 133 * 170.
+A: 22610.
+
+
+Q: Calculate 227 + 369.
+A: 596.
+
+
+Q: Calculate 167 * 125.
+A: 20875.
+
+
+Q: Calculate 623 - 539.
+A: 84.
+
+
+Q: Calculate 456 + 547.
+A: 1003.
+
+
+Q: Calculate 587 - 586.
+A: 1.
+
+
+Q: Calculate 124 * 170.
+A: 21080.
+
+
+Q: Calculate 644 - 517.
+A: 127.
+
+
+Q: Calculate 766 - 638.
+A: 128.
+
+
+Q: Calculate 671 + 531.
+A: 1202.
+
+
+Q: Calculate 669 - 102.
+A: 567.
+
+
+Q: Calculate 658 - 529.
+A: 129.
+
+
+Q: Calculate 507 + 569.
+A: 1076.
+
+
+Q: Calculate 122 * 106.
+A: 12932.
+
+
+Q: Calculate 431 + 334.
+A: 765.
+
+
+Q: Calculate 191 * 114.
+A: 21774.
+
+
+Q: Calculate 846 + 234.
+A: 1080.
+
+
+Q: Calculate 180 * 134.
+A: 24120.
+
+
+Q: Calculate 119 * 110.
+A: 13090.
+
+
+Q: Calculate 189 * 102.
+A: 19278.
+
+
+Q: Calculate 189 * 156.
+A: 29484.
+
+
+Q: Calculate 709 + 921.
+A: 1630.
+
+
+Q: Calculate 185 + 488.
+A: 673.
+
+
+Q: Calculate 191 * 103.
+A: 19673.
+
+
+Q: Calculate 473 + 336.
+A: 809.
+
+
+Q: Calculate 941 - 387.
+A: 554.
+
+
+Q: Calculate 630 - 140.
+A: 490.
+
+
+Q: Calculate 130 * 144.
+A: 18720.
+
+
+Q: Calculate 909 - 505.
+A: 404.
+
+
+Q: Calculate 173 * 174.
+A: 30102.
+
+
+Q: Calculate 158 + 960.
+A: 1118.
+
+
+Q: Calculate 939 - 114.
+A: 825.
+
+
+Q: Calculate 783 + 954.
+A: 1737.
+
+
+Q: Calculate 183 * 113.
+A: 20679.
+
+
+Q: Calculate 128 * 101.
+A: 12928.
+
+
+Q: Calculate 999 - 464.
+A: 535.
+
+
+Q: Calculate 195 * 130.
+A: 25350.
+
+
+Q: Calculate 898 + 408.
+A: 1306.
+
+
+Q: Calculate 177 * 111.
+A: 19647.
+
+
+Q: Calculate 182 * 112.
+A: 20384.
+
+
+Q: Calculate 149 * 149.
+A: 22201.
+
+
+Q: Calculate 535 + 617.
+A: 1152.
+
+
+Q: Calculate 129 * 131.
+A: 16899.
+
+
+Q: Calculate 248 + 934.
+A: 1182.
+
+
+Q: Calculate 112 * 113.
+A: 12656.
+
+
+Q: Calculate 130 * 165.
+A: 21450.
+
+
+Q: Calculate 698 + 514.
+A: 1212.
+
+
+Q: Calculate 114 * 150.
+A: 17100.
+
+
+Q: Calculate 922 - 457.
+A: 465.
+
+
+Q: Calculate 158 * 110.
+A: 17380.
+
+
+Q: Calculate 457 + 308.
+A: 765.
+
+
+Q: Calculate 736 - 729.
+A: 7.
+
+
+Q: Calculate 925 - 899.
+A: 26.
+
+
+Q: Calculate 698 + 864.
+A: 1562.
+
+
+Q: Calculate 216 - 198.
+A: 18.
+
+
+Q: Calculate 198 * 109.
+A: 21582.
+
+
+Q: Calculate 954 - 127.
+A: 827.
+
+
+Q: Calculate 111 + 515.
+A: 626.
+
+
+Q: Calculate 592 + 400.
+A: 992.
+
+
+Q: Calculate 124 * 118.
+A: 14632.
+
+
+Q: Calculate 366 + 766.
+A: 1132.
+
+
+Q: Calculate 151 * 135.
+A: 20385.
+
+
+Q: Calculate 422 + 400.
+A: 822.
+
+
+Q: Calculate 644 - 248.
+A: 396.
+
+
+Q: Calculate 169 * 103.
+A: 17407.
+
+
+Q: Calculate 105 * 167.
+A: 17535.
+
+
+Q: Calculate 188 * 117.
+A: 21996.
+
+
+Q: Calculate 197 * 168.
+A: 33096.
+
+
+Q: Calculate 938 + 664.
+A: 1602.
+
+
+Q: Calculate 824 - 310.
+A: 514.
+
+
+Q: Calculate 198 * 133.
+A: 26334.
+
+
+Q: Calculate 562 - 278.
+A: 284.
+
+
+Q: Calculate 403 + 272.
+A: 675.
+
+
+Q: Calculate 520 - 121.
+A: 399.
+
+
+Q: Calculate 168 + 360.
+A: 528.
+
+
+Q: Calculate 898 - 183.
+A: 715.
+
+
+Q: Calculate 962 + 919.
+A: 1881.
+
+
+Q: Calculate 839 + 556.
+A: 1395.
+
+
+Q: Calculate 108 * 115.
+A: 12420.
+
+
+Q: Calculate 625 + 666.
+A: 1291.
+
+
+Q: Calculate 110 * 176.
+A: 19360.
+
+
+Q: Calculate 740 + 487.
+A: 1227.
+
+
+Q: Calculate 738 - 565.
+A: 173.
+
+
+Q: Calculate 151 * 106.
+A: 16006.
+
+
+Q: Calculate 842 - 244.
+A: 598.
+
+
+Q: Calculate 727 - 211.
+A: 516.
+
+
+Q: Calculate 169 * 175.
+A: 29575.
+
+
+Q: Calculate 199 * 134.
+A: 26666.
+
+
+Q: Calculate 142 * 101.
+A: 14342.
+
+
+Q: Calculate 108 * 146.
+A: 15768.
+
+
+Q: Calculate 897 + 754.
+A: 1651.
+
+
+Q: Calculate 660 - 540.
+A: 120.
+
+
+Q: Calculate 151 * 110.
+A: 16610.
+
+
+Q: Calculate 821 - 710.
+A: 111.
+
+
+Q: Calculate 160 * 132.
+A: 21120.
+
+
+Q: Calculate 525 + 644.
+A: 1169.
+
+
+Q: Calculate 840 + 773.
+A: 1613.
+
+
+Q: Calculate 193 * 114.
+A: 22002.
+
+
+Q: Calculate 653 + 394.
+A: 1047.
+
+
+Q: Calculate 681 + 740.
+A: 1421.
+
+
+Q: Calculate 171 * 196.
+A: 33516.
+
+
+Q: Calculate 704 + 997.
+A: 1701.
+
+
+Q: Calculate 121 * 140.
+A: 16940.
+
+
+Q: Calculate 989 - 270.
+A: 719.
+
+
+Q: Calculate 981 + 644.
+A: 1625.
+
+
+Q: Calculate 872 + 637.
+A: 1509.
+
+
+Q: Calculate 158 * 103.
+A: 16274.
+
+
+Q: Calculate 782 - 271.
+A: 511.
+
+
+Q: Calculate 657 + 572.
+A: 1229.
+
+
+Q: Calculate 705 + 285.
+A: 990.
+
+
+Q: Calculate 555 - 544.
+A: 11.
+
+
+Q: Calculate 719 - 626.
+A: 93.
+
+
+Q: Calculate 103 * 199.
+A: 20497.
+
+
+Q: Calculate 191 * 175.
+A: 33425.
+
+
+Q: Calculate 782 + 677.
+A: 1459.
+
+
+Q: Calculate 180 * 169.
+A: 30420.
+
+
+Q: Calculate 133 * 171.
+A: 22743.
+
+
+Q: Calculate 526 - 242.
+A: 284.
+
+
+Q: Calculate 180 + 350.
+A: 530.
+
+
+Q: Calculate 836 - 386.
+A: 450.
+
+
+Q: Calculate 541 - 440.
+A: 101.
+
+
+Q: Calculate 123 * 112.
+A: 13776.
+
+
+Q: Calculate 782 + 198.
+A: 980.
+
+
+Q: Calculate 134 * 101.
+A: 13534.
+
+
+Q: Calculate 438 - 144.
+A: 294.
+
+
+Q: Calculate 648 - 303.
+A: 345.
+
+
+Q: Calculate 183 * 139.
+A: 25437.
+
+
+Q: Calculate 505 - 246.
+A: 259.
+
+
+Q: Calculate 149 + 731.
+A: 880.
+
+
+Q: Calculate 142 * 196.
+A: 27832.
+
+
+Q: Calculate 872 - 556.
+A: 316.
+
+
+Q: Calculate 757 + 428.
+A: 1185.
+
+
+Q: Calculate 390 + 628.
+A: 1018.
+
+
+Q: Calculate 551 + 255.
+A: 806.
+
+
+Q: Calculate 151 + 996.
+A: 1147.
+
+
+Q: Calculate 125 * 134.
+A: 16750.
+
+
+Q: Calculate 174 * 181.
+A: 31494.
+
+
+Q: Calculate 685 - 517.
+A: 168.
+
+
+Q: Calculate 115 * 195.
+A: 22425.
+
+
+Q: Calculate 778 + 981.
+A: 1759.
+
+
+Q: Calculate 873 + 404.
+A: 1277.
+
+
+Q: Calculate 700 - 102.
+A: 598.
+
+
+Q: Calculate 456 - 379.
+A: 77.
+
+
+Q: Calculate 768 + 296.
+A: 1064.
+
+
+Q: Calculate 175 * 165.
+A: 28875.
+
+
+Q: Calculate 180 * 154.
+A: 27720.
+
+
+Q: Calculate 998 - 790.
+A: 208.
+
+
+Q: Calculate 511 + 354.
+A: 865.
+
+
+Q: Calculate 173 * 166.
+A: 28718.
+
+
+Q: Calculate 552 + 167.
+A: 719.
+
+
+Q: Calculate 233 + 885.
+A: 1118.
+
+
+Q: Calculate 160 * 118.
+A: 18880.
+
+
+Q: Calculate 192 * 183.
+A: 35136.
+
+
+Q: Calculate 111 * 169.
+A: 18759.
+
+
+Q: Calculate 144 * 149.
+A: 21456.
+
+
+Q: Calculate 371 + 561.
+A: 932.
+
+
+Q: Calculate 140 * 106.
+A: 14840.
+
+
+Q: Calculate 398 + 202.
+A: 600.
+
+
+Q: Calculate 846 + 647.
+A: 1493.
+
+
+Q: Calculate 832 - 175.
+A: 657.
+
+
+Q: Calculate 643 + 379.
+A: 1022.
+
+
+Q: Calculate 191 * 135.
+A: 25785.
+
+
+Q: Calculate 919 - 535.
+A: 384.
+
+
+Q: Calculate 161 * 159.
+A: 25599.
+
+
+Q: Calculate 149 * 172.
+A: 25628.
+
+
+Q: Calculate 173 * 198.
+A: 34254.
+
+
+Q: Calculate 941 - 802.
+A: 139.
+
+
+Q: Calculate 264 - 124.
+A: 140.
+
+
+Q: Calculate 743 + 261.
+A: 1004.
+
+
+Q: Calculate 699 - 184.
+A: 515.
+
+
+Q: Calculate 109 * 135.
+A: 14715.
+
+
+Q: Calculate 185 * 132.
+A: 24420.
+
+
+Q: Calculate 186 * 147.
+A: 27342.
+
+
+Q: Calculate 721 - 199.
+A: 522.
+
+
+Q: Calculate 139 * 147.
+A: 20433.
+
+
+Q: Calculate 156 * 116.
+A: 18096.
+
+
+Q: Calculate 124 * 162.
+A: 20088.
+
+
+Q: Calculate 982 - 638.
+A: 344.
+
+
+Q: Calculate 981 - 402.
+A: 579.
+
+
+Q: Calculate 857 + 546.
+A: 1403.
+
+
+Q: Calculate 176 * 134.
+A: 23584.
+
+
+Q: Calculate 639 + 622.
+A: 1261.
+
+
+Q: Calculate 191 + 537.
+A: 728.
+
+
+Q: Calculate 146 * 132.
+A: 19272.
+
+
+Q: Calculate 769 - 110.
+A: 659.
+
+
+Q: Calculate 194 * 127.
+A: 24638.
+
+
+Q: Calculate 189 * 107.
+A: 20223.
+
+
+Q: Calculate 102 + 378.
+A: 480.
+
+
+Q: Calculate 150 * 113.
+A: 16950.
+
+
+Q: Calculate 332 + 389.
+A: 721.
+
+
+Q: Calculate 720 + 669.
+A: 1389.
+
+
+Q: Calculate 711 + 516.
+A: 1227.
+
+
+Q: Calculate 941 - 500.
+A: 441.
+
+
+Q: Calculate 642 - 319.
+A: 323.
+
+
+Q: Calculate 302 - 164.
+A: 138.
+
+
+Q: Calculate 465 + 986.
+A: 1451.
+
+
+Q: Calculate 487 + 289.
+A: 776.
+
+
+Q: Calculate 127 * 177.
+A: 22479.
+
+
+Q: Calculate 572 - 123.
+A: 449.
+
+
+Q: Calculate 102 * 180.
+A: 18360.
+
+
+Q: Calculate 488 - 234.
+A: 254.
+
+
+Q: Calculate 796 - 254.
+A: 542.
+
+
+Q: Calculate 132 * 177.
+A: 23364.
+
+
+Q: Calculate 596 - 541.
+A: 55.
+
+
+Q: Calculate 163 * 116.
+A: 18908.
+
+
+Q: Calculate 275 - 106.
+A: 169.
+
+
+Q: Calculate 532 - 314.
+A: 218.
+
+
+Q: Calculate 110 * 186.
+A: 20460.
+
+
+Q: Calculate 425 - 193.
+A: 232.
+
+
+Q: Calculate 182 * 196.
+A: 35672.
+
+
+Q: Calculate 644 + 543.
+A: 1187.
+
+
+Q: Calculate 320 + 622.
+A: 942.
+
+
+Q: Calculate 479 - 458.
+A: 21.
+
+
+Q: Calculate 119 * 139.
+A: 16541.
+
+
+Q: Calculate 821 - 812.
+A: 9.
+
+
+Q: Calculate 917 + 236.
+A: 1153.
+
+
+Q: Calculate 294 + 791.
+A: 1085.
+
+
+Q: Calculate 415 - 397.
+A: 18.
+
+
+Q: Calculate 151 * 198.
+A: 29898.
+
+
+Q: Calculate 161 * 185.
+A: 29785.
+
+
+Q: Calculate 148 * 168.
+A: 24864.
+
+
+Q: Calculate 914 - 826.
+A: 88.
+
+
+Q: Calculate 357 + 573.
+A: 930.
+
+
+Q: Calculate 735 - 102.
+A: 633.
+
+
+Q: Calculate 166 * 148.
+A: 24568.
+
+
+Q: Calculate 502 - 205.
+A: 297.
+
+
+Q: Calculate 305 - 148.
+A: 157.
+
+
+Q: Calculate 119 * 168.
+A: 19992.
+
+
+Q: Calculate 642 + 594.
+A: 1236.
+
+
+Q: Calculate 192 * 197.
+A: 37824.
+
+
+Q: Calculate 798 + 374.
+A: 1172.
+
+
+Q: Calculate 168 * 166.
+A: 27888.
+
+
+Q: Calculate 610 - 405.
+A: 205.
+
+
+Q: Calculate 994 - 746.
+A: 248.
+
+
+Q: Calculate 106 * 106.
+A: 11236.
+
+
+Q: Calculate 906 + 577.
+A: 1483.
+
+
+Q: Calculate 102 * 105.
+A: 10710.
+
+
+Q: Calculate 243 + 714.
+A: 957.
+
+
+Q: Calculate 357 + 779.
+A: 1136.
+
+
+Q: Calculate 936 - 930.
+A: 6.
+
+
+Q: Calculate 657 - 459.
+A: 198.
+
+
+Q: Calculate 242 + 117.
+A: 359.
+
+
+Q: Calculate 115 + 400.
+A: 515.
+
+
+Q: Calculate 873 - 682.
+A: 191.
+
+
+Q: Calculate 399 - 316.
+A: 83.
+
+
+Q: Calculate 641 + 132.
+A: 773.
+
+
+Q: Calculate 892 - 554.
+A: 338.
+
+
+Q: Calculate 158 * 112.
+A: 17696.
+
+
+Q: Calculate 162 * 198.
+A: 32076.
+
+
+Q: Calculate 726 + 961.
+A: 1687.
+
+
+Q: Calculate 843 + 528.
+A: 1371.
+
+
+Q: Calculate 892 + 222.
+A: 1114.
+
+
+Q: Calculate 179 * 123.
+A: 22017.
+
+
+Q: Calculate 147 * 140.
+A: 20580.
+
+
+Q: Calculate 839 + 929.
+A: 1768.
+
+
+Q: Calculate 455 - 108.
+A: 347.
+
+
+Q: Calculate 184 * 166.
+A: 30544.
+
+
+Q: Calculate 828 + 753.
+A: 1581.
+
+
+Q: Calculate 873 - 254.
+A: 619.
+
+
+Q: Calculate 115 * 128.
+A: 14720.
+
+
+Q: Calculate 446 + 710.
+A: 1156.
+
+
+Q: Calculate 122 * 133.
+A: 16226.
+
+
+Q: Calculate 835 + 534.
+A: 1369.
+
+
+Q: Calculate 178 - 161.
+A: 17.
+
+
+Q: Calculate 388 - 384.
+A: 4.
+
+
+Q: Calculate 334 + 285.
+A: 619.
+
+
+Q: Calculate 776 + 768.
+A: 1544.
+
+
+Q: Calculate 641 + 854.
+A: 1495.
+
+
+Q: Calculate 174 * 159.
+A: 27666.
+
+
+Q: Calculate 131 + 120.
+A: 251.
+
+
+Q: Calculate 152 * 114.
+A: 17328.
+
+
+Q: Calculate 720 - 585.
+A: 135.
+
+
+Q: Calculate 124 * 186.
+A: 23064.
+
+
+Q: Calculate 703 + 383.
+A: 1086.
+
+
+Q: Calculate 850 + 604.
+A: 1454.
+
+
+Q: Calculate 435 - 210.
+A: 225.
+
+
+Q: Calculate 105 * 147.
+A: 15435.
+
+
+Q: Calculate 601 - 403.
+A: 198.
+
+
+Q: Calculate 978 + 945.
+A: 1923.
+
+
+Q: Calculate 314 + 959.
+A: 1273.
+
+
+Q: Calculate 953 - 330.
+A: 623.
+
+
+Q: Calculate 139 * 179.
+A: 24881.
+
+
+Q: Calculate 146 * 146.
+A: 21316.
+
+
+Q: Calculate 169 * 191.
+A: 32279.
+
+
+Q: Calculate 305 - 206.
+A: 99.
+
+
+Q: Calculate 615 + 287.
+A: 902.
+
+
+Q: Calculate 812 - 561.
+A: 251.
+
+
+Q: Calculate 704 - 177.
+A: 527.
+
+
+Q: Calculate 710 - 182.
+A: 528.
+
+
+Q: Calculate 697 - 478.
+A: 219.
+
+
+Q: Calculate 161 * 147.
+A: 23667.
+
+
+Q: Calculate 651 + 894.
+A: 1545.
+
+
+Q: Calculate 180 * 186.
+A: 33480.
+
+
+Q: Calculate 888 + 922.
+A: 1810.
+
+
+Q: Calculate 103 * 190.
+A: 19570.
+
+
+Q: Calculate 145 * 184.
+A: 26680.
+
+
+Q: Calculate 584 + 598.
+A: 1182.
+
+
+Q: Calculate 115 * 166.
+A: 19090.
+
+
+Q: Calculate 684 + 270.
+A: 954.
+
+
+Q: Calculate 137 * 168.
+A: 23016.
+
+
+Q: Calculate 494 - 176.
+A: 318.
+
+
+Q: Calculate 977 + 817.
+A: 1794.
+
+
+Q: Calculate 184 * 198.
+A: 36432.
+
+
+Q: Calculate 984 - 473.
+A: 511.
+
+
+Q: Calculate 919 + 873.
+A: 1792.
+
+
+Q: Calculate 189 * 197.
+A: 37233.
+
+
+Q: Calculate 116 + 188.
+A: 304.
+
+
+Q: Calculate 298 + 935.
+A: 1233.
+
+
+Q: Calculate 148 + 142.
+A: 290.
+
+
+Q: Calculate 189 * 164.
+A: 30996.
+
+
+Q: Calculate 567 - 159.
+A: 408.
+
+
+Q: Calculate 176 * 187.
+A: 32912.
+
+
+Q: Calculate 678 - 216.
+A: 462.
+
+
+Q: Calculate 122 * 177.
+A: 21594.
+
+
+Q: Calculate 190 * 157.
+A: 29830.
+
+
+Q: Calculate 310 + 939.
+A: 1249.
+
+
+Q: Calculate 948 - 448.
+A: 500.
+
+
+Q: Calculate 966 - 926.
+A: 40.
+
+
+Q: Calculate 118 * 198.
+A: 23364.
+
+
+Q: Calculate 168 * 182.
+A: 30576.
+
+
+Q: Calculate 691 - 259.
+A: 432.
+
+
+Q: Calculate 947 - 315.
+A: 632.
+
+
+Q: Calculate 878 + 693.
+A: 1571.
+
+
+Q: Calculate 174 * 127.
+A: 22098.
+
+
+Q: Calculate 199 + 133.
+A: 332.
+
+
+Q: Calculate 292 + 535.
+A: 827.
+
+
+Q: Calculate 518 + 343.
+A: 861.
+
+
+Q: Calculate 167 * 118.
+A: 19706.
+
+
+Q: Calculate 419 - 286.
+A: 133.
+
+
+Q: Calculate 720 - 354.
+A: 366.
+
+
+Q: Calculate 128 * 164.
+A: 20992.
+
+
+Q: Calculate 191 * 144.
+A: 27504.
+
+
+Q: Calculate 192 * 181.
+A: 34752.
+
+
+Q: Calculate 955 - 159.
+A: 796.
+
+
+Q: Calculate 354 - 143.
+A: 211.
+
+
+Q: Calculate 143 * 175.
+A: 25025.
+
+
+Q: Calculate 935 - 692.
+A: 243.
+
+
+Q: Calculate 212 + 989.
+A: 1201.
+
+
+Q: Calculate 131 * 173.
+A: 22663.
+
+
+Q: Calculate 594 - 465.
+A: 129.
+
+
+Q: Calculate 201 - 107.
+A: 94.
+
+
+Q: Calculate 112 * 175.
+A: 19600.
+
+
+Q: Calculate 840 + 141.
+A: 981.
+
+
+Q: Calculate 586 - 448.
+A: 138.
+
+
+Q: Calculate 137 + 494.
+A: 631.
+
+
+Q: Calculate 646 + 587.
+A: 1233.
+
+
+Q: Calculate 615 + 134.
+A: 749.
+
+
+Q: Calculate 208 + 734.
+A: 942.
+
+
+Q: Calculate 743 + 946.
+A: 1689.
+
+
+Q: Calculate 835 - 229.
+A: 606.
+
+
+Q: Calculate 639 + 106.
+A: 745.
+
+
+Q: Calculate 657 - 213.
+A: 444.
+
+
+Q: Calculate 156 * 152.
+A: 23712.
+
+
+Q: Calculate 827 - 261.
+A: 566.
+
+
+Q: Calculate 502 + 320.
+A: 822.
+
+
+Q: Calculate 576 + 944.
+A: 1520.
+
+
+Q: Calculate 909 + 390.
+A: 1299.
+
+
+Q: Calculate 188 * 122.
+A: 22936.
+
+
+Q: Calculate 188 * 101.
+A: 18988.
+
+
+Q: Calculate 611 - 363.
+A: 248.
+
+
+Q: Calculate 235 + 108.
+A: 343.
+
+
+Q: Calculate 364 - 180.
+A: 184.
+
+
+Q: Calculate 164 * 148.
+A: 24272.
+
+
+Q: Calculate 217 + 130.
+A: 347.
+
+
+Q: Calculate 904 + 127.
+A: 1031.
+
+
+Q: Calculate 187 * 122.
+A: 22814.
+
+
+Q: Calculate 703 - 380.
+A: 323.
+
+
+Q: Calculate 520 - 351.
+A: 169.
+
+
+Q: Calculate 872 + 911.
+A: 1783.
+
+
+Q: Calculate 979 - 307.
+A: 672.
+
+
+Q: Calculate 170 * 152.
+A: 25840.
+
+
+Q: Calculate 370 - 314.
+A: 56.
+
+
+Q: Calculate 198 - 189.
+A: 9.
+
+
+Q: Calculate 166 + 808.
+A: 974.
+
+
+Q: Calculate 738 + 830.
+A: 1568.
+
+
+Q: Calculate 167 * 109.
+A: 18203.
+
+
+Q: Calculate 134 * 163.
+A: 21842.
+
+
+Q: Calculate 906 + 537.
+A: 1443.
+
+
+Q: Calculate 922 - 167.
+A: 755.
+
+
+Q: Calculate 636 - 488.
+A: 148.
+
+
+Q: Calculate 141 * 117.
+A: 16497.
+
+
+Q: Calculate 116 * 119.
+A: 13804.
+
+
+Q: Calculate 854 - 212.
+A: 642.
+
+
+Q: Calculate 804 + 756.
+A: 1560.
+
+
+Q: Calculate 846 + 805.
+A: 1651.
+
+
+Q: Calculate 211 - 118.
+A: 93.
+
+
+Q: Calculate 702 + 448.
+A: 1150.
+
+
+Q: Calculate 193 * 122.
+A: 23546.
+
+
+Q: Calculate 180 * 121.
+A: 21780.
+
+
+Q: Calculate 162 * 123.
+A: 19926.
+
+
+Q: Calculate 860 - 614.
+A: 246.
+
+
+Q: Calculate 136 * 169.
+A: 22984.
+
+
+Q: Calculate 760 - 106.
+A: 654.
+
+
+Q: Calculate 190 * 137.
+A: 26030.
+
+
+Q: Calculate 127 * 134.
+A: 17018.
+
+
+Q: Calculate 795 + 327.
+A: 1122.
+
+
+Q: Calculate 277 - 156.
+A: 121.
+
+
+Q: Calculate 107 * 137.
+A: 14659.
+
+
+Q: Calculate 934 - 852.
+A: 82.
+
+
+Q: Calculate 712 + 574.
+A: 1286.
+
+
+Q: Calculate 711 + 188.
+A: 899.
+
+
+Q: Calculate 841 - 251.
+A: 590.
+
+
+Q: Calculate 945 + 770.
+A: 1715.
+
+
+Q: Calculate 135 * 162.
+A: 21870.
+
+
+Q: Calculate 133 * 141.
+A: 18753.
+
+
+Q: Calculate 118 + 808.
+A: 926.
+
+
+Q: Calculate 460 + 971.
+A: 1431.
+
+
+Q: Calculate 848 - 253.
+A: 595.
+
+
+Q: Calculate 533 + 897.
+A: 1430.
+
+
+Q: Calculate 767 + 531.
+A: 1298.
+
+
+Q: Calculate 190 * 161.
+A: 30590.
+
+
+Q: Calculate 612 + 969.
+A: 1581.
+
+
+Q: Calculate 912 - 822.
+A: 90.
+
+
+Q: Calculate 644 - 565.
+A: 79.
+
+
+Q: Calculate 188 * 137.
+A: 25756.
+
+
+Q: Calculate 347 - 220.
+A: 127.
+
+
+Q: Calculate 165 * 132.
+A: 21780.
+
+
+Q: Calculate 918 - 704.
+A: 214.
+
+
+Q: Calculate 802 - 357.
+A: 445.
+
+
+Q: Calculate 810 - 588.
+A: 222.
+
+
+Q: Calculate 149 * 111.
+A: 16539.
+
+
+Q: Calculate 891 - 772.
+A: 119.
+
+
+Q: Calculate 143 * 160.
+A: 22880.
+
+
+Q: Calculate 160 * 173.
+A: 27680.
+
+
+Q: Calculate 650 - 527.
+A: 123.
+
+
+Q: Calculate 854 - 853.
+A: 1.
+
+
+Q: Calculate 566 + 484.
+A: 1050.
+
+
+Q: Calculate 199 * 197.
+A: 39203.
+
+
+Q: Calculate 734 - 642.
+A: 92.
+
+
+Q: Calculate 101 * 144.
+A: 14544.
+
+
+Q: Calculate 713 - 495.
+A: 218.
+
+
+Q: Calculate 170 * 110.
+A: 18700.
+
+
+Q: Calculate 638 + 931.
+A: 1569.
+
+
+Q: Calculate 156 * 106.
+A: 16536.
+
+
+Q: Calculate 198 * 186.
+A: 36828.
+
+
+Q: Calculate 104 * 143.
+A: 14872.
+
+
+Q: Calculate 993 - 911.
+A: 82.
+
+
+Q: Calculate 193 * 128.
+A: 24704.
+
+
+Q: Calculate 860 + 400.
+A: 1260.
+
+
+Q: Calculate 152 * 175.
+A: 26600.
+
+
+Q: Calculate 908 - 498.
+A: 410.
+
+
+Q: Calculate 741 + 441.
+A: 1182.
+
+
+Q: Calculate 347 + 603.
+A: 950.
+
+
+Q: Calculate 119 * 154.
+A: 18326.
+
+
+Q: Calculate 749 + 187.
+A: 936.
+
+
+Q: Calculate 751 - 310.
+A: 441.
+
+
+Q: Calculate 327 + 431.
+A: 758.
+
+
+Q: Calculate 181 * 112.
+A: 20272.
+
+
+Q: Calculate 876 + 435.
+A: 1311.
+
+
+Q: Calculate 135 * 159.
+A: 21465.
+
+
+Q: Calculate 781 + 874.
+A: 1655.
+
+
+Q: Calculate 622 + 306.
+A: 928.
+
+
+Q: Calculate 765 + 607.
+A: 1372.
+
+
+Q: Calculate 516 + 870.
+A: 1386.
+
+
+Q: Calculate 948 + 662.
+A: 1610.
+
+
+Q: Calculate 753 + 707.
+A: 1460.
+
+
+Q: Calculate 161 * 176.
+A: 28336.
+
+
+Q: Calculate 142 * 176.
+A: 24992.
+
+
+Q: Calculate 196 * 167.
+A: 32732.
+
+
+Q: Calculate 538 - 461.
+A: 77.
+
+
+Q: Calculate 368 + 126.
+A: 494.
+
+
+Q: Calculate 382 - 181.
+A: 201.
+
+
+Q: Calculate 825 - 300.
+A: 525.
+
+
+Q: Calculate 622 + 314.
+A: 936.
+
+
+Q: Calculate 590 - 590.
+A: 0.
+
+
+Q: Calculate 780 - 360.
+A: 420.
+
+
+Q: Calculate 745 - 256.
+A: 489.
+
+
+Q: Calculate 148 * 136.
+A: 20128.
+
+
+Q: Calculate 175 * 179.
+A: 31325.
+
+
+Q: Calculate 124 * 108.
+A: 13392.
+
+
+Q: Calculate 667 - 483.
+A: 184.
+
+
+Q: Calculate 887 + 189.
+A: 1076.
+
+
+Q: Calculate 350 + 729.
+A: 1079.
+
+
+Q: Calculate 994 + 666.
+A: 1660.
+
+
+Q: Calculate 885 + 663.
+A: 1548.
+
+
+Q: Calculate 616 - 212.
+A: 404.
+
+
+Q: Calculate 746 + 409.
+A: 1155.
+
+
+Q: Calculate 668 - 400.
+A: 268.
+
+
+Q: Calculate 171 * 130.
+A: 22230.
+
+
+Q: Calculate 902 + 435.
+A: 1337.
+
+
+Q: Calculate 800 + 129.
+A: 929.
+
+
+Q: Calculate 147 * 117.
+A: 17199.
+
+
+Q: Calculate 274 + 514.
+A: 788.
+
+
+Q: Calculate 475 + 745.
+A: 1220.
+
+
+Q: Calculate 154 * 123.
+A: 18942.
+
+
+Q: Calculate 142 * 122.
+A: 17324.
+
+
+Q: Calculate 383 + 656.
+A: 1039.
+
+
+Q: Calculate 151 * 121.
+A: 18271.
+
+
+Q: Calculate 903 - 175.
+A: 728.
+
+
+Q: Calculate 755 - 721.
+A: 34.
+
+
+Q: Calculate 507 + 433.
+A: 940.
+
+
+Q: Calculate 820 - 691.
+A: 129.
+
+
+Q: Calculate 952 - 810.
+A: 142.
+
+
+Q: Calculate 678 + 364.
+A: 1042.
+
+
+Q: Calculate 150 * 140.
+A: 21000.
+
+
+Q: Calculate 115 * 142.
+A: 16330.
+
+
+Q: Calculate 856 - 760.
+A: 96.
+
+
+Q: Calculate 536 - 156.
+A: 380.
+
+
+Q: Calculate 482 - 248.
+A: 234.
+
+
+Q: Calculate 124 * 116.
+A: 14384.
+
+
+Q: Calculate 274 + 621.
+A: 895.
+
+
+Q: Calculate 806 - 698.
+A: 108.
+
+
+Q: Calculate 836 + 932.
+A: 1768.
+
+
+Q: Calculate 118 * 168.
+A: 19824.
+
+
+Q: Calculate 492 + 550.
+A: 1042.
+
+
+Q: Calculate 967 - 122.
+A: 845.
+
+
+Q: Calculate 465 - 105.
+A: 360.
+
+
+Q: Calculate 943 - 593.
+A: 350.
+
+
+Q: Calculate 199 * 131.
+A: 26069.
+
+
+Q: Calculate 462 + 344.
+A: 806.
+
+
+Q: Calculate 903 - 109.
+A: 794.
+
+
+Q: Calculate 186 + 681.
+A: 867.
+
+
+Q: Calculate 445 + 195.
+A: 640.
+
+
+Q: Calculate 106 * 122.
+A: 12932.
+
+
+Q: Calculate 152 + 565.
+A: 717.
+
+
+Q: Calculate 149 * 158.
+A: 23542.
+
+
+Q: Calculate 767 + 751.
+A: 1518.
+
+
+Q: Calculate 693 - 426.
+A: 267.
+
+
+Q: Calculate 273 + 618.
+A: 891.
+
+
+Q: Calculate 109 * 179.
+A: 19511.
+
+
+Q: Calculate 541 - 366.
+A: 175.
+
+
+Q: Calculate 886 + 484.
+A: 1370.
+
+
+Q: Calculate 516 - 510.
+A: 6.
+
+
+Q: Calculate 477 + 837.
+A: 1314.
+
+
+Q: Calculate 271 + 432.
+A: 703.
+
+
+Q: Calculate 539 - 359.
+A: 180.
+
+
+Q: Calculate 198 * 137.
+A: 27126.
+
+
+Q: Calculate 665 - 613.
+A: 52.
+
+
+Q: Calculate 139 * 121.
+A: 16819.
+
+
+Q: Calculate 541 + 225.
+A: 766.
+
+
+Q: Calculate 109 * 169.
+A: 18421.
+
+
+Q: Calculate 183 * 145.
+A: 26535.
+
+
+Q: Calculate 888 - 813.
+A: 75.
+
+
+Q: Calculate 597 - 253.
+A: 344.
+
+
+Q: Calculate 391 + 197.
+A: 588.
+
+
+Q: Calculate 196 * 183.
+A: 35868.
+
+
+Q: Calculate 184 * 128.
+A: 23552.
+
+
+Q: Calculate 799 + 729.
+A: 1528.
+
+
+Q: Calculate 128 * 186.
+A: 23808.
+
+
+Q: Calculate 449 + 492.
+A: 941.
+
+
+Q: Calculate 438 + 279.
+A: 717.
+
+
+Q: Calculate 603 + 174.
+A: 777.
+
+
+Q: Calculate 157 * 140.
+A: 21980.
+
+
+Q: Calculate 947 - 345.
+A: 602.
+
+
+Q: Calculate 785 - 695.
+A: 90.
+
+
+Q: Calculate 134 * 173.
+A: 23182.
+
+
+Q: Calculate 318 + 998.
+A: 1316.
+
+
+Q: Calculate 165 * 177.
+A: 29205.
+
+
+Q: Calculate 229 - 101.
+A: 128.
+
+
+Q: Calculate 131 * 158.
+A: 20698.
+
+
+Q: Calculate 638 - 416.
+A: 222.
+
+
+Q: Calculate 173 * 181.
+A: 31313.
+
+
+Q: Calculate 638 + 770.
+A: 1408.
+
+
+Q: Calculate 315 + 682.
+A: 997.
+
+
+Q: Calculate 969 + 492.
+A: 1461.
+
+
+Q: Calculate 122 + 484.
+A: 606.
+
+
+Q: Calculate 163 * 174.
+A: 28362.
+
+
+Q: Calculate 876 - 590.
+A: 286.
+
+
+Q: Calculate 129 + 617.
+A: 746.
+
+
+Q: Calculate 144 * 117.
+A: 16848.
+
+
+Q: Calculate 704 - 571.
+A: 133.
+
+
+Q: Calculate 911 + 627.
+A: 1538.
+
+
+Q: Calculate 232 + 207.
+A: 439.
+
+
+Q: Calculate 814 - 555.
+A: 259.
+
+
+Q: Calculate 181 * 142.
+A: 25702.
+
+
+Q: Calculate 106 * 192.
+A: 20352.
+
+
+Q: Calculate 995 - 869.
+A: 126.
+
+
+Q: Calculate 447 + 493.
+A: 940.
+
+
+Q: Calculate 770 - 717.
+A: 53.
+
+
+Q: Calculate 981 - 430.
+A: 551.
+
+
+Q: Calculate 791 - 120.
+A: 671.
+
+
+Q: Calculate 784 - 176.
+A: 608.
+
+
+Q: Calculate 435 - 102.
+A: 333.
+
+
+Q: Calculate 110 * 130.
+A: 14300.
+
+
+Q: Calculate 102 * 132.
+A: 13464.
+
+
+Q: Calculate 326 - 247.
+A: 79.
+
+
+Q: Calculate 108 - 105.
+A: 3.
+
+
+Q: Calculate 128 * 146.
+A: 18688.
+
+
+Q: Calculate 770 + 364.
+A: 1134.
+
+
+Q: Calculate 451 - 100.
+A: 351.
+
+
+Q: Calculate 980 + 298.
+A: 1278.
+
+
+Q: Calculate 727 + 472.
+A: 1199.
+
+
+Q: Calculate 165 + 610.
+A: 775.
+
+
+Q: Calculate 112 * 126.
+A: 14112.
+
+
+Q: Calculate 929 + 825.
+A: 1754.
+
+
+Q: Calculate 759 + 998.
+A: 1757.
+
+
+Q: Calculate 323 - 205.
+A: 118.
+
+
+Q: Calculate 109 * 173.
+A: 18857.
+
+
+Q: Calculate 654 + 422.
+A: 1076.
+
+
+Q: Calculate 594 + 627.
+A: 1221.
+
+
+Q: Calculate 463 + 797.
+A: 1260.
+
+
+Q: Calculate 779 - 734.
+A: 45.
+
+
+Q: Calculate 950 - 573.
+A: 377.
+
+
+Q: Calculate 186 * 191.
+A: 35526.
+
+
+Q: Calculate 439 - 336.
+A: 103.
+
+
+Q: Calculate 175 * 116.
+A: 20300.
+
+
+Q: Calculate 468 - 105.
+A: 363.
+
+
+Q: Calculate 519 + 775.
+A: 1294.
+
+
+Q: Calculate 165 * 103.
+A: 16995.
+
+
+Q: Calculate 512 - 484.
+A: 28.
+
+
+Q: Calculate 148 * 128.
+A: 18944.
+
+
+Q: Calculate 110 * 158.
+A: 17380.
+
+
+Q: Calculate 113 * 178.
+A: 20114.
+
+
+Q: Calculate 173 + 339.
+A: 512.
+
+
+Q: Calculate 107 * 194.
+A: 20758.
+
+
+Q: Calculate 867 + 293.
+A: 1160.
+
+
+Q: Calculate 691 - 183.
+A: 508.
+
+
+Q: Calculate 160 * 149.
+A: 23840.
+
+
+Q: Calculate 892 - 394.
+A: 498.
+
+
+Q: Calculate 828 - 130.
+A: 698.
+
+
+Q: Calculate 110 * 104.
+A: 11440.
+
+
+Q: Calculate 588 - 558.
+A: 30.
+
+
+Q: Calculate 374 + 124.
+A: 498.
+
+
+Q: Calculate 651 + 648.
+A: 1299.
+
+
+Q: Calculate 918 - 542.
+A: 376.
+
+
+Q: Calculate 126 * 127.
+A: 16002.
+
+
+Q: Calculate 960 - 393.
+A: 567.
+
+
+Q: Calculate 984 + 417.
+A: 1401.
+
+
+Q: Calculate 400 + 812.
+A: 1212.
+
+
+Q: Calculate 700 - 204.
+A: 496.
+
+
+Q: Calculate 192 * 118.
+A: 22656.
+
+
+Q: Calculate 293 - 227.
+A: 66.
+
+
+Q: Calculate 759 + 856.
+A: 1615.
+
+
+Q: Calculate 194 * 178.
+A: 34532.
+
+
+Q: Calculate 694 + 966.
+A: 1660.
+
+
+Q: Calculate 195 * 101.
+A: 19695.
+
+
+Q: Calculate 567 + 367.
+A: 934.
+
+
+Q: Calculate 995 + 681.
+A: 1676.
+
+
+Q: Calculate 916 - 648.
+A: 268.
+
+
+Q: Calculate 128 * 126.
+A: 16128.
+
+
+Q: Calculate 160 + 643.
+A: 803.
+
+
+Q: Calculate 138 * 159.
+A: 21942.
+
+
+Q: Calculate 882 - 256.
+A: 626.
+
+
+Q: Calculate 744 + 781.
+A: 1525.
+
+
+Q: Calculate 129 * 123.
+A: 15867.
+
+
+Q: Calculate 180 * 199.
+A: 35820.
+
+
+Q: Calculate 939 - 709.
+A: 230.
+
+
+Q: Calculate 327 + 157.
+A: 484.
+
+
+Q: Calculate 880 + 686.
+A: 1566.
+
+
+Q: Calculate 479 - 433.
+A: 46.
+
+
+Q: Calculate 148 * 187.
+A: 27676.
+
+
+Q: Calculate 129 * 195.
+A: 25155.
+
+
+Q: Calculate 992 - 769.
+A: 223.
+
+
+Q: Calculate 889 - 238.
+A: 651.
+
+
+Q: Calculate 119 * 102.
+A: 12138.
+
+
+Q: Calculate 125 * 178.
+A: 22250.
+
+
+Q: Calculate 742 - 611.
+A: 131.
+
+
+Q: Calculate 124 * 150.
+A: 18600.
+
+
+Q: Calculate 458 + 851.
+A: 1309.
+
+
+Q: Calculate 638 - 320.
+A: 318.
+
+
+Q: Calculate 184 * 124.
+A: 22816.
+
+
+Q: Calculate 733 + 881.
+A: 1614.
+
+
+Q: Calculate 878 - 675.
+A: 203.
+
+
+Q: Calculate 744 - 459.
+A: 285.
+
+
+Q: Calculate 102 * 177.
+A: 18054.
+
+
+Q: Calculate 586 - 134.
+A: 452.
+
+
+Q: Calculate 841 - 155.
+A: 686.
+
+
+Q: Calculate 573 - 548.
+A: 25.
+
+
+Q: Calculate 991 + 751.
+A: 1742.
+
+
+Q: Calculate 134 * 194.
+A: 25996.
+
+
+Q: Calculate 855 + 336.
+A: 1191.
+
+
+Q: Calculate 112 * 149.
+A: 16688.
+
+
+Q: Calculate 118 * 130.
+A: 15340.
+
+
+Q: Calculate 325 + 527.
+A: 852.
+
+
+Q: Calculate 113 * 191.
+A: 21583.
+
+
+Q: Calculate 375 + 867.
+A: 1242.
+
+
+Q: Calculate 762 - 754.
+A: 8.
+
+
+Q: Calculate 814 + 988.
+A: 1802.
+
+
+Q: Calculate 107 * 141.
+A: 15087.
+
+
+Q: Calculate 163 * 117.
+A: 19071.
+
+
+Q: Calculate 881 - 428.
+A: 453.
+
+
+Q: Calculate 377 + 615.
+A: 992.
+
+
+Q: Calculate 474 + 692.
+A: 1166.
+
+
+Q: Calculate 182 * 135.
+A: 24570.
+
+
+Q: Calculate 814 - 638.
+A: 176.
+
+
+Q: Calculate 140 * 102.
+A: 14280.
+
+
+Q: Calculate 112 * 103.
+A: 11536.
+
+
+Q: Calculate 731 - 408.
+A: 323.
+
+
+Q: Calculate 193 * 138.
+A: 26634.
+
+
+Q: Calculate 925 - 683.
+A: 242.
+
+
+Q: Calculate 583 - 367.
+A: 216.
+
+
+Q: Calculate 900 + 374.
+A: 1274.
+
+
+Q: Calculate 111 * 165.
+A: 18315.
+
+
+Q: Calculate 108 + 764.
+A: 872.
+
+
+Q: Calculate 103 * 193.
+A: 19879.
+
+
+Q: Calculate 219 - 202.
+A: 17.
+
+
+Q: Calculate 859 + 545.
+A: 1404.
+
+
+Q: Calculate 500 - 361.
+A: 139.
+
+
+Q: Calculate 152 + 214.
+A: 366.
+
+
+Q: Calculate 930 - 507.
+A: 423.
+
+
+Q: Calculate 803 - 327.
+A: 476.
+
+
+Q: Calculate 958 + 429.
+A: 1387.
+
+
+Q: Calculate 173 * 193.
+A: 33389.
+
+
+Q: Calculate 297 + 985.
+A: 1282.
+
+
+Q: Calculate 166 * 140.
+A: 23240.
+
+
+Q: Calculate 130 * 174.
+A: 22620.
+
+
+Q: Calculate 921 + 317.
+A: 1238.
+
+
+Q: Calculate 145 * 127.
+A: 18415.
+
+
+Q: Calculate 997 - 870.
+A: 127.
+
+
+Q: Calculate 169 * 101.
+A: 17069.
+
+
+Q: Calculate 144 * 174.
+A: 25056.
+
+
+Q: Calculate 168 * 129.
+A: 21672.
+
+
+Q: Calculate 177 * 115.
+A: 20355.
+
+
+Q: Calculate 667 + 699.
+A: 1366.
+
+
+Q: Calculate 102 * 163.
+A: 16626.
+
+
+Q: Calculate 345 - 114.
+A: 231.
+
+
+Q: Calculate 608 - 590.
+A: 18.
+
+
+Q: Calculate 124 * 146.
+A: 18104.
+
+
+Q: Calculate 387 + 682.
+A: 1069.
+
+
+Q: Calculate 185 * 143.
+A: 26455.
+
+
+Q: Calculate 166 * 122.
+A: 20252.
+
+
+Q: Calculate 183 * 118.
+A: 21594.
+
+
+Q: Calculate 940 - 479.
+A: 461.
+
+
+Q: Calculate 734 + 182.
+A: 916.
+
+
+Q: Calculate 181 * 125.
+A: 22625.
+
+
+Q: Calculate 162 * 145.
+A: 23490.
+
+
+Q: Calculate 898 - 700.
+A: 198.
+
+
+Q: Calculate 734 + 638.
+A: 1372.
+
+
+Q: Calculate 354 - 178.
+A: 176.
+
+
+Q: Calculate 180 * 167.
+A: 30060.
+
+
+Q: Calculate 608 - 441.
+A: 167.
+
+
+Q: Calculate 988 - 966.
+A: 22.
+
+
+Q: Calculate 476 - 160.
+A: 316.
+
+
+Q: Calculate 110 * 169.
+A: 18590.
+
+
+Q: Calculate 745 + 381.
+A: 1126.
+
+
+Q: Calculate 891 + 706.
+A: 1597.
+
+
+Q: Calculate 532 + 684.
+A: 1216.
+
+
+Q: Calculate 168 * 165.
+A: 27720.
+
+
+Q: Calculate 494 - 374.
+A: 120.
+
+
+Q: Calculate 488 + 832.
+A: 1320.
+
+
+Q: Calculate 656 + 781.
+A: 1437.
+
+
+Q: Calculate 806 + 780.
+A: 1586.
+
+
+Q: Calculate 131 * 143.
+A: 18733.
+
+
+Q: Calculate 948 + 295.
+A: 1243.
+
+
+Q: Calculate 102 * 182.
+A: 18564.
+
+
+Q: Calculate 509 - 176.
+A: 333.
+
+
+Q: Calculate 198 * 154.
+A: 30492.
+
+
+Q: Calculate 141 + 422.
+A: 563.
+
+
+Q: Calculate 397 - 241.
+A: 156.
+
+
+Q: Calculate 940 - 105.
+A: 835.
+
+
+Q: Calculate 142 * 149.
+A: 21158.
+
+
+Q: Calculate 337 + 591.
+A: 928.
+
+
+Q: Calculate 439 + 517.
+A: 956.
+
+
+Q: Calculate 649 + 955.
+A: 1604.
+
+
+Q: Calculate 130 + 610.
+A: 740.
+
+
+Q: Calculate 698 - 312.
+A: 386.
+
+
+Q: Calculate 987 - 977.
+A: 10.
+
+
+Q: Calculate 665 - 657.
+A: 8.
+
+
+Q: Calculate 184 + 977.
+A: 1161.
+
+
+Q: Calculate 477 + 849.
+A: 1326.
+
+
+Q: Calculate 260 + 416.
+A: 676.
+
+
+Q: Calculate 424 + 207.
+A: 631.
+
+
+Q: Calculate 145 * 137.
+A: 19865.
+
+
+Q: Calculate 165 * 104.
+A: 17160.
+
+
+Q: Calculate 978 - 593.
+A: 385.
+
+
+Q: Calculate 167 * 167.
+A: 27889.
+
+
+Q: Calculate 233 + 232.
+A: 465.
+
+
+Q: Calculate 287 + 415.
+A: 702.
+
+
+Q: Calculate 145 * 161.
+A: 23345.
+
+
+Q: Calculate 622 + 869.
+A: 1491.
+
+
+Q: Calculate 570 + 286.
+A: 856.
+
+
+Q: Calculate 970 + 680.
+A: 1650.
+
+
+Q: Calculate 168 * 191.
+A: 32088.
+
+
+Q: Calculate 182 * 179.
+A: 32578.
+
+
+Q: Calculate 539 - 154.
+A: 385.
+
+
+Q: Calculate 137 * 193.
+A: 26441.
+
+
+Q: Calculate 197 * 191.
+A: 37627.
+
+
+Q: Calculate 106 * 124.
+A: 13144.
+
+
+Q: Calculate 870 - 788.
+A: 82.
+
+
+Q: Calculate 906 - 616.
+A: 290.
+
+
+Q: Calculate 127 * 126.
+A: 16002.
+
+
+Q: Calculate 290 + 162.
+A: 452.
+
+
+Q: Calculate 174 * 115.
+A: 20010.
+
+
+Q: Calculate 967 - 390.
+A: 577.
+
+
+Q: Calculate 625 - 592.
+A: 33.
+
+
+Q: Calculate 883 + 752.
+A: 1635.
+
+
+Q: Calculate 713 - 345.
+A: 368.
+
+
+Q: Calculate 143 + 310.
+A: 453.
+
+
+Q: Calculate 944 - 225.
+A: 719.
+
+
+Q: Calculate 702 + 393.
+A: 1095.
+
+
+Q: Calculate 103 * 172.
+A: 17716.
+
+
+Q: Calculate 799 - 163.
+A: 636.
+
+
+Q: Calculate 653 - 643.
+A: 10.
+
+
+Q: Calculate 933 - 828.
+A: 105.
+
+
+Q: Calculate 164 * 154.
+A: 25256.
+
+
+Q: Calculate 682 + 603.
+A: 1285.
+
+
+Q: Calculate 192 * 154.
+A: 29568.
+
+
+Q: Calculate 136 * 104.
+A: 14144.
+
+
+Q: Calculate 452 + 489.
+A: 941.
+
+
+Q: Calculate 772 + 676.
+A: 1448.
+
+
+Q: Calculate 160 * 129.
+A: 20640.
+
+
+Q: Calculate 801 + 809.
+A: 1610.
+
+
+Q: Calculate 581 - 136.
+A: 445.
+
+
+Q: Calculate 113 * 161.
+A: 18193.
+
+
+Q: Calculate 888 + 765.
+A: 1653.
+
+
+Q: Calculate 953 + 362.
+A: 1315.
+
+
+Q: Calculate 113 * 136.
+A: 15368.
+
+
+Q: Calculate 165 * 191.
+A: 31515.
+
+
+Q: Calculate 442 - 157.
+A: 285.
+
+
+Q: Calculate 770 - 435.
+A: 335.
+
+
+Q: Calculate 185 + 733.
+A: 918.
+
+
+Q: Calculate 317 - 154.
+A: 163.
+
+
+Q: Calculate 541 - 274.
+A: 267.
+
+
+Q: Calculate 268 + 967.
+A: 1235.
+
+
+Q: Calculate 137 * 197.
+A: 26989.
+
+
+Q: Calculate 208 + 963.
+A: 1171.
+
+
+Q: Calculate 179 * 149.
+A: 26671.
+
+
+Q: Calculate 604 + 822.
+A: 1426.
+
+
+Q: Calculate 783 - 596.
+A: 187.
+
+
+Q: Calculate 140 * 146.
+A: 20440.
+
+
+Q: Calculate 973 - 287.
+A: 686.
+
+
+Q: Calculate 855 + 720.
+A: 1575.
+
+
+Q: Calculate 469 + 185.
+A: 654.
+
+
+Q: Calculate 703 - 469.
+A: 234.
+
+
+Q: Calculate 151 * 146.
+A: 22046.
+
+
+Q: Calculate 112 * 130.
+A: 14560.
+
+
+Q: Calculate 147 * 164.
+A: 24108.
+
+
+Q: Calculate 710 - 328.
+A: 382.
+
+
+Q: Calculate 761 - 102.
+A: 659.
+
+
+Q: Calculate 314 - 150.
+A: 164.
+
+
+Q: Calculate 809 + 778.
+A: 1587.
+
+
+Q: Calculate 644 + 272.
+A: 916.
+
+
+Q: Calculate 568 + 565.
+A: 1133.
+
+
+Q: Calculate 189 * 148.
+A: 27972.
+
+
+Q: Calculate 694 - 504.
+A: 190.
+
+
+Q: Calculate 119 * 130.
+A: 15470.
+
+
+Q: Calculate 937 - 705.
+A: 232.
+
+
+Q: Calculate 112 * 128.
+A: 14336.
+
+
+Q: Calculate 125 * 108.
+A: 13500.
+
+
+Q: Calculate 178 * 187.
+A: 33286.
+
+
+Q: Calculate 121 * 191.
+A: 23111.
+
+
+Q: Calculate 168 * 198.
+A: 33264.
+
+
+Q: Calculate 258 + 365.
+A: 623.
+
+
+Q: Calculate 639 + 226.
+A: 865.
+
+
+Q: Calculate 780 - 245.
+A: 535.
+
+
+Q: Calculate 319 + 720.
+A: 1039.
+
+
+Q: Calculate 625 + 707.
+A: 1332.
+
+
+Q: Calculate 157 * 154.
+A: 24178.
+
+
+Q: Calculate 802 - 502.
+A: 300.
+
+
+Q: Calculate 219 - 194.
+A: 25.
+
+
+Q: Calculate 896 + 313.
+A: 1209.
+
+
+Q: Calculate 957 - 838.
+A: 119.
+
+
+Q: Calculate 134 * 147.
+A: 19698.
+
+
+Q: Calculate 132 * 188.
+A: 24816.
+
+
+Q: Calculate 730 + 612.
+A: 1342.
+
+
+Q: Calculate 274 + 459.
+A: 733.
+
+
+Q: Calculate 168 * 145.
+A: 24360.
+
+
+Q: Calculate 906 - 770.
+A: 136.
+
+
+Q: Calculate 156 * 168.
+A: 26208.
+
+
+Q: Calculate 116 * 197.
+A: 22852.
+
+
+Q: Calculate 687 + 630.
+A: 1317.
+
+
+Q: Calculate 824 + 631.
+A: 1455.
+
+
+Q: Calculate 112 * 101.
+A: 11312.
+
+
+Q: Calculate 838 + 230.
+A: 1068.
+
+
+Q: Calculate 185 * 172.
+A: 31820.
+
+
+Q: Calculate 122 * 126.
+A: 15372.
+
+
+Q: Calculate 148 * 164.
+A: 24272.
+
+
+Q: Calculate 199 * 120.
+A: 23880.
+
+
+Q: Calculate 145 * 125.
+A: 18125.
+
+
+Q: Calculate 191 * 179.
+A: 34189.
+
+
+Q: Calculate 451 - 148.
+A: 303.
+
+
+Q: Calculate 120 * 107.
+A: 12840.
+
+
+Q: Calculate 770 + 874.
+A: 1644.
+
+
+Q: Calculate 132 * 186.
+A: 24552.
+
+
+Q: Calculate 303 + 583.
+A: 886.
+
+
+Q: Calculate 360 - 271.
+A: 89.
+
+
+Q: Calculate 764 + 568.
+A: 1332.
+
+
+Q: Calculate 173 + 788.
+A: 961.
+
+
+Q: Calculate 479 + 892.
+A: 1371.
+
+
+Q: Calculate 728 - 338.
+A: 390.
+
+
+Q: Calculate 162 * 151.
+A: 24462.
+
+
+Q: Calculate 143 * 102.
+A: 14586.
+
+
+Q: Calculate 999 - 490.
+A: 509.
+
+
+Q: Calculate 865 - 746.
+A: 119.
+
+
+Q: Calculate 939 + 327.
+A: 1266.
+
+
+Q: Calculate 246 - 201.
+A: 45.
+
+
+Q: Calculate 439 + 757.
+A: 1196.
+
+
+Q: Calculate 767 + 585.
+A: 1352.
+
+
+Q: Calculate 571 - 432.
+A: 139.
+
+
+Q: Calculate 794 + 676.
+A: 1470.
+
+
+Q: Calculate 540 + 548.
+A: 1088.
+
+
+Q: Calculate 128 * 148.
+A: 18944.
+
+
+Q: Calculate 128 * 124.
+A: 15872.
+
+
+Q: Calculate 448 + 488.
+A: 936.
+
+
+Q: Calculate 176 * 148.
+A: 26048.
+
+
+Q: Calculate 564 + 657.
+A: 1221.
+
+
+Q: Calculate 790 - 539.
+A: 251.
+
+
+Q: Calculate 143 * 168.
+A: 24024.
+
+
+Q: Calculate 916 + 775.
+A: 1691.
+
+
+Q: Calculate 708 - 649.
+A: 59.
+
+
+Q: Calculate 151 + 915.
+A: 1066.
+
+
+Q: Calculate 959 + 906.
+A: 1865.
+
+
+Q: Calculate 836 - 663.
+A: 173.
+
+
+Q: Calculate 150 + 833.
+A: 983.
+
+
+Q: Calculate 147 * 179.
+A: 26313.
+
+
+Q: Calculate 942 + 507.
+A: 1449.
+
+
+Q: Calculate 171 * 191.
+A: 32661.
+
+
+Q: Calculate 548 + 116.
+A: 664.
+
+
+Q: Calculate 133 * 128.
+A: 17024.
+
+
+Q: Calculate 121 + 588.
+A: 709.
+
+
+Q: Calculate 480 - 195.
+A: 285.
+
+
+Q: Calculate 799 + 160.
+A: 959.
+
+
+Q: Calculate 110 * 185.
+A: 20350.
+
+
+Q: Calculate 958 - 752.
+A: 206.
+
+
+Q: Calculate 750 - 328.
+A: 422.
+
+
+Q: Calculate 528 + 287.
+A: 815.
+
+
+Q: Calculate 146 * 198.
+A: 28908.
+
+
+Q: Calculate 178 * 119.
+A: 21182.
+
+
+Q: Calculate 978 - 536.
+A: 442.
+
+
+Q: Calculate 600 - 378.
+A: 222.
+
+
+Q: Calculate 671 + 477.
+A: 1148.
+
+
+Q: Calculate 163 * 186.
+A: 30318.
+
+
+Q: Calculate 167 * 170.
+A: 28390.
+
+
+Q: Calculate 189 * 157.
+A: 29673.
+
+
+Q: Calculate 275 + 958.
+A: 1233.
+
+
+Q: Calculate 539 + 736.
+A: 1275.
+
+
+Q: Calculate 136 * 118.
+A: 16048.
+
+
+Q: Calculate 879 + 585.
+A: 1464.
+
+
+Q: Calculate 682 + 129.
+A: 811.
+
+
+Q: Calculate 388 + 563.
+A: 951.
+
+
+Q: Calculate 894 + 285.
+A: 1179.
+
+
+Q: Calculate 279 + 514.
+A: 793.
+
+
+Q: Calculate 190 * 118.
+A: 22420.
+
+
+Q: Calculate 126 * 191.
+A: 24066.
+
+
+Q: Calculate 420 + 825.
+A: 1245.
+
+
+Q: Calculate 121 * 180.
+A: 21780.
+
+
+Q: Calculate 119 * 198.
+A: 23562.
+
+
+Q: Calculate 311 - 130.
+A: 181.
+
+
+Q: Calculate 875 - 367.
+A: 508.
+
+
+Q: Calculate 773 + 327.
+A: 1100.
+
+
+Q: Calculate 132 * 123.
+A: 16236.
+
+
+Q: Calculate 146 * 185.
+A: 27010.
+
+
+Q: Calculate 937 - 646.
+A: 291.
+
+
+Q: Calculate 173 * 161.
+A: 27853.
+
+
+Q: Calculate 672 - 159.
+A: 513.
+
+
+Q: Calculate 195 * 116.
+A: 22620.
+
+
+Q: Calculate 998 - 388.
+A: 610.
+
+
+Q: Calculate 830 + 346.
+A: 1176.
+
+
+Q: Calculate 480 - 108.
+A: 372.
+
+
+Q: Calculate 699 - 486.
+A: 213.
+
+
+Q: Calculate 771 + 220.
+A: 991.
+
+
+Q: Calculate 450 + 739.
+A: 1189.
+
+
+Q: Calculate 298 - 285.
+A: 13.
+
+
+Q: Calculate 976 - 805.
+A: 171.
+
+
+Q: Calculate 153 * 188.
+A: 28764.
+
+
+Q: Calculate 161 * 132.
+A: 21252.
+
+
+Q: Calculate 441 + 758.
+A: 1199.
+
+
+Q: Calculate 136 * 156.
+A: 21216.
+
+
+Q: Calculate 550 - 261.
+A: 289.
+
+
+Q: Calculate 499 + 211.
+A: 710.
+
+
+Q: Calculate 735 - 350.
+A: 385.
+
+
+Q: Calculate 147 * 128.
+A: 18816.
+
+
+Q: Calculate 181 * 196.
+A: 35476.
+
+
+Q: Calculate 147 * 178.
+A: 26166.
+
+
+Q: Calculate 906 + 866.
+A: 1772.
+
+
+Q: Calculate 226 + 768.
+A: 994.
+
+
+Q: Calculate 151 * 156.
+A: 23556.
+
+
+Q: Calculate 657 + 197.
+A: 854.
+
+
+Q: Calculate 841 + 594.
+A: 1435.
+
+
+Q: Calculate 885 + 247.
+A: 1132.
+
+
+Q: Calculate 408 + 430.
+A: 838.
+
+
+Q: Calculate 731 - 116.
+A: 615.
+
+
+Q: Calculate 123 * 149.
+A: 18327.
+
+
+Q: Calculate 361 + 874.
+A: 1235.
+
+
+Q: Calculate 670 - 299.
+A: 371.
+
+
+Q: Calculate 742 - 492.
+A: 250.
+
+
+Q: Calculate 664 + 997.
+A: 1661.
+
+
+Q: Calculate 718 - 319.
+A: 399.
+
+
+Q: Calculate 140 * 168.
+A: 23520.
+
+
+Q: Calculate 130 * 170.
+A: 22100.
+
+
+Q: Calculate 866 + 196.
+A: 1062.
+
+
+Q: Calculate 922 - 539.
+A: 383.
+
+
+Q: Calculate 139 * 191.
+A: 26549.
+
+
+Q: Calculate 999 - 436.
+A: 563.
+
+
+Q: Calculate 190 * 180.
+A: 34200.
+
+
+Q: Calculate 152 * 168.
+A: 25536.
+
+
+Q: Calculate 836 - 252.
+A: 584.
+
+
+Q: Calculate 151 * 145.
+A: 21895.
+
+
+Q: Calculate 171 * 181.
+A: 30951.
+
+
+Q: Calculate 174 * 120.
+A: 20880.
+
+
+Q: Calculate 187 + 175.
+A: 362.
+
+
+Q: Calculate 275 + 755.
+A: 1030.
+
+
+Q: Calculate 947 - 581.
+A: 366.
+
+
+Q: Calculate 511 + 604.
+A: 1115.
+
+
+Q: Calculate 721 - 581.
+A: 140.
+
+
+Q: Calculate 548 + 556.
+A: 1104.
+
+
+Q: Calculate 429 - 256.
+A: 173.
+
+
+Q: Calculate 628 - 238.
+A: 390.
+
+
+Q: Calculate 133 * 134.
+A: 17822.
+
+
+Q: Calculate 442 - 365.
+A: 77.
+
+
+Q: Calculate 133 * 127.
+A: 16891.
+
+
+Q: Calculate 441 + 659.
+A: 1100.
+
+
+Q: Calculate 789 + 212.
+A: 1001.
+
+
+Q: Calculate 942 - 401.
+A: 541.
+
+
+Q: Calculate 161 + 999.
+A: 1160.
+
+
+Q: Calculate 512 + 130.
+A: 642.
+
+
+Q: Calculate 139 * 116.
+A: 16124.
+
+
+Q: Calculate 725 - 222.
+A: 503.
+
+
+Q: Calculate 129 * 159.
+A: 20511.
+
+
+Q: Calculate 162 * 138.
+A: 22356.
+
+
+Q: Calculate 351 + 492.
+A: 843.
+
+
+Q: Calculate 118 * 160.
+A: 18880.
+
+
+Q: Calculate 239 + 628.
+A: 867.
+
+
+Q: Calculate 125 * 154.
+A: 19250.
+
+
+Q: Calculate 855 - 285.
+A: 570.
+
+
+Q: Calculate 102 * 110.
+A: 11220.
+
+
+Q: Calculate 412 - 384.
+A: 28.
+
+
+Q: Calculate 866 - 762.
+A: 104.
+
+
+Q: Calculate 820 - 523.
+A: 297.
+
+
+Q: Calculate 719 + 408.
+A: 1127.
+
+
+Q: Calculate 832 - 165.
+A: 667.
+
+
+Q: Calculate 888 - 625.
+A: 263.
+
+
+Q: Calculate 116 * 196.
+A: 22736.
+
+
+Q: Calculate 176 * 142.
+A: 24992.
+
+
+Q: Calculate 687 + 863.
+A: 1550.
+
+
+Q: Calculate 947 - 188.
+A: 759.
+
+
+Q: Calculate 245 + 460.
+A: 705.
+
+
+Q: Calculate 401 - 256.
+A: 145.
+
+
+Q: Calculate 183 * 182.
+A: 33306.
+
+
+Q: Calculate 161 * 179.
+A: 28819.
+
+
+Q: Calculate 902 + 336.
+A: 1238.
+
+
+Q: Calculate 239 - 214.
+A: 25.
+
+
+Q: Calculate 143 + 345.
+A: 488.
+
+
+Q: Calculate 200 + 831.
+A: 1031.
+
+
+Q: Calculate 718 + 558.
+A: 1276.
+
+
+Q: Calculate 123 * 104.
+A: 12792.
+
+
+Q: Calculate 417 - 149.
+A: 268.
+
+
+Q: Calculate 144 * 193.
+A: 27792.
+
+
+Q: Calculate 899 - 694.
+A: 205.
+
+
+Q: Calculate 159 * 165.
+A: 26235.
+
+
+Q: Calculate 263 - 195.
+A: 68.
+
+
+Q: Calculate 668 + 969.
+A: 1637.
+
+
+Q: Calculate 123 * 107.
+A: 13161.
+
+
+Q: Calculate 527 - 338.
+A: 189.
+
+
+Q: Calculate 590 + 554.
+A: 1144.
+
+
+Q: Calculate 233 + 374.
+A: 607.
+
+
+Q: Calculate 109 * 111.
+A: 12099.
+
+
+Q: Calculate 408 + 457.
+A: 865.
+
+
+Q: Calculate 310 + 424.
+A: 734.
+
+
+Q: Calculate 325 + 307.
+A: 632.
+
+
+Q: Calculate 531 - 176.
+A: 355.
+
+
+Q: Calculate 163 * 183.
+A: 29829.
+
+
+Q: Calculate 676 + 626.
+A: 1302.
+
+
+Q: Calculate 114 * 165.
+A: 18810.
+
+
+Q: Calculate 333 - 302.
+A: 31.
+
+
+Q: Calculate 947 - 249.
+A: 698.
+
+
+Q: Calculate 107 * 105.
+A: 11235.
+
+
+Q: Calculate 855 + 521.
+A: 1376.
+
+
+Q: Calculate 330 + 554.
+A: 884.
+
+
+Q: Calculate 959 - 796.
+A: 163.
+
+
+Q: Calculate 708 + 517.
+A: 1225.
+
+
+Q: Calculate 314 + 311.
+A: 625.
+
+
+Q: Calculate 290 - 285.
+A: 5.
+
+
+Q: Calculate 842 - 430.
+A: 412.
+
+
+Q: Calculate 488 - 132.
+A: 356.
+
+
+Q: Calculate 558 + 561.
+A: 1119.
+
+
+Q: Calculate 105 * 176.
+A: 18480.
+
+
+Q: Calculate 449 + 376.
+A: 825.
+
+
+Q: Calculate 890 - 865.
+A: 25.
+
+
+Q: Calculate 747 - 738.
+A: 9.
+
+
+Q: Calculate 888 - 260.
+A: 628.
+
+
+Q: Calculate 742 - 712.
+A: 30.
+
+
+Q: Calculate 251 + 919.
+A: 1170.
+
+
+Q: Calculate 848 - 371.
+A: 477.
+
+
+Q: Calculate 537 - 226.
+A: 311.
+
+
+Q: Calculate 955 - 451.
+A: 504.
+
+
+Q: Calculate 623 + 969.
+A: 1592.
+
+
+Q: Calculate 671 + 478.
+A: 1149.
+
+
+Q: Calculate 753 - 542.
+A: 211.
+
+
+Q: Calculate 792 - 485.
+A: 307.
+
+
+Q: Calculate 132 * 113.
+A: 14916.
+
+
+Q: Calculate 984 + 646.
+A: 1630.
+
+
+Q: Calculate 780 - 132.
+A: 648.
+
+
+Q: Calculate 117 * 187.
+A: 21879.
+
+
+Q: Calculate 982 - 130.
+A: 852.
+
+
+Q: Calculate 546 + 932.
+A: 1478.
+
+
+Q: Calculate 127 * 164.
+A: 20828.
+
+
+Q: Calculate 960 - 824.
+A: 136.
+
+
+Q: Calculate 470 + 185.
+A: 655.
+
+
+Q: Calculate 152 * 151.
+A: 22952.
+
+
+Q: Calculate 625 + 829.
+A: 1454.
+
+
+Q: Calculate 522 - 518.
+A: 4.
+
+
+Q: Calculate 467 + 262.
+A: 729.
+
+
+Q: Calculate 880 - 287.
+A: 593.
+
+
+Q: Calculate 519 - 126.
+A: 393.
+
+
+Q: Calculate 623 - 372.
+A: 251.
+
+
+Q: Calculate 975 + 529.
+A: 1504.
+
+
+Q: Calculate 504 - 436.
+A: 68.
+
+
+Q: Calculate 397 - 232.
+A: 165.
+
+
+Q: Calculate 134 * 174.
+A: 23316.
+
+
+Q: Calculate 686 + 304.
+A: 990.
+
+
+Q: Calculate 592 + 954.
+A: 1546.
+
+
+Q: Calculate 530 - 144.
+A: 386.
+
+
+Q: Calculate 121 * 159.
+A: 19239.
+
+
+Q: Calculate 157 * 104.
+A: 16328.
+
+
+Q: Calculate 362 - 299.
+A: 63.
+
+
+Q: Calculate 690 - 683.
+A: 7.
+
+
+Q: Calculate 135 * 157.
+A: 21195.
+
+
+Q: Calculate 640 + 785.
+A: 1425.
+
+
+Q: Calculate 185 * 167.
+A: 30895.
+
+
+Q: Calculate 391 + 379.
+A: 770.
+
+
+Q: Calculate 220 + 984.
+A: 1204.
+
+
+Q: Calculate 965 + 483.
+A: 1448.
+
+
+Q: Calculate 374 + 184.
+A: 558.
+
+
+Q: Calculate 151 * 116.
+A: 17516.
+
+
+Q: Calculate 690 + 453.
+A: 1143.
+
+
+Q: Calculate 868 - 164.
+A: 704.
+
+
+Q: Calculate 175 * 176.
+A: 30800.
+
+
+Q: Calculate 165 * 157.
+A: 25905.
+
+
+Q: Calculate 167 * 177.
+A: 29559.
+
+
+Q: Calculate 143 * 198.
+A: 28314.
+
+
+Q: Calculate 605 - 325.
+A: 280.
+
+
+Q: Calculate 133 * 109.
+A: 14497.
+
+
+Q: Calculate 764 - 231.
+A: 533.
+
+
+Q: Calculate 927 - 388.
+A: 539.
+
+
+Q: Calculate 104 * 195.
+A: 20280.
+
+
+Q: Calculate 144 * 153.
+A: 22032.
+
+
+Q: Calculate 841 - 684.
+A: 157.
+
+
+Q: Calculate 160 + 616.
+A: 776.
+
+
+Q: Calculate 491 + 957.
+A: 1448.
+
+
+Q: Calculate 690 - 312.
+A: 378.
+
+
+Q: Calculate 188 * 198.
+A: 37224.
+
+
+Q: Calculate 182 * 121.
+A: 22022.
+
+
+Q: Calculate 167 * 134.
+A: 22378.
+
+
+Q: Calculate 827 + 113.
+A: 940.
+
+
+Q: Calculate 953 + 653.
+A: 1606.
+
+
+Q: Calculate 634 + 362.
+A: 996.
+
+
+Q: Calculate 432 - 346.
+A: 86.
+
+
+Q: Calculate 135 * 133.
+A: 17955.
+
+
+Q: Calculate 739 + 879.
+A: 1618.
+
+
+Q: Calculate 120 + 688.
+A: 808.
+
+
+Q: Calculate 183 * 103.
+A: 18849.
+
+
+Q: Calculate 833 + 278.
+A: 1111.
+
+
+Q: Calculate 787 - 594.
+A: 193.
+
+
+Q: Calculate 180 * 191.
+A: 34380.
+
+
+Q: Calculate 182 * 141.
+A: 25662.
+
+
+Q: Calculate 816 - 717.
+A: 99.
+
+
+Q: Calculate 582 - 204.
+A: 378.
+
+
+Q: Calculate 719 - 428.
+A: 291.
+
+
+Q: Calculate 123 * 168.
+A: 20664.
+
+
+Q: Calculate 320 - 306.
+A: 14.
+
+
+Q: Calculate 858 - 134.
+A: 724.
+
+
+Q: Calculate 613 + 999.
+A: 1612.
+
+
+Q: Calculate 510 + 347.
+A: 857.
+
+
+Q: Calculate 195 + 316.
+A: 511.
+
+
+Q: Calculate 517 - 181.
+A: 336.
+
+
+Q: Calculate 126 * 113.
+A: 14238.
+
+
+Q: Calculate 176 * 194.
+A: 34144.
+
+
+Q: Calculate 180 * 176.
+A: 31680.
+
+
+Q: Calculate 113 * 137.
+A: 15481.
+
+
+Q: Calculate 695 - 130.
+A: 565.
+
+
+Q: Calculate 649 + 270.
+A: 919.
+
+
+Q: Calculate 871 + 129.
+A: 1000.
+
+
+Q: Calculate 119 * 136.
+A: 16184.
+
+
+Q: Calculate 515 + 352.
+A: 867.
+
+
+Q: Calculate 461 + 361.
+A: 822.
+
+
+Q: Calculate 146 * 161.
+A: 23506.
+
+
+Q: Calculate 831 - 108.
+A: 723.
+
+
+Q: Calculate 426 + 938.
+A: 1364.
+
+
+Q: Calculate 829 - 578.
+A: 251.
+
+
+Q: Calculate 140 * 179.
+A: 25060.
+
+
+Q: Calculate 169 * 141.
+A: 23829.
+
+
+Q: Calculate 798 + 186.
+A: 984.
+
+
+Q: Calculate 418 + 910.
+A: 1328.
+
+
+Q: Calculate 754 - 687.
+A: 67.
+
+
+Q: Calculate 731 - 359.
+A: 372.
+
+
+Q: Calculate 772 - 257.
+A: 515.
+
+
+Q: Calculate 439 - 420.
+A: 19.
+
+
+Q: Calculate 623 + 631.
+A: 1254.
+
+
+Q: Calculate 856 - 509.
+A: 347.
+
+
+Q: Calculate 223 - 193.
+A: 30.
+
+
+Q: Calculate 169 * 174.
+A: 29406.
+
+
+Q: Calculate 985 + 314.
+A: 1299.
+
+
+Q: Calculate 112 * 161.
+A: 18032.
+
+
+Q: Calculate 516 - 254.
+A: 262.
+
+
+Q: Calculate 524 + 356.
+A: 880.
+
+
+Q: Calculate 192 * 106.
+A: 20352.
+
+
+Q: Calculate 759 + 327.
+A: 1086.
+
+
+Q: Calculate 925 + 624.
+A: 1549.
+
+
+Q: Calculate 178 * 112.
+A: 19936.
+
+
+Q: Calculate 873 - 178.
+A: 695.
+
+
+Q: Calculate 696 + 116.
+A: 812.
+
+
+Q: Calculate 808 - 790.
+A: 18.
+
+
+Q: Calculate 929 - 817.
+A: 112.
+
+
+Q: Calculate 134 * 139.
+A: 18626.
+
+
+Q: Calculate 144 * 101.
+A: 14544.
+
+
+Q: Calculate 106 * 114.
+A: 12084.
+
+
+Q: Calculate 614 - 269.
+A: 345.
+
+
+Q: Calculate 195 * 104.
+A: 20280.
+
+
+Q: Calculate 439 + 998.
+A: 1437.
+
+
+Q: Calculate 700 + 535.
+A: 1235.
+
+
+Q: Calculate 109 * 192.
+A: 20928.
+
+
+Q: Calculate 187 * 188.
+A: 35156.
+
+
+Q: Calculate 381 - 136.
+A: 245.
+
+
+Q: Calculate 800 + 108.
+A: 908.
+
+
+Q: Calculate 151 * 119.
+A: 17969.
+
+
+Q: Calculate 897 - 586.
+A: 311.
+
+
+Q: Calculate 197 * 145.
+A: 28565.
+
+
+Q: Calculate 781 - 728.
+A: 53.
+
+
+Q: Calculate 488 - 335.
+A: 153.
+
+
+Q: Calculate 289 + 986.
+A: 1275.
+
+
+Q: Calculate 410 + 332.
+A: 742.
+
+
+Q: Calculate 764 - 550.
+A: 214.
+
+
+Q: Calculate 967 - 823.
+A: 144.
+
+
+Q: Calculate 201 + 126.
+A: 327.
+
+
+Q: Calculate 159 * 154.
+A: 24486.
+
+
+Q: Calculate 138 * 186.
+A: 25668.
+
+
+Q: Calculate 152 * 128.
+A: 19456.
+
+
+Q: Calculate 981 + 476.
+A: 1457.
+
+
+Q: Calculate 281 + 295.
+A: 576.
+
+
+Q: Calculate 126 * 165.
+A: 20790.
+
+
+Q: Calculate 904 - 803.
+A: 101.
+
+
+Q: Calculate 940 - 278.
+A: 662.
+
+
+Q: Calculate 129 * 198.
+A: 25542.
+
+
+Q: Calculate 469 + 755.
+A: 1224.
+
+
+Q: Calculate 424 + 924.
+A: 1348.
+
+
+Q: Calculate 467 - 458.
+A: 9.
+
+
+Q: Calculate 138 * 153.
+A: 21114.
+
+
+Q: Calculate 614 - 372.
+A: 242.
+
+
+Q: Calculate 867 + 554.
+A: 1421.
+
+
+Q: Calculate 907 + 691.
+A: 1598.
+
+
+Q: Calculate 519 - 303.
+A: 216.
+
+
+Q: Calculate 558 - 130.
+A: 428.
+
+
+Q: Calculate 136 * 183.
+A: 24888.
+
+
+Q: Calculate 123 * 106.
+A: 13038.
+
+
+Q: Calculate 879 + 258.
+A: 1137.
+
+
+Q: Calculate 790 - 175.
+A: 615.
+
+
+Q: Calculate 911 - 346.
+A: 565.
+
+
+Q: Calculate 291 + 156.
+A: 447.
+
+
+Q: Calculate 825 + 540.
+A: 1365.
+
+
+Q: Calculate 717 + 709.
+A: 1426.
+
+
+Q: Calculate 184 * 178.
+A: 32752.
+
+
+Q: Calculate 127 * 150.
+A: 19050.
+
+
+Q: Calculate 163 * 151.
+A: 24613.
+
+
+Q: Calculate 898 + 404.
+A: 1302.
+
+
+Q: Calculate 823 + 475.
+A: 1298.
+
+
+Q: Calculate 995 - 126.
+A: 869.
+
+
+Q: Calculate 977 + 798.
+A: 1775.
+
+
+Q: Calculate 238 + 377.
+A: 615.
+
+
+Q: Calculate 169 * 119.
+A: 20111.
+
+
+Q: Calculate 900 - 675.
+A: 225.
+
+
+Q: Calculate 852 + 586.
+A: 1438.
+
+
+Q: Calculate 122 * 140.
+A: 17080.
+
+
+Q: Calculate 144 * 110.
+A: 15840.
+
+
+Q: Calculate 273 + 652.
+A: 925.
+
+
+Q: Calculate 264 - 172.
+A: 92.
+
+
+Q: Calculate 184 * 119.
+A: 21896.
+
+
+Q: Calculate 423 - 194.
+A: 229.
+
+
+Q: Calculate 159 * 114.
+A: 18126.
+
+
+Q: Calculate 138 * 150.
+A: 20700.
+
+
+Q: Calculate 180 * 130.
+A: 23400.
+
+
+Q: Calculate 873 - 638.
+A: 235.
+
+
+Q: Calculate 333 - 324.
+A: 9.
+
+
+Q: Calculate 721 - 193.
+A: 528.
+
+
+Q: Calculate 445 + 412.
+A: 857.
+
+
+Q: Calculate 636 - 546.
+A: 90.
+
+
+Q: Calculate 136 * 187.
+A: 25432.
+
+
+Q: Calculate 158 * 145.
+A: 22910.
+
+
+Q: Calculate 123 * 128.
+A: 15744.
+
+
+Q: Calculate 305 - 133.
+A: 172.
+
+
+Q: Calculate 480 - 446.
+A: 34.
+
+
+Q: Calculate 994 + 175.
+A: 1169.
+
+
+Q: Calculate 412 - 161.
+A: 251.
+
+
+Q: Calculate 160 * 145.
+A: 23200.
+
+
+Q: Calculate 155 * 110.
+A: 17050.
+
+
+Q: Calculate 362 + 634.
+A: 996.
+
+
+Q: Calculate 219 + 414.
+A: 633.
+
+
+Q: Calculate 376 - 274.
+A: 102.
+
+
+Q: Calculate 799 - 367.
+A: 432.
+
+
+Q: Calculate 833 - 465.
+A: 368.
+
+
+Q: Calculate 988 - 623.
+A: 365.
+
+
+Q: Calculate 685 - 644.
+A: 41.
+
+
+Q: Calculate 856 + 175.
+A: 1031.
+
+
+Q: Calculate 944 - 131.
+A: 813.
+
+
+Q: Calculate 119 + 475.
+A: 594.
+
+
+Q: Calculate 172 + 421.
+A: 593.
+
+
+Q: Calculate 121 * 122.
+A: 14762.
+
+
+Q: Calculate 173 * 194.
+A: 33562.
+
+
+Q: Calculate 181 * 164.
+A: 29684.
+
+
+Q: Calculate 883 - 563.
+A: 320.
+
+
+Q: Calculate 110 * 157.
+A: 17270.
+
+
+Q: Calculate 197 * 196.
+A: 38612.
+
+
+Q: Calculate 391 - 360.
+A: 31.
+
+
+Q: Calculate 164 * 124.
+A: 20336.
+
+
+Q: Calculate 133 + 481.
+A: 614.
+
+
+Q: Calculate 841 - 541.
+A: 300.
+
+
+Q: Calculate 804 - 340.
+A: 464.
+
+
+Q: Calculate 986 + 719.
+A: 1705.
+
+
+Q: Calculate 213 + 119.
+A: 332.
+
+
+Q: Calculate 143 - 126.
+A: 17.
+
+
+Q: Calculate 895 + 837.
+A: 1732.
+
+
+Q: Calculate 436 - 109.
+A: 327.
+
+
+Q: Calculate 119 * 118.
+A: 14042.
+
+
+Q: Calculate 144 * 131.
+A: 18864.
+
+
+Q: Calculate 228 - 217.
+A: 11.
+
+
+Q: Calculate 653 + 629.
+A: 1282.
+
+
+Q: Calculate 775 - 187.
+A: 588.
+
+
+Q: Calculate 166 * 143.
+A: 23738.
+
+
+Q: Calculate 696 + 423.
+A: 1119.
+
+
+Q: Calculate 843 + 223.
+A: 1066.
+
+
+Q: Calculate 759 - 271.
+A: 488.
+
+
+Q: Calculate 116 * 170.
+A: 19720.
+
+
+Q: Calculate 314 + 643.
+A: 957.
+
+
+Q: Calculate 236 + 836.
+A: 1072.
+
+
+Q: Calculate 694 - 627.
+A: 67.
+
+
+Q: Calculate 353 + 416.
+A: 769.
+
+
+Q: Calculate 691 - 668.
+A: 23.
+
+
+Q: Calculate 435 + 953.
+A: 1388.
+
+
+Q: Calculate 873 + 759.
+A: 1632.
+
+
+Q: Calculate 405 - 335.
+A: 70.
+
+
+Q: Calculate 944 + 792.
+A: 1736.
+
+
+Q: Calculate 180 * 111.
+A: 19980.
+
+
+Q: Calculate 124 + 682.
+A: 806.
+
+
+Q: Calculate 122 * 141.
+A: 17202.
+
+
+Q: Calculate 113 * 173.
+A: 19549.
+
+
+Q: Calculate 139 * 135.
+A: 18765.
+
+
+Q: Calculate 626 - 307.
+A: 319.
+
+
+Q: Calculate 692 + 151.
+A: 843.
+
+
+Q: Calculate 325 + 438.
+A: 763.
+
+
+Q: Calculate 109 * 168.
+A: 18312.
+
+
+Q: Calculate 418 - 132.
+A: 286.
+
+
+Q: Calculate 325 + 921.
+A: 1246.
+
+
+Q: Calculate 101 * 191.
+A: 19291.
+
+
+Q: Calculate 828 + 534.
+A: 1362.
+
+
+Q: Calculate 987 - 678.
+A: 309.
+
+
+Q: Calculate 793 - 597.
+A: 196.
+
+
+Q: Calculate 488 - 486.
+A: 2.
+
+
+Q: Calculate 936 - 331.
+A: 605.
+
+
+Q: Calculate 292 + 460.
+A: 752.
+
+
+Q: Calculate 104 * 197.
+A: 20488.
+
+
+Q: Calculate 476 - 137.
+A: 339.
+
+
+Q: Calculate 572 - 551.
+A: 21.
+
+
+Q: Calculate 169 * 147.
+A: 24843.
+
+
+Q: Calculate 494 + 303.
+A: 797.
+
+
+Q: Calculate 127 * 170.
+A: 21590.
+
+
+Q: Calculate 134 * 105.
+A: 14070.
+
+
+Q: Calculate 420 + 637.
+A: 1057.
+
+
+Q: Calculate 284 - 215.
+A: 69.
+
+
+Q: Calculate 238 + 575.
+A: 813.
+
+
+Q: Calculate 117 * 107.
+A: 12519.
+
+
+Q: Calculate 190 * 162.
+A: 30780.
+
+
+Q: Calculate 115 * 157.
+A: 18055.
+
+
+Q: Calculate 103 * 145.
+A: 14935.
+
+
+Q: Calculate 515 - 388.
+A: 127.
+
+
+Q: Calculate 347 - 219.
+A: 128.
+
+
+Q: Calculate 989 + 364.
+A: 1353.
+
+
+Q: Calculate 151 * 162.
+A: 24462.
+
+
+Q: Calculate 735 - 579.
+A: 156.
+
+
+Q: Calculate 681 - 193.
+A: 488.
+
+
+Q: Calculate 355 + 480.
+A: 835.
+
+
+Q: Calculate 196 * 149.
+A: 29204.
+
+
+Q: Calculate 425 + 834.
+A: 1259.
+
+
+Q: Calculate 193 + 577.
+A: 770.
+
+
+Q: Calculate 655 - 400.
+A: 255.
+
+
+Q: Calculate 195 * 142.
+A: 27690.
+
+
+Q: Calculate 914 + 897.
+A: 1811.
+
+
+Q: Calculate 402 + 621.
+A: 1023.
+
+
+Q: Calculate 712 + 707.
+A: 1419.
+
+
+Q: Calculate 781 + 579.
+A: 1360.
+
+
+Q: Calculate 132 * 110.
+A: 14520.
+
+
+Q: Calculate 917 + 755.
+A: 1672.
+
+
+Q: Calculate 690 - 624.
+A: 66.
+
+
+Q: Calculate 191 * 102.
+A: 19482.
+
+
+Q: Calculate 783 - 507.
+A: 276.
+
+
+Q: Calculate 428 + 151.
+A: 579.
+
+
+Q: Calculate 465 - 396.
+A: 69.
+
+
+Q: Calculate 717 - 144.
+A: 573.
+
+
+Q: Calculate 603 - 368.
+A: 235.
+
+
+Q: Calculate 944 + 467.
+A: 1411.
+
+
+Q: Calculate 888 + 510.
+A: 1398.
+
+
+Q: Calculate 159 * 138.
+A: 21942.
+
+
+Q: Calculate 903 + 750.
+A: 1653.
+
+
+Q: Calculate 533 + 996.
+A: 1529.
+
+
+Q: Calculate 184 + 168.
+A: 352.
+
+
+Q: Calculate 111 * 193.
+A: 21423.
+
+
+Q: Calculate 631 + 901.
+A: 1532.
+
+
+Q: Calculate 997 - 233.
+A: 764.
+
+
+Q: Calculate 754 - 629.
+A: 125.
+
+
+Q: Calculate 121 * 144.
+A: 17424.
+
+
+Q: Calculate 692 - 541.
+A: 151.
+
+
+Q: Calculate 816 + 374.
+A: 1190.
+
+
+Q: Calculate 198 * 180.
+A: 35640.
+
+
+Q: Calculate 689 + 215.
+A: 904.
+
+
+Q: Calculate 724 + 614.
+A: 1338.
+
+
+Q: Calculate 126 * 158.
+A: 19908.
+
+
+Q: Calculate 875 + 813.
+A: 1688.
+
+
+Q: Calculate 877 + 806.
+A: 1683.
+
+
+Q: Calculate 415 - 224.
+A: 191.
+
+
+Q: Calculate 290 + 129.
+A: 419.
+
+
+Q: Calculate 129 * 115.
+A: 14835.
+
+
+Q: Calculate 593 - 565.
+A: 28.
+
+
+Q: Calculate 437 + 527.
+A: 964.
+
+
+Q: Calculate 820 - 266.
+A: 554.
+
+
+Q: Calculate 346 + 337.
+A: 683.
+
+
+Q: Calculate 829 + 936.
+A: 1765.
+
+
+Q: Calculate 813 + 130.
+A: 943.
+
+
+Q: Calculate 123 * 140.
+A: 17220.
+
+
+Q: Calculate 260 + 225.
+A: 485.
+
+
+Q: Calculate 645 + 277.
+A: 922.
+
+
+Q: Calculate 807 + 825.
+A: 1632.
+
+
+Q: Calculate 826 - 445.
+A: 381.
+
+
+Q: Calculate 756 - 603.
+A: 153.
+
+
+Q: Calculate 456 + 368.
+A: 824.
+
+
+Q: Calculate 101 * 128.
+A: 12928.
+
+
+Q: Calculate 327 + 950.
+A: 1277.
+
+
+Q: Calculate 313 - 183.
+A: 130.
+
+
+Q: Calculate 198 * 129.
+A: 25542.
+
+
+Q: Calculate 654 - 159.
+A: 495.
+
+
+Q: Calculate 102 * 131.
+A: 13362.
+
+
+Q: Calculate 641 + 356.
+A: 997.
+
+
+Q: Calculate 166 * 117.
+A: 19422.
+
+
+Q: Calculate 971 - 462.
+A: 509.
+
+
+Q: Calculate 862 - 789.
+A: 73.
+
+
+Q: Calculate 137 * 196.
+A: 26852.
+
+
+Q: Calculate 916 - 432.
+A: 484.
+
+
+Q: Calculate 928 - 440.
+A: 488.
+
+
+Q: Calculate 843 - 674.
+A: 169.
+
+
+Q: Calculate 666 + 499.
+A: 1165.
+
+
+Q: Calculate 883 + 867.
+A: 1750.
+
+
+Q: Calculate 871 - 250.
+A: 621.
+
+
+Q: Calculate 722 + 224.
+A: 946.
+
+
+Q: Calculate 169 * 161.
+A: 27209.
+
+
+Q: Calculate 773 - 607.
+A: 166.
+
+
+Q: Calculate 156 * 137.
+A: 21372.
+
+
+Q: Calculate 145 + 734.
+A: 879.
+
+
+Q: Calculate 185 * 116.
+A: 21460.
+
+
+Q: Calculate 493 + 907.
+A: 1400.
+
+
+Q: Calculate 560 - 528.
+A: 32.
+
+
+Q: Calculate 599 - 558.
+A: 41.
+
+
+Q: Calculate 122 * 117.
+A: 14274.
+
+
+Q: Calculate 441 + 827.
+A: 1268.
+
+
+Q: Calculate 178 * 196.
+A: 34888.
+
+
+Q: Calculate 197 * 180.
+A: 35460.
+
+
+Q: Calculate 982 + 659.
+A: 1641.
+
+
+Q: Calculate 944 - 806.
+A: 138.
+
+
+Q: Calculate 957 + 677.
+A: 1634.
+
+
+Q: Calculate 910 - 770.
+A: 140.
+
+
+Q: Calculate 928 - 784.
+A: 144.
+
+
+Q: Calculate 715 + 116.
+A: 831.
+
+
+Q: Calculate 408 + 570.
+A: 978.
+
+
+Q: Calculate 155 * 119.
+A: 18445.
+
+
+Q: Calculate 160 * 144.
+A: 23040.
+
+
+Q: Calculate 941 + 881.
+A: 1822.
+
+
+Q: Calculate 191 * 122.
+A: 23302.
+
+
+Q: Calculate 969 + 221.
+A: 1190.
+
+
+Q: Calculate 254 + 951.
+A: 1205.
+
+
+Q: Calculate 391 - 320.
+A: 71.
+
+
+Q: Calculate 518 + 389.
+A: 907.
+
+
+Q: Calculate 588 + 141.
+A: 729.
+
+
+Q: Calculate 874 - 198.
+A: 676.
+
+
+Q: Calculate 360 + 498.
+A: 858.
+
+
+Q: Calculate 976 - 203.
+A: 773.
+
+
+Q: Calculate 362 + 113.
+A: 475.
+
+
+Q: Calculate 176 * 127.
+A: 22352.
+
+
+Q: Calculate 638 - 245.
+A: 393.
+
+
+Q: Calculate 685 - 107.
+A: 578.
+
+
+Q: Calculate 109 * 133.
+A: 14497.
+
+
+Q: Calculate 189 * 118.
+A: 22302.
+
+
+Q: Calculate 536 + 925.
+A: 1461.
+
+
+Q: Calculate 239 + 674.
+A: 913.
+
+
+Q: Calculate 905 - 514.
+A: 391.
+
+
+Q: Calculate 179 * 129.
+A: 23091.
+
+
+Q: Calculate 129 * 172.
+A: 22188.
+
+
+Q: Calculate 847 + 535.
+A: 1382.
+
+
+Q: Calculate 769 + 512.
+A: 1281.
+
+
+Q: Calculate 727 - 168.
+A: 559.
+
+
+Q: Calculate 939 - 169.
+A: 770.
+
+
+Q: Calculate 186 * 151.
+A: 28086.
+
+
+Q: Calculate 883 - 241.
+A: 642.
+
+
+Q: Calculate 940 - 840.
+A: 100.
+
+
+Q: Calculate 940 - 477.
+A: 463.
+
+
+Q: Calculate 117 * 112.
+A: 13104.
+
+
+Q: Calculate 276 + 601.
+A: 877.
+
+
+Q: Calculate 366 - 246.
+A: 120.
+
+
+Q: Calculate 834 + 884.
+A: 1718.
+
+
+Q: Calculate 124 * 199.
+A: 24676.
+
+
+Q: Calculate 585 + 915.
+A: 1500.
+
+
+Q: Calculate 368 - 264.
+A: 104.
+
+
+Q: Calculate 291 + 257.
+A: 548.
+
+
+Q: Calculate 758 - 182.
+A: 576.
+
+
+Q: Calculate 335 - 307.
+A: 28.
+
+
+Q: Calculate 240 + 264.
+A: 504.
+
+
+Q: Calculate 850 - 308.
+A: 542.
+
+
+Q: Calculate 789 - 715.
+A: 74.
+
+
+Q: Calculate 801 - 244.
+A: 557.
+
+
+Q: Calculate 880 - 457.
+A: 423.
+
+
+Q: Calculate 399 - 331.
+A: 68.
+
+
+Q: Calculate 165 * 137.
+A: 22605.
+
+
+Q: Calculate 669 - 511.
+A: 158.
+
+
+Q: Calculate 532 + 651.
+A: 1183.
+
+
+Q: Calculate 959 + 840.
+A: 1799.
+
+
+Q: Calculate 381 + 671.
+A: 1052.
+
+
+Q: Calculate 141 * 136.
+A: 19176.
+
+
+Q: Calculate 322 + 882.
+A: 1204.
+
+
+Q: Calculate 877 + 407.
+A: 1284.
+
+
+Q: Calculate 826 - 295.
+A: 531.
+
+
+Q: Calculate 377 - 138.
+A: 239.
+
+
+Q: Calculate 116 * 198.
+A: 22968.
+
+
+Q: Calculate 113 * 141.
+A: 15933.
+
+
+Q: Calculate 274 + 854.
+A: 1128.
+
+
+Q: Calculate 116 * 181.
+A: 20996.
+
+
+Q: Calculate 178 + 702.
+A: 880.
+
+
+Q: Calculate 606 - 598.
+A: 8.
+
+
+Q: Calculate 110 * 118.
+A: 12980.
+
+
+Q: Calculate 540 - 317.
+A: 223.
+
+
+Q: Calculate 548 - 207.
+A: 341.
+
+
+Q: Calculate 822 - 163.
+A: 659.
+
+
+Q: Calculate 102 * 117.
+A: 11934.
+
+
+Q: Calculate 332 - 298.
+A: 34.
+
+
+Q: Calculate 809 + 737.
+A: 1546.
+
+
+Q: Calculate 171 * 109.
+A: 18639.
+
+
+Q: Calculate 815 - 753.
+A: 62.
+
+
+Q: Calculate 828 + 968.
+A: 1796.
+
+
+Q: Calculate 592 - 560.
+A: 32.
+
+
+Q: Calculate 117 * 119.
+A: 13923.
+
+
+Q: Calculate 426 - 144.
+A: 282.
+
+
+Q: Calculate 159 * 160.
+A: 25440.
+
+
+Q: Calculate 428 + 234.
+A: 662.
+
+
+Q: Calculate 620 - 199.
+A: 421.
+
+
+Q: Calculate 858 - 465.
+A: 393.
+
+
+Q: Calculate 108 * 187.
+A: 20196.
+
+
+Q: Calculate 130 + 593.
+A: 723.
+
+
+Q: Calculate 948 - 160.
+A: 788.
+
+
+Q: Calculate 153 * 115.
+A: 17595.
+
+
+Q: Calculate 380 - 228.
+A: 152.
+
+
+Q: Calculate 184 * 140.
+A: 25760.
+
+
+Q: Calculate 479 - 202.
+A: 277.
+
+
+Q: Calculate 393 - 113.
+A: 280.
+
+
+Q: Calculate 166 * 147.
+A: 24402.
+
+
+Q: Calculate 115 * 198.
+A: 22770.
+
+
+Q: Calculate 915 - 571.
+A: 344.
+
+
+Q: Calculate 723 - 520.
+A: 203.
+
+
+Q: Calculate 139 * 114.
+A: 15846.
+
+
+Q: Calculate 170 * 101.
+A: 17170.
+
+
+Q: Calculate 570 + 617.
+A: 1187.
+
+
+Q: Calculate 823 - 617.
+A: 206.
+
+
+Q: Calculate 969 - 952.
+A: 17.
+
+
+Q: Calculate 918 + 954.
+A: 1872.
+
+
+Q: Calculate 161 * 129.
+A: 20769.
+
+
+Q: Calculate 942 + 927.
+A: 1869.
+
+
+Q: Calculate 397 + 416.
+A: 813.
+
+
+Q: Calculate 966 - 630.
+A: 336.
+
+
+Q: Calculate 110 * 142.
+A: 15620.
+
+
+Q: Calculate 784 - 280.
+A: 504.
+
+
+Q: Calculate 726 - 597.
+A: 129.
+
+
+Q: Calculate 623 + 714.
+A: 1337.
+
+
+Q: Calculate 792 - 273.
+A: 519.
+
+
+Q: Calculate 755 - 379.
+A: 376.
+
+
+Q: Calculate 869 - 546.
+A: 323.
+
+
+Q: Calculate 319 + 676.
+A: 995.
+
+
+Q: Calculate 134 * 177.
+A: 23718.
+
+
+Q: Calculate 354 + 539.
+A: 893.
+
+
+Q: Calculate 801 - 661.
+A: 140.
+
+
+Q: Calculate 186 * 188.
+A: 34968.
+
+
+Q: Calculate 177 * 128.
+A: 22656.
+
+
+Q: Calculate 789 - 542.
+A: 247.
+
+
+Q: Calculate 124 * 184.
+A: 22816.
+
+
+Q: Calculate 631 + 788.
+A: 1419.
+
+
+Q: Calculate 161 * 109.
+A: 17549.
+
+
+Q: Calculate 170 * 162.
+A: 27540.
+
+
+Q: Calculate 112 * 125.
+A: 14000.
+
+
+Q: Calculate 398 + 877.
+A: 1275.
+
+
+Q: Calculate 478 + 723.
+A: 1201.
+
+
+Q: Calculate 195 + 497.
+A: 692.
+
+
+Q: Calculate 141 * 128.
+A: 18048.
+
+
+Q: Calculate 576 - 232.
+A: 344.
+
+
+Q: Calculate 135 * 198.
+A: 26730.
+
+
+Q: Calculate 617 + 252.
+A: 869.
+
+
+Q: Calculate 988 + 467.
+A: 1455.
+
+
+Q: Calculate 141 * 169.
+A: 23829.
+
+
+Q: Calculate 759 - 537.
+A: 222.
+
+
+Q: Calculate 606 + 780.
+A: 1386.
+
+
+Q: Calculate 121 * 167.
+A: 20207.
+
+
+Q: Calculate 392 + 891.
+A: 1283.
+
+
+Q: Calculate 373 - 266.
+A: 107.
+
+
+Q: Calculate 532 - 374.
+A: 158.
+
+
+Q: Calculate 895 - 413.
+A: 482.
+
+
+Q: Calculate 462 + 404.
+A: 866.
+
+
+Q: Calculate 276 - 148.
+A: 128.
+
+
+Q: Calculate 138 * 109.
+A: 15042.
+
+
+Q: Calculate 168 * 174.
+A: 29232.
+
+
+Q: Calculate 980 - 223.
+A: 757.
+
+
+Q: Calculate 754 - 447.
+A: 307.
+
+
+Q: Calculate 894 - 369.
+A: 525.
+
+
+Q: Calculate 137 * 184.
+A: 25208.
+
+
+Q: Calculate 114 * 123.
+A: 14022.
+
+
+Q: Calculate 433 - 170.
+A: 263.
+
+
+Q: Calculate 440 + 414.
+A: 854.
+
+
+Q: Calculate 523 + 224.
+A: 747.
+
+
+Q: Calculate 288 + 192.
+A: 480.
+
+
+Q: Calculate 162 * 186.
+A: 30132.
+
+
+Q: Calculate 139 * 145.
+A: 20155.
+
+
+Q: Calculate 261 - 101.
+A: 160.
+
+
+Q: Calculate 881 - 622.
+A: 259.
+
+
+Q: Calculate 942 - 509.
+A: 433.
+
+
+Q: Calculate 740 + 758.
+A: 1498.
+
+
+Q: Calculate 922 - 378.
+A: 544.
+
+
+Q: Calculate 945 - 735.
+A: 210.
+
+
+Q: Calculate 197 * 129.
+A: 25413.
+
+
+Q: Calculate 589 - 573.
+A: 16.
+
+
+Q: Calculate 905 - 357.
+A: 548.
+
+
+Q: Calculate 974 + 677.
+A: 1651.
+
+
+Q: Calculate 652 - 260.
+A: 392.
+
+
+Q: Calculate 187 * 164.
+A: 30668.
+
+
+Q: Calculate 150 * 137.
+A: 20550.
+
+
+Q: Calculate 104 * 131.
+A: 13624.
+
+
+Q: Calculate 160 * 134.
+A: 21440.
+
+
+Q: Calculate 814 - 493.
+A: 321.
+
+
+Q: Calculate 619 + 396.
+A: 1015.
+
+
+Q: Calculate 887 + 820.
+A: 1707.
+
+
+Q: Calculate 876 - 577.
+A: 299.
+
+
+Q: Calculate 771 + 705.
+A: 1476.
+
+
+Q: Calculate 515 + 291.
+A: 806.
+
+
+Q: Calculate 518 + 197.
+A: 715.
+
+
+Q: Calculate 119 * 127.
+A: 15113.
+
+
+Q: Calculate 965 - 111.
+A: 854.
+
+
+Q: Calculate 979 - 930.
+A: 49.
+
+
+Q: Calculate 970 - 130.
+A: 840.
+
+
+Q: Calculate 773 - 623.
+A: 150.
+
+
+Q: Calculate 226 + 202.
+A: 428.
+
+
+Q: Calculate 115 * 173.
+A: 19895.
+
+
+Q: Calculate 533 + 655.
+A: 1188.
+
+
+Q: Calculate 166 * 128.
+A: 21248.
+
+
+Q: Calculate 105 * 196.
+A: 20580.
+
+
+Q: Calculate 221 + 343.
+A: 564.
+
+
+Q: Calculate 171 * 136.
+A: 23256.
+
+
+Q: Calculate 992 - 584.
+A: 408.
+
+
+Q: Calculate 533 - 440.
+A: 93.
+
+
+Q: Calculate 475 - 328.
+A: 147.
+
+
+Q: Calculate 132 * 122.
+A: 16104.
+
+
+Q: Calculate 111 * 125.
+A: 13875.
+
+
+Q: Calculate 754 - 244.
+A: 510.
+
+
+Q: Calculate 331 - 153.
+A: 178.
+
+
+Q: Calculate 430 + 179.
+A: 609.
+
+
+Q: Calculate 507 + 341.
+A: 848.
+
+
+Q: Calculate 184 * 114.
+A: 20976.
+
+
+Q: Calculate 387 + 907.
+A: 1294.
+
+
+Q: Calculate 293 + 158.
+A: 451.
+
+
+Q: Calculate 170 * 132.
+A: 22440.
+
+
+Q: Calculate 489 - 359.
+A: 130.
+
+
+Q: Calculate 788 - 541.
+A: 247.
+
+
+Q: Calculate 222 + 441.
+A: 663.
+
+
+Q: Calculate 273 + 845.
+A: 1118.
+
+
+Q: Calculate 156 - 152.
+A: 4.
+
+
+Q: Calculate 832 - 169.
+A: 663.
+
+
+Q: Calculate 106 * 111.
+A: 11766.
+
+
+Q: Calculate 902 + 679.
+A: 1581.
+
+
+Q: Calculate 193 * 108.
+A: 20844.
+
+
+Q: Calculate 735 + 268.
+A: 1003.
+
+
+Q: Calculate 189 + 200.
+A: 389.
+
+
+Q: Calculate 916 - 346.
+A: 570.
+
+
+Q: Calculate 981 - 269.
+A: 712.
+
+
+Q: Calculate 387 + 417.
+A: 804.
+
+
+Q: Calculate 135 + 469.
+A: 604.
+
+
+Q: Calculate 600 + 367.
+A: 967.
+
+
+Q: Calculate 980 - 838.
+A: 142.
+
+
+Q: Calculate 180 + 639.
+A: 819.
+
+
+Q: Calculate 273 + 376.
+A: 649.
+
+
+Q: Calculate 493 + 389.
+A: 882.
+
+
+Q: Calculate 747 - 418.
+A: 329.
+
+
+Q: Calculate 131 * 103.
+A: 13493.
+
+
+Q: Calculate 126 * 101.
+A: 12726.
+
+
+Q: Calculate 224 + 102.
+A: 326.
+
+
+Q: Calculate 933 - 816.
+A: 117.
+
+
+Q: Calculate 146 * 195.
+A: 28470.
+
+
+Q: Calculate 528 - 461.
+A: 67.
+
+
+Q: Calculate 195 + 895.
+A: 1090.
+
+
+Q: Calculate 761 + 850.
+A: 1611.
+
+
+Q: Calculate 183 * 117.
+A: 21411.
+
+
+Q: Calculate 853 - 412.
+A: 441.
+
+
+Q: Calculate 819 - 450.
+A: 369.
+
+
+Q: Calculate 189 * 198.
+A: 37422.
+
+
+Q: Calculate 209 - 199.
+A: 10.
+
+
+Q: Calculate 537 - 480.
+A: 57.
+
+
+Q: Calculate 477 + 701.
+A: 1178.
+
+
+Q: Calculate 264 + 454.
+A: 718.
+
+
+Q: Calculate 168 * 160.
+A: 26880.
+
+
+Q: Calculate 836 + 476.
+A: 1312.
+
+
+Q: Calculate 399 + 245.
+A: 644.
+
+
+Q: Calculate 683 + 627.
+A: 1310.
+
+
+Q: Calculate 175 * 170.
+A: 29750.
+
+
+Q: Calculate 146 * 188.
+A: 27448.
+
+
+Q: Calculate 550 - 268.
+A: 282.
+
+
+Q: Calculate 694 + 455.
+A: 1149.
+
+
+Q: Calculate 176 * 188.
+A: 33088.
+
+
+Q: Calculate 107 * 181.
+A: 19367.
+
+
+Q: Calculate 790 - 741.
+A: 49.
+
+
+Q: Calculate 359 - 152.
+A: 207.
+
+
+Q: Calculate 797 - 106.
+A: 691.
+
+
+Q: Calculate 143 * 148.
+A: 21164.
+
+
+Q: Calculate 217 + 419.
+A: 636.
+
+
+Q: Calculate 613 - 272.
+A: 341.
+
+
+Q: Calculate 165 * 181.
+A: 29865.
+
+
+Q: Calculate 292 + 541.
+A: 833.
+
+
+Q: Calculate 197 * 181.
+A: 35657.
+
+
+Q: Calculate 272 + 606.
+A: 878.
+
+
+Q: Calculate 507 + 456.
+A: 963.
+
+
+Q: Calculate 125 * 170.
+A: 21250.
+
+
+Q: Calculate 247 + 847.
+A: 1094.
+
+
+Q: Calculate 323 + 317.
+A: 640.
+
+
+Q: Calculate 905 + 865.
+A: 1770.
+
+
+Q: Calculate 177 * 126.
+A: 22302.
+
+
+Q: Calculate 307 - 297.
+A: 10.
+
+
+Q: Calculate 806 - 783.
+A: 23.
+
+
+Q: Calculate 816 - 606.
+A: 210.
+
+
+Q: Calculate 938 - 829.
+A: 109.
+
+
+Q: Calculate 714 - 694.
+A: 20.
+
+
+Q: Calculate 132 * 192.
+A: 25344.
+
+
+Q: Calculate 144 + 668.
+A: 812.
+
+
+Q: Calculate 927 - 798.
+A: 129.
+
+
+Q: Calculate 640 - 577.
+A: 63.
+
+
+Q: Calculate 465 - 213.
+A: 252.
+
+
+Q: Calculate 927 - 590.
+A: 337.
+
+
+Q: Calculate 307 + 127.
+A: 434.
+
+
+Q: Calculate 729 - 130.
+A: 599.
+
+
+Q: Calculate 575 - 365.
+A: 210.
+
+
+Q: Calculate 683 + 762.
+A: 1445.
+
+
+Q: Calculate 134 * 158.
+A: 21172.
+
+
+Q: Calculate 941 - 146.
+A: 795.
+
+
+Q: Calculate 965 - 434.
+A: 531.
+
+
+Q: Calculate 966 + 457.
+A: 1423.
+
+
+Q: Calculate 527 - 487.
+A: 40.
+
+
+Q: Calculate 590 + 701.
+A: 1291.
+
+
+Q: Calculate 165 * 169.
+A: 27885.
+
+
+Q: Calculate 289 + 824.
+A: 1113.
+
+
+Q: Calculate 280 - 277.
+A: 3.
+
+
+Q: Calculate 137 * 177.
+A: 24249.
+
+
+Q: Calculate 768 - 271.
+A: 497.
+
+
+Q: Calculate 733 - 192.
+A: 541.
+
+
+Q: Calculate 857 - 612.
+A: 245.
+
+
+Q: Calculate 122 * 163.
+A: 19886.
+
+
+Q: Calculate 123 * 137.
+A: 16851.
+
+
+Q: Calculate 407 + 435.
+A: 842.
+
+
+Q: Calculate 848 - 362.
+A: 486.
+
+
+Q: Calculate 866 - 205.
+A: 661.
+
+
+Q: Calculate 164 * 168.
+A: 27552.
+
+
+Q: Calculate 417 + 364.
+A: 781.
+
+
+Q: Calculate 540 + 423.
+A: 963.
+
+
+Q: Calculate 712 + 119.
+A: 831.
+
+
+Q: Calculate 609 + 508.
+A: 1117.
+
+
+Q: Calculate 617 + 809.
+A: 1426.
+
+
+Q: Calculate 192 * 166.
+A: 31872.
+
+
+Q: Calculate 203 + 237.
+A: 440.
+
+
+Q: Calculate 419 - 399.
+A: 20.
+
+
+Q: Calculate 138 * 199.
+A: 27462.
+
+
+Q: Calculate 117 * 125.
+A: 14625.
+
+
+Q: Calculate 710 - 378.
+A: 332.
+
+
+Q: Calculate 542 - 456.
+A: 86.
+
+
+Q: Calculate 140 * 177.
+A: 24780.
+
+
+Q: Calculate 137 * 191.
+A: 26167.
+
+
+Q: Calculate 656 - 388.
+A: 268.
+
+
+Q: Calculate 131 * 197.
+A: 25807.
+
+
+Q: Calculate 933 - 215.
+A: 718.
+
+
+Q: Calculate 113 * 157.
+A: 17741.
+
+
+Q: Calculate 198 * 169.
+A: 33462.
+
+
+Q: Calculate 159 * 174.
+A: 27666.
+
+
+Q: Calculate 138 * 169.
+A: 23322.
+
+
+Q: Calculate 714 - 258.
+A: 456.
+
+
+Q: Calculate 978 - 793.
+A: 185.
+
+
+Q: Calculate 143 * 101.
+A: 14443.
+
+
+Q: Calculate 198 * 145.
+A: 28710.
+
+
+Q: Calculate 729 - 167.
+A: 562.
+
+
+Q: Calculate 765 - 652.
+A: 113.
+
+
+Q: Calculate 194 * 115.
+A: 22310.
+
+
+Q: Calculate 400 - 155.
+A: 245.
+
+
+Q: Calculate 578 - 410.
+A: 168.
+
+
+Q: Calculate 132 * 114.
+A: 15048.
+
+
+Q: Calculate 160 * 119.
+A: 19040.
+
+
+Q: Calculate 994 - 932.
+A: 62.
+
+
+Q: Calculate 260 + 392.
+A: 652.
+
+
+Q: Calculate 795 - 787.
+A: 8.
+
+
+Q: Calculate 608 + 119.
+A: 727.
+
+
+Q: Calculate 163 * 144.
+A: 23472.
+
+
+Q: Calculate 845 - 161.
+A: 684.
+
+
+Q: Calculate 145 * 149.
+A: 21605.
+
+
+Q: Calculate 363 - 157.
+A: 206.
+
+
+Q: Calculate 203 + 599.
+A: 802.
+
+
+Q: Calculate 355 + 976.
+A: 1331.
+
+
+Q: Calculate 226 + 822.
+A: 1048.
+
+
+Q: Calculate 930 + 510.
+A: 1440.
+
+
+Q: Calculate 141 * 133.
+A: 18753.
+
+
+Q: Calculate 514 + 449.
+A: 963.
+
+
+Q: Calculate 181 * 165.
+A: 29865.
+
+
+Q: Calculate 160 * 157.
+A: 25120.
+
+
+Q: Calculate 195 * 144.
+A: 28080.
+
+
+Q: Calculate 743 + 800.
+A: 1543.
+
+
+Q: Calculate 341 - 161.
+A: 180.
+
+
+Q: Calculate 134 * 182.
+A: 24388.
+
+
+Q: Calculate 304 - 190.
+A: 114.
+
+
+Q: Calculate 158 * 129.
+A: 20382.
+
+
+Q: Calculate 752 - 720.
+A: 32.
+
+
+Q: Calculate 577 - 343.
+A: 234.
+
+
+Q: Calculate 147 * 151.
+A: 22197.
+
+
+Q: Calculate 523 - 249.
+A: 274.
+
+
+Q: Calculate 462 + 477.
+A: 939.
+
+
+Q: Calculate 179 * 114.
+A: 20406.
+
+
+Q: Calculate 839 - 173.
+A: 666.
+
+
+Q: Calculate 371 - 333.
+A: 38.
+
+
+Q: Calculate 189 * 116.
+A: 21924.
+
+
+Q: Calculate 960 + 323.
+A: 1283.
+
+
+Q: Calculate 473 - 407.
+A: 66.
+
+
+Q: Calculate 680 - 272.
+A: 408.
+
+
+Q: Calculate 769 - 224.
+A: 545.
+
+
+Q: Calculate 154 * 124.
+A: 19096.
+
+
+Q: Calculate 629 - 198.
+A: 431.
+
+
+Q: Calculate 889 + 681.
+A: 1570.
+
+
+Q: Calculate 933 + 401.
+A: 1334.
+
+
+Q: Calculate 158 * 190.
+A: 30020.
+
+
+Q: Calculate 869 + 997.
+A: 1866.
+
+
+Q: Calculate 171 * 129.
+A: 22059.
+
+
+Q: Calculate 484 - 447.
+A: 37.
+
+
+Q: Calculate 161 * 173.
+A: 27853.
+
+
+Q: Calculate 135 * 176.
+A: 23760.
+
+
+Q: Calculate 473 - 162.
+A: 311.
+
+
+Q: Calculate 774 - 655.
+A: 119.
+
+
+Q: Calculate 683 + 766.
+A: 1449.
+
+
+Q: Calculate 456 + 226.
+A: 682.
+
+
+Q: Calculate 112 * 142.
+A: 15904.
+
+
+Q: Calculate 114 * 197.
+A: 22458.
+
+
+Q: Calculate 318 - 284.
+A: 34.
+
+
+Q: Calculate 732 + 952.
+A: 1684.
+
+
+Q: Calculate 537 + 615.
+A: 1152.
+
+
+Q: Calculate 861 + 802.
+A: 1663.
+
+
+Q: Calculate 162 * 164.
+A: 26568.
+
+
+Q: Calculate 776 + 871.
+A: 1647.
+
+
+Q: Calculate 915 - 815.
+A: 100.
+
+
+Q: Calculate 478 - 444.
+A: 34.
+
+
+Q: Calculate 148 * 171.
+A: 25308.
+
+
+Q: Calculate 742 + 763.
+A: 1505.
+
+
+Q: Calculate 486 + 675.
+A: 1161.
+
+
+Q: Calculate 101 * 116.
+A: 11716.
+
+
+Q: Calculate 355 - 183.
+A: 172.
+
+
+Q: Calculate 339 + 393.
+A: 732.
+
+
+Q: Calculate 154 * 130.
+A: 20020.
+
+
+Q: Calculate 405 + 419.
+A: 824.
+
+
+Q: Calculate 174 * 135.
+A: 23490.
+
+
+Q: Calculate 711 + 662.
+A: 1373.
+
+
+Q: Calculate 893 + 768.
+A: 1661.
+
+
+Q: Calculate 132 * 159.
+A: 20988.
+
+
+Q: Calculate 704 - 331.
+A: 373.
+
+
+Q: Calculate 756 + 741.
+A: 1497.
+
+
+Q: Calculate 989 - 502.
+A: 487.
+
+
+Q: Calculate 975 + 181.
+A: 1156.
+
+
+Q: Calculate 170 * 165.
+A: 28050.
+
+
+Q: Calculate 951 - 614.
+A: 337.
+
+
+Q: Calculate 927 - 452.
+A: 475.
+
+
+Q: Calculate 516 + 932.
+A: 1448.
+
+
+Q: Calculate 645 + 162.
+A: 807.
+
+
+Q: Calculate 267 + 709.
+A: 976.
+
+
+Q: Calculate 120 * 111.
+A: 13320.
+
+
+Q: Calculate 853 + 439.
+A: 1292.
+
+
+Q: Calculate 186 * 176.
+A: 32736.
+
+
+Q: Calculate 938 + 813.
+A: 1751.
+
+
+Q: Calculate 382 + 924.
+A: 1306.
+
+
+Q: Calculate 154 * 122.
+A: 18788.
+
+
+Q: Calculate 925 + 495.
+A: 1420.
+
+
+Q: Calculate 143 * 136.
+A: 19448.
+
+
+Q: Calculate 197 + 642.
+A: 839.
+
+
+Q: Calculate 745 + 704.
+A: 1449.
+
+
+Q: Calculate 735 + 919.
+A: 1654.
+
+
+Q: Calculate 104 * 121.
+A: 12584.
+
+
+Q: Calculate 189 * 104.
+A: 19656.
+
+
+Q: Calculate 125 * 143.
+A: 17875.
+
+
+Q: Calculate 570 + 714.
+A: 1284.
+
+
+Q: Calculate 198 + 205.
+A: 403.
+
+
+Q: Calculate 130 * 135.
+A: 17550.
+
+
+Q: Calculate 802 - 603.
+A: 199.
+
+
+Q: Calculate 480 + 137.
+A: 617.
+
+
+Q: Calculate 623 - 161.
+A: 462.
+
+
+Q: Calculate 772 - 363.
+A: 409.
+
+
+Q: Calculate 610 - 396.
+A: 214.
+
+
+Q: Calculate 899 + 844.
+A: 1743.
+
+
+Q: Calculate 190 * 181.
+A: 34390.
+
+
+Q: Calculate 168 * 193.
+A: 32424.
+
+
+Q: Calculate 513 + 604.
+A: 1117.
+
+
+Q: Calculate 828 - 546.
+A: 282.
+
+
+Q: Calculate 432 + 454.
+A: 886.
+
+
+Q: Calculate 353 + 887.
+A: 1240.
+
+
+Q: Calculate 576 - 441.
+A: 135.
+
+
+Q: Calculate 882 + 340.
+A: 1222.
+
+
+Q: Calculate 131 * 113.
+A: 14803.
+
+
+Q: Calculate 437 - 264.
+A: 173.
+
+
+Q: Calculate 868 + 759.
+A: 1627.
+
+
+Q: Calculate 553 + 652.
+A: 1205.
+
+
+Q: Calculate 911 - 749.
+A: 162.
+
+
+Q: Calculate 251 - 116.
+A: 135.
+
+
+Q: Calculate 939 - 171.
+A: 768.
+
+
+Q: Calculate 275 + 646.
+A: 921.
+
+
+Q: Calculate 103 * 176.
+A: 18128.
+
+
+Q: Calculate 960 - 156.
+A: 804.
+
+
+Q: Calculate 179 * 127.
+A: 22733.
+
+
+Q: Calculate 459 + 107.
+A: 566.
+
+
+Q: Calculate 521 - 224.
+A: 297.
+
+
+Q: Calculate 949 + 433.
+A: 1382.
+
+
+Q: Calculate 115 * 134.
+A: 15410.
+
+
+Q: Calculate 551 - 291.
+A: 260.
+
+
+Q: Calculate 647 + 163.
+A: 810.
+
+
+Q: Calculate 488 + 968.
+A: 1456.
+
+
+Q: Calculate 537 - 184.
+A: 353.
+
+
+Q: Calculate 109 * 153.
+A: 16677.
+
+
+Q: Calculate 741 - 452.
+A: 289.
+
+
+Q: Calculate 995 - 122.
+A: 873.
+
+
+Q: Calculate 154 * 104.
+A: 16016.
+
+
+Q: Calculate 194 * 139.
+A: 26966.
+
+
+Q: Calculate 129 * 158.
+A: 20382.
+
+
+Q: Calculate 913 + 327.
+A: 1240.
+
+
+Q: Calculate 318 + 187.
+A: 505.
+
+
+Q: Calculate 167 * 178.
+A: 29726.
+
+
+Q: Calculate 190 * 120.
+A: 22800.
+
+
+Q: Calculate 159 + 488.
+A: 647.
+
+
+Q: Calculate 125 * 187.
+A: 23375.
+
+
+Q: Calculate 397 - 211.
+A: 186.
+
+
+Q: Calculate 587 - 392.
+A: 195.
+
+
+Q: Calculate 404 + 428.
+A: 832.
+
+
+Q: Calculate 780 - 513.
+A: 267.
+
+
+Q: Calculate 114 * 111.
+A: 12654.
+
+
+Q: Calculate 887 - 619.
+A: 268.
+
+
+Q: Calculate 986 - 336.
+A: 650.
+
+
+Q: Calculate 787 - 306.
+A: 481.
+
+
+Q: Calculate 840 + 503.
+A: 1343.
+
+
+Q: Calculate 837 + 760.
+A: 1597.
+
+
+Q: Calculate 470 - 393.
+A: 77.
+
+
+Q: Calculate 169 * 165.
+A: 27885.
+
+
+Q: Calculate 742 - 284.
+A: 458.
+
+
+Q: Calculate 845 - 495.
+A: 350.
+
+
+Q: Calculate 543 + 943.
+A: 1486.
+
+
+Q: Calculate 735 - 674.
+A: 61.
+
+
+Q: Calculate 101 * 148.
+A: 14948.
+
+
+Q: Calculate 123 + 139.
+A: 262.
+
+
+Q: Calculate 900 - 123.
+A: 777.
+
+
+Q: Calculate 145 * 176.
+A: 25520.
+
+
+Q: Calculate 191 * 129.
+A: 24639.
+
+
+Q: Calculate 400 - 322.
+A: 78.
+
+
+Q: Calculate 851 - 124.
+A: 727.
+
+
+Q: Calculate 417 - 212.
+A: 205.
+
+
+Q: Calculate 657 - 419.
+A: 238.
+
+
+Q: Calculate 831 - 741.
+A: 90.
+
+
+Q: Calculate 131 * 172.
+A: 22532.
+
+
+Q: Calculate 171 * 143.
+A: 24453.
+
+
+Q: Calculate 166 * 154.
+A: 25564.
+
+
+Q: Calculate 138 * 160.
+A: 22080.
+
+
+Q: Calculate 162 + 250.
+A: 412.
+
+
+Q: Calculate 953 - 729.
+A: 224.
+
+
+Q: Calculate 763 + 953.
+A: 1716.
+
+
+Q: Calculate 807 + 706.
+A: 1513.
+
+
+Q: Calculate 813 - 555.
+A: 258.
+
+
+Q: Calculate 686 - 329.
+A: 357.
+
+
+Q: Calculate 700 + 877.
+A: 1577.
+
+
+Q: Calculate 562 + 588.
+A: 1150.
+
+
+Q: Calculate 115 * 144.
+A: 16560.
+
+
+Q: Calculate 764 - 537.
+A: 227.
+
+
+Q: Calculate 129 * 156.
+A: 20124.
+
+
+Q: Calculate 290 + 572.
+A: 862.
+
+
+Q: Calculate 155 - 109.
+A: 46.
+
+
+Q: Calculate 309 + 619.
+A: 928.
+
+
+Q: Calculate 539 + 911.
+A: 1450.
+
+
+Q: Calculate 155 * 184.
+A: 28520.
+
+
+Q: Calculate 328 + 917.
+A: 1245.
+
+
+Q: Calculate 108 * 152.
+A: 16416.
+
+
+Q: Calculate 164 * 155.
+A: 25420.
+
+
+Q: Calculate 366 - 262.
+A: 104.
+
+
+Q: Calculate 396 - 386.
+A: 10.
+
+
+Q: Calculate 168 + 993.
+A: 1161.
+
+
+Q: Calculate 925 + 493.
+A: 1418.
+
+
+Q: Calculate 940 - 419.
+A: 521.
+
+
+Q: Calculate 902 + 566.
+A: 1468.
+
+
+Q: Calculate 996 + 125.
+A: 1121.
+
+
+Q: Calculate 798 - 364.
+A: 434.
+
+
+Q: Calculate 955 + 144.
+A: 1099.
+
+
+Q: Calculate 971 - 935.
+A: 36.
+
+
+Q: Calculate 677 + 998.
+A: 1675.
+
+
+Q: Calculate 795 - 534.
+A: 261.
+
+
+Q: Calculate 692 - 434.
+A: 258.
+
+
+Q: Calculate 480 + 808.
+A: 1288.
+
+
+Q: Calculate 556 + 409.
+A: 965.
+
+
+Q: Calculate 160 * 164.
+A: 26240.
+
+
+Q: Calculate 862 - 644.
+A: 218.
+
+
+Q: Calculate 892 - 588.
+A: 304.
+
+
+Q: Calculate 693 - 166.
+A: 527.
+
+
+Q: Calculate 672 - 623.
+A: 49.
+
+
+Q: Calculate 191 * 126.
+A: 24066.
+
+
+Q: Calculate 776 + 303.
+A: 1079.
+
+
+Q: Calculate 781 - 673.
+A: 108.
+
+
+Q: Calculate 967 + 612.
+A: 1579.
+
+
+Q: Calculate 932 - 467.
+A: 465.
+
+
+Q: Calculate 159 * 121.
+A: 19239.
+
+
+Q: Calculate 844 + 770.
+A: 1614.
+
+
+Q: Calculate 323 + 206.
+A: 529.
+
+
+Q: Calculate 424 + 946.
+A: 1370.
+
+
+Q: Calculate 439 + 837.
+A: 1276.
+
+
+Q: Calculate 615 + 422.
+A: 1037.
+
+
+Q: Calculate 202 + 975.
+A: 1177.
+
+
+Q: Calculate 129 * 121.
+A: 15609.
+
+
+Q: Calculate 531 + 842.
+A: 1373.
+
+
+Q: Calculate 253 + 468.
+A: 721.
+
+
+Q: Calculate 113 * 151.
+A: 17063.
+
+
+Q: Calculate 745 - 497.
+A: 248.
+
+
+Q: Calculate 184 * 105.
+A: 19320.
+
+
+Q: Calculate 853 - 800.
+A: 53.
+
+
+Q: Calculate 167 - 164.
+A: 3.
+
+
+Q: Calculate 140 * 127.
+A: 17780.
+
+
+Q: Calculate 120 * 150.
+A: 18000.
+
+
+Q: Calculate 877 - 777.
+A: 100.
+
+
+Q: Calculate 855 - 182.
+A: 673.
+
+
+Q: Calculate 141 * 184.
+A: 25944.
+
+
+Q: Calculate 178 + 783.
+A: 961.
+
+
+Q: Calculate 117 * 192.
+A: 22464.
+
+
+Q: Calculate 832 - 776.
+A: 56.
+
+
+Q: Calculate 101 * 156.
+A: 15756.
+
+
+Q: Calculate 745 - 135.
+A: 610.
+
+
+Q: Calculate 102 * 149.
+A: 15198.
+
+
+Q: Calculate 363 + 633.
+A: 996.
+
+
+Q: Calculate 174 * 122.
+A: 21228.
+
+
+Q: Calculate 533 - 121.
+A: 412.
+
+
+Q: Calculate 717 + 737.
+A: 1454.
+
+
+Q: Calculate 156 * 126.
+A: 19656.
+
+
+Q: Calculate 294 + 156.
+A: 450.
+
+
+Q: Calculate 964 + 765.
+A: 1729.
+
+
+Q: Calculate 986 + 999.
+A: 1985.
+
+
+Q: Calculate 150 * 154.
+A: 23100.
+
+
+Q: Calculate 159 + 277.
+A: 436.
+
+
+Q: Calculate 396 - 338.
+A: 58.
+
+
+Q: Calculate 164 * 135.
+A: 22140.
+
+
+Q: Calculate 933 + 835.
+A: 1768.
+
+
+Q: Calculate 186 * 170.
+A: 31620.
+
+
+Q: Calculate 161 * 156.
+A: 25116.
+
+
+Q: Calculate 968 - 514.
+A: 454.
+
+
+Q: Calculate 340 - 290.
+A: 50.
+
+
+Q: Calculate 594 + 486.
+A: 1080.
+
+
+Q: Calculate 123 * 197.
+A: 24231.
+
+
+Q: Calculate 566 - 113.
+A: 453.
+
+
+Q: Calculate 944 + 851.
+A: 1795.
+
+
+Q: Calculate 398 - 296.
+A: 102.
+
+
+Q: Calculate 332 + 634.
+A: 966.
+
+
+Q: Calculate 955 + 205.
+A: 1160.
+
+
+Q: Calculate 152 * 159.
+A: 24168.
+
+
+Q: Calculate 739 + 230.
+A: 969.
+
+
+Q: Calculate 939 - 304.
+A: 635.
+
+
+Q: Calculate 366 + 384.
+A: 750.
+
+
+Q: Calculate 615 - 229.
+A: 386.
+
+
+Q: Calculate 540 - 295.
+A: 245.
+
+
+Q: Calculate 266 + 100.
+A: 366.
+
+
+Q: Calculate 173 * 177.
+A: 30621.
+
+
+Q: Calculate 367 + 625.
+A: 992.
+
+
+Q: Calculate 584 + 410.
+A: 994.
+
+
+Q: Calculate 310 - 188.
+A: 122.
+
+
+Q: Calculate 783 + 216.
+A: 999.
+
+
+Q: Calculate 567 - 212.
+A: 355.
+
+
+Q: Calculate 666 - 549.
+A: 117.
+
+
+Q: Calculate 616 + 692.
+A: 1308.
+
+
+Q: Calculate 761 - 462.
+A: 299.
+
+
+Q: Calculate 143 + 744.
+A: 887.
+
+
+Q: Calculate 682 - 171.
+A: 511.
+
+
+Q: Calculate 882 + 877.
+A: 1759.
+
+
+Q: Calculate 796 + 646.
+A: 1442.
+
+
+Q: Calculate 247 + 698.
+A: 945.
+
+
+Q: Calculate 323 - 320.
+A: 3.
+
+
+Q: Calculate 551 - 220.
+A: 331.
+
+
+Q: Calculate 187 * 182.
+A: 34034.
+
+
+Q: Calculate 156 * 146.
+A: 22776.
+
+
+Q: Calculate 619 + 610.
+A: 1229.
+
+
+Q: Calculate 670 - 372.
+A: 298.
+
+
+Q: Calculate 115 + 695.
+A: 810.
+
+
+Q: Calculate 170 * 174.
+A: 29580.
+
+
+Q: Calculate 911 + 592.
+A: 1503.
+
+
+Q: Calculate 549 - 407.
+A: 142.
+
+
+Q: Calculate 101 * 170.
+A: 17170.
+
+
+Q: Calculate 655 + 207.
+A: 862.
+
+
+Q: Calculate 169 * 129.
+A: 21801.
+
+
+Q: Calculate 974 + 472.
+A: 1446.
+
+
+Q: Calculate 601 - 562.
+A: 39.
+
+
+Q: Calculate 252 - 228.
+A: 24.
+
+
+Q: Calculate 132 * 129.
+A: 17028.
+
+
+Q: Calculate 860 + 589.
+A: 1449.
+
+
+Q: Calculate 708 + 276.
+A: 984.
+
+
+Q: Calculate 693 - 448.
+A: 245.
+
+
+Q: Calculate 130 * 177.
+A: 23010.
+
+
+Q: Calculate 439 - 304.
+A: 135.
+
+
+Q: Calculate 808 - 585.
+A: 223.
+
+
+Q: Calculate 928 + 817.
+A: 1745.
+
+
+Q: Calculate 178 * 115.
+A: 20470.
+
+
+Q: Calculate 707 - 372.
+A: 335.
+
+
+Q: Calculate 142 * 169.
+A: 23998.
+
+
+Q: Calculate 681 - 395.
+A: 286.
+
+
+Q: Calculate 640 - 487.
+A: 153.
+
+
+Q: Calculate 198 * 182.
+A: 36036.
+
+
+Q: Calculate 911 - 790.
+A: 121.
+
+
+Q: Calculate 952 - 606.
+A: 346.
+
+
+Q: Calculate 106 * 129.
+A: 13674.
+
+
+Q: Calculate 857 - 756.
+A: 101.
+
+
+Q: Calculate 157 * 174.
+A: 27318.
+
+
+Q: Calculate 138 * 113.
+A: 15594.
+
+
+Q: Calculate 976 - 907.
+A: 69.
+
+
+Q: Calculate 837 - 537.
+A: 300.
+
+
+Q: Calculate 625 - 552.
+A: 73.
+
+
+Q: Calculate 141 * 116.
+A: 16356.
+
+
+Q: Calculate 119 * 132.
+A: 15708.
+
+
+Q: Calculate 180 * 181.
+A: 32580.
+
+
+Q: Calculate 180 * 175.
+A: 31500.
+
+
+Q: Calculate 253 - 145.
+A: 108.
+
+
+Q: Calculate 158 * 104.
+A: 16432.
+
+
+Q: Calculate 662 - 617.
+A: 45.
+
+
+Q: Calculate 970 - 879.
+A: 91.
+
+
+Q: Calculate 141 * 187.
+A: 26367.
+
+
+Q: Calculate 559 + 446.
+A: 1005.
+
+
+Q: Calculate 157 + 884.
+A: 1041.
+
+
+Q: Calculate 946 - 100.
+A: 846.
+
+
+Q: Calculate 560 + 900.
+A: 1460.
+
+
+Q: Calculate 186 * 128.
+A: 23808.
+
+
+Q: Calculate 154 * 155.
+A: 23870.
+
+
+Q: Calculate 195 * 143.
+A: 27885.
+
+
+Q: Calculate 829 + 645.
+A: 1474.
+
+
+Q: Calculate 184 * 149.
+A: 27416.
+
+
+Q: Calculate 455 - 166.
+A: 289.
+
+
+Q: Calculate 842 + 172.
+A: 1014.
+
+
+Q: Calculate 335 + 738.
+A: 1073.
+
+
+Q: Calculate 268 + 332.
+A: 600.
+
+
+Q: Calculate 162 * 152.
+A: 24624.
+
+
+Q: Calculate 790 + 580.
+A: 1370.
+
+
+Q: Calculate 272 + 805.
+A: 1077.
+
+
+Q: Calculate 153 * 125.
+A: 19125.
+
+
+Q: Calculate 497 + 951.
+A: 1448.
+
+
+Q: Calculate 115 * 104.
+A: 11960.
+
+
+Q: Calculate 178 * 179.
+A: 31862.
+
+
+Q: Calculate 668 - 557.
+A: 111.
+
+
+Q: Calculate 800 + 553.
+A: 1353.
+
+
+Q: Calculate 194 * 161.
+A: 31234.
+
+
+Q: Calculate 571 + 918.
+A: 1489.
+
+
+Q: Calculate 359 - 227.
+A: 132.
+
+
+Q: Calculate 737 - 279.
+A: 458.
+
+
+Q: Calculate 671 + 424.
+A: 1095.
+
+
+Q: Calculate 107 * 162.
+A: 17334.
+
+
+Q: Calculate 194 + 613.
+A: 807.
+
+
+Q: Calculate 131 + 678.
+A: 809.
+
+
+Q: Calculate 813 - 346.
+A: 467.
+
+
+Q: Calculate 620 + 718.
+A: 1338.
+
+
+Q: Calculate 807 - 781.
+A: 26.
+
+
+Q: Calculate 185 * 190.
+A: 35150.
+
+
+Q: Calculate 107 + 312.
+A: 419.
+
+
+Q: Calculate 222 - 203.
+A: 19.
+
+
+Q: Calculate 597 - 397.
+A: 200.
+
+
+Q: Calculate 558 - 552.
+A: 6.
+
+
+Q: Calculate 842 - 704.
+A: 138.
+
+
+Q: Calculate 152 - 137.
+A: 15.
+
+
+Q: Calculate 157 * 148.
+A: 23236.
+
+
+Q: Calculate 544 - 131.
+A: 413.
+
+
+Q: Calculate 227 - 101.
+A: 126.
+
+
+Q: Calculate 928 + 892.
+A: 1820.
+
+
+Q: Calculate 163 * 103.
+A: 16789.
+
+
+Q: Calculate 119 * 182.
+A: 21658.
+
+
+Q: Calculate 110 * 180.
+A: 19800.
+
+
+Q: Calculate 762 - 607.
+A: 155.
+
+
+Q: Calculate 141 * 146.
+A: 20586.
+
+
+Q: Calculate 528 - 368.
+A: 160.
+
+
+Q: Calculate 833 - 812.
+A: 21.
+
+
+Q: Calculate 485 + 655.
+A: 1140.
+
+
+Q: Calculate 103 * 147.
+A: 15141.
+
+
+Q: Calculate 614 + 451.
+A: 1065.
+
+
+Q: Calculate 941 - 738.
+A: 203.
+
+
+Q: Calculate 708 + 814.
+A: 1522.
+
+
+Q: Calculate 495 + 830.
+A: 1325.
+
+
+Q: Calculate 499 + 971.
+A: 1470.
+
+
+Q: Calculate 677 + 846.
+A: 1523.
+
+
+Q: Calculate 158 * 119.
+A: 18802.
+
+
+Q: Calculate 958 + 782.
+A: 1740.
+
+
+Q: Calculate 949 + 186.
+A: 1135.
+
+
+Q: Calculate 808 - 445.
+A: 363.
+
+
+Q: Calculate 458 + 424.
+A: 882.
+
+
+Q: Calculate 802 - 206.
+A: 596.
+
+
+Q: Calculate 898 - 469.
+A: 429.
+
+
+Q: Calculate 142 * 112.
+A: 15904.
+
+
+Q: Calculate 575 + 935.
+A: 1510.
+
+
+Q: Calculate 326 + 295.
+A: 621.
+
+
+Q: Calculate 634 - 619.
+A: 15.
+
+
+Q: Calculate 465 - 462.
+A: 3.
+
+
+Q: Calculate 594 + 566.
+A: 1160.
+
+
+Q: Calculate 145 * 191.
+A: 27695.
+
+
+Q: Calculate 170 * 123.
+A: 20910.
+
+
+Q: Calculate 543 + 636.
+A: 1179.
+
+
+Q: Calculate 469 - 365.
+A: 104.
+
+
+Q: Calculate 710 + 444.
+A: 1154.
+
+
+Q: Calculate 330 + 625.
+A: 955.
+
+
+Q: Calculate 774 + 537.
+A: 1311.
+
+
+Q: Calculate 181 * 186.
+A: 33666.
+
+
+Q: Calculate 110 * 179.
+A: 19690.
+
+
+Q: Calculate 187 * 175.
+A: 32725.
+
+
+Q: Calculate 854 + 123.
+A: 977.
+
+
+Q: Calculate 164 + 947.
+A: 1111.
+
+
+Q: Calculate 111 * 190.
+A: 21090.
+
+
+Q: Calculate 107 * 170.
+A: 18190.
+
+
+Q: Calculate 103 * 175.
+A: 18025.
+
+
+Q: Calculate 624 - 317.
+A: 307.
+
+
+Q: Calculate 476 - 140.
+A: 336.
+
+
+Q: Calculate 499 + 150.
+A: 649.
+
+
+Q: Calculate 969 + 449.
+A: 1418.
+
+
+Q: Calculate 875 - 397.
+A: 478.
+
+
+Q: Calculate 109 * 157.
+A: 17113.
+
+
+Q: Calculate 870 - 603.
+A: 267.
+
+
+Q: Calculate 653 - 251.
+A: 402.
+
+
+Q: Calculate 144 * 198.
+A: 28512.
+
+
+Q: Calculate 531 + 194.
+A: 725.
+
+
+Q: Calculate 860 + 482.
+A: 1342.
+
+
+Q: Calculate 795 - 138.
+A: 657.
+
+
+Q: Calculate 101 * 115.
+A: 11615.
+
+
+Q: Calculate 859 - 809.
+A: 50.
+
+
+Q: Calculate 772 - 725.
+A: 47.
+
+
+Q: Calculate 241 - 131.
+A: 110.
+
+
+Q: Calculate 503 + 776.
+A: 1279.
+
+
+Q: Calculate 902 + 966.
+A: 1868.
+
+
+Q: Calculate 977 + 147.
+A: 1124.
+
+
+Q: Calculate 153 * 166.
+A: 25398.
+
+
+Q: Calculate 488 - 331.
+A: 157.
+
+
+Q: Calculate 219 - 112.
+A: 107.
+
+
+Q: Calculate 859 + 534.
+A: 1393.
+
+
+Q: Calculate 987 - 254.
+A: 733.
+
+
+Q: Calculate 230 + 149.
+A: 379.
+
+
+Q: Calculate 157 * 114.
+A: 17898.
+
+
+Q: Calculate 786 - 179.
+A: 607.
+
+
+Q: Calculate 189 * 144.
+A: 27216.
+
+
+Q: Calculate 816 + 191.
+A: 1007.
+
+
+Q: Calculate 154 * 190.
+A: 29260.
+
+
+Q: Calculate 923 + 300.
+A: 1223.
+
+
+Q: Calculate 870 - 828.
+A: 42.
+
+
+Q: Calculate 117 * 182.
+A: 21294.
+
+
+Q: Calculate 682 - 519.
+A: 163.
+
+
+Q: Calculate 670 - 360.
+A: 310.
+
+
+Q: Calculate 192 * 170.
+A: 32640.
+
+
+Q: Calculate 198 * 177.
+A: 35046.
+
+
+Q: Calculate 108 + 367.
+A: 475.
+
+
+Q: Calculate 957 + 864.
+A: 1821.
+
+
+Q: Calculate 158 * 139.
+A: 21962.
+
+
+Q: Calculate 287 + 723.
+A: 1010.
+
+
+Q: Calculate 139 * 108.
+A: 15012.
+
+
+Q: Calculate 177 * 106.
+A: 18762.
+
+
+Q: Calculate 803 + 748.
+A: 1551.
+
+
+Q: Calculate 452 - 146.
+A: 306.
+
+
+Q: Calculate 838 - 119.
+A: 719.
+
+
+Q: Calculate 310 + 372.
+A: 682.
+
+
+Q: Calculate 187 * 121.
+A: 22627.
+
+
+Q: Calculate 258 + 723.
+A: 981.
+
+
+Q: Calculate 370 + 238.
+A: 608.
+
+
+Q: Calculate 711 - 592.
+A: 119.
+
+
+Q: Calculate 425 - 338.
+A: 87.
+
+
+Q: Calculate 178 * 117.
+A: 20826.
+
+
+Q: Calculate 677 + 374.
+A: 1051.
+
+
+Q: Calculate 157 * 120.
+A: 18840.
+
+
+Q: Calculate 930 + 692.
+A: 1622.
+
+
+Q: Calculate 194 * 155.
+A: 30070.
+
+
+Q: Calculate 117 * 147.
+A: 17199.
+
+
+Q: Calculate 299 + 162.
+A: 461.
+
+
+Q: Calculate 153 * 179.
+A: 27387.
+
+
+Q: Calculate 948 + 702.
+A: 1650.
+
+
+Q: Calculate 769 + 584.
+A: 1353.
+
+
+Q: Calculate 639 - 469.
+A: 170.
+
+
+Q: Calculate 105 * 136.
+A: 14280.
+
+
+Q: Calculate 590 + 311.
+A: 901.
+
+
+Q: Calculate 804 - 291.
+A: 513.
+
+
+Q: Calculate 590 - 564.
+A: 26.
+
+
+Q: Calculate 171 + 404.
+A: 575.
+
+
+Q: Calculate 436 + 990.
+A: 1426.
+
+
+Q: Calculate 223 + 738.
+A: 961.
+
+
+Q: Calculate 170 * 171.
+A: 29070.
+
+
+Q: Calculate 860 - 485.
+A: 375.
+
+
+Q: Calculate 190 * 138.
+A: 26220.
+
+
+Q: Calculate 106 * 180.
+A: 19080.
+
+
+Q: Calculate 345 + 606.
+A: 951.
+
+
+Q: Calculate 988 - 495.
+A: 493.
+
+
+Q: Calculate 453 + 429.
+A: 882.
+
+
+Q: Calculate 197 - 127.
+A: 70.
+
+
+Q: Calculate 446 - 263.
+A: 183.
+
+
+Q: Calculate 121 * 105.
+A: 12705.
+
+
+Q: Calculate 377 + 820.
+A: 1197.
+
+
+Q: Calculate 332 - 178.
+A: 154.
+
+
+Q: Calculate 102 + 949.
+A: 1051.
+
+
+Q: Calculate 149 * 133.
+A: 19817.
+
+
+Q: Calculate 993 - 986.
+A: 7.
+
+
+Q: Calculate 594 - 380.
+A: 214.
+
+
+Q: Calculate 231 - 193.
+A: 38.
+
+
+Q: Calculate 734 - 398.
+A: 336.
+
+
+Q: Calculate 125 * 168.
+A: 21000.
+
+
+Q: Calculate 187 + 140.
+A: 327.
+
+
+Q: Calculate 941 + 570.
+A: 1511.
+
+
+Q: Calculate 761 + 967.
+A: 1728.
+
+
+Q: Calculate 757 - 667.
+A: 90.
+
+
+Q: Calculate 110 + 215.
+A: 325.
+
+
+Q: Calculate 532 - 475.
+A: 57.
+
+
+Q: Calculate 889 + 323.
+A: 1212.
+
+
+Q: Calculate 617 - 615.
+A: 2.
+
+
+Q: Calculate 469 - 353.
+A: 116.
+
+
+Q: Calculate 137 * 123.
+A: 16851.
+
+
+Q: Calculate 379 - 290.
+A: 89.
+
+
+Q: Calculate 882 - 726.
+A: 156.
+
+
+Q: Calculate 993 - 703.
+A: 290.
+
+
+Q: Calculate 185 * 140.
+A: 25900.
+
+
+Q: Calculate 961 - 804.
+A: 157.
+
+
+Q: Calculate 117 * 142.
+A: 16614.
+
+
+Q: Calculate 380 + 310.
+A: 690.
+
+
+Q: Calculate 693 - 477.
+A: 216.
+
+
+Q: Calculate 977 - 844.
+A: 133.
+
+
+Q: Calculate 102 * 143.
+A: 14586.
+
+
+Q: Calculate 797 + 907.
+A: 1704.
+
+
+Q: Calculate 583 - 485.
+A: 98.
+
+
+Q: Calculate 638 - 205.
+A: 433.
+
+
+Q: Calculate 460 + 634.
+A: 1094.
+
+
+Q: Calculate 130 * 118.
+A: 15340.
+
+
+Q: Calculate 481 + 952.
+A: 1433.
+
+
+Q: Calculate 356 + 260.
+A: 616.
+
+
+Q: Calculate 428 - 401.
+A: 27.
+
+
+Q: Calculate 891 - 233.
+A: 658.
+
+
+Q: Calculate 180 * 143.
+A: 25740.
+
+
+Q: Calculate 101 * 193.
+A: 19493.
+
+
+Q: Calculate 865 - 321.
+A: 544.
+
+
+Q: Calculate 226 + 989.
+A: 1215.
+
+
+Q: Calculate 187 * 181.
+A: 33847.
+
+
+Q: Calculate 606 - 433.
+A: 173.
+
+
+Q: Calculate 471 + 631.
+A: 1102.
+
+
+Q: Calculate 169 * 139.
+A: 23491.
+
+
+Q: Calculate 103 * 169.
+A: 17407.
+
+
+Q: Calculate 927 + 113.
+A: 1040.
+
+
+Q: Calculate 105 * 101.
+A: 10605.
+
+
+Q: Calculate 174 * 105.
+A: 18270.
+
+
+Q: Calculate 887 + 471.
+A: 1358.
+
+
+Q: Calculate 759 - 544.
+A: 215.
+
+
+Q: Calculate 938 - 559.
+A: 379.
+
+
+Q: Calculate 970 - 314.
+A: 656.
+
+
+Q: Calculate 172 * 109.
+A: 18748.
+
+
+Q: Calculate 520 - 360.
+A: 160.
+
+
+Q: Calculate 181 * 188.
+A: 34028.
+
+
+Q: Calculate 362 + 670.
+A: 1032.
+
+
+Q: Calculate 120 * 170.
+A: 20400.
+
+
+Q: Calculate 459 + 156.
+A: 615.
+
+
+Q: Calculate 778 + 602.
+A: 1380.
+
+
+Q: Calculate 153 * 160.
+A: 24480.
+
+
+Q: Calculate 220 + 643.
+A: 863.
+
+
+Q: Calculate 317 - 187.
+A: 130.
+
+
+Q: Calculate 448 - 416.
+A: 32.
+
+
+Q: Calculate 322 - 271.
+A: 51.
+
+
+Q: Calculate 352 + 289.
+A: 641.
+
+
+Q: Calculate 779 - 680.
+A: 99.
+
+
+Q: Calculate 949 + 649.
+A: 1598.
+
+
+Q: Calculate 840 - 331.
+A: 509.
+
+
+Q: Calculate 109 * 131.
+A: 14279.
+
+
+Q: Calculate 172 * 181.
+A: 31132.
+
+
+Q: Calculate 811 - 578.
+A: 233.
+
+
+Q: Calculate 600 - 534.
+A: 66.
+
+
+Q: Calculate 112 * 195.
+A: 21840.
+
+
+Q: Calculate 717 + 525.
+A: 1242.
+
+
+Q: Calculate 402 + 603.
+A: 1005.
+
+
+Q: Calculate 147 * 199.
+A: 29253.
+
+
+Q: Calculate 756 - 109.
+A: 647.
+
+
+Q: Calculate 185 * 156.
+A: 28860.
+
+
+Q: Calculate 176 * 137.
+A: 24112.
+
+
+Q: Calculate 686 + 668.
+A: 1354.
+
+
+Q: Calculate 146 * 166.
+A: 24236.
+
+
+Q: Calculate 191 * 161.
+A: 30751.
+
+
+Q: Calculate 169 * 153.
+A: 25857.
+
+
+Q: Calculate 504 + 156.
+A: 660.
+
+
+Q: Calculate 149 * 117.
+A: 17433.
+
+
+Q: Calculate 168 * 140.
+A: 23520.
+
+
+Q: Calculate 124 * 135.
+A: 16740.
+
+
+Q: Calculate 130 * 101.
+A: 13130.
+
+
+Q: Calculate 122 * 154.
+A: 18788.
+
+
+Q: Calculate 126 * 175.
+A: 22050.
+
+
+Q: Calculate 410 + 497.
+A: 907.
+
+
+Q: Calculate 134 * 149.
+A: 19966.
+
+
+Q: Calculate 189 * 119.
+A: 22491.
+
+
+Q: Calculate 189 + 827.
+A: 1016.
+
+
+Q: Calculate 559 + 600.
+A: 1159.
+
+
+Q: Calculate 607 + 848.
+A: 1455.
+
+
+Q: Calculate 521 - 141.
+A: 380.
+
+
+Q: Calculate 594 - 350.
+A: 244.
+
+
+Q: Calculate 466 - 357.
+A: 109.
+
+
+Q: Calculate 181 * 185.
+A: 33485.
+
+
+Q: Calculate 601 + 446.
+A: 1047.
+
+
+Q: Calculate 926 - 388.
+A: 538.
+
+
+Q: Calculate 178 * 198.
+A: 35244.
+
+
+Q: Calculate 362 + 320.
+A: 682.
+
+
+Q: Calculate 302 - 178.
+A: 124.
+
+
+Q: Calculate 822 - 272.
+A: 550.
+
+
+Q: Calculate 851 + 793.
+A: 1644.
+
+
+Q: Calculate 305 - 154.
+A: 151.
+
+
+Q: Calculate 328 + 379.
+A: 707.
+
+
+Q: Calculate 373 - 112.
+A: 261.
+
+
+Q: Calculate 499 - 480.
+A: 19.
+
+
+Q: Calculate 777 - 331.
+A: 446.
+
+
+Q: Calculate 913 + 662.
+A: 1575.
+
+
+Q: Calculate 299 - 187.
+A: 112.
+
+
+Q: Calculate 189 * 190.
+A: 35910.
+
+
+Q: Calculate 945 - 120.
+A: 825.
+
+
+Q: Calculate 898 - 887.
+A: 11.
+
+
+Q: Calculate 603 - 233.
+A: 370.
+
+
+Q: Calculate 562 - 282.
+A: 280.
+
+
+Q: Calculate 555 - 162.
+A: 393.
+
+
+Q: Calculate 440 - 131.
+A: 309.
+
+
+Q: Calculate 161 * 161.
+A: 25921.
+

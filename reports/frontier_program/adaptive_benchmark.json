@@ -1,0 +1,95 @@
+{
+ "tool_discovery": {
+  "tasks": 4,
+  "baseline": {
+   "success_rate": 0.0,
+   "mean_wall_s": 0.0,
+   "mean_retries": 0.0
+  },
+  "adaptive": {
+   "success_rate": 1.0,
+   "mean_wall_s": 0.0,
+   "mean_retries": 1.0
+  },
+  "delta_success": 1.0,
+  "verdict": "adaptive-better",
+  "metrics": {
+   "tool-discovery:baseline": {
+    "tasks": 4,
+    "first_attempt_success_rate": 0.0,
+    "mistake_recovery_rate": 0.0,
+    "repeated_failure_rate": 0.0,
+    "learning_efficiency": null,
+    "mean_retries": 0.0,
+    "mean_wall_s": 0.0
+   },
+   "tool-discovery:adaptive": {
+    "tasks": 4,
+    "first_attempt_success_rate": 0.0,
+    "mistake_recovery_rate": 1.0,
+    "repeated_failure_rate": 0.0,
+    "learning_efficiency": null,
+    "mean_retries": 1.0,
+    "mean_wall_s": 0.0
+   }
+  },
+  "family": "tool-discovery",
+  "held_out": true
+ },
+ "rule_discovery": {
+  "tasks": 4,
+  "baseline": {
+   "success_rate": 0.0,
+   "mean_wall_s": 0.0,
+   "mean_retries": 0.0
+  },
+  "adaptive": {
+   "success_rate": 1.0,
+   "mean_wall_s": 0.0,
+   "mean_retries": 1.0
+  },
+  "delta_success": 1.0,
+  "verdict": "adaptive-better",
+  "metrics": {
+   "rule-discovery:baseline": {
+    "tasks": 4,
+    "first_attempt_success_rate": 0.0,
+    "mistake_recovery_rate": 0.0,
+    "repeated_failure_rate": 0.0,
+    "learning_efficiency": null,
+    "mean_retries": 0.0,
+    "mean_wall_s": 0.0
+   },
+   "rule-discovery:adaptive": {
+    "tasks": 4,
+    "first_attempt_success_rate": 0.0,
+    "mistake_recovery_rate": 1.0,
+    "repeated_failure_rate": 0.75,
+    "learning_efficiency": null,
+    "mean_retries": 1.0,
+    "mean_wall_s": 0.0
+   }
+  },
+  "family": "rule-discovery",
+  "held_out": true
+ },
+ "world_model": {
+  "rule_confirmed": true,
+  "confidence": 1.0,
+  "entities": {
+   "vault": {
+    "value": "open",
+    "seen": 2,
+    "changes": 1
+   },
+   "last": {
+    "value": [
+     "PING",
+     "OPEN"
+    ],
+    "seen": 2,
+    "changes": 1
+   }
+  }
+ }
+}

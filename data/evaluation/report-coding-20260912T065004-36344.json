@@ -1,0 +1,75 @@
+{
+  "run_id": "coding-20260912T065004-36344",
+  "scope": "coding",
+  "version": "1.1.0",
+  "model": "mock",
+  "provider": "ollama",
+  "started_at": "2026-09-12T06:50:04.628736+00:00",
+  "wall_ms": 449.3,
+  "counts": {
+    "passed": 0,
+    "failed": 2,
+    "skipped": 0,
+    "error": 0,
+    "timeout": 0
+  },
+  "mean_ms": 224.6,
+  "median_ms": 224.6,
+  "p95_ms": 242.0,
+  "categories": {
+    "CODING": {
+      "tasks": 2,
+      "passed": 0,
+      "failed": 2,
+      "skipped": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "accuracy": 0.0,
+      "mean_ms": 224.6,
+      "median_ms": 224.6,
+      "p95_ms": 242.0
+    }
+  },
+  "results": [
+    {
+      "task_id": "coding-humaneval-style-001",
+      "suite_id": "coding",
+      "category": "CODING",
+      "outcome": "failed",
+      "score": 0.0,
+      "latency_ms": 242.035,
+      "detail": "",
+      "observed": "[MOCK ANSWER]\nPrompt: User:\nWrite a Python function `add_numbers(a, b)` that returns the sum of a and b. Return only a Python code block.\nContext:\nYou are HERCULE, an advanced AI Operating System. Be accurate, logical, safe, and concise.\n",
+      "expected": null,
+      "timings": {},
+      "model": "mock",
+      "provider": "ollama",
+      "safety_class": "SANDBOXED",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-12T06:50:04.870828+00:00"
+    },
+    {
+      "task_id": "coding-mbpp-style-002",
+      "suite_id": "coding",
+      "category": "CODING",
+      "outcome": "failed",
+      "score": 0.0,
+      "latency_ms": 207.231,
+      "detail": "",
+      "observed": "[MOCK ANSWER]\nPrompt: Memory:\nmy project is called HERCULE\n\nUser:\nWrite a Python function `is_even(n)` that returns True when n is even, False otherwise. Return only a Python code block.\nContext:\nYou are HERCULE, an advanced AI Operating System. Be accurate, logical, safe, and concise.\n",
+      "expected": null,
+      "timings": {},
+      "model": "mock",
+      "provider": "ollama",
+      "safety_class": "SANDBOXED",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-12T06:50:05.078068+00:00"
+    }
+  ]
+}

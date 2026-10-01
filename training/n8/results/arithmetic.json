@@ -1,0 +1,13 @@
+{
+ "corpus": "arithmetic",
+ "own_valid": 2.1602,
+ "common_valid": 3.5836,
+ "n7": "0/30",
+ "arith": "0/30",
+ "steps": 150,
+ "experiment": "arithmetic",
+ "model": "hercule-lm-micro (3,088,384)",
+ "seed": 0,
+ "budget": "150 steps x 8 x 64 = 76,800 tokens",
+ "status": "completed"
+}

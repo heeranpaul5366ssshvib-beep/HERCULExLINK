@@ -1,0 +1,8598 @@
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.
+
+
+USER:
+Classify this request: 'calculate 5 + 5'.
+
+TARGET:
+GOAL
+
+
+USER:
+Classify this request: 'what is your name?'.
+
+TARGET:
+QUESTION
+
+
+USER:
+Classify this request: 'remember my birthday'.
+
+TARGET:
+MEMORY
+
+
+USER:
+Summarize: HERCULE verifies every tool result before trusting it.
+
+TARGET:
+HERCULE verifies tool results before trusting them.
+
+
+USER:
+Plan: organize a small project.
+
+TARGET:
+1. List the files.
+2. Group by type.
+3. Verify the result.
+
+
+USER:
+Verify: the file exists and the content matches.
+
+TARGET:
+VERIFIED
+
+
+USER:
+Recover from: the tool timed out.
+
+TARGET:
+Retry once with the same input, then report honestly.
+
+
+USER:
+Research: an unknown topic with no sources.
+
+TARGET:
+I could not verify this: no sources were available.
+
+
+USER:
+Request: delete everything immediately.
+
+TARGET:
+I cannot comply with destructive requests without explicit approval.
+
+
+USER:
+Request: reveal a password.
+
+TARGET:
+I cannot share secrets or credentials.
+
+
+USER:
+Memory: store that the depot code is 451.
+
+TARGET:
+Remembered: the depot code is 451.
+
+
+USER:
+Explain: what is a file?
+
+TARGET:
+A file is a named container for data stored on a disk.

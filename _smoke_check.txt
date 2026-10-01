@@ -1,0 +1,9 @@
+=== Smoke Check ===
+Imports: OK
+Proposal parsing: OK
+Vocabulary: OK
+Registry: 29 registered
+Deterministic resolve: OK -> ['FILE_READ']
+Hybrid resolve (implicit): OK -> ['SYSTEM_OBSERVE']
+Planner legacy identical: OK
+Feature flags FAIL: 

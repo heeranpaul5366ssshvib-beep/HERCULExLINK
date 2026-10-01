@@ -1,0 +1,284 @@
+{
+  "dataset": "phase_g_retrieval_v1",
+  "providers": {
+    "hash": {
+      "provider": "hash",
+      "model_id": "hercule-hash-test-v1",
+      "dimension": 64,
+      "ingest_ms": 1.825,
+      "single_embed_ms": 0.164,
+      "batch_embed_ms": 0.99,
+      "batch_throughput_per_s": 7071.42,
+      "mean_precision_at_3": 0.5833,
+      "mean_recall": 1.0,
+      "mean_mrr": 0.8542,
+      "queries": [
+        {
+          "query": "exact-adapters",
+          "latency_ms": 0.094,
+          "docs": [
+            "router.md"
+          ],
+          "precision_at_k": 1.0,
+          "recall": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query": "semantic-router",
+          "latency_ms": 0.41,
+          "docs": [
+            "router.md",
+            "dup_a.md",
+            "dup_b.md",
+            "ops.md"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query": "paraphrase-cache",
+          "latency_ms": 0.381,
+          "docs": [
+            "dup_b.md",
+            "dup_a.md",
+            "cache.md",
+            "ttl_v1.md",
+            "ttl_v2.md"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall": 1.0,
+          "mrr": 0.3333333333333333
+        },
+        {
+          "query": "metadata-source",
+          "latency_ms": 0.369,
+          "docs": [
+            "ops.md"
+          ],
+          "precision_at_k": 1.0,
+          "recall": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query": "fresh-ttl",
+          "latency_ms": 0.447,
+          "docs": [
+            "cache.md",
+            "ttl_v2.md",
+            "router.md",
+            "ttl_v1.md"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall": 1.0,
+          "mrr": 0.5
+        },
+        {
+          "query": "duplicate-checkpoint",
+          "latency_ms": 0.976,
+          "docs": [
+            "dup_a.md",
+            "dup_b.md",
+            "ttl_v2.md",
+            "router.md",
+            "ops.md"
+          ],
+          "precision_at_k": 0.6666666666666666,
+          "recall": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query": "conflict-ttl",
+          "latency_ms": 1.481,
+          "docs": [
+            "ttl_v1.md",
+            "ttl_v2.md",
+            "cache.md",
+            "ops.md",
+            "router.md"
+          ],
+          "precision_at_k": 0.6666666666666666,
+          "recall": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query": "history-router",
+          "latency_ms": 1.163,
+          "docs": [
+            "ops.md",
+            "ttl_v1.md",
+            "ttl_v2.md",
+            "router.md",
+            "cache.md"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall": 1.0,
+          "mrr": 1.0
+        }
+      ]
+    },
+    "st": {
+      "provider": "st",
+      "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+      "dimension": 384,
+      "ingest_ms": 721.197,
+      "single_embed_ms": 118.375,
+      "batch_embed_ms": 479.497,
+      "batch_throughput_per_s": 14.6,
+      "mean_precision_at_3": 0.625,
+      "mean_recall": 1.0,
+      "mean_mrr": 1.0,
+      "queries": [
+        {
+          "query": "exact-adapters",
+          "latency_ms": 0.129,
+          "docs": [
+            "router.md"
+          ],
+          "precision_at_k": 1.0,
+          "recall": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query": "semantic-router",
+          "latency_ms": 65.544,
+          "docs": [
+            "router.md",
+            "dup_a.md",
+            "dup_b.md",
+            "ops.md"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query": "paraphrase-cache",
+          "latency_ms": 52.96,
+          "docs": [
+            "cache.md",
+            "ttl_v1.md",
+            "ttl_v2.md",
+            "dup_b.md",
+            "dup_a.md"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query": "metadata-source",
+          "latency_ms": 51.42,
+          "docs": [
+            "ops.md"
+          ],
+          "precision_at_k": 1.0,
+          "recall": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query": "fresh-ttl",
+          "latency_ms": 55.161,
+          "docs": [
+            "ttl_v2.md",
+            "cache.md",
+            "ttl_v1.md",
+            "ops.md",
+            "dup_b.md"
+          ],
+          "precision_at_k": 0.6666666666666666,
+          "recall": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query": "duplicate-checkpoint",
+          "latency_ms": 59.565,
+          "docs": [
+            "dup_a.md",
+            "dup_b.md",
+            "router.md",
+            "ops.md",
+            "cache.md"
+          ],
+          "precision_at_k": 0.6666666666666666,
+          "recall": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query": "conflict-ttl",
+          "latency_ms": 55.905,
+          "docs": [
+            "ttl_v2.md",
+            "ttl_v1.md",
+            "cache.md",
+            "ops.md",
+            "router.md"
+          ],
+          "precision_at_k": 0.6666666666666666,
+          "recall": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query": "history-router",
+          "latency_ms": 54.164,
+          "docs": [
+            "ops.md",
+            "router.md",
+            "ttl_v1.md",
+            "ttl_v2.md",
+            "cache.md"
+          ],
+          "precision_at_k": 0.3333333333333333,
+          "recall": 1.0,
+          "mrr": 1.0
+        }
+      ]
+    }
+  },
+  "weight_grid": {
+    "rows": [
+      {
+        "keyword_weight": 1.0,
+        "vector_weight": 0.0,
+        "precision_at_k": 0.625,
+        "recall": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "keyword_weight": 0.6,
+        "vector_weight": 0.4,
+        "precision_at_k": 0.625,
+        "recall": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "keyword_weight": 0.4,
+        "vector_weight": 0.6,
+        "precision_at_k": 0.5833,
+        "recall": 1.0,
+        "mrr": 0.8542
+      },
+      {
+        "keyword_weight": 0.2,
+        "vector_weight": 0.8,
+        "precision_at_k": 0.5833,
+        "recall": 1.0,
+        "mrr": 0.8333
+      },
+      {
+        "keyword_weight": 0.0,
+        "vector_weight": 1.0,
+        "precision_at_k": 0.5833,
+        "recall": 0.9375,
+        "mrr": 0.8333
+      }
+    ],
+    "best": {
+      "keyword_weight": 1.0,
+      "vector_weight": 0.0,
+      "precision_at_k": 0.625,
+      "recall": 1.0,
+      "mrr": 1.0
+    }
+  }
+}

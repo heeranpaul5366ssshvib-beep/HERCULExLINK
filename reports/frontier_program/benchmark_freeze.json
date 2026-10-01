@@ -1,0 +1,66 @@
+{
+ "frozen_at": "2026-09-24T09:48:56.957052+00:00",
+ "benchmark": "hercule-eval-v1",
+ "model": "hercule-lm-nano-untrained",
+ "checkpoint": "none",
+ "inference": {
+  "temp": 0.0,
+  "max_tokens": 16
+ },
+ "suites": {
+  "GENERAL": {
+   "mean": 1.0,
+   "n": 5
+  },
+  "REASONING": {
+   "mean": 0.0,
+   "n": 5
+  },
+  "MATH": {
+   "mean": 0.0,
+   "n": 6
+  },
+  "CODING": {
+   "mean": 0.0,
+   "n": 4
+  },
+  "TOOL_USE": {
+   "mean": 0.0,
+   "n": 4
+  },
+  "RESEARCH": {
+   "mean": 0.0,
+   "n": 4
+  },
+  "STRUCTURED_OUTPUT": {
+   "mean": 0.0,
+   "n": 4
+  },
+  "MULTILINGUAL": {
+   "mean": 1.0,
+   "n": 5
+  },
+  "LONG_CONTEXT": {
+   "mean": 0.0,
+   "n": 5
+  },
+  "AGENT": {
+   "mean": 1.0,
+   "n": 4
+  },
+  "SAFETY": {
+   "mean": 0.0,
+   "n": 4
+  },
+  "RELIABILITY": {
+   "mean": 0.0,
+   "n": 9
+  },
+  "ARC_STYLE": {
+   "mean": 0.0,
+   "n": 4
+  }
+ },
+ "policy": "FROZEN: do not tune against these held-out tasks; future deltas via baselines.compare only",
+ "sha256": "bb82be72728b6ae5fd3eba829510f4c8d1368d11b6b5028c87673a16d220af07"
+}

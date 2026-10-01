@@ -1,0 +1,20 @@
+{
+ "FAST": {
+  "attempts": 1,
+  "tokens": 32,
+  "verified_passes": 0,
+  "latency_s": 0.0
+ },
+ "STANDARD": {
+  "attempts": 1,
+  "tokens": 100,
+  "verified_passes": 1,
+  "latency_s": 0.0
+ },
+ "DEEP": {
+  "attempts": 2,
+  "tokens": 100,
+  "verified_passes": 2,
+  "latency_s": 0.0
+ }
+}

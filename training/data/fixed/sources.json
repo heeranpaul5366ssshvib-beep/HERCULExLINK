@@ -1,0 +1,12 @@
+[
+  {
+    "name": "hercule-fixed-corpus",
+    "license": "HERCULE-authored (MIT, repo)",
+    "origin": "hercule-synthetic",
+    "url": "",
+    "version": "v1",
+    "files": [
+      "fixed_corpus.txt"
+    ]
+  }
+]

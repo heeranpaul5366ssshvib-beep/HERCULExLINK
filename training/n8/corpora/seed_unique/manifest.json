@@ -1,0 +1,32 @@
+{
+ "name": "seed_unique",
+ "version": "v1",
+ "sources": [
+  {
+   "name": "seed_unique-0",
+   "license": "HERCULE-authored (MIT, repo)",
+   "origin": "hercule-authored",
+   "url": "",
+   "version": "v1",
+   "files": [
+    "seed_unique.txt"
+   ]
+  }
+ ],
+ "documents": 3399,
+ "dataset_hash": "e461cb61cc84955a928dd3d03e7f57cd26d18ec9ba252515df075c558df45557",
+ "splits": {
+  "train": {
+   "documents": 3061,
+   "hash": "9b894f0384b8a748"
+  },
+  "validation": {
+   "documents": 184,
+   "hash": "06c100496c3fb04f"
+  },
+  "test": {
+   "documents": 154,
+   "hash": "72d7f9c0cac932fa"
+  }
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "base": {
+  "MATH": 0.0,
+  "STRUCTURED_OUTPUT": 0.0,
+  "GENERAL": 1.0,
+  "SAFETY": 0.0
+ },
+ "sft": {
+  "MATH": 0.0,
+  "STRUCTURED_OUTPUT": 0.0,
+  "GENERAL": 1.0,
+  "SAFETY": 0.0
+ }
+}

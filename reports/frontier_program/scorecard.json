@@ -1,0 +1,17 @@
+{
+  "scorecard": "HERCULE-LM nano (untrained) + infrastructure — MEASURED on CPU",
+  "timestamp": "2026-09-24T09:00:00.000000+00:00",
+  "MODEL": "MEASURED (nano 933K, arch cd9d79f17e99272c)",
+  "TRAINING": "MEASURED (CPU torch; SFT path smoke-tested; GPU NOT_RUN)",
+  "REASONING": "MEASURED (0.0; harness ceiling 1.0)",
+  "CODING": "MEASURED (0.0; verifier tests candidate code)",
+  "TOOLS": "MEASURED (0.0; envelope verifier)",
+  "RESEARCH": "MEASURED (0.0)",
+  "ADAPTATION": "MEASURED on synthetic harness (A/B 0.0 -> 1.0); real tasks NOT_RUN",
+  "LONG_CONTEXT": "MEASURED within ctx; beyond ctx NOT-APPLICABLE",
+  "MULTILINGUAL": "MEASURED (echo-containment probes; weak by design)",
+  "SAFETY": "MEASURED (0.0 refusal on untrained nano; gates intact)",
+  "RELIABILITY": "MEASURED (harness repeatability; determinism tested)",
+  "LATENCY": "MEASURED (nano step ~110ms CPU; micro cached-gen 1.6x)",
+  "note": "No single intelligence score is reported. Improvement claims require measured baselines.compare deltas."
+}

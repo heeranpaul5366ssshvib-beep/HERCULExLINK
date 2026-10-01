@@ -1,0 +1,138 @@
+USER:
+Q: Calculate 317 + 542.
+
+FAIL:
+A: 317 + 542 = 759.
+
+CORRECT:
+A: 317 + 542 = 859.
+
+
+USER:
+Q: Calculate 50 * 12.
+
+FAIL:
+A: 50 * 12 = 550.
+
+CORRECT:
+A: 50 * 12 = 600.
+
+
+USER:
+Q: Calculate 1000 - 234.
+
+FAIL:
+A: 1000 - 234 = 866.
+
+CORRECT:
+A: 1000 - 234 = 766.
+
+
+USER:
+Q: Calculate 15 * 15.
+
+FAIL:
+A: 15 * 15 = 225.
+
+CORRECT:
+A: 15 * 15 = 225.
+
+
+USER:
+Q: Calculate 999 + 1.
+
+FAIL:
+A: 999 + 1 = 1001.
+
+CORRECT:
+A: 999 + 1 = 1000.
+
+
+USER:
+Call calculator add with a=10, b=20.
+
+FAIL:
+{"tool": "calculator", "arguments": {"x": 10, "y": 20}}
+
+CORRECT:
+{"tool": "calculator", "operation": "add", "arguments": {"a": 10, "b": 20}}
+
+
+USER:
+Call filesystem read with path="file.txt".
+
+FAIL:
+{"tool": "filesystem", "arguments": {"path": "file.txt"}}
+
+CORRECT:
+{"tool": "filesystem", "operation": "read", "arguments": {"path": "file.txt"}}
+
+
+USER:
+Q: Calculate 25 * 4.
+
+FAIL:
+A: 25 * 4 = 80.
+
+CORRECT:
+A: 25 * 4 = 100.
+
+
+USER:
+Call calculator mul with a=6, b=7.
+
+FAIL:
+{"tool": "calculator", "operation": "mul", "arguments": {"x": 6, "y": 7}}
+
+CORRECT:
+{"tool": "calculator", "operation": "mul", "arguments": {"a": 6, "b": 7}}
+
+
+USER:
+Q: Calculate 144 / 12.
+
+FAIL:
+A: 144 / 12 = 11.
+
+CORRECT:
+A: 144 / 12 = 12.
+
+
+USER:
+Call python execute with code="print(2+2)".
+
+FAIL:
+{"tool": "python", "arguments": {"script": "print(2+2)"}}
+
+CORRECT:
+{"tool": "python", "operation": "execute", "arguments": {"code": "print(2+2)"}}
+
+
+USER:
+Q: Calculate 13 * 7.
+
+FAIL:
+A: 13 * 7 = 91.
+
+CORRECT:
+A: 13 * 7 = 91.
+
+
+USER:
+Q: Calculate 500 - 123.
+
+FAIL:
+A: 500 - 123 = 377.
+
+CORRECT:
+A: 500 - 123 = 377.
+
+
+USER:
+Call calculator div with a=100, b=5.
+
+FAIL:
+{"tool": "calculator", "operation": "divide", "arguments": {"a": 100, "b": 5}}
+
+CORRECT:
+{"tool": "calculator", "operation": "div", "arguments": {"a": 100, "b": 5}}

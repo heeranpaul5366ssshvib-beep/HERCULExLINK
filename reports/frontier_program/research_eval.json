@@ -1,0 +1,38 @@
+{
+ "queries": 4,
+ "citation_correctness": 0.5,
+ "grounding_rate": 0.5,
+ "uncertainty_reported": 0.5,
+ "fabricated_sources": 0,
+ "wall_s": 1.2,
+ "results": [
+  {
+   "query": "CUDA training throughput measurement",
+   "evidence": 5,
+   "citation_rate": 1.0,
+   "uncertain": false,
+   "grounded": true
+  },
+  {
+   "query": "dataset deduplication policy",
+   "evidence": 0,
+   "citation_rate": 0.0,
+   "uncertain": true,
+   "grounded": false
+  },
+  {
+   "query": "checkpoint resume procedure",
+   "evidence": 5,
+   "citation_rate": 1.0,
+   "uncertain": false,
+   "grounded": true
+  },
+  {
+   "query": "moral reasoning authorization rule",
+   "evidence": 0,
+   "citation_rate": 0.0,
+   "uncertain": true,
+   "grounded": false
+  }
+ ]
+}

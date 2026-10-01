@@ -1,0 +1,99 @@
+{
+  "run_id": "suite-20260920T125651-03834",
+  "scope": "s",
+  "version": "1.1.0",
+  "model": "scripted-mock",
+  "provider": "scripted",
+  "started_at": "2026-09-20T12:56:51.112566+00:00",
+  "finished_at": "2026-09-20T12:56:51.113978+00:00",
+  "wall_ms": 1.391,
+  "config": {
+    "mode": "quick",
+    "suites": [],
+    "model": null,
+    "timeout_s": 120.0,
+    "max_tasks": 0,
+    "parallel": 1,
+    "live": false,
+    "baseline": false,
+    "runs": 3
+  },
+  "counts": {
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0,
+    "error": 0,
+    "timeout": 0
+  },
+  "results": [
+    {
+      "task_id": "t",
+      "suite_id": "s",
+      "category": "GENERAL_KNOWLEDGE",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 0.585,
+      "detail": "",
+      "observed": "ok",
+      "expected": [
+        "ok"
+      ],
+      "timings": {},
+      "model": "scripted-mock",
+      "provider": "scripted",
+      "safety_class": "READ_ONLY",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T12:56:51.113163+00:00",
+      "trace": {}
+    },
+    {
+      "task_id": "t#r2",
+      "suite_id": "s",
+      "category": "GENERAL_KNOWLEDGE",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 0.394,
+      "detail": "",
+      "observed": "ok",
+      "expected": [
+        "ok"
+      ],
+      "timings": {},
+      "model": "scripted-mock",
+      "provider": "scripted",
+      "safety_class": "READ_ONLY",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T12:56:51.113569+00:00",
+      "trace": {}
+    },
+    {
+      "task_id": "t#r3",
+      "suite_id": "s",
+      "category": "GENERAL_KNOWLEDGE",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 0.384,
+      "detail": "",
+      "observed": "ok",
+      "expected": [
+        "ok"
+      ],
+      "timings": {},
+      "model": "scripted-mock",
+      "provider": "scripted",
+      "safety_class": "READ_ONLY",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T12:56:51.113959+00:00",
+      "trace": {}
+    }
+  ]
+}

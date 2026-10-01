@@ -1,0 +1,131 @@
+{
+ "model_id": "hercule-lm-micro",
+ "architecture": {
+  "model_id": "hercule-lm-micro",
+  "vocab_size": 1024,
+  "hidden_size": 192,
+  "num_layers": 6,
+  "num_heads": 6,
+  "ffn_size": 768,
+  "context_length": 128,
+  "positional": "learned",
+  "normalization": "layernorm",
+  "activation": "gelu",
+  "dropout": 0.0,
+  "initialization": "xavier-uniform",
+  "dtype": "float32",
+  "tokenizer_id": "hercule-bpe-micro-v1",
+  "parameter_count": 3088384,
+  "architecture_hash": "334685359cebcfa5"
+ },
+ "architecture_hash": "334685359cebcfa5",
+ "parameter_count": 3088384,
+ "seed": 0,
+ "tokenizer": {
+  "algorithm": "byte-level-bpe",
+  "vocab_size": 1024,
+  "merges": 764,
+  "corpus_version": "hercule-seed-v1",
+  "normalization": "none (raw UTF-8 bytes; whitespace significant)",
+  "specials": {
+   "<PAD>": 0,
+   "<BOS>": 1,
+   "<EOS>": 2,
+   "<UNK>": 3
+  },
+  "checksum": "4f079c86f3a2feaa"
+ },
+ "dataset": {
+  "name": "hercule-seed",
+  "version": "v1",
+  "sources": [
+   {
+    "name": "controlled_2x-0",
+    "license": "HERCULE-authored (MIT, repo)",
+    "origin": "hercule-authored",
+    "url": "",
+    "version": "v1",
+    "files": [
+     "controlled_2x.txt"
+    ]
+   }
+  ],
+  "documents": 6532,
+  "dataset_hash": "41732590a8b0087b93a8aef303941ac2d1a385d6cc81b03aa09373ef8bf69779",
+  "splits": {
+   "train": {
+    "documents": 5850,
+    "hash": "da7b4df1bae321bf"
+   },
+   "validation": {
+    "documents": 376,
+    "hash": "35608a366ec1873f"
+   },
+   "test": {
+    "documents": 306,
+    "hash": "7dadabc0c35d613d"
+   }
+  }
+ },
+ "train_state": {
+  "step": 150,
+  "lr": 7.401594514025999e-08,
+  "loss": 1.9731632172232199,
+  "grad_norm": 1.7218086624849165,
+  "valid_loss": 2.0566501871806846
+ },
+ "run": {
+  "run_id": "n8d",
+  "config": {
+   "model_id": "hercule-lm-micro",
+   "vocab_size": 1024,
+   "hidden_size": 192,
+   "num_layers": 6,
+   "num_heads": 6,
+   "ffn_size": 768,
+   "context_length": 128,
+   "positional": "learned",
+   "normalization": "layernorm",
+   "activation": "gelu",
+   "dropout": 0.0,
+   "initialization": "xavier-uniform",
+   "dtype": "float32",
+   "tokenizer_id": "hercule-bpe-micro-v1",
+   "parameter_count": 3088384,
+   "architecture_hash": "334685359cebcfa5"
+  },
+  "seed": 0,
+  "python": "3.14.6",
+  "numpy": "2.5.2",
+  "torch": null,
+  "optimizer": "adamw",
+  "scheduler": "cosine",
+  "lr": 0.0003,
+  "batch": 8,
+  "seq_len": 64,
+  "steps": 150,
+  "hardware": {
+   "cpu": "Intel64 Family 6 Model 58 Stepping 9, GenuineIntel",
+   "os": "Windows 10"
+  },
+  "micro_batch_size": 8,
+  "gradient_accumulation_steps": 1,
+  "effective_batch_size": 8,
+  "number_of_devices": 1,
+  "device": "cpu",
+  "backend": "numpy",
+  "dtype": "float32",
+  "amp": "disabled (no torch backend here)"
+ },
+ "created_at": "2026-09-22T09:49:16.196799+00:00",
+ "origin": "hercule-lm random initialization (no pretrained weights)",
+ "checkpoint_format": "hercule-npz-v1",
+ "scaler": null,
+ "rng": {
+  "python": "see run record",
+  "numpy": "see run record",
+  "note": "CPU streams reproducible under fixed seed+order; CUDA trajectories are NOT claimed bit-identical"
+ },
+ "origin_device": "cpu",
+ "weights_sha256": "879797422eae1f735111f3fbcb82cdec65f75f8af445ab20a4b07ab8326ed95d"
+}

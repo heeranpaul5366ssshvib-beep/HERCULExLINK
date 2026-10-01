@@ -1,0 +1,53 @@
+{
+  "name": "hercule-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"pnpm:dev:desktop\" \"pnpm:dev:web\"",
+    "dev:desktop": "pnpm --filter @hercule/desktop dev",
+    "dev:mobile": "pnpm --filter @hercule/mobile dev",
+    "dev:web": "pnpm --filter @hercule/web dev",
+    "build": "pnpm run build -r",
+    "build:all": "pnpm run build -r",
+    "build:desktop": "pnpm --filter @hercule/desktop build",
+    "build:mobile": "pnpm --filter @hercule/mobile build",
+    "build:web": "pnpm --filter @hercule/web build",
+    "build:packages": "pnpm --filter @hercule/ui build",
+    "package:desktop": "pnpm --filter @hercule/desktop package",
+    "package:mobile": "pnpm --filter @hercule/mobile package",
+    "package:all": "pnpm run package:desktop && pnpm run package:mobile",
+    "lint": "eslint . --ext .ts,.tsx,.astro",
+    "lint:fix": "eslint . --ext .ts,.tsx,.astro --fix",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "typecheck:all": "pnpm run typecheck -r",
+    "test": "pnpm run test -r",
+    "test:desktop": "pnpm --filter @hercule/desktop test",
+    "test:mobile": "pnpm --filter @hercule/mobile test",
+    "test:web": "pnpm --filter @hercule/web test",
+    "test:python": "pytest",
+    "clean": "pnpm run clean -r && rm -rf node_modules .turbo dist",
+    "clean:all": "pnpm run clean -r && rm -rf node_modules .turbo dist apps/desktop/dist apps/mobile/dist apps/web/dist",
+    "prepare": "pnpm run build:packages",
+    "release": "changeset version && pnpm install && pnpm run build && changeset publish",
+    "version": "changeset version",
+    "changelog": "changeset status"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.0",
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "eslint": "^8.55.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "concurrently": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.14.0"
+}

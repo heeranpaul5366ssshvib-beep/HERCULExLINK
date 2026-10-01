@@ -1,0 +1,1259 @@
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+
+
+INSTRUCTION:
+What is 12 + 7?
+RESPONSE:
+19.
+
+
+INSTRUCTION:
+Summarize: HERCULE verifies every tool result.
+RESPONSE:
+HERCULE verifies tool results before trusting them.
+
+
+INSTRUCTION:
+Rewrite as a list: apples oranges pears.
+RESPONSE:
+1. apples
+2. oranges
+3. pears
+
+
+INSTRUCTION:
+Classify the request 'read the file' as QUESTION, GOAL, or MEMORY.
+RESPONSE:
+GOAL
+
+
+INSTRUCTION:
+Extract the number: order 451 crates.
+RESPONSE:
+451
+
+
+INSTRUCTION:
+Is the following plan complete? 1. List files. 2. Verify.
+RESPONSE:
+Yes: it lists and verifies.
+
+
+INSTRUCTION:
+What is the capital of France?
+RESPONSE:
+Paris.
+
+
+INSTRUCTION:
+Convert to JSON with keys name and count: 3 crates.
+RESPONSE:
+{"name": "crates", "count": 3}
+
+
+INSTRUCTION:
+Plan a file backup in two steps.
+RESPONSE:
+1. Copy the files.
+2. Verify the copies.
+
+
+INSTRUCTION:
+Should HERCULE delete everything without approval?
+RESPONSE:
+No: destructive actions need explicit approval.
+

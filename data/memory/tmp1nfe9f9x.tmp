@@ -1,0 +1,5168 @@
+{
+ "version": 1,
+ "records": [
+  {
+   "experience_id": "exp-1",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T13:51:45.663794+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "brain-68834b4643d5",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-2",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T14:05:32.260227+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-07678e363a36",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-3",
+   "goal_type": "general",
+   "description": "write the file flaky-report",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T14:07:16.154765+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "tool:files: [INTERNAL_ERROR] no file path specified; tool:flaky-tool: [INTERNAL_ERROR] transient boom",
+   "recovery_result": "brain-4a203bed5619",
+   "lesson": "files succeeded for FILE_WRITE (1 verified)"
+  },
+  {
+   "experience_id": "exp-4",
+   "goal_type": "general",
+   "description": "write the file report-xyz",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "tool:files: [INTERNAL_ERROR] no file path specified"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T14:08:46.422156+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "tool:files: [INTERNAL_ERROR] no file path specified",
+   "recovery_result": "brain-d47c13d780e5",
+   "lesson": "files failed for FILE_WRITE: tool:files: [INTERNAL_ERROR] no file path specified"
+  },
+  {
+   "experience_id": "exp-5",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T14:08:54.509134+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-ddd5ada0f5cd",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-6",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T14:09:25.515309+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-97801bbb6b96",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-7",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T14:09:30.911171+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-a108d7f47259",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-8",
+   "goal_type": "general",
+   "description": "calculate 25 * 4",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T14:10:23.892553+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-7fb7ecb1a6b5",
+   "lesson": "mathematics succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-9",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T14:45:29.816123+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-3f0edc922747",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-10",
+   "goal_type": "general",
+   "description": "write the file flaky-report",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T14:47:46.059266+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "tool:files: [INTERNAL_ERROR] no file path specified; tool:flaky-tool: [INTERNAL_ERROR] transient boom",
+   "recovery_result": "brain-a221cfe08156",
+   "lesson": "files succeeded for FILE_WRITE (1 verified)"
+  },
+  {
+   "experience_id": "exp-11",
+   "goal_type": "general",
+   "description": "write the file report-xyz",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "tool:files: [INTERNAL_ERROR] no file path specified"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T14:49:12.860120+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "tool:files: [INTERNAL_ERROR] no file path specified",
+   "recovery_result": "brain-2ae43477cf89",
+   "lesson": "files failed for FILE_WRITE: tool:files: [INTERNAL_ERROR] no file path specified"
+  },
+  {
+   "experience_id": "exp-12",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T14:49:22.130682+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-83efe1bd7b37",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-13",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T14:50:49.823919+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-e20e5357e76a",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-14",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T14:50:58.525233+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-4e608f0c6820",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-15",
+   "goal_type": "general",
+   "description": "calculate 25 * 4",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T14:51:56.138545+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-a91c341f80d3",
+   "lesson": "mathematics succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-16",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T14:56:24.091533+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-5a471b0d6cd3",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-17",
+   "goal_type": "general",
+   "description": "write the file flaky-report",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T14:58:50.310746+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "tool:files: [INTERNAL_ERROR] no file path specified; tool:flaky-tool: [INTERNAL_ERROR] transient boom",
+   "recovery_result": "brain-b67aeceb3c7f",
+   "lesson": "files succeeded for FILE_WRITE (1 verified)"
+  },
+  {
+   "experience_id": "exp-18",
+   "goal_type": "general",
+   "description": "write the file report-xyz",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "tool:files: [INTERNAL_ERROR] no file path specified"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:00:27.639969+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "tool:files: [INTERNAL_ERROR] no file path specified",
+   "recovery_result": "brain-dd70976aefa8",
+   "lesson": "files failed for FILE_WRITE: tool:files: [INTERNAL_ERROR] no file path specified"
+  },
+  {
+   "experience_id": "exp-19",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:00:35.614547+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-4d8588680367",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-20",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:01:27.979744+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-1410cc75e735",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-21",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:01:39.437981+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-022a08938939",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-22",
+   "goal_type": "general",
+   "description": "calculate 25 * 4",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:03:07.235694+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-47cda36523f1",
+   "lesson": "mathematics succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-23",
+   "goal_type": "general",
+   "description": "write the file report-xyz",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "fail-tool"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "tool:fail-tool: [INTERNAL_ERROR] boom"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:05:09.489043+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "fail-tool"
+   ],
+   "failure_reason": "tool:fail-tool: [INTERNAL_ERROR] boom",
+   "recovery_result": "brain-ffe21f4e2d18",
+   "lesson": "fail-tool failed for FILE_WRITE: tool:fail-tool: [INTERNAL_ERROR] boom"
+  },
+  {
+   "experience_id": "exp-24",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:07:18.146090+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-1e9b6fbc2109",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-25",
+   "goal_type": "general",
+   "description": "write the file flaky-report",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:09:48.305475+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "tool:files: [INTERNAL_ERROR] no file path specified; tool:flaky-tool: [INTERNAL_ERROR] transient boom",
+   "recovery_result": "brain-550b1d0d5f4c",
+   "lesson": "files succeeded for FILE_WRITE (1 verified)"
+  },
+  {
+   "experience_id": "exp-26",
+   "goal_type": "general",
+   "description": "write the file report-xyz",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "tool:files: [INTERNAL_ERROR] no file path specified"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:11:48.643775+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "tool:files: [INTERNAL_ERROR] no file path specified",
+   "recovery_result": "brain-d3f926ad1f31",
+   "lesson": "files failed for FILE_WRITE: tool:files: [INTERNAL_ERROR] no file path specified"
+  },
+  {
+   "experience_id": "exp-27",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:12:00.130182+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-ccbebb071fb8",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-28",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:12:34.023384+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-8d8e75ed1aec",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-29",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:12:41.476372+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-46bc34b53e08",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-30",
+   "goal_type": "general",
+   "description": "calculate 25 * 4",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:14:07.585432+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-6ad0a8070664",
+   "lesson": "mathematics succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-31",
+   "goal_type": "general",
+   "description": "write the file report-xyz",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "fail-tool"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "tool:fail-tool: [INTERNAL_ERROR] boom"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:16:40.544103+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "fail-tool"
+   ],
+   "failure_reason": "tool:fail-tool: [INTERNAL_ERROR] boom",
+   "recovery_result": "brain-138a7fd772b4",
+   "lesson": "fail-tool failed for FILE_WRITE: tool:fail-tool: [INTERNAL_ERROR] boom"
+  },
+  {
+   "experience_id": "exp-32",
+   "goal_type": "general",
+   "description": "calculate 2 + 2",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:17:13.298761+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-079ec6f69e1b",
+   "lesson": "mathematics succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-33",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:20:10.371797+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "e2e-1",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-34",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:20:18.793941+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "c-1",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-35",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "calculator"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:20:44.181026+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "calculator"
+   ],
+   "failure_reason": "",
+   "recovery_result": "calc-1",
+   "lesson": "calculator succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-36",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:20:56.679788+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "deny-1",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-37",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "calculator"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:21:25.920445+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "calculator"
+   ],
+   "failure_reason": "tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed",
+   "recovery_result": "brain-329adfb358b0",
+   "lesson": "calculator failed for MATH: tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed"
+  },
+  {
+   "experience_id": "exp-38",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "fail-once"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:21:34.595882+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "fail-once"
+   ],
+   "failure_reason": "tool:fail-once: [INTERNAL_ERROR] first attempt fails",
+   "recovery_result": "brain-7f4fce1962d0",
+   "lesson": "fail-once succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-39",
+   "goal_type": "general",
+   "description": "task-1",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:21:50.596412+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-40",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:16.362228+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-e7aa3c5255b3",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-41",
+   "goal_type": "general",
+   "description": "write the file flaky-report",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:16.460168+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "tool:files: [INTERNAL_ERROR] no file path specified; tool:flaky-tool: [INTERNAL_ERROR] transient boom",
+   "recovery_result": "brain-32a105bb238d",
+   "lesson": "files succeeded for FILE_WRITE (1 verified)"
+  },
+  {
+   "experience_id": "exp-42",
+   "goal_type": "general",
+   "description": "write the file report-xyz",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "tool:files: [INTERNAL_ERROR] no file path specified"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:16.540162+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "tool:files: [INTERNAL_ERROR] no file path specified",
+   "recovery_result": "brain-8c53bccaced7",
+   "lesson": "files failed for FILE_WRITE: tool:files: [INTERNAL_ERROR] no file path specified"
+  },
+  {
+   "experience_id": "exp-43",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:16.607796+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-10b4594f67de",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-44",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:16.677605+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-6f20af48d955",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-45",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:16.752809+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-ccb794c6f2c5",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-46",
+   "goal_type": "general",
+   "description": "calculate 25 * 4",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:16.951570+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-2db3476c9f5f",
+   "lesson": "mathematics succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-47",
+   "goal_type": "general",
+   "description": "write the file report-xyz",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "fail-tool"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "tool:fail-tool: [INTERNAL_ERROR] boom"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:17.136489+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "fail-tool"
+   ],
+   "failure_reason": "tool:fail-tool: [INTERNAL_ERROR] boom",
+   "recovery_result": "brain-ebe3cd071270",
+   "lesson": "fail-tool failed for FILE_WRITE: tool:fail-tool: [INTERNAL_ERROR] boom"
+  },
+  {
+   "experience_id": "exp-48",
+   "goal_type": "general",
+   "description": "calculate 2 + 2",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:17.315761+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-45355af7d005",
+   "lesson": "mathematics succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-49",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:51.347417+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "e2e-1",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-50",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:51.442992+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "c-1",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-51",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "calculator"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:51.587636+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "calculator"
+   ],
+   "failure_reason": "",
+   "recovery_result": "calc-1",
+   "lesson": "calculator succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-52",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:51.659228+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "deny-1",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-53",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "calculator"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:51.763215+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "calculator"
+   ],
+   "failure_reason": "tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed",
+   "recovery_result": "brain-1b7fafa781f9",
+   "lesson": "calculator failed for MATH: tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed"
+  },
+  {
+   "experience_id": "exp-54",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "fail-once"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:51.840675+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "fail-once"
+   ],
+   "failure_reason": "tool:fail-once: [INTERNAL_ERROR] first attempt fails",
+   "recovery_result": "brain-848e4de3afa6",
+   "lesson": "fail-once succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-55",
+   "goal_type": "general",
+   "description": "task-1",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:51.947822+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-56",
+   "goal_type": "general",
+   "description": "task-2",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-2",
+   "recorded_at": "2026-09-06T15:37:51.969986+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "",
+   "lesson": "files failed for FILE_READ: unverified outcome"
+  },
+  {
+   "experience_id": "exp-57",
+   "goal_type": "general",
+   "description": "task-1",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:52.038624+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-58",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:52.110621+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "brain-a3e93883326d",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-59",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:52.362013+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-6417b1848bba",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-60",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:52.479862+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "brain-0f717ca7a2f3",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-61",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-2",
+   "recorded_at": "2026-09-06T15:37:52.502871+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-3596d47f43e0",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-62",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:52.581009+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "brain-1fb795b22979",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-63",
+   "goal_type": "general",
+   "description": "task-1",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 2,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:52.685123+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "",
+   "lesson": "files succeeded for FILE_READ (2 verified)"
+  },
+  {
+   "experience_id": "exp-64",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:52.798397+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-1eba8a32a759",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-65",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:52.882213+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "sem-brain",
+   "lesson": "mathematics succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-66",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:52.956244+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "sem-fallback",
+   "lesson": "mathematics succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-67",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:37:53.176342+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-513014c7ffe2",
+   "lesson": "mathematics succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-68",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:38:30.863356+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "e2e-1",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-69",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:38:30.934788+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "c-1",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-70",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "calculator"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:38:31.049004+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "calculator"
+   ],
+   "failure_reason": "",
+   "recovery_result": "calc-1",
+   "lesson": "calculator succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-71",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:38:31.128553+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "deny-1",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-72",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "calculator"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:38:31.237386+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "calculator"
+   ],
+   "failure_reason": "tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed",
+   "recovery_result": "brain-ca1e5b800779",
+   "lesson": "calculator failed for MATH: tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed"
+  },
+  {
+   "experience_id": "exp-73",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "fail-once"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:38:31.308273+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "fail-once"
+   ],
+   "failure_reason": "tool:fail-once: [INTERNAL_ERROR] first attempt fails",
+   "recovery_result": "brain-8a3ed668cf4f",
+   "lesson": "fail-once succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-74",
+   "goal_type": "general",
+   "description": "task-1",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:38:31.426398+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-75",
+   "goal_type": "general",
+   "description": "task-2",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-2",
+   "recorded_at": "2026-09-06T15:38:31.450157+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "",
+   "lesson": "files failed for FILE_READ: unverified outcome"
+  },
+  {
+   "experience_id": "exp-76",
+   "goal_type": "general",
+   "description": "task-1",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:38:31.520571+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-77",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:38:31.596679+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "brain-7ec06b058f92",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-78",
+   "goal_type": "general",
+   "description": "calculate 9+8",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:39:30.655002+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-65925ae709c6",
+   "lesson": "mathematics succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-79",
+   "goal_type": "general",
+   "description": "show my system information",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "networking"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-2",
+   "recorded_at": "2026-09-06T15:40:02.251230+00:00",
+   "capabilities": [
+    "SYSTEM_OBSERVE"
+   ],
+   "abilities": [
+    "networking"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-feaa7244c282",
+   "lesson": "networking succeeded for SYSTEM_OBSERVE (1 verified)"
+  },
+  {
+   "experience_id": "exp-80",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:41:24.476570+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "e2e-1",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-81",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:41:32.401316+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "c-1",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-82",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "calculator"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:41:57.386436+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "calculator"
+   ],
+   "failure_reason": "",
+   "recovery_result": "calc-1",
+   "lesson": "calculator succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-83",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:42:05.560866+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "deny-1",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-84",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "calculator"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:42:28.500294+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "calculator"
+   ],
+   "failure_reason": "tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed",
+   "recovery_result": "brain-73ff238150d4",
+   "lesson": "calculator failed for MATH: tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed"
+  },
+  {
+   "experience_id": "exp-85",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "fail-once"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:42:38.998259+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "fail-once"
+   ],
+   "failure_reason": "tool:fail-once: [INTERNAL_ERROR] first attempt fails",
+   "recovery_result": "brain-faf9ed74eab7",
+   "lesson": "fail-once succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-86",
+   "goal_type": "general",
+   "description": "task-1",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:42:57.838715+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-87",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:43:33.827777+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "e2e-1",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-88",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:43:33.897695+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "c-1",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-89",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "calculator"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:43:34.027046+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "calculator"
+   ],
+   "failure_reason": "",
+   "recovery_result": "calc-1",
+   "lesson": "calculator succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-90",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:43:34.123603+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "deny-1",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-91",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "calculator"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:43:34.238866+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "calculator"
+   ],
+   "failure_reason": "tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed",
+   "recovery_result": "brain-819b4924e861",
+   "lesson": "calculator failed for MATH: tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed"
+  },
+  {
+   "experience_id": "exp-92",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "fail-once"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:43:34.322555+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "fail-once"
+   ],
+   "failure_reason": "tool:fail-once: [INTERNAL_ERROR] first attempt fails",
+   "recovery_result": "brain-832378e5810b",
+   "lesson": "fail-once succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-93",
+   "goal_type": "general",
+   "description": "task-1",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:43:34.435909+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-94",
+   "goal_type": "general",
+   "description": "task-2",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-2",
+   "recorded_at": "2026-09-06T15:43:34.457479+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "",
+   "lesson": "files failed for FILE_READ: unverified outcome"
+  },
+  {
+   "experience_id": "exp-95",
+   "goal_type": "general",
+   "description": "task-1",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:43:34.534152+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-96",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:43:34.619137+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "brain-61dd0bcf2284",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-97",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:43:34.781195+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-8cda30220e02",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-98",
+   "goal_type": "general",
+   "description": "write the file flaky-report",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:43:34.913533+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "tool:files: [INTERNAL_ERROR] no file path specified; tool:flaky-tool: [INTERNAL_ERROR] transient boom",
+   "recovery_result": "brain-7cee8b48e747",
+   "lesson": "files succeeded for FILE_WRITE (1 verified)"
+  },
+  {
+   "experience_id": "exp-99",
+   "goal_type": "general",
+   "description": "write the file report-xyz",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "tool:files: [INTERNAL_ERROR] no file path specified"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:43:34.992797+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "tool:files: [INTERNAL_ERROR] no file path specified",
+   "recovery_result": "brain-a0c898126875",
+   "lesson": "files failed for FILE_WRITE: tool:files: [INTERNAL_ERROR] no file path specified"
+  },
+  {
+   "experience_id": "exp-100",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:43:35.079596+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-fd60a6a8ebdb",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-101",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:43:35.162364+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-22138c3742d1",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-102",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:43:35.258832+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-30e99266581b",
+   "lesson": "files succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-103",
+   "goal_type": "general",
+   "description": "calculate 9+8",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-06T15:44:20.852669+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-c71dc0f085b6",
+   "lesson": "mathematics succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-104",
+   "goal_type": "general",
+   "description": "show my system information",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "networking"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:08:14.142016+00:00",
+   "capabilities": [
+    "SYSTEM_OBSERVE"
+   ],
+   "abilities": [
+    "networking"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-f8c5d488d6f8",
+   "lesson": "networking succeeded for SYSTEM_OBSERVE (1 verified)"
+  },
+  {
+   "experience_id": "exp-105",
+   "goal_type": "general",
+   "description": "task-1",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 2,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:10:27.380408+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "",
+   "lesson": "echo-file succeeded for FILE_READ (2 verified)"
+  },
+  {
+   "experience_id": "exp-106",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:10:27.504295+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-7aa99f32c8b7",
+   "lesson": "echo-file succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-107",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:03.335501+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-58c5b84208df",
+   "lesson": "echo-file succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-108",
+   "goal_type": "general",
+   "description": "write the file flaky-report",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "flaky-tool"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:03.453486+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "flaky-tool"
+   ],
+   "failure_reason": "tool:files: [INTERNAL_ERROR] no file path specified; tool:flaky-tool: [INTERNAL_ERROR] transient boom",
+   "recovery_result": "brain-d2bd8dc0c824",
+   "lesson": "flaky-tool succeeded for FILE_WRITE (1 verified)"
+  },
+  {
+   "experience_id": "exp-109",
+   "goal_type": "general",
+   "description": "write the file report-xyz",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "tool:files: [INTERNAL_ERROR] no file path specified"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:03.522116+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "tool:files: [INTERNAL_ERROR] no file path specified",
+   "recovery_result": "brain-7b4650c41482",
+   "lesson": "files failed for FILE_WRITE: tool:files: [INTERNAL_ERROR] no file path specified"
+  },
+  {
+   "experience_id": "exp-110",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:03.606160+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-03f0c9e97ade",
+   "lesson": "echo-file succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-111",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:03.703588+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-04223f4bd61c",
+   "lesson": "echo-file succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-112",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:03.796384+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-45281473ca79",
+   "lesson": "echo-file succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-113",
+   "goal_type": "general",
+   "description": "calculate 25 * 4",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:04.062921+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-8e133bd4b610",
+   "lesson": "mathematics succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-114",
+   "goal_type": "general",
+   "description": "write the file report-xyz",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "fail-tool"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "tool:fail-tool: [INTERNAL_ERROR] boom"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:04.253276+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "fail-tool"
+   ],
+   "failure_reason": "tool:fail-tool: [INTERNAL_ERROR] boom",
+   "recovery_result": "brain-7f591fb0f649",
+   "lesson": "fail-tool failed for FILE_WRITE: tool:fail-tool: [INTERNAL_ERROR] boom"
+  },
+  {
+   "experience_id": "exp-115",
+   "goal_type": "general",
+   "description": "calculate 2 + 2",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:04.409463+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-c146c4ae2c0c",
+   "lesson": "mathematics succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-116",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:18.376797+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "e2e-1",
+   "lesson": "echo-file succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-117",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:18.446518+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "c-1",
+   "lesson": "echo-file succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-118",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "calculator"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:18.553673+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "calculator"
+   ],
+   "failure_reason": "",
+   "recovery_result": "calc-1",
+   "lesson": "calculator succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-119",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:18.627921+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "deny-1",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-120",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "calculator"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:18.733765+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "calculator"
+   ],
+   "failure_reason": "tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed",
+   "recovery_result": "brain-397b8b380fde",
+   "lesson": "calculator failed for MATH: tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed"
+  },
+  {
+   "experience_id": "exp-121",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "fail-once"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:18.800560+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "fail-once"
+   ],
+   "failure_reason": "tool:fail-once: [INTERNAL_ERROR] first attempt fails",
+   "recovery_result": "brain-55018b30e734",
+   "lesson": "fail-once succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-122",
+   "goal_type": "general",
+   "description": "task-1",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:18.908914+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-123",
+   "goal_type": "general",
+   "description": "task-2",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-2",
+   "recorded_at": "2026-09-07T08:11:18.931249+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "",
+   "lesson": "echo-file failed for FILE_READ: unverified outcome"
+  },
+  {
+   "experience_id": "exp-124",
+   "goal_type": "general",
+   "description": "task-1",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:19.004041+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "",
+   "lesson": "echo-file succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-125",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:19.075845+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "brain-912494fce5e5",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-126",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:19.279870+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-05cf5555fafd",
+   "lesson": "echo-file succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-127",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:19.375470+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "brain-a2719b4da52d",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-128",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-2",
+   "recorded_at": "2026-09-07T08:11:19.403073+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-0cc0d2288bf2",
+   "lesson": "echo-file succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-129",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:19.482092+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "",
+   "recovery_result": "brain-2a7cdc71b900",
+   "lesson": "no ability failed for goal: unverified outcome"
+  },
+  {
+   "experience_id": "exp-130",
+   "goal_type": "general",
+   "description": "task-1",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 2,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:19.569972+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "",
+   "lesson": "echo-file succeeded for FILE_READ (2 verified)"
+  },
+  {
+   "experience_id": "exp-131",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:19.675170+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-413ccea95ea1",
+   "lesson": "echo-file succeeded for FILE_READ (1 verified)"
+  },
+  {
+   "experience_id": "exp-132",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:19.757178+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "sem-brain",
+   "lesson": "mathematics succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-133",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:19.828453+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "sem-fallback",
+   "lesson": "mathematics succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-134",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T08:11:20.031544+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-c22e7c7d8bf1",
+   "lesson": "mathematics succeeded for MATH (1 verified)"
+  },
+  {
+   "experience_id": "exp-135",
+   "goal_type": "general",
+   "description": "calculate 25 * 4",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:46:34.621816+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-e6587bcaf61f",
+   "lesson": "mathematics succeeded for MATH (1 verified) | self-eval: goal satisfied: 1 verified steps first try"
+  },
+  {
+   "experience_id": "exp-136",
+   "goal_type": "general",
+   "description": "write the file report-xyz",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "fail-tool"
+   ],
+   "outcome": "UNRECOVERED",
+   "success": 0.0,
+   "failures": [
+    "tool:fail-tool: [INTERNAL_ERROR] boom; execution failed"
+   ],
+   "recovery": {
+    "replans": 2,
+    "result": "exhausted"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 2,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:46:34.993561+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "fail-tool"
+   ],
+   "failure_reason": "tool:fail-tool: [INTERNAL_ERROR] boom; execution failed",
+   "recovery_result": "brain-31f7aaf16f52",
+   "lesson": "fail-tool failed for FILE_WRITE: tool:fail-tool: [INTERNAL_ERROR] boom; execution failed | self-eval: goal unsatisfied: execution failed; replans used: 2"
+  },
+  {
+   "experience_id": "exp-137",
+   "goal_type": "general",
+   "description": "calculate 2 + 2",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:46:35.223340+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-6d42642d4d5a",
+   "lesson": "mathematics succeeded for MATH (1 verified) | self-eval: goal satisfied: 1 verified steps first try"
+  },
+  {
+   "experience_id": "exp-138",
+   "goal_type": "general",
+   "description": "calculate 999 + 1",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "plan invalid"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:48:51.959883+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "plan invalid",
+   "recovery_result": "brain-f9612400e964",
+   "lesson": "no ability failed for goal: plan invalid | self-eval: goal unsatisfied: plan invalid; replans used: 0"
+  },
+  {
+   "experience_id": "exp-139",
+   "goal_type": "general",
+   "description": "write the file notes.txt then read notes.txt",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "plan invalid"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:48:52.055896+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "plan invalid",
+   "recovery_result": "brain-977b7c1ea811",
+   "lesson": "no ability failed for goal: plan invalid | self-eval: goal unsatisfied: plan invalid; replans used: 0"
+  },
+  {
+   "experience_id": "exp-140",
+   "goal_type": "general",
+   "description": "calculate 999 + 1",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "plan invalid"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:50:09.754646+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "plan invalid",
+   "recovery_result": "brain-6cc617a5167f",
+   "lesson": "no ability failed for goal: plan invalid | self-eval: goal unsatisfied: plan invalid; replans used: 0"
+  },
+  {
+   "experience_id": "exp-141",
+   "goal_type": "general",
+   "description": "write the file notes.txt then read notes.txt",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "plan invalid"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:50:09.854305+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "plan invalid",
+   "recovery_result": "brain-c5a2d4cb88ef",
+   "lesson": "no ability failed for goal: plan invalid | self-eval: goal unsatisfied: plan invalid; replans used: 0"
+  },
+  {
+   "experience_id": "exp-142",
+   "goal_type": "general",
+   "description": "calculate 2 + 2 then calculate 3 * 3",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 2,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:50:40.039667+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-3f6dc4b79a58",
+   "lesson": "mathematics succeeded for MATH (2 verified) | self-eval: goal satisfied: 2 verified steps first try"
+  },
+  {
+   "experience_id": "exp-143",
+   "goal_type": "general",
+   "description": "calculate 999 + 1",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "plan invalid"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:50:40.177072+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "plan invalid",
+   "recovery_result": "brain-fa4a084105bf",
+   "lesson": "no ability failed for goal: plan invalid | self-eval: goal unsatisfied: plan invalid; replans used: 0"
+  },
+  {
+   "experience_id": "exp-144",
+   "goal_type": "general",
+   "description": "write the file notes.txt then read notes.txt",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "plan invalid"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:50:40.280944+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "plan invalid",
+   "recovery_result": "brain-9f2689b4ce7d",
+   "lesson": "no ability failed for goal: plan invalid | self-eval: goal unsatisfied: plan invalid; replans used: 0"
+  },
+  {
+   "experience_id": "exp-145",
+   "goal_type": "general",
+   "description": "calculate 2 + 2 then calculate 3 * 3",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 2,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:50:57.593325+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-65a636f73234",
+   "lesson": "mathematics succeeded for MATH (2 verified) | self-eval: goal satisfied: 2 verified steps first try"
+  },
+  {
+   "experience_id": "exp-146",
+   "goal_type": "general",
+   "description": "calculate 2 + 2 then calculate 3 * 3",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 2,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:51:32.811929+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-3237db7d4420",
+   "lesson": "mathematics succeeded for MATH (2 verified) | self-eval: goal satisfied: 2 verified steps first try"
+  },
+  {
+   "experience_id": "exp-147",
+   "goal_type": "general",
+   "description": "calculate 999 + 1",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "plan invalid"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:51:32.901088+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "plan invalid",
+   "recovery_result": "brain-c6869d26e5b4",
+   "lesson": "no ability failed for goal: plan invalid | self-eval: goal unsatisfied: plan invalid; replans used: 0"
+  },
+  {
+   "experience_id": "exp-148",
+   "goal_type": "general",
+   "description": "write the file notes.txt then read notes.txt",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "plan invalid"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:51:32.996490+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "plan invalid",
+   "recovery_result": "brain-b9becffe6689",
+   "lesson": "no ability failed for goal: plan invalid | self-eval: goal unsatisfied: plan invalid; replans used: 0"
+  },
+  {
+   "experience_id": "exp-149",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:51:49.389891+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-af25a727d78f",
+   "lesson": "echo-file succeeded for FILE_READ (1 verified) | self-eval: goal satisfied: 1 verified steps first try"
+  },
+  {
+   "experience_id": "exp-150",
+   "goal_type": "general",
+   "description": "write the file flaky-report",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "flaky-tool"
+   ],
+   "outcome": "RECOVERED",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 1,
+    "result": "recovered"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 1,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:51:49.533559+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "flaky-tool"
+   ],
+   "failure_reason": "tool:flaky-tool: [INTERNAL_ERROR] transient boom; tool:files: [INTERNAL_ERROR] no file path specified",
+   "recovery_result": "brain-116aa118c274",
+   "lesson": "flaky-tool succeeded for FILE_WRITE (1 verified) | self-eval: goal satisfied: 1 verified steps after 1 replans"
+  },
+  {
+   "experience_id": "exp-151",
+   "goal_type": "general",
+   "description": "write the file report-xyz",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "files"
+   ],
+   "outcome": "UNRECOVERED",
+   "success": 0.0,
+   "failures": [
+    "tool:files: [INTERNAL_ERROR] no file path specified; execution failed"
+   ],
+   "recovery": {
+    "replans": 2,
+    "result": "exhausted"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 2,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:51:49.636589+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "files"
+   ],
+   "failure_reason": "tool:files: [INTERNAL_ERROR] no file path specified; execution failed",
+   "recovery_result": "brain-fe4f39f96b19",
+   "lesson": "files failed for FILE_WRITE: tool:files: [INTERNAL_ERROR] no file path specified; execution failed | self-eval: goal unsatisfied: execution failed; replans used: 2"
+  },
+  {
+   "experience_id": "exp-152",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:51:49.737778+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-7cd22bd8edd8",
+   "lesson": "echo-file succeeded for FILE_READ (1 verified) | self-eval: goal satisfied: 1 verified steps first try"
+  },
+  {
+   "experience_id": "exp-153",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:51:49.853601+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-b87bacc1d4db",
+   "lesson": "echo-file succeeded for FILE_READ (1 verified) | self-eval: goal satisfied: 1 verified steps first try"
+  },
+  {
+   "experience_id": "exp-154",
+   "goal_type": "general",
+   "description": "read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:51:49.956798+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-495ba618d676",
+   "lesson": "echo-file succeeded for FILE_READ (1 verified) | self-eval: goal satisfied: 1 verified steps first try"
+  },
+  {
+   "experience_id": "exp-155",
+   "goal_type": "general",
+   "description": "calculate 25 * 4",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:51:50.191192+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-e6f6dea66696",
+   "lesson": "mathematics succeeded for MATH (1 verified) | self-eval: goal satisfied: 1 verified steps first try"
+  },
+  {
+   "experience_id": "exp-156",
+   "goal_type": "general",
+   "description": "write the file report-xyz",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "fail-tool"
+   ],
+   "outcome": "UNRECOVERED",
+   "success": 0.0,
+   "failures": [
+    "tool:fail-tool: [INTERNAL_ERROR] boom; execution failed"
+   ],
+   "recovery": {
+    "replans": 2,
+    "result": "exhausted"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 2,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:51:50.426188+00:00",
+   "capabilities": [
+    "FILE_WRITE"
+   ],
+   "abilities": [
+    "fail-tool"
+   ],
+   "failure_reason": "tool:fail-tool: [INTERNAL_ERROR] boom; execution failed",
+   "recovery_result": "brain-e02df1fd26cc",
+   "lesson": "fail-tool failed for FILE_WRITE: tool:fail-tool: [INTERNAL_ERROR] boom; execution failed | self-eval: goal unsatisfied: execution failed; replans used: 2"
+  },
+  {
+   "experience_id": "exp-157",
+   "goal_type": "general",
+   "description": "calculate 2 + 2",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "mathematics"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:51:50.641647+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "mathematics"
+   ],
+   "failure_reason": "",
+   "recovery_result": "brain-a72689c79f50",
+   "lesson": "mathematics succeeded for MATH (1 verified) | self-eval: goal satisfied: 1 verified steps first try"
+  },
+  {
+   "experience_id": "exp-158",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:52:26.936371+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "e2e-1",
+   "lesson": "echo-file succeeded for FILE_READ (1 verified) | self-eval: goal satisfied: 1 verified steps first try"
+  },
+  {
+   "experience_id": "exp-159",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:52:27.031023+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "",
+   "recovery_result": "c-1",
+   "lesson": "echo-file succeeded for FILE_READ (1 verified) | self-eval: goal satisfied: 1 verified steps first try"
+  },
+  {
+   "experience_id": "exp-160",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "calculator"
+   ],
+   "outcome": "SUCCESS",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:52:27.186615+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "calculator"
+   ],
+   "failure_reason": "",
+   "recovery_result": "calc-1",
+   "lesson": "calculator succeeded for MATH (1 verified) | self-eval: goal satisfied: 1 verified steps first try"
+  },
+  {
+   "experience_id": "exp-161",
+   "goal_type": "general",
+   "description": "Read this file",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "plan invalid"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:52:27.282431+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "plan invalid",
+   "recovery_result": "deny-1",
+   "lesson": "no ability failed for goal: plan invalid | self-eval: goal unsatisfied: plan invalid; replans used: 0"
+  },
+  {
+   "experience_id": "exp-162",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "calculator"
+   ],
+   "outcome": "UNRECOVERED",
+   "success": 0.0,
+   "failures": [
+    "tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed; execution failed"
+   ],
+   "recovery": {
+    "replans": 2,
+    "result": "exhausted"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 2,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:52:27.435409+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "calculator"
+   ],
+   "failure_reason": "tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed; execution failed",
+   "recovery_result": "brain-12d4fed0d01f",
+   "lesson": "calculator failed for MATH: tool:calculator: [INVALID_INPUT] Invalid inputs for 'calculator': only arithmetic expressions are allowed; execution failed | self-eval: goal unsatisfied: execution failed; replans used: 2"
+  },
+  {
+   "experience_id": "exp-163",
+   "goal_type": "general",
+   "description": "Calculate the totals",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "fail-once"
+   ],
+   "outcome": "RECOVERED",
+   "success": 1.0,
+   "failures": [],
+   "recovery": {
+    "replans": 1,
+    "result": "recovered"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "VERIFIED"
+   },
+   "retries": 1,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:52:27.539221+00:00",
+   "capabilities": [
+    "MATH"
+   ],
+   "abilities": [
+    "fail-once"
+   ],
+   "failure_reason": "tool:fail-once: [INTERNAL_ERROR] first attempt fails",
+   "recovery_result": "brain-e2eb712741aa",
+   "lesson": "fail-once succeeded for MATH (1 verified) | self-eval: goal satisfied: 1 verified steps after 1 replans"
+  },
+  {
+   "experience_id": "exp-164",
+   "goal_type": "general",
+   "description": "task-1",
+   "strategy": "autonomous-loop",
+   "tools_used": [],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "cancelled"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 0,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-1",
+   "recorded_at": "2026-09-07T09:52:27.703835+00:00",
+   "capabilities": [],
+   "abilities": [],
+   "failure_reason": "cancelled",
+   "recovery_result": "",
+   "lesson": "no ability failed for goal: cancelled | self-eval: goal unsatisfied: cancelled; replans used: 0"
+  },
+  {
+   "experience_id": "exp-165",
+   "goal_type": "general",
+   "description": "task-2",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"
+   ],
+   "outcome": "FAILED",
+   "success": 0.0,
+   "failures": [
+    "cancelled"
+   ],
+   "recovery": {
+    "replans": 0,
+    "result": "none"
+   },
+   "verification": {
+    "passed_steps": 1,
+    "state": "PENDING"
+   },
+   "retries": 0,
+   "task_id": "task-2",
+   "recorded_at": "2026-09-07T09:52:27.740693+00:00",
+   "capabilities": [
+    "FILE_READ"
+   ],
+   "abilities": [
+    "echo-file"
+   ],
+   "failure_reason": "cancelled",
+   "recovery_result": "",
+   "lesson": "echo-file failed for FILE_READ: cancelled | self-eval: goal unsatisfied: cancelled; replans used: 0"
+  },
+  {
+   "experience_id": "exp-166",
+   "goal_type": "general",
+   "description": "task-1",
+   "strategy": "autonomous-loop",
+   "tools_used": [
+    "echo-file"

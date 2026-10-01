@@ -1,0 +1,12 @@
+{
+ "config_hash": "867254d049eb3663",
+ "stage": "STAGE_D_COGNITIVE_OS",
+ "tokens": 23700,
+ "domains": [
+  "tool_use",
+  "verification",
+  "memory",
+  "planning"
+ ],
+ "weight": 0.1
+}

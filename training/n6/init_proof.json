@@ -1,0 +1,55 @@
+{
+ "model_id": "hercule-lm-100m",
+ "architecture_hash": "2de3e5574a3bb715",
+ "parameter_count": 100093184,
+ "seed": 20260613,
+ "initialization": "xavier-uniform (biases zero, norms one)",
+ "weights_origin": "RANDOM_INITIALIZATION",
+ "pretrained_weights": false,
+ "param_stats": {
+  "tokE": {
+   "mean": -5.019477384848869e-07,
+   "std": 0.020000772550702095,
+   "min": -0.1016688421368599,
+   "max": 0.10432762652635574,
+   "finite": true
+  },
+  "L0.qkvW": {
+   "mean": -3.5989764000987634e-05,
+   "std": 0.027960222214460373,
+   "min": -0.048412252217531204,
+   "max": 0.04841216281056404,
+   "finite": true
+  },
+  "L8.f1W": {
+   "mean": -1.0612872756610159e-05,
+   "std": 0.024989569559693336,
+   "min": -0.04330120235681534,
+   "max": 0.04330114647746086,
+   "finite": true
+  },
+  "L15.f2W": {
+   "mean": 5.13020931975916e-05,
+   "std": 0.02499389834702015,
+   "min": -0.04330120608210564,
+   "max": 0.04330119863152504,
+   "finite": true
+  },
+  "headW": {
+   "mean": 4.06719618695206e-06,
+   "std": 0.010839821770787239,
+   "min": -0.018773473799228668,
+   "max": 0.018773479387164116,
+   "finite": true
+  },
+  "L0.ln1W": {
+   "mean": 1.0,
+   "std": 0.0,
+   "min": 1.0,
+   "max": 1.0,
+   "finite": true
+  }
+ },
+ "params_sample_hash": "fa9f428c86c7b5c0",
+ "init_seconds": 2.2
+}

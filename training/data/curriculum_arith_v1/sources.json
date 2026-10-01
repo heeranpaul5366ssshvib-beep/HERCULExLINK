@@ -1,0 +1,12 @@
+[
+ {
+  "name": "hercule-arith-curric-v1",
+  "license": "HERCULE-authored (MIT, repo)",
+  "origin": "hercule-synthetic",
+  "url": "",
+  "version": "v1",
+  "files": [
+   "arith.txt"
+  ]
+ }
+]

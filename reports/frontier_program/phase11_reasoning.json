@@ -1,0 +1,11 @@
+{
+ "held_starts_n": 20,
+ "base": {
+  "numeric": 0,
+  "format": 1
+ },
+ "trained": {
+  "numeric": 0,
+  "format": 0
+ }
+}

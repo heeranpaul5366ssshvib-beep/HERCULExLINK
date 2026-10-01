@@ -1,0 +1,53 @@
+=== START Phase M Tests ===
+pytest OK: 9.1.1
+EXIT: 0
+
+=== STDOUT ===
+============================= test session starts =============================
+collecting ... collected 38 items
+
+tests/test_phase_m_semantic.py::test_schema_parsing_valid PASSED         [  2%]
+tests/test_phase_m_semantic.py::test_schema_rejects_garbage PASSED       [  5%]
+tests/test_phase_m_semantic.py::test_duplicates_merge_and_unknown_fields_warned PASSED [  7%]
+tests/test_phase_m_semantic.py::test_normalize_aliases PASSED            [ 10%]
+tests/test_phase_m_semantic.py::test_proposer_disabled_falls_back PASSED [ 13%]
+tests/test_phase_m_semantic.py::test_proposer_unbound_model_falls_back PASSED [ 15%]
+tests/test_phase_m_semantic.py::test_proposer_valid_output_and_prompt_separation PASSED [ 18%]
+tests/test_phase_m_semantic.py::test_proposer_malformed_retries_then_falls_back PASSED [ 21%]
+tests/test_phase_m_semantic.py::test_proposer_required_raises_instead_of_fallback PASSED [ 23%]
+tests/test_phase_m_semantic.py::test_proposer_low_confidence_policies PASSED [ 26%]
+tests/test_phase_m_semantic.py::test_proposer_retry_on_transient_failure PASSED [ 28%]
+tests/test_phase_m_semantic.py::test_proposer_shadow_comparison PASSED   [ 31%]
+tests/test_phase_m_semantic.py::test_proposer_model_routing_and_health PASSED [ 34%]
+tests/test_phase_m_semantic.py::test_merge_and_compare_helpers PASSED    [ 36%]
+tests/test_phase_m_semantic.py::test_hybrid_modes PASSED                 [ 39%]
+tests/test_phase_m_semantic.py::test_hybrid_semantic_required_raises PASSED [ 42%]
+tests/test_phase_m_semantic.py::test_hybrid_unknown_rejected_observable PASSED [ 44%]
+tests/test_phase_m_semantic.py::test_hybrid_negation_backstop PASSED     [ 47%]
+tests/test_phase_m_semantic.py::test_hybrid_untrusted_demotions PASSED   [ 50%]
+tests/test_phase_m_semantic.py::test_hybrid_explicit_user_still_validated PASSED [ 52%]
+tests/test_phase_m_semantic.py::test_hybrid_confidence_never_authorizes PASSED [ 55%]
+tests/test_phase_m_semantic.py::test_hybrid_unhealthy_and_env_rejection PASSED [ 57%]
+tests/test_phase_m_semantic.py::test_hybrid_conflicts_and_dependencies PASSED [ 60%]
+tests/test_phase_m_semantic.py::test_hybrid_cache_never_caches_auth PASSED [ 63%]
+tests/test_phase_m_semantic.py::test_hybrid_tracing PASSED               [ 65%]
+tests/test_phase_m_semantic.py::test_explainers_from_metadata PASSED     [ 68%]
+tests/test_phase_m_semantic.py::test_semantic_flags PASSED               [ 71%]
+tests/test_phase_m_benchmark.py::test_planner_legacy_byte_identical_without_semantic PASSED [ 73%]
+tests/test_phase_m_benchmark.py::test_planner_hybrid_populates_from_resolution PASSED [ 76%]
+tests/test_phase_m_benchmark.py::test_planner_explicit_capabilities_validated PASSED [ 78%]
+tests/test_phase_m_benchmark.py::test_brain_run_with_semantic_proposer PASSED [ 81%]
+tests/test_phase_m_benchmark.py::test_brain_semantic_unconfigured_falls_back_deterministically PASSED [ 84%]
+tests/test_phase_m_benchmark.py::test_dataset_covers_required_categories PASSED [ 86%]
+tests/test_phase_m_benchmark.py::test_benchmark_metrics_and_shadow_equivalence PASSED [ 89%]
+tests/test_phase_m_benchmark.py::test_calibration_buckets_honest PASSED  [ 92%]
+tests/test_phase_m_benchmark.py::test_evaluation_engine_category PASSED  [ 94%]
+tests/test_phase_m_benchmark.py::test_live_path_with_real_manager_falls_back_safely PASSED [ 97%]
+tests/test_phase_m_benchmark.py::test_env_gated_real_model SKIPPED (...) [100%]
+
+================== 37 passed, 1 skipped in 77.15s (0:01:17) ===================
+
+
+=== STDERR ===
+
+=== END ===

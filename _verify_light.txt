@@ -1,0 +1,45 @@
+=== Lightweight Brain.configure_semantic verification ===
+1. Importing core modules...
+   OK: planner + mock imports
+   OK: semantic + inference imports
+2. Building SemanticCapabilityProposer with mock model...
+   OK: proposer built, enabled=True
+3. Testing Planner.configure_semantic() directly...
+   OK: planner._semantic_proposer is proposer -> True
+   OK: planner._semantic_enabled = True
+   OK: planner._semantic_mode = hybrid
+4. Testing implicit SYSTEM_OBSERVE case...
+   required = {'SYSTEM_OBSERVE'}
+   mode = hybrid
+   final = ['SYSTEM_OBSERVE']
+   sem_count = 2
+   det_count = 0
+   accepted = [{'name': 'SYSTEM_OBSERVE', 'confidence': 0.92, 'source': 'semantic_model', 'explanation': 'user asks about application crashes', 'required': True, 'condition': '', 'depends_on': [], 'known': True, 'model_metadata': {}, 'rejection': {}}, {'name': 'FILE_READ', 'confidence': 0.7, 'source': 'semantic_model', 'explanation': 'may need to inspect log files', 'required': False, 'condition': '', 'depends_on': [], 'known': True, 'model_metadata': {}, 'rejection': {}}]
+   rejected = []
+   fallback_used = False
+   PASS
+5. Testing direct FILE_READ case...
+   required = {'FILE_READ'}
+   PASS
+6. Testing fresh Planner without configure_semantic stays deterministic...
+   required = {'FILE_READ'}
+   mode = deterministic
+   PASS
+7. Testing Brain.configure_semantic() with mock orchestrator...
+   Calling brain.configure_semantic(mode='hybrid', enabled=True, proposer=proposer)...
+   chainable returned brain -> True
+   brain._semantic_config.mode = HybridMode.HYBRID
+   brain._semantic_config.enabled = True
+   planner._semantic_mode = HybridMode.HYBRID
+   planner._semantic_enabled = True
+   planner._semantic_proposer is proposer -> True
+   PASS: Brain.configure_semantic() delegates correctly
+   plan via brain: required={'SYSTEM_OBSERVE'}, mode=semantic_optional
+
+FAIL: 
+Traceback (most recent call last):
+  File "c:\Users\hp\HERCULE\_verify_light.py", line 184, in <module>
+    assert report_b.get("mode") == "hybrid"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+

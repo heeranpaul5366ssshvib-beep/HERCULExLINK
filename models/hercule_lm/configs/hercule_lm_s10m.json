@@ -1,0 +1,18 @@
+{
+ "model_id": "hercule-lm-s10m",
+ "vocab_size": 2048,
+ "hidden_size": 256,
+ "num_layers": 12,
+ "num_heads": 8,
+ "ffn_size": 1024,
+ "context_length": 128,
+ "positional": "learned",
+ "normalization": "layernorm",
+ "activation": "gelu",
+ "dropout": 0.0,
+ "initialization": "xavier-uniform",
+ "dtype": "float32",
+ "tokenizer_id": "hercule-bpe-micro-v1",
+ "parameter_count": 10561024,
+ "architecture_hash": "60e0e63f0af8ed5d"
+}

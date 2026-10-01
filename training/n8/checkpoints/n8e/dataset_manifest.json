@@ -1,0 +1,42 @@
+{
+ "name": "hercule-seed",
+ "version": "v1",
+ "sources": [
+  {
+   "name": "arithmetic-0",
+   "license": "HERCULE-authored (MIT, repo)",
+   "origin": "hercule-synthetic",
+   "url": "",
+   "version": "v1",
+   "files": [
+    "arithmetic.txt"
+   ]
+  },
+  {
+   "name": "arithmetic-1",
+   "license": "HERCULE-authored (MIT, repo)",
+   "origin": "hercule-authored",
+   "url": "",
+   "version": "v1",
+   "files": [
+    "mixed.txt"
+   ]
+  }
+ ],
+ "documents": 6326,
+ "dataset_hash": "15faf2bcb539771ed005469e5928b1ffd47997409ba5ab6f315a672e7935a384",
+ "splits": {
+  "train": {
+   "documents": 5734,
+   "hash": "ab7e3dac0d48bb45"
+  },
+  "validation": {
+   "documents": 295,
+   "hash": "5ac527dc0ea81d09"
+  },
+  "test": {
+   "documents": 297,
+   "hash": "72ed4952b2706d92"
+  }
+ }
+}

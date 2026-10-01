@@ -1,0 +1,44 @@
+Verify means to check that something is true or correct.
+
+
+Plan means a list of steps to reach a goal.
+
+
+Memory means stored information that can be recalled later.
+
+
+Policy means a rule that decides what is allowed.
+
+
+Tool means an instrument used to perform a task.
+
+
+Skill means a validated reusable procedure.
+
+
+Evidence means observed facts that support a claim.
+
+
+Risk means the chance of an unwanted outcome.
+
+
+Goal means a desired future state.
+
+
+Task means a unit of work with a clear end.
+
+
+Agent means a system that acts toward goals.
+
+
+Model means a mathematical description learned from data.
+
+
+Token means a piece of text used by a language model.
+
+
+Epoch means one full pass over training data.
+
+
+Batch means a group of examples processed together.
+

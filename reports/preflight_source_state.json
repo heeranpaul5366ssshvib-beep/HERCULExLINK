@@ -1,0 +1,35 @@
+{
+  "project_path": "C:\\Users\\hp\\HERCULE",
+  "python_executable": "C:\\Users\\hp\\HERCULE\\.venv\\Scripts\\python.exe",
+  "python_version": "3.14.6",
+  "pip_version": "26.2.1",
+  "virtual_environment": "C:\\Users\\hp\\HERCULE\\.venv",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "architecture": "AMD64",
+  "git_repository": false,
+  "git_branch": null,
+  "git_revision": null,
+  "working_tree_modifications": "N/A (not a git repository)",
+  "generated_artifacts_present": [
+    ".pytest_cache",
+    "__pycache__",
+    ".tmp",
+    "artifacts",
+    "reports",
+    "installed",
+    "build",
+    "dist",
+    "hercule_ai.egg-info"
+  ],
+  "cpu": {
+    "model": "Intel64 Family 6 Model 58 Stepping 9, GenuineIntel (Intel i3-3220)",
+    "cores_physical": 2,
+    "cores_logical": 4
+  },
+  "ram_total_gb": 7.89,
+  "ram_available_gb": 1.16,
+  "environment_variables": {
+    "PYTHONPATH": "NOT SET",
+    "PATH": "System default"
+  }
+}

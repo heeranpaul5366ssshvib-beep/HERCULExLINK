@@ -1,0 +1,63 @@
+{
+  "phase": "Phase 3 - GPU Validation, Distributed Training, Model Scaling",
+  "timestamp": "2026-09-24T09:00:00.000000+00:00",
+  "status": "CPU_AND_HARNESS_VALIDATED__GPU_BLOCKED",
+  "current_hardware": {
+    "platform": "Windows-10-10.0.19045-SP0",
+    "cpu": "2 physical / 4 logical cores @ 3.3 GHz",
+    "ram_gb": 8.5,
+    "gpu_count": 0,
+    "torch": "2.14.0+cpu",
+    "inventory": "reports/frontier_program/hardware_inventory.json"
+  },
+  "cuda_status": "CUDA_BLOCKED (torch.cuda.is_available() == False; no fake CUDA)",
+  "fp32_status": "BLOCKED (spec: reports/frontier_program/phase3_cuda_fp32.json)",
+  "amp_status": {
+    "off_fp32": "MEASURED (CPU baseline)",
+    "bf16": "MEASURED-SMOKE (CPU runs, slow; CUDA NOT_RUN)",
+    "fp16": "BLOCKED (requires CUDA; CLI rejects on CPU)"
+  },
+  "ddp_status": "HARNESS_VALIDATED (2-proc gloo CPU: exit 0/0, synced, ckpt reloads); MULTI_GPU BLOCKED (0 CUDA devices)",
+  "fsdp_status": "NOT_IMPLEMENTED (scaffold models/hercule_lm/fsdp.py; needs >= 2 CUDA + proven DDP)",
+  "cuda_throughput": "NOT_RUN",
+  "gpu_utilization": "NOT_RUN (nvidia-smi probe implemented in device.gpu_utilization, returns None here)",
+  "vram": "NOT_RUN",
+  "checkpoint_resume": "MEASURED single-device + DDP-harness (save/load/resume/mismatch-rejection all green on CPU)",
+  "model_scaling": {
+    "100m": "BLOCKED (needs ~2.0GB; single T4-class GPU READY-projected)",
+    "300m": "BLOCKED (needs ~4.5GB; single GPU READY-projected)",
+    "1b": "BLOCKED (needs ~18.3GB; A100-40GB or 2-GPU DDP projected)",
+    "3b": "BLOCKED (needs ~55GB; multi-GPU FSDP projected)",
+    "7b": "BLOCKED (needs ~119GB; multi-GPU FSDP projected)",
+    "evidence": "ESTIMATED memory via estimate_memory; configs load; arch hashes recorded",
+    "ladder": {"100m": "2de3e5574a3bb715", "300m": "1ffaac906615b14d", "1b": "c4a71f47a8c7b016", "3b": "fec9ad18353de630", "7b": "cebf918c0626ef9a"}
+  },
+  "tests": {"total": 127, "passed": 118, "failed": 0, "skipped": 9, "cuda_not_run": 4},
+  "files_added": [
+    "models/hercule_lm/distributed.py",
+    "models/hercule_lm/fsdp.py",
+    "scripts/ddp_launch.py",
+    "scripts/feasibility.py"
+  ],
+  "files_modified": [
+    "models/hercule_lm/train_torch.py (DDP, gpu_util, core_model unwrap)",
+    "models/hercule_lm/device.py (gpu_utilization probe)",
+    "tests/test_hercule_lm_torch.py (6 distributed tests)"
+  ],
+  "blockers": [
+    "0 CUDA devices: phases 3B/3C/3D/3E/3F honestly BLOCKED",
+    "multi-GPU DDP/FSDP: BLOCKED until >= 2 CUDA devices",
+    "~1.5GB free RAM: 100M+ CPU training blocked; feasibility.json has per-model verdicts"
+  ],
+  "not_run": ["CUDA smoke", "CUDA FP32 micro/s10m", "CUDA ckpt/resume", "AMP on CUDA", "2-GPU DDP", "FSDP run", "100M-7B GPU benchmarks"],
+  "next_phase": {
+    "phase": "Phase 4 - Data Engineering (+ GPU execution)",
+    "prerequisites": ["1x CUDA GPU 8GB+ (T4 ok for 100M/300M)", "torch CUDA build (no code changes needed)"],
+    "first_commands_on_gpu_box": [
+      "python scripts/hardware_inventory.py",
+      "python -m training.run --config models/hercule_lm/configs/hercule_lm_micro.json --device cuda --steps 10",
+      "python -m training.run --config models/hercule_lm/configs/hercule_lm_s10m.json --device cuda --steps 10",
+      "python scripts/ddp_launch.py --nproc 2 -- -m models.hercule_lm.train --config <cfg> --backend torch --device cuda --steps N ..."
+    ]
+  }
+}

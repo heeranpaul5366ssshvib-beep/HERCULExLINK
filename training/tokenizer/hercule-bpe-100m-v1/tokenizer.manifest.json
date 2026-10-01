@@ -1,0 +1,14 @@
+{
+ "algorithm": "byte-level-bpe",
+ "vocab_size": 3736,
+ "merges": 3476,
+ "corpus_version": "hercule-seed-v1",
+ "normalization": "none (raw UTF-8 bytes; whitespace significant)",
+ "specials": {
+  "<PAD>": 0,
+  "<BOS>": 1,
+  "<EOS>": 2,
+  "<UNK>": 3
+ },
+ "checksum": "843534c8f576ecde"
+}

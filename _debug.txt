@@ -1,0 +1,8 @@
+imported
+config.enabled=False type=<class 'bool'>
+config.min_confidence=0.5 type=<class 'float'>
+config.enabled is False -> True
+bool(config.enabled) -> False
+env_config.enabled=True -> <class 'bool'>
+env_config.shadow=False
+env_config.min_confidence=0.7

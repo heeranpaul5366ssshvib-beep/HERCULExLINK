@@ -1,0 +1,17 @@
+{
+ "held_numeric_by_arm": {
+  "A": "0/20",
+  "B": "0/20",
+  "C": "0/20"
+ },
+ "seen_vs_unseen": {
+  "C-trained seen-pair": "3/20",
+  "C-trained held-out": "0/20"
+ },
+ "gap": "memorization without generalization at all CPU-reachable arms",
+ "failure_examples": [
+  "2+3->9 (memorized neighbor)",
+  "0+5->10 (memorized neighbor)",
+  "100+100->101 (format only)"
+ ]
+}

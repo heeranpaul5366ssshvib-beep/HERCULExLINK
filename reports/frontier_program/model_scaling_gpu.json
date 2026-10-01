@@ -1,0 +1,13 @@
+{
+  "phase": "Phase 5J - model scaling with CUDA measurements",
+  "timestamp": "2026-09-24T09:00:00.000000+00:00",
+  "status": "NOT_RUN (0 CUDA devices)",
+  "note": "Memory column is ESTIMATED (estimate_memory, batch 8). Throughput is NOT_RUN until gpu_auto_run.py executes on a GPU box, which overwrites these rows with MEASURED_CUDA.",
+  "models": [
+    {"model": "hercule-lm-100m", "params": 100093184, "train_mem_gb_est": 2.0, "cuda_toks": "NOT_RUN", "gpus_required_est": 1, "verdict": "NOT_RUN"},
+    {"model": "hercule-lm-300m", "params": 196079104, "train_mem_gb_est": 4.5, "cuda_toks": "NOT_RUN", "gpus_required_est": 1, "verdict": "NOT_RUN"},
+    {"model": "hercule-lm-1b", "params": 783801344, "train_mem_gb_est": 18.3, "cuda_toks": "NOT_RUN", "gpus_required_est": "1-2", "verdict": "NOT_RUN"},
+    {"model": "hercule-lm-3b", "params": 2690700288, "train_mem_gb_est": 55.1, "cuda_toks": "NOT_RUN", "gpus_required_est": "4+ (FSDP)", "verdict": "NOT_RUN"},
+    {"model": "hercule-lm-7b", "params": 5183593472, "train_mem_gb_est": 118.6, "cuda_toks": "NOT_RUN", "gpus_required_est": "8 (FSDP)", "verdict": "NOT_RUN"}
+  ]
+}

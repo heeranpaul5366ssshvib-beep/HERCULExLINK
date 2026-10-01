@@ -1,0 +1,2 @@
+Hello from Python
+CWD=C:\Users\hp\HERCULE

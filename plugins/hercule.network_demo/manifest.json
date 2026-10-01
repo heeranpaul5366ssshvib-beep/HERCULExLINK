@@ -1,0 +1,41 @@
+{
+  "plugin_id": "hercule.network_demo",
+  "name": "HERCULE Network Demo",
+  "version": "1.0.0",
+  "description": "Demonstrates isolated network permission - controlled HTTP requests only",
+  "author": "HERCULE Team",
+  "homepage": "https://hercule.ai",
+  "min_hercule_version": "1.0.0",
+  "max_hercule_version": "2.0.0",
+  "entrypoint": "plugin",
+  "capabilities": [
+    "network_request",
+    "http_client"
+  ],
+  "permissions": [
+    "network"
+  ],
+  "dependencies": [],
+  "configuration_schema": {
+    "default_timeout": {
+      "type": "integer",
+      "default": 10,
+      "minimum": 1,
+      "maximum": 60,
+      "description": "Default request timeout in seconds"
+    },
+    "allowed_domains": {
+      "type": "array",
+      "items": {"type": "string"},
+      "default": ["httpbin.org", "api.github.com"],
+      "description": "Allowed domains for network requests"
+    }
+  },
+  "plugin_api_version": "1.0",
+  "icon": "assets/icon.png",
+  "tags": [
+    "network",
+    "http",
+    "demo"
+  ]
+}

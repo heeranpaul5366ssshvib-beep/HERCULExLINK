@@ -1,0 +1,149 @@
+---
+interface Props {
+  class?: string;
+}
+const { class: className = '' } = Astro.props;
+---
+
+<section id="download" class={className} aria-labelledby="download-heading">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <div class="text-center mb-16">
+      <h2 id="download-heading" class="text-3xl sm:text-4xl font-bold text-text-primary mb-4">
+        Download HERCULE
+      </h2>
+      <p class="text-lg text-text-secondary max-w-2xl mx-auto">
+        Available on all major platforms. Choose your device and get started in minutes.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-16">
+      <PlatformCard
+        platform="Windows"
+        versions={['Windows 10/11 (x64)', 'Windows 11 ARM64']}
+        downloads={[
+          { label: 'NSIS Installer', href: '#', size: '~180 MB', recommended: true },
+          { label: 'MSI Installer', href: '#', size: '~180 MB' },
+          { label: 'Portable', href: '#', size: '~170 MB' },
+        ]}
+        icon="windows"
+        accent="blue"
+      />
+      <PlatformCard
+        platform="macOS"
+        versions={['macOS 12+ (Intel)', 'macOS 12+ (Apple Silicon)']}
+        downloads={[
+          { label: 'DMG (Universal)', href: '#', size: '~200 MB', recommended: true },
+          { label: 'ZIP (Intel)', href: '#', size: '~190 MB' },
+          { label: 'ZIP (ARM64)', href: '#', size: '~190 MB' },
+        ]}
+        icon="apple"
+        accent="violet"
+      />
+      <PlatformCard
+        platform="Linux"
+        versions={['Ubuntu 20.04+', 'Fedora 35+', 'Arch Linux', 'Flatpak']}
+        downloads={[
+          { label: 'AppImage', href: '#', size: '~185 MB', recommended: true },
+          { label: 'DEB Package', href: '#', size: '~175 MB' },
+          { label: 'Flatpak', href: '#', size: '~180 MB' },
+        ]}
+        icon="linux"
+        accent="emerald"
+      />
+      <PlatformCard
+        platform="iOS"
+        versions={['iOS 16+', 'iPadOS 16+']}
+        downloads={[
+          { label: 'App Store', href: '#', size: '~120 MB', recommended: true },
+          { label: 'TestFlight', href: '#', size: '~120 MB' },
+        ]}
+        icon="apple"
+        accent="amber"
+      />
+      <PlatformCard
+        platform="Android"
+        versions={['Android 10+', 'Chrome OS']}
+        downloads={[
+          { label: 'Google Play', href: '#', size: '~95 MB', recommended: true },
+          { label: 'APK (Direct)', href: '#', size: '~90 MB' },
+          { label: 'F-Droid', href: '#', size: '~90 MB' },
+        ]}
+        icon="android"
+        accent="blue"
+      />
+    </div>
+
+    <div class="rounded-2xl border border-border-primary bg-slate-900/30 p-8 md:p-12 text-center">
+      <h3 class="text-2xl font-bold text-text-primary mb-4">Prefer the Web Version?</h3>
+      <p class="text-text-secondary mb-8 max-w-xl mx-auto">
+        Try HERCULE instantly in your browser with WebLLM acceleration. No installation required.
+      </p>
+      <a 
+        href="https://hercule.ai/web" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-8 py-3 text-base font-semibold text-white rounded-xl bg-gradient-to-r from-blue-600 to-violet-600 hover:from-blue-700 hover:to-violet-700 transition-all duration-200 shadow-lg shadow-blue-600/25"
+      >
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+        Launch Web App
+      </a>
+    </div>
+  </div>
+</section>
+
+<PlatformCard
+  platform="Windows"
+  versions={['Windows 10/11 (x64)', 'Windows 11 ARM64']}
+  downloads={[
+    { label: 'NSIS Installer', href: '#', size: '~180 MB', recommended: true },
+    { label: 'MSI Installer', href: '#', size: '~180 MB' },
+    { label: 'Portable', href: '#', size: '~170 MB' },
+  ]}
+  icon="windows"
+  accent="blue"
+/>
+<PlatformCard
+  platform="macOS"
+  versions={['macOS 12+ (Intel)', 'macOS 12+ (Apple Silicon)']}
+  downloads={[
+    { label: 'DMG (Universal)', href: '#', size: '~200 MB', recommended: true },
+    { label: 'ZIP (Intel)', href: '#', size: '~190 MB' },
+    { label: 'ZIP (ARM64)', href: '#', size: '~190 MB' },
+  ]}
+  icon="apple"
+  accent="violet"
+/>
+<PlatformCard
+  platform="Linux"
+  versions={['Ubuntu 20.04+', 'Fedora 35+', 'Arch Linux', 'Flatpak']}
+  downloads={[
+    { label: 'AppImage', href: '#', size: '~185 MB', recommended: true },
+    { label: 'DEB Package', href: '#', size: '~175 MB' },
+    { label: 'Flatpak', href: '#', size: '~180 MB' },
+  ]}
+  icon="linux"
+  accent="emerald"
+/>
+<PlatformCard
+  platform="iOS"
+  versions={['iOS 16+', 'iPadOS 16+']}
+  downloads={[
+    { label: 'App Store', href: '#', size: '~120 MB', recommended: true },
+    { label: 'TestFlight', href: '#', size: '~120 MB' },
+  ]}
+  icon="apple"
+  accent="amber"
+/>
+<PlatformCard
+  platform="Android"
+  versions={['Android 10+', 'Chrome OS']}
+  downloads={[
+    { label: 'Google Play', href: '#', size: '~95 MB', recommended: true },
+    { label: 'APK (Direct)', href: '#', size: '~90 MB' },
+    { label: 'F-Droid', href: '#', size: '~90 MB' },
+  ]}
+  icon="android"
+  accent="blue"
+/>

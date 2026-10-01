@@ -1,0 +1,16 @@
+# N7 100M Readiness Checklist (for eventual N6 retry)
+
+- [x] 100M architecture frozen (hash 2de3e5574a3bb715, 100,093,184 params)
+- [x] Tokenizer frozen (checksum 843534c8…, round-trip tested)
+- [x] Dataset manifest frozen (hash c9eed266…, 0 problems, [] leakage)
+- [x] Deterministic splits (hash + seed recorded)
+- [x] Checkpointing (atomic, manifests, latest.json)
+- [x] Resume (tested incl. resume-equals-uninterrupted)
+- [x] Gradient accumulation (math-verified, effective batch recorded)
+- [x] Device abstraction (CPU real; CUDA path honest/PENDING hardware)
+- [x] Mixed precision: declared fp32-only here (no fake AMP)
+- [x] Validation (in-loop + standalone eval CLI)
+- [x] Lineage (arch/tokenizer/dataset checks enforced)
+- [x] Evaluation (N7 suite + framework integration path)
+- [x] State isolation (guard + tmp fixtures + hash verification)
+- [ ] CUDA hardware — the single missing item. 100M TRAINING: BLOCKED.

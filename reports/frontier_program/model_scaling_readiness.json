@@ -1,0 +1,559 @@
+{
+ "timestamp": "2026-09-24T08:57:14.207314+00:00",
+ "hardware": {
+  "available_vram_gb": 0.0,
+  "available_ram_gb": 3.138658304
+ },
+ "models": {
+  "hercule_lm_nano": {
+   "model": "hercule_lm_nano",
+   "parameter_count": 933120,
+   "architecture_hash": "cd9d79f17e99272c",
+   "seq_len": 32,
+   "batch_results": {
+    "batch_1": {
+     "batch_size": 1,
+     "seq_len": 32,
+     "total_gb": 0.02,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_2": {
+     "batch_size": 2,
+     "seq_len": 32,
+     "total_gb": 0.02,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_4": {
+     "batch_size": 4,
+     "seq_len": 32,
+     "total_gb": 0.02,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_8": {
+     "batch_size": 8,
+     "seq_len": 32,
+     "total_gb": 0.02,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_16": {
+     "batch_size": 16,
+     "seq_len": 32,
+     "total_gb": 0.02,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_32": {
+     "batch_size": 32,
+     "seq_len": 32,
+     "total_gb": 0.03,
+     "fits_vram": false,
+     "fits_ram": true
+    }
+   },
+   "max_batch_vram": 0,
+   "max_batch_ram": 32,
+   "status": "READY",
+   "reason": "",
+   "requires_cuda": false
+  },
+  "hercule_lm_micro": {
+   "model": "hercule_lm_micro",
+   "parameter_count": 3088384,
+   "architecture_hash": "334685359cebcfa5",
+   "seq_len": 64,
+   "batch_results": {
+    "batch_1": {
+     "batch_size": 1,
+     "seq_len": 64,
+     "total_gb": 0.05,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_2": {
+     "batch_size": 2,
+     "seq_len": 64,
+     "total_gb": 0.05,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_4": {
+     "batch_size": 4,
+     "seq_len": 64,
+     "total_gb": 0.06,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_8": {
+     "batch_size": 8,
+     "seq_len": 64,
+     "total_gb": 0.07,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_16": {
+     "batch_size": 16,
+     "seq_len": 64,
+     "total_gb": 0.09,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_32": {
+     "batch_size": 32,
+     "seq_len": 64,
+     "total_gb": 0.13,
+     "fits_vram": false,
+     "fits_ram": true
+    }
+   },
+   "max_batch_vram": 0,
+   "max_batch_ram": 32,
+   "status": "READY",
+   "reason": "",
+   "requires_cuda": false
+  },
+  "hercule_lm_s10m": {
+   "model": "hercule_lm_s10m",
+   "parameter_count": 10561024,
+   "architecture_hash": "60e0e63f0af8ed5d",
+   "seq_len": 64,
+   "batch_results": {
+    "batch_1": {
+     "batch_size": 1,
+     "seq_len": 64,
+     "total_gb": 0.18,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_2": {
+     "batch_size": 2,
+     "seq_len": 64,
+     "total_gb": 0.18,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_4": {
+     "batch_size": 4,
+     "seq_len": 64,
+     "total_gb": 0.19,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_8": {
+     "batch_size": 8,
+     "seq_len": 64,
+     "total_gb": 0.22,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_16": {
+     "batch_size": 16,
+     "seq_len": 64,
+     "total_gb": 0.27,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_32": {
+     "batch_size": 32,
+     "seq_len": 64,
+     "total_gb": 0.36,
+     "fits_vram": false,
+     "fits_ram": true
+    }
+   },
+   "max_batch_vram": 0,
+   "max_batch_ram": 32,
+   "status": "READY",
+   "reason": "",
+   "requires_cuda": false
+  },
+  "hercule_lm_s25m": {
+   "model": "hercule_lm_s25m",
+   "parameter_count": 28091392,
+   "architecture_hash": "ad5d5e5edf229255",
+   "seq_len": 128,
+   "batch_results": {
+    "batch_1": {
+     "batch_size": 1,
+     "seq_len": 128,
+     "total_gb": 0.47,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_2": {
+     "batch_size": 2,
+     "seq_len": 128,
+     "total_gb": 0.49,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_4": {
+     "batch_size": 4,
+     "seq_len": 128,
+     "total_gb": 0.54,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_8": {
+     "batch_size": 8,
+     "seq_len": 128,
+     "total_gb": 0.62,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_16": {
+     "batch_size": 16,
+     "seq_len": 128,
+     "total_gb": 0.79,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_32": {
+     "batch_size": 32,
+     "seq_len": 128,
+     "total_gb": 1.14,
+     "fits_vram": false,
+     "fits_ram": true
+    }
+   },
+   "max_batch_vram": 0,
+   "max_batch_ram": 32,
+   "status": "READY",
+   "reason": "",
+   "requires_cuda": false
+  },
+  "hercule_lm_s50m": {
+   "model": "hercule_lm_s50m",
+   "parameter_count": 52662272,
+   "architecture_hash": "bfc1eda77d3f9df7",
+   "seq_len": 128,
+   "batch_results": {
+    "batch_1": {
+     "batch_size": 1,
+     "seq_len": 128,
+     "total_gb": 0.87,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_2": {
+     "batch_size": 2,
+     "seq_len": 128,
+     "total_gb": 0.9,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_4": {
+     "batch_size": 4,
+     "seq_len": 128,
+     "total_gb": 0.96,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_8": {
+     "batch_size": 8,
+     "seq_len": 128,
+     "total_gb": 1.08,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_16": {
+     "batch_size": 16,
+     "seq_len": 128,
+     "total_gb": 1.32,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_32": {
+     "batch_size": 32,
+     "seq_len": 128,
+     "total_gb": 1.81,
+     "fits_vram": false,
+     "fits_ram": true
+    }
+   },
+   "max_batch_vram": 0,
+   "max_batch_ram": 32,
+   "status": "READY",
+   "reason": "",
+   "requires_cuda": false
+  },
+  "hercule_lm_100m": {
+   "model": "hercule_lm_100m",
+   "parameter_count": 100093184,
+   "architecture_hash": "2de3e5574a3bb715",
+   "seq_len": 256,
+   "batch_results": {
+    "batch_1": {
+     "batch_size": 1,
+     "seq_len": 256,
+     "total_gb": 1.69,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_2": {
+     "batch_size": 2,
+     "seq_len": 256,
+     "total_gb": 1.78,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_4": {
+     "batch_size": 4,
+     "seq_len": 256,
+     "total_gb": 1.96,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_8": {
+     "batch_size": 8,
+     "seq_len": 256,
+     "total_gb": 2.33,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_16": {
+     "batch_size": 16,
+     "seq_len": 256,
+     "total_gb": 3.05,
+     "fits_vram": false,
+     "fits_ram": true
+    },
+    "batch_32": {
+     "batch_size": 32,
+     "seq_len": 256,
+     "total_gb": 4.51,
+     "fits_vram": false,
+     "fits_ram": false
+    }
+   },
+   "max_batch_vram": 0,
+   "max_batch_ram": 16,
+   "status": "READY",
+   "reason": "",
+   "requires_cuda": false
+  },
+  "hercule_lm_300m": {
+   "model": "hercule_lm_300m",
+   "parameter_count": 196079104,
+   "architecture_hash": "1ffaac906615b14d",
+   "seq_len": 512,
+   "batch_results": {
+    "batch_1": {
+     "batch_size": 1,
+     "seq_len": 512,
+     "total_gb": 3.44,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_2": {
+     "batch_size": 2,
+     "seq_len": 512,
+     "total_gb": 3.74,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_4": {
+     "batch_size": 4,
+     "seq_len": 512,
+     "total_gb": 4.33,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_8": {
+     "batch_size": 8,
+     "seq_len": 512,
+     "total_gb": 5.53,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_16": {
+     "batch_size": 16,
+     "seq_len": 512,
+     "total_gb": 7.93,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_32": {
+     "batch_size": 32,
+     "seq_len": 512,
+     "total_gb": 12.72,
+     "fits_vram": false,
+     "fits_ram": false
+    }
+   },
+   "max_batch_vram": 0,
+   "max_batch_ram": 0,
+   "status": "BLOCKED",
+   "reason": "insufficient RAM",
+   "requires_cuda": false
+  },
+  "hercule_lm_1b": {
+   "model": "hercule_lm_1b",
+   "parameter_count": 783801344,
+   "architecture_hash": "c4a71f47a8c7b016",
+   "seq_len": 1024,
+   "batch_results": {
+    "batch_1": {
+     "batch_size": 1,
+     "seq_len": 1024,
+     "total_gb": 13.74,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_2": {
+     "batch_size": 2,
+     "seq_len": 1024,
+     "total_gb": 14.94,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_4": {
+     "batch_size": 4,
+     "seq_len": 1024,
+     "total_gb": 17.33,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_8": {
+     "batch_size": 8,
+     "seq_len": 1024,
+     "total_gb": 22.12,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_16": {
+     "batch_size": 16,
+     "seq_len": 1024,
+     "total_gb": 31.7,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_32": {
+     "batch_size": 32,
+     "seq_len": 1024,
+     "total_gb": 50.86,
+     "fits_vram": false,
+     "fits_ram": false
+    }
+   },
+   "max_batch_vram": 0,
+   "max_batch_ram": 0,
+   "status": "BLOCKED",
+   "reason": "insufficient RAM",
+   "requires_cuda": false
+  },
+  "hercule_lm_3b": {
+   "model": "hercule_lm_3b",
+   "parameter_count": 2690700288,
+   "architecture_hash": "fec9ad18353de630",
+   "seq_len": 1024,
+   "batch_results": {
+    "batch_1": {
+     "batch_size": 1,
+     "seq_len": 1024,
+     "total_gb": 45.54,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_2": {
+     "batch_size": 2,
+     "seq_len": 1024,
+     "total_gb": 48.04,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_4": {
+     "batch_size": 4,
+     "seq_len": 1024,
+     "total_gb": 53.03,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_8": {
+     "batch_size": 8,
+     "seq_len": 1024,
+     "total_gb": 63.0,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_16": {
+     "batch_size": 16,
+     "seq_len": 1024,
+     "total_gb": 82.95,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_32": {
+     "batch_size": 32,
+     "seq_len": 1024,
+     "total_gb": 122.84,
+     "fits_vram": false,
+     "fits_ram": false
+    }
+   },
+   "max_batch_vram": 0,
+   "max_batch_ram": 0,
+   "status": "BLOCKED",
+   "reason": "insufficient RAM",
+   "requires_cuda": false
+  },
+  "hercule_lm_7b": {
+   "model": "hercule_lm_7b",
+   "parameter_count": 5183593472,
+   "architecture_hash": "cebf918c0626ef9a",
+   "seq_len": 2048,
+   "batch_results": {
+    "batch_1": {
+     "batch_size": 1,
+     "seq_len": 2048,
+     "total_gb": 89.81,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_2": {
+     "batch_size": 2,
+     "seq_len": 2048,
+     "total_gb": 96.69,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_4": {
+     "batch_size": 4,
+     "seq_len": 2048,
+     "total_gb": 110.44,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_8": {
+     "batch_size": 8,
+     "seq_len": 2048,
+     "total_gb": 137.93,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_16": {
+     "batch_size": 16,
+     "seq_len": 2048,
+     "total_gb": 192.93,
+     "fits_vram": false,
+     "fits_ram": false
+    },
+    "batch_32": {
+     "batch_size": 32,
+     "seq_len": 2048,
+     "total_gb": 302.92,
+     "fits_vram": false,
+     "fits_ram": false
+    }
+   },
+   "max_batch_vram": 0,
+   "max_batch_ram": 0,
+   "status": "BLOCKED",
+   "reason": "insufficient RAM",
+   "requires_cuda": false
+  }
+ }
+}

@@ -1,0 +1,32 @@
+[
+ {
+  "name": "hercule-instruct-v1-0",
+  "license": "HERCULE-authored (MIT, repo)",
+  "origin": "hercule-authored",
+  "url": "",
+  "version": "v1",
+  "files": [
+   "instruct.txt"
+  ]
+ },
+ {
+  "name": "hercule-instruct-v1-1",
+  "license": "HERCULE-authored (MIT, repo)",
+  "origin": "hercule-authored",
+  "url": "",
+  "version": "v1",
+  "files": [
+   "tooluse.txt"
+  ]
+ },
+ {
+  "name": "hercule-instruct-v1-2",
+  "license": "HERCULE-authored (MIT, repo)",
+  "origin": "hercule-authored",
+  "url": "",
+  "version": "v1",
+  "files": [
+   "code.txt"
+  ]
+ }
+]

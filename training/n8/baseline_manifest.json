@@ -1,0 +1,32 @@
+{
+ "experiment": "N8 frozen baseline (READ-ONLY reference)",
+ "model": "hercule-lm-micro-v0.1",
+ "parameter_count": 3088384,
+ "checkpoint": "training/checkpoints/micro1/step_00000250",
+ "weights_sha256": "6d0790a2697bcf50",
+ "architecture_hash": "334685359cebcfa5",
+ "seed": 0,
+ "origin": "hercule-lm random initialization (no pretrained weights)",
+ "tokenizer_id": "hercule-bpe-micro-v1",
+ "tokenizer_checksum": "4f079c86f3a2feaa",
+ "dataset": "hercule-seed-v1",
+ "dataset_hash": "c9eed26632487bff9addaea4dcf3aaf35e1256616c9cabdb31ef7a8b748f7574",
+ "train_config": {
+  "steps": 291,
+  "batch": 8,
+  "seq_len": 64,
+  "lr": 0.0003,
+  "optimizer": "adamw",
+  "scheduler": "cosine-50-warmup"
+ },
+ "n7_evidence": {
+  "valid_loss": 1.532,
+  "perplexity": 4.63,
+  "n7_eval": "1/30",
+  "arithmetic": "0/30",
+  "random_control_ppl": 1219.6
+ },
+ "eval_set": "hercule-lm-eval-v1",
+ "eval_checksum": "bc6d6e2d8c5b61b1",
+ "promotion": "NEVER - reference only"
+}

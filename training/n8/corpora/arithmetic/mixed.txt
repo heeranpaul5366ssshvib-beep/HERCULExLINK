@@ -1,0 +1,1334 @@
+Q: Calculate 705 - 672.
+A: 33.
+
+
+Mira went to the depot and counted the boxes. Then they went home.
+
+
+Q: Calculate 490 - 331.
+A: 159.
+
+
+Q: Calculate 805 - 669.
+A: 136.
+
+
+Q: Calculate 754 - 493.
+A: 261.
+
+
+Q: Calculate 529 + 485.
+A: 1014.
+
+
+Q: Calculate 569 - 408.
+A: 161.
+
+
+Q: Calculate 574 + 707.
+A: 1281.
+
+
+Q: Calculate 902 - 632.
+A: 270.
+
+
+Q: Calculate 490 - 181.
+A: 309.
+
+
+Q: Calculate 803 - 686.
+A: 117.
+
+
+Q: Calculate 70 * 98.
+A: 6860.
+
+
+Q: Calculate 17 * 82.
+A: 1394.
+
+
+Q: Calculate 589 - 291.
+A: 298.
+
+
+Q: Calculate 48 * 16.
+A: 768.
+
+
+Q: Calculate 684 - 435.
+A: 249.
+
+
+Q: Calculate 673 - 325.
+A: 348.
+
+
+Q: Calculate 765 + 746.
+A: 1511.
+
+
+Q: Calculate 61 * 28.
+A: 1708.
+
+
+Q: Calculate 27 * 80.
+A: 2160.
+
+
+Q: Calculate 570 - 417.
+A: 153.
+
+
+Q: Calculate 76 * 68.
+A: 5168.
+
+
+Q: Calculate 18 * 33.
+A: 594.
+
+
+Q: Calculate 69 * 76.
+A: 5244.
+
+
+Q: Calculate 871 + 136.
+A: 1007.
+
+
+Q: Calculate 72 * 68.
+A: 4896.
+
+
+Q: Calculate 924 - 679.
+A: 245.
+
+
+Q: Calculate 512 + 514.
+A: 1026.
+
+
+Q: Calculate 926 - 244.
+A: 682.
+
+
+Q: Calculate 967 - 742.
+A: 225.
+
+
+Q: Calculate 823 + 191.
+A: 1014.
+
+
+Q: Calculate 707 - 703.
+A: 4.
+
+
+Q: Calculate 55 * 17.
+A: 935.
+
+
+Q: Calculate 739 - 104.
+A: 635.
+
+
+Q: Calculate 837 + 217.
+A: 1054.
+
+
+Q: Calculate 611 + 212.
+A: 823.
+
+
+Q: Calculate 813 + 354.
+A: 1167.
+
+
+Q: Calculate 865 + 615.
+A: 1480.
+
+
+Q: Calculate 572 + 798.
+A: 1370.
+
+
+Q: Calculate 14 * 64.
+A: 896.
+
+
+Q: Calculate 71 * 16.
+A: 1136.
+
+
+Q: Calculate 96 * 51.
+A: 4896.
+
+
+Q: Calculate 155 + 505.
+A: 660.
+
+
+Q: Calculate 735 + 157.
+A: 892.
+
+
+Ada went to the garden and wrote a short note. Then the bell rang.
+
+
+Q: Calculate 468 + 976.
+A: 1444.
+
+
+Q: Calculate 563 + 933.
+A: 1496.
+
+
+Q: Calculate 627 - 183.
+A: 444.
+
+
+Q: Calculate 422 + 273.
+A: 695.
+
+
+Q: Calculate 796 - 379.
+A: 417.
+
+
+Q: Calculate 281 - 115.
+A: 166.
+
+
+Q: Calculate 310 + 500.
+A: 810.
+
+
+Q: Calculate 413 - 211.
+A: 202.
+
+
+Q: Calculate 983 - 509.
+A: 474.
+
+
+Q: Calculate 598 - 575.
+A: 23.
+
+
+Q: Calculate 714 - 223.
+A: 491.
+
+
+Q: Calculate 79 * 12.
+A: 948.
+
+
+Q: Calculate 637 + 147.
+A: 784.
+
+
+Q: Calculate 870 + 133.
+A: 1003.
+
+
+Q: Calculate 650 + 704.
+A: 1354.
+
+
+Q: Calculate 775 + 455.
+A: 1230.
+
+
+Q: Calculate 42 * 51.
+A: 2142.
+
+
+Q: Calculate 62 * 28.
+A: 1736.
+
+
+Q: Calculate 476 + 116.
+A: 592.
+
+
+Q: Calculate 349 + 106.
+A: 455.
+
+
+Q: Calculate 324 - 197.
+A: 127.
+
+
+Q: Calculate 88 * 96.
+A: 8448.
+
+
+Q: Calculate 674 + 726.
+A: 1400.
+
+
+Q: Calculate 865 - 812.
+A: 53.
+
+
+Q: Calculate 29 * 64.
+A: 1856.
+
+
+Q: Calculate 355 + 817.
+A: 1172.
+
+
+Q: Calculate 258 + 151.
+A: 409.
+
+
+Q: Calculate 95 * 51.
+A: 4845.
+
+
+Q: Calculate 38 * 17.
+A: 646.
+
+
+Q: Calculate 257 - 152.
+A: 105.
+
+
+Q: Calculate 972 + 978.
+A: 1950.
+
+
+Ada went to the garden and counted the boxes. Then the work was done.
+
+
+Ada went to the depot and filed the report. Then they went home.
+
+
+Q: Calculate 609 - 450.
+A: 159.
+
+
+TARGET:
+{"tool": "filesystem", "operation": "read", "arguments": {"path": "/home/user/data.csv"}}
+
+
+Q: Calculate 955 - 105.
+A: 850.
+
+
+Q: Calculate 256 + 128.
+A: 384.
+
+
+TARGET:
+{"tool": "python", "operation": "execute", "arguments": {"code": "print('hello world')" }}
+
+
+Q: Calculate 39 * 28.
+A: 1092.
+
+
+Q: Calculate 57 * 77.
+A: 4389.
+
+
+Q: Calculate 19 * 58.
+A: 1102.
+
+
+Q: Calculate 97 * 15.
+A: 1455.
+
+
+Q: Calculate 933 + 775.
+A: 1708.
+
+
+Ada went to the library and tested the lamp. Then the bell rang.
+
+
+Q: Calculate 30 * 94.
+A: 2820.
+
+
+Q: Calculate 563 + 773.
+A: 1336.
+
+
+Q: Calculate 79 * 85.
+A: 6715.
+
+
+Q: Calculate 936 - 436.
+A: 500.
+
+
+Q: Calculate 771 + 625.
+A: 1396.
+
+
+Q: Calculate 350 + 409.
+A: 759.
+
+
+Q: Calculate 317 - 146.
+A: 171.
+
+
+Q: Calculate 54 * 13.
+A: 702.
+
+
+Q: Calculate 75 * 87.
+A: 6525.
+
+
+Q: Calculate 950 + 355.
+A: 1305.
+
+
+Q: Calculate 645 - 451.
+A: 194.
+
+
+Mira went to the depot and tested the lamp. Then they shared tea.
+
+
+Q: Calculate 34 * 55.
+A: 1870.
+
+
+Q: Calculate 206 + 231.
+A: 437.
+
+
+Q: Calculate 697 - 503.
+A: 194.
+
+
+Q: Calculate 709 + 161.
+A: 870.
+
+
+Q: Calculate 54 * 80.
+A: 4320.
+
+
+Q: Calculate 92 * 56.
+A: 5152.
+
+
+Q: Calculate 691 - 296.
+A: 395.
+
+
+Q: Calculate 89 * 22.
+A: 1958.
+
+
+Leo went to the garden and checked the inventory. Then it started to rain.
+
+
+Q: Calculate 90 * 93.
+A: 8370.
+
+
+Q: Calculate 67 * 33.
+A: 2211.
+
+
+Q: Calculate 203 + 411.
+A: 614.
+
+
+Q: Calculate 848 - 509.
+A: 339.
+
+
+Q: Calculate 453 - 302.
+A: 151.
+
+
+Q: Calculate 516 - 366.
+A: 150.
+
+
+Q: Calculate 738 - 232.
+A: 506.
+
+
+Q: Calculate 604 + 617.
+A: 1221.
+
+
+Q: Calculate 26 * 59.
+A: 1534.
+
+
+Q: Calculate 547 + 318.
+A: 865.
+
+
+Q: Calculate 127 + 682.
+A: 809.
+
+
+Q: Calculate 888 - 245.
+A: 643.
+
+
+Q: Calculate 725 - 117.
+A: 608.
+
+
+Q: Calculate 72 * 67.
+A: 4824.
+
+
+Q: Calculate 338 - 182.
+A: 156.
+
+
+Q: Calculate 434 + 683.
+A: 1117.
+
+
+Q: Calculate 71 * 43.
+A: 3053.
+
+
+Q: Calculate 428 + 916.
+A: 1344.
+
+
+Q: Calculate 593 + 453.
+A: 1046.
+
+
+June went to the library and filed the report. Then the bell rang.
+
+
+Q: Calculate 189 + 581.
+A: 770.
+
+
+Q: Calculate 368 + 837.
+A: 1205.
+
+
+Q: Calculate 32 * 89.
+A: 2848.
+
+
+Q: Calculate 973 + 588.
+A: 1561.
+
+
+Q: Calculate 297 - 290.
+A: 7.
+
+
+Q: Calculate 993 - 314.
+A: 679.
+
+
+Q: Calculate 913 - 435.
+A: 478.
+
+
+Q: Calculate 775 - 747.
+A: 28.
+
+
+Q: Calculate 93 * 68.
+A: 6324.
+
+
+June went to the depot and checked the inventory. Then the bell rang.
+
+
+Q: Calculate 675 + 269.
+A: 944.
+
+
+Q: Calculate 819 - 136.
+A: 683.
+
+
+Q: Calculate 259 + 372.
+A: 631.
+
+
+Q: Calculate 190 + 926.
+A: 1116.
+
+
+Q: Calculate 18 * 77.
+A: 1386.
+
+
+Q: Calculate 16 * 42.
+A: 672.
+
+
+Q: Calculate 853 - 810.
+A: 43.
+
+
+Q: Calculate 340 + 685.
+A: 1025.
+
+
+Q: Calculate 796 - 795.
+A: 1.
+
+
+Q: Calculate 467 - 326.
+A: 141.
+
+
+Q: Calculate 644 - 442.
+A: 202.
+
+
+Q: Calculate 97 * 99.
+A: 9603.
+
+
+Leo went to the library and tested the lamp. Then they shared tea.
+
+
+Ada went to the harbor and tested the lamp. Then they shared tea.
+
+
+Q: Calculate 453 + 551.
+A: 1004.
+
+
+Q: Calculate 834 - 184.
+A: 650.
+
+
+Q: Calculate 343 - 234.
+A: 109.
+
+
+Q: Calculate 508 - 250.
+A: 258.
+
+
+Q: Calculate 76 * 59.
+A: 4484.
+
+
+Q: Calculate 720 + 509.
+A: 1229.
+
+
+Q: Calculate 937 - 219.
+A: 718.
+
+
+Q: Calculate 29 * 54.
+A: 1566.
+
+
+June went to the library and counted the boxes. Then they shared tea.
+
+
+Q: Calculate 456 - 278.
+A: 178.
+
+
+Q: Calculate 571 - 457.
+A: 114.
+
+
+Q: Calculate 590 - 353.
+A: 237.
+
+
+Q: Calculate 949 + 336.
+A: 1285.
+
+
+Q: Calculate 621 + 461.
+A: 1082.
+
+
+Q: Calculate 296 - 260.
+A: 36.
+
+
+Q: Calculate 98 * 76.
+A: 7448.
+
+
+Q: Calculate 336 + 232.
+A: 568.
+
+
+June went to the garden and verified the list. Then the bell rang.
+
+
+Q: Calculate 560 + 782.
+A: 1342.
+
+
+Q: Calculate 55 * 81.
+A: 4455.
+
+
+Q: Calculate 375 - 240.
+A: 135.
+
+
+Q: Calculate 792 + 682.
+A: 1474.
+
+
+PASS 1:
+Total eaten = 3 * 2 = 6 slices.
+Remaining = 8 - 6 = 2 slices.
+Fraction remaining = 2/8 = 1/4.
+
+
+Q: Calculate 516 - 389.
+A: 127.
+
+
+Q: Calculate 846 - 468.
+A: 378.
+
+
+Q: Calculate 487 + 489.
+A: 976.
+
+
+Q: Calculate 572 + 530.
+A: 1102.
+
+
+Q: Calculate 51 * 39.
+A: 1989.
+
+
+Q: Calculate 333 - 123.
+A: 210.
+
+
+Q: Calculate 52 * 52.
+A: 2704.
+
+
+Q: Calculate 945 - 690.
+A: 255.
+
+
+Q: Calculate 283 + 120.
+A: 403.
+
+
+Q: Calculate 73 * 42.
+A: 3066.
+
+
+Q: Calculate 109 + 276.
+A: 385.
+
+
+Q: Calculate 30 * 47.
+A: 1410.
+
+
+Q: Calculate 791 - 629.
+A: 162.
+
+
+Q: Calculate 88 * 32.
+A: 2816.
+
+
+Q: Calculate 858 + 231.
+A: 1089.
+
+
+Q: Calculate 260 + 767.
+A: 1027.
+
+
+Q: Calculate 581 - 392.
+A: 189.
+
+
+Q: Calculate 870 - 614.
+A: 256.
+
+
+Q: Calculate 423 - 241.
+A: 182.
+
+
+Q: Calculate 972 - 369.
+A: 603.
+
+
+Q: Calculate 470 + 975.
+A: 1445.
+
+
+Q: Calculate 280 + 117.
+A: 397.
+
+
+Q: Calculate 146 + 680.
+A: 826.
+
+
+Q: Calculate 776 - 768.
+A: 8.
+
+
+Q: Calculate 324 + 960.
+A: 1284.
+
+
+Mira went to the library and tested the lamp. Then they went home.
+
+
+Kai went to the harbor and wrote a short note. Then it started to rain.
+
+
+Q: Calculate 45 * 54.
+A: 2430.
+
+
+Q: Calculate 363 - 111.
+A: 252.
+
+
+Q: Calculate 30 * 26.
+A: 780.
+
+
+Q: Calculate 117 + 137.
+A: 254.
+
+
+Mira went to the workshop and verified the list. Then the bell rang.
+
+
+Q: Calculate 958 + 987.
+A: 1945.
+
+
+Q: Calculate 608 - 531.
+A: 77.
+
+
+Q: Calculate 22 * 80.
+A: 1760.
+
+
+Q: Calculate 478 - 425.
+A: 53.
+
+
+Q: Calculate 86 * 99.
+A: 8514.
+
+
+Q: Calculate 524 + 210.
+A: 734.
+
+
+Q: Calculate 32 * 78.
+A: 2496.
+
+
+Q: Calculate 54 * 21.
+A: 1134.
+
+
+Q: Calculate 67 * 66.
+A: 4422.
+
+
+Q: Calculate 587 - 312.
+A: 275.
+
+
+Q: Calculate 211 + 119.
+A: 330.
+
+
+Q: Calculate 96 * 50.
+A: 4800.
+
+
+Q: Calculate 822 - 630.
+A: 192.
+
+
+Q: Calculate 440 - 314.
+A: 126.
+
+
+Q: Calculate 797 + 246.
+A: 1043.
+
+
+USER:
+Q: Calculate 999 + 1.
+
+
+Q: Calculate 804 - 374.
+A: 430.
+
+
+Q: Calculate 352 + 570.
+A: 922.
+
+
+Q: Calculate 552 - 167.
+A: 385.
+
+
+Q: Calculate 16 * 45.
+A: 720.
+
+
+Q: Calculate 908 - 610.
+A: 298.
+
+
+Q: Calculate 425 - 394.
+A: 31.
+
+
+Q: Calculate 994 - 568.
+A: 426.
+
+
+Q: Calculate 318 - 256.
+A: 62.
+
+
+Q: Calculate 910 - 851.
+A: 59.
+
+
+Q: Calculate 92 * 38.
+A: 3496.
+
+
+Q: Calculate 13 * 70.
+A: 910.
+
+
+Q: Calculate 87 * 76.
+A: 6612.
+
+
+Q: Calculate 893 - 211.
+A: 682.
+
+
+Q: Calculate 795 + 518.
+A: 1313.
+
+
+Q: Calculate 88 * 82.
+A: 7216.
+
+
+USER:
+Call calculator add with a=1, b=2.
+
+
+Q: Calculate 56 * 98.
+A: 5488.
+
+
+Q: Calculate 737 + 165.
+A: 902.
+
+
+Q: Calculate 365 + 237.
+A: 602.
+
+
+Q: Calculate 904 - 528.
+A: 376.
+
+
+Q: Calculate 30 * 13.
+A: 390.
+
+
+Q: Calculate 80 * 71.
+A: 5680.
+
+
+Q: Calculate 91 * 44.
+A: 4004.
+
+
+Q: Calculate 97 * 54.
+A: 5238.
+
+
+USER:
+Q: Calculate 500 - 123.
+
+
+Q: Calculate 144 + 389.
+A: 533.
+
+
+Q: Calculate 983 - 306.
+A: 677.
+
+
+The Pacific is the largest ocean on Earth.
+
+
+Q: Calculate 560 + 573.
+A: 1133.
+
+
+Q: Calculate 438 + 566.
+A: 1004.
+
+
+Q: Calculate 890 + 990.
+A: 1880.
+
+
+Q: Calculate 497 - 358.
+A: 139.
+
+
+Q: Calculate 564 - 509.
+A: 55.
+
+
+Q: Calculate 60 * 26.
+A: 1560.
+
+
+Q: Calculate 888 - 284.
+A: 604.
+
+
+Q: Calculate 61 * 56.
+A: 3416.
+
+
+Q: Calculate 930 - 125.
+A: 805.
+
+
+Q: Calculate 749 + 458.
+A: 1207.
+
+
+Leo went to the depot and filed the report. Then the bell rang.
+
+
+Q: Calculate 940 + 224.
+A: 1164.
+
+
+Q: Calculate 22 * 35.
+A: 770.
+
+
+USER:
+Call calculator add with a=5, b=3.
+
+
+Q: Calculate 961 - 186.
+A: 775.
+
+
+Q: Calculate 812 - 394.
+A: 418.
+
+
+Q: Calculate 834 - 163.
+A: 671.
+
+
+Q: Calculate 917 + 931.
+A: 1848.
+
+
+Q: Calculate 650 + 643.
+A: 1293.
+
+
+Q: Calculate 409 - 237.
+A: 172.
+
+
+Q: Calculate 933 + 887.
+A: 1820.
+
+
+Q: Calculate 810 - 296.
+A: 514.
+
+
+Q: Calculate 82 * 14.
+A: 1148.
+
+
+Q: Calculate 30 * 87.
+A: 2610.
+
+
+Q: Calculate 588 + 434.
+A: 1022.
+
+
+Q: Calculate 428 - 363.
+A: 65.
+
+
+Q: Calculate 621 + 268.
+A: 889.
+
+
+Q: Calculate 13 * 38.
+A: 494.
+
+
+Q: Calculate 120 + 448.
+A: 568.
+
+
+Q: Calculate 451 - 429.
+A: 22.
+
+
+Q: Calculate 869 - 702.
+A: 167.
+
+
+Q: Calculate 21 * 68.
+A: 1428.
+
+
+Q: Calculate 56 * 39.
+A: 2184.
+
+
+Q: Calculate 991 - 719.
+A: 272.
+
+
+Q: Calculate 938 + 100.
+A: 1038.
+
+
+Q: Calculate 676 - 221.
+A: 455.
+
+
+Q: Calculate 446 + 921.
+A: 1367.
+
+
+Q: Calculate 354 - 112.
+A: 242.
+
+
+Q: Calculate 44 * 93.
+A: 4092.
+
+
+Q: Calculate 985 + 279.
+A: 1264.
+
+
+Q: Calculate 70 * 93.
+A: 6510.
+
+
+Q: Calculate 425 - 306.
+A: 119.
+
+
+Leo went to the depot and checked the inventory. Then the bell rang.
+
+
+Q: Calculate 35 * 55.
+A: 1925.
+
+
+Q: Calculate 64 * 44.
+A: 2816.
+
+
+Q: Calculate 499 - 149.
+A: 350.
+
+
+Q: Calculate 87 * 85.
+A: 7395.
+
+
+USER:
+Call calculator div with a=100, b=4.
+
+
+Q: Calculate 64 * 84.
+A: 5376.
+
+
+Q: Calculate 856 - 682.
+A: 174.
+
+
+Mira went to the depot and filed the report. Then it started to rain.
+
+
+Q: Calculate 16 * 94.
+A: 1504.
+
+
+Q: Calculate 542 - 201.
+A: 341.
+
+
+Q: Calculate 14 * 31.
+A: 434.
+
+
+Ada went to the depot and tested the lamp. Then they went home.
+
+
+Q: Calculate 92 * 86.
+A: 7912.
+
+
+Q: Calculate 823 - 726.
+A: 97.
+
+
+Q: Calculate 991 - 688.
+A: 303.
+
+
+Q: Calculate 37 * 61.
+A: 2257.
+
+
+Q: Calculate 99 * 59.
+A: 5841.
+
+
+Q: Calculate 861 + 135.
+A: 996.
+
+
+Q: Calculate 304 + 697.
+A: 1001.
+
+
+Q: Calculate 593 - 201.
+A: 392.
+
+
+Q: Calculate 39 * 16.
+A: 624.
+
+
+Q: Calculate 23 * 22.
+A: 506.
+
+
+Q: Calculate 88 * 74.
+A: 6512.
+
+
+Q: Calculate 926 - 110.
+A: 816.
+
+
+Q: Calculate 246 - 116.
+A: 130.
+
+
+Q: Calculate 415 + 374.
+A: 789.
+
+
+USER:
+Call calculator sub with a=50, b=12.
+
+
+Q: Calculate 781 - 124.
+A: 657.
+
+
+Q: Calculate 780 + 440.
+A: 1220.
+
+
+Q: Calculate 78 * 20.
+A: 1560.
+
+
+Q: Calculate 955 - 736.
+A: 219.
+
+
+Q: Calculate 52 * 18.
+A: 936.
+
+
+Q: Calculate 87 * 16.
+A: 1392.
+
+
+Q: Calculate 38 * 57.
+A: 2166.
+
+
+Q: Calculate 794 - 385.
+A: 409.
+
+
+Q: Calculate 254 - 174.
+A: 80.
+
+
+Mira went to the harbor and tested the lamp. Then they went home.
+
+
+Q: Calculate 567 - 183.
+A: 384.
+
+
+Ada went to the library and tested the lamp. Then the work was done.
+
+
+Q: Calculate 979 - 631.
+A: 348.
+
+
+Q: Calculate 16 * 16.
+A: 256.
+
+
+Q: Calculate 744 - 223.
+A: 521.
+
+
+Q: Calculate 683 + 152.
+A: 835.
+

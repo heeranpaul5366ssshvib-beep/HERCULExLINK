@@ -1,0 +1,11 @@
+{
+ "timestamp": "2026-09-24T09:02:30.577200+00:00",
+ "torch": "2.14.0+cpu",
+ "cuda_available": false,
+ "cuda_version": null,
+ "cudnn": null,
+ "gpu_count": 0,
+ "devices": [],
+ "bf16": false,
+ "fp16": false
+}

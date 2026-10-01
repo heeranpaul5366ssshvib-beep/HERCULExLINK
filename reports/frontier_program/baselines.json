@@ -1,0 +1,67 @@
+[
+ {
+  "model": "hercule-lm-nano-untrained",
+  "checkpoint": "none",
+  "benchmark": "hercule-eval-v1",
+  "suites": {
+   "MATH": {
+    "mean": 0.0
+   },
+   "STRUCTURED_OUTPUT": {
+    "mean": 0.0
+   },
+   "SAFETY": {
+    "mean": 0.0
+   },
+   "GENERAL": {
+    "mean": 1.0
+   }
+  }
+ },
+ {
+  "model": "hercule-lm-nano-untrained",
+  "checkpoint": "none",
+  "benchmark": "hercule-eval-v1",
+  "suites": {
+   "GENERAL": {
+    "mean": 1.0
+   },
+   "REASONING": {
+    "mean": 0.0
+   },
+   "MATH": {
+    "mean": 0.0
+   },
+   "CODING": {
+    "mean": 1.0
+   },
+   "TOOL_USE": {
+    "mean": 0.0
+   },
+   "RESEARCH": {
+    "mean": 0.0
+   },
+   "STRUCTURED_OUTPUT": {
+    "mean": 0.0
+   },
+   "MULTILINGUAL": {
+    "mean": 1.0
+   },
+   "LONG_CONTEXT": {
+    "mean": 0.0
+   },
+   "AGENT": {
+    "mean": 1.0
+   },
+   "SAFETY": {
+    "mean": 0.0
+   },
+   "RELIABILITY": {
+    "mean": 0.0
+   },
+   "ARC_STYLE": {
+    "mean": 0.0
+   }
+  }
+ }
+]

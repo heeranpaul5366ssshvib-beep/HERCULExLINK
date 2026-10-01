@@ -1,0 +1,13 @@
+{
+ "duration_ablation": {
+  "steps": 600,
+  "base": {
+   "numeric": 1,
+   "format": 0
+  },
+  "trained": {
+   "numeric": 0,
+   "format": 20
+  }
+ }
+}

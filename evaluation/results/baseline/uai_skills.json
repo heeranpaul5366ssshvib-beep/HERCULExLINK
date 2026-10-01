@@ -1,0 +1,1241 @@
+{
+  "run_id": "uai_skills-20260920T040237-80185",
+  "scope": "uai_skills",
+  "version": "1.1.0",
+  "model": "mock",
+  "provider": "mock",
+  "started_at": "2026-09-20T04:02:37.463193+00:00",
+  "wall_ms": 49452.3,
+  "counts": {
+    "passed": 12,
+    "failed": 0,
+    "skipped": 0,
+    "error": 0,
+    "timeout": 0
+  },
+  "mean_ms": 4121.0,
+  "median_ms": 4116.8,
+  "p95_ms": 4151.5,
+  "categories": {
+    "AGENTIC": {
+      "tasks": 12,
+      "passed": 12,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "accuracy": 0.933,
+      "mean_ms": 4121.0,
+      "median_ms": 4116.8,
+      "p95_ms": 4151.5
+    }
+  },
+  "results": [
+    {
+      "task_id": "uai-skill-select-001",
+      "suite_id": "uai_skills",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 4140.859,
+      "detail": "",
+      "observed": {
+        "task_id": "task-1",
+        "status": "completed",
+        "result": {
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 1,
+          "failed_steps": [],
+          "state": "VERIFIED"
+        },
+        "goal_id": "goal-1",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": true,
+          "steps_verified": 1,
+          "steps_completed": 1,
+          "steps_failed": 0,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [],
+          "recovery_required": false,
+          "recovered": false,
+          "lesson": "goal satisfied: 1 verified steps first try",
+          "step_coverage": 1.0,
+          "verification_coverage": 1.0,
+          "efficiency": 1.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": []
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "1 completed, 0 failed, 0 replans",
+        "correlation_id": "brain-29250911b037",
+        "latency_ms": 4136.988,
+        "reasoning": {
+          "mode": "DETERMINISTIC",
+          "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+          "provider": "builtin",
+          "reason": "simple deterministic: ['MATH']; model: median installed model",
+          "budget": {
+            "max_tokens": 0,
+            "timeout_s": 0,
+            "max_passes": 0,
+            "max_context_chars": 0,
+            "max_tool_calls": 0
+          },
+          "risk": "LOW",
+          "latency_ms": 0.0,
+          "passes": 0
+        }
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4136.988
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:02:41.604054+00:00",
+      "trace": {
+        "status": "completed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 1,
+        "failed_steps": 0,
+        "completed": [
+          "step-1"
+        ],
+        "failed": [],
+        "reasoning_mode": "DETERMINISTIC"
+      }
+    },
+    {
+      "task_id": "uai-skill-multi-002",
+      "suite_id": "uai_skills",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 4151.548,
+      "detail": "",
+      "observed": {
+        "task_id": "task-2",
+        "status": "completed",
+        "result": {
+          "completed": [
+            "step-1",
+            "step-2"
+          ],
+          "failed": [],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 2,
+          "failed_steps": [],
+          "state": "VERIFIED"
+        },
+        "goal_id": "goal-2",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": true,
+          "steps_verified": 2,
+          "steps_completed": 2,
+          "steps_failed": 0,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [],
+          "recovery_required": false,
+          "recovered": false,
+          "lesson": "goal satisfied: 2 verified steps first try",
+          "step_coverage": 1.0,
+          "verification_coverage": 1.0,
+          "efficiency": 1.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": []
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "2 completed, 0 failed, 0 replans",
+        "correlation_id": "brain-1ffa909c52b1",
+        "latency_ms": 4147.403,
+        "reasoning": {
+          "mode": "DEEP",
+          "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+          "provider": "builtin",
+          "reason": "complex request (score=6, risk=LOW); model: largest installed model",
+          "budget": {
+            "max_tokens": 384,
+            "timeout_s": 60,
+            "max_passes": 2,
+            "max_context_chars": 2000,
+            "max_tool_calls": 12
+          },
+          "risk": "LOW",
+          "latency_ms": 0.19,
+          "passes": 2
+        }
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4147.403
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:02:45.755608+00:00",
+      "trace": {
+        "status": "completed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 2,
+        "failed_steps": 0,
+        "completed": [
+          "step-1",
+          "step-2"
+        ],
+        "failed": [],
+        "reasoning_mode": "DEEP"
+      }
+    },
+    {
+      "task_id": "uai-skill-unvalidated-003",
+      "suite_id": "uai_skills",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 4104.668,
+      "detail": "",
+      "observed": {
+        "task_id": "task-3",
+        "status": "completed",
+        "result": {
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 1,
+          "failed_steps": [],
+          "state": "VERIFIED"
+        },
+        "goal_id": "goal-3",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": true,
+          "steps_verified": 1,
+          "steps_completed": 1,
+          "steps_failed": 0,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [],
+          "recovery_required": false,
+          "recovered": false,
+          "lesson": "goal satisfied: 1 verified steps first try",
+          "step_coverage": 1.0,
+          "verification_coverage": 1.0,
+          "efficiency": 1.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": []
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "1 completed, 0 failed, 0 replans",
+        "correlation_id": "brain-b2b9a82b3ae5",
+        "latency_ms": 4100.751,
+        "reasoning": {
+          "mode": "DETERMINISTIC",
+          "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+          "provider": "builtin",
+          "reason": "simple deterministic: ['MATH']; model: median installed model",
+          "budget": {
+            "max_tokens": 0,
+            "timeout_s": 0,
+            "max_passes": 0,
+            "max_context_chars": 0,
+            "max_tool_calls": 0
+          },
+          "risk": "LOW",
+          "latency_ms": 0.0,
+          "passes": 0
+        }
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4100.751
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:02:49.860231+00:00",
+      "trace": {
+        "status": "completed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 1,
+        "failed_steps": 0,
+        "completed": [
+          "step-1"
+        ],
+        "failed": [],
+        "reasoning_mode": "DETERMINISTIC"
+      }
+    },
+    {
+      "task_id": "uai-skill-unknowncap-004",
+      "suite_id": "uai_skills",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 0.8,
+      "latency_ms": 4106.119,
+      "detail": "",
+      "observed": {
+        "task_id": "task-4",
+        "status": "failed",
+        "result": {
+          "completed": [],
+          "failed": [
+            {
+              "reason": "plan invalid",
+              "problems": [
+                {
+                  "code": "MISSING_CAPABILITIES",
+                  "step": "step-1",
+                  "detail": "no required capabilities"
+                },
+                {
+                  "code": "MISSING_VERIFICATION",
+                  "step": "step-1",
+                  "detail": "no verification criteria"
+                }
+              ]
+            }
+          ],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 0,
+          "failed_steps": [
+            ""
+          ],
+          "state": "PENDING"
+        },
+        "goal_id": "goal-4",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": false,
+          "steps_verified": 0,
+          "steps_completed": 0,
+          "steps_failed": 1,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [
+            "plan invalid"
+          ],
+          "recovery_required": true,
+          "recovered": false,
+          "lesson": "goal unsatisfied: plan invalid; replans used: 0",
+          "step_coverage": 0.0,
+          "verification_coverage": 0.0,
+          "efficiency": 0.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": [
+            "plan invalid"
+          ]
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "0 completed, 1 failed, 0 replans",
+        "correlation_id": "brain-036fca05202f",
+        "latency_ms": 4102.449,
+        "error": "subsystem='autonomous-loop' operation='execute' exception='plan invalid' recovery='replan-exhausted' result='failed'"
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4102.449
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:02:53.966432+00:00",
+      "trace": {
+        "status": "failed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 0,
+        "failed_steps": 1,
+        "completed": [],
+        "failed": [
+          "{'reason': 'plan invalid', 'problems': ["
+        ],
+        "error": "subsystem='autonomous-loop' operation='execute' exception='plan invalid' recovery='replan-exhausted' result='failed'"
+      }
+    },
+    {
+      "task_id": "uai-skill-unavailable-005",
+      "suite_id": "uai_skills",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 0.8,
+      "latency_ms": 4118.603,
+      "detail": "",
+      "observed": {
+        "task_id": "task-5",
+        "status": "failed",
+        "result": {
+          "completed": [],
+          "failed": [
+            {
+              "reason": "plan invalid",
+              "problems": [
+                {
+                  "code": "MISSING_CAPABILITIES",
+                  "step": "step-1",
+                  "detail": "no required capabilities"
+                },
+                {
+                  "code": "MISSING_VERIFICATION",
+                  "step": "step-1",
+                  "detail": "no verification criteria"
+                }
+              ]
+            }
+          ],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 0,
+          "failed_steps": [
+            ""
+          ],
+          "state": "PENDING"
+        },
+        "goal_id": "goal-5",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": false,
+          "steps_verified": 0,
+          "steps_completed": 0,
+          "steps_failed": 1,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [
+            "plan invalid"
+          ],
+          "recovery_required": true,
+          "recovered": false,
+          "lesson": "goal unsatisfied: plan invalid; replans used: 0",
+          "step_coverage": 0.0,
+          "verification_coverage": 0.0,
+          "efficiency": 0.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": [
+            "plan invalid"
+          ]
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "0 completed, 1 failed, 0 replans",
+        "correlation_id": "brain-4420398fce1a",
+        "latency_ms": 4114.266,
+        "error": "subsystem='autonomous-loop' operation='execute' exception='plan invalid' recovery='replan-exhausted' result='failed'"
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4114.266
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:02:58.085041+00:00",
+      "trace": {
+        "status": "failed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 0,
+        "failed_steps": 1,
+        "completed": [],
+        "failed": [
+          "{'reason': 'plan invalid', 'problems': ["
+        ],
+        "error": "subsystem='autonomous-loop' operation='execute' exception='plan invalid' recovery='replan-exhausted' result='failed'"
+      }
+    },
+    {
+      "task_id": "uai-skill-policy-006",
+      "suite_id": "uai_skills",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 0.8,
+      "latency_ms": 4138.156,
+      "detail": "",
+      "observed": {
+        "task_id": "task-6",
+        "status": "failed",
+        "result": {
+          "completed": [],
+          "failed": [
+            {
+              "reason": "plan invalid",
+              "problems": [
+                {
+                  "code": "PERMISSION_CONFLICT",
+                  "step": "step-1",
+                  "detail": [
+                    "MATH"
+                  ]
+                }
+              ]
+            }
+          ],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 0,
+          "failed_steps": [
+            ""
+          ],
+          "state": "PENDING"
+        },
+        "goal_id": "goal-6",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": false,
+          "steps_verified": 0,
+          "steps_completed": 0,
+          "steps_failed": 1,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [
+            "plan invalid"
+          ],
+          "recovery_required": true,
+          "recovered": false,
+          "lesson": "goal unsatisfied: plan invalid; replans used: 0",
+          "step_coverage": 0.0,
+          "verification_coverage": 0.0,
+          "efficiency": 0.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": [
+            "plan invalid"
+          ]
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "0 completed, 1 failed, 0 replans",
+        "correlation_id": "brain-6335ff228824",
+        "latency_ms": 4134.273,
+        "error": "subsystem='autonomous-loop' operation='execute' exception='plan invalid' recovery='replan-exhausted' result='failed'"
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4134.273
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:03:02.223202+00:00",
+      "trace": {
+        "status": "failed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 0,
+        "failed_steps": 1,
+        "completed": [],
+        "failed": [
+          "{'reason': 'plan invalid', 'problems': ["
+        ],
+        "error": "subsystem='autonomous-loop' operation='execute' exception='plan invalid' recovery='replan-exhausted' result='failed'"
+      }
+    },
+    {
+      "task_id": "uai-skill-mismatch-007",
+      "suite_id": "uai_skills",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 4114.97,
+      "detail": "",
+      "observed": {
+        "task_id": "task-7",
+        "status": "completed",
+        "result": {
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 1,
+          "failed_steps": [],
+          "state": "VERIFIED"
+        },
+        "goal_id": "goal-7",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": true,
+          "steps_verified": 1,
+          "steps_completed": 1,
+          "steps_failed": 0,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [],
+          "recovery_required": false,
+          "recovered": false,
+          "lesson": "goal satisfied: 1 verified steps first try",
+          "step_coverage": 1.0,
+          "verification_coverage": 1.0,
+          "efficiency": 1.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": []
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "1 completed, 0 failed, 0 replans",
+        "correlation_id": "brain-095fe913bf35",
+        "latency_ms": 4111.34,
+        "reasoning": {
+          "mode": "DETERMINISTIC",
+          "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+          "provider": "builtin",
+          "reason": "simple deterministic: ['MATH']; model: median installed model",
+          "budget": {
+            "max_tokens": 0,
+            "timeout_s": 0,
+            "max_passes": 0,
+            "max_context_chars": 0,
+            "max_tool_calls": 0
+          },
+          "risk": "LOW",
+          "latency_ms": 0.0,
+          "passes": 0
+        }
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4111.34
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:03:06.338176+00:00",
+      "trace": {
+        "status": "completed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 1,
+        "failed_steps": 0,
+        "completed": [
+          "step-1"
+        ],
+        "failed": [],
+        "reasoning_mode": "DETERMINISTIC"
+      }
+    },
+    {
+      "task_id": "uai-skill-verify-008",
+      "suite_id": "uai_skills",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 4111.595,
+      "detail": "",
+      "observed": {
+        "task_id": "task-8",
+        "status": "completed",
+        "result": {
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 1,
+          "failed_steps": [],
+          "state": "VERIFIED"
+        },
+        "goal_id": "goal-8",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": true,
+          "steps_verified": 1,
+          "steps_completed": 1,
+          "steps_failed": 0,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [],
+          "recovery_required": false,
+          "recovered": false,
+          "lesson": "goal satisfied: 1 verified steps first try",
+          "step_coverage": 1.0,
+          "verification_coverage": 1.0,
+          "efficiency": 1.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": []
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "1 completed, 0 failed, 0 replans",
+        "correlation_id": "brain-6e31aa3237b6",
+        "latency_ms": 4107.524,
+        "reasoning": {
+          "mode": "DETERMINISTIC",
+          "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+          "provider": "builtin",
+          "reason": "simple deterministic: ['MATH']; model: median installed model",
+          "budget": {
+            "max_tokens": 0,
+            "timeout_s": 0,
+            "max_passes": 0,
+            "max_context_chars": 0,
+            "max_tool_calls": 0
+          },
+          "risk": "LOW",
+          "latency_ms": 0.0,
+          "passes": 0
+        }
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4107.524
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:03:10.449785+00:00",
+      "trace": {
+        "status": "completed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 1,
+        "failed_steps": 0,
+        "completed": [
+          "step-1"
+        ],
+        "failed": [],
+        "reasoning_mode": "DETERMINISTIC"
+      }
+    },
+    {
+      "task_id": "uai-skill-recovery-009",
+      "suite_id": "uai_skills",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 4105.452,
+      "detail": "",
+      "observed": {
+        "task_id": "task-9",
+        "status": "completed",
+        "result": {
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 1,
+          "failed_steps": [],
+          "state": "VERIFIED"
+        },
+        "goal_id": "goal-9",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": true,
+          "steps_verified": 1,
+          "steps_completed": 1,
+          "steps_failed": 0,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [],
+          "recovery_required": false,
+          "recovered": false,
+          "lesson": "goal satisfied: 1 verified steps first try",
+          "step_coverage": 1.0,
+          "verification_coverage": 1.0,
+          "efficiency": 1.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": []
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "1 completed, 0 failed, 0 replans",
+        "correlation_id": "brain-f71fcf42c061",
+        "latency_ms": 4101.859,
+        "reasoning": {
+          "mode": "DETERMINISTIC",
+          "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+          "provider": "builtin",
+          "reason": "simple deterministic: ['MATH']; model: median installed model",
+          "budget": {
+            "max_tokens": 0,
+            "timeout_s": 0,
+            "max_passes": 0,
+            "max_context_chars": 0,
+            "max_tool_calls": 0
+          },
+          "risk": "LOW",
+          "latency_ms": 0.0,
+          "passes": 0
+        }
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4101.859
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:03:14.555245+00:00",
+      "trace": {
+        "status": "completed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 1,
+        "failed_steps": 0,
+        "completed": [
+          "step-1"
+        ],
+        "failed": [],
+        "reasoning_mode": "DETERMINISTIC"
+      }
+    },
+    {
+      "task_id": "uai-skill-noinstall-010",
+      "suite_id": "uai_skills",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 0.8,
+      "latency_ms": 4079.398,
+      "detail": "",
+      "observed": {
+        "task_id": "",
+        "status": "failed",
+        "result": {},
+        "verification": {},
+        "retries": 0,
+        "execution_summary": "",
+        "error": "subsystem='planner' operation='plan-contract' exception='['step-1: MISSING_CAPABILITIES', 'step-1: MISSING_VERIFICATION']' recovery='none' result='failed'",
+        "reasoning": {
+          "mode": "STANDARD",
+          "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+          "provider": "builtin",
+          "reason": "normal request (score=0); model: median installed model",
+          "budget": {
+            "max_tokens": 256,
+            "timeout_s": 30,
+            "max_passes": 1,
+            "max_context_chars": 1500,
+            "max_tool_calls": 8
+          },
+          "risk": "LOW",
+          "latency_ms": 0.0,
+          "passes": 0
+        },
+        "correlation_id": "brain-bed8f301efb2",
+        "latency_ms": 4078.576
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4078.576
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:03:18.634642+00:00",
+      "trace": {
+        "status": "failed",
+        "retries": 0,
+        "passed_steps": 0,
+        "failed_steps": 0,
+        "completed": [],
+        "failed": [],
+        "reasoning_mode": "STANDARD",
+        "error": "subsystem='planner' operation='plan-contract' exception='['step-1: MISSING_CAPABILITIES', 'step-1: MISSING_VERIFICATION']' recovery='none' result='failed'"
+      }
+    },
+    {
+      "task_id": "uai-skill-hard-011",
+      "suite_id": "uai_skills",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 4157.824,
+      "detail": "",
+      "observed": {
+        "task_id": "task-10",
+        "status": "completed",
+        "result": {
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 1,
+          "failed_steps": [],
+          "state": "VERIFIED"
+        },
+        "goal_id": "goal-11",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": true,
+          "steps_verified": 1,
+          "steps_completed": 1,
+          "steps_failed": 0,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [],
+          "recovery_required": false,
+          "recovered": false,
+          "lesson": "goal satisfied: 1 verified steps first try",
+          "step_coverage": 1.0,
+          "verification_coverage": 1.0,
+          "efficiency": 1.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": []
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "1 completed, 0 failed, 0 replans",
+        "correlation_id": "brain-78bd5b064375",
+        "latency_ms": 4152.378,
+        "reasoning": {
+          "mode": "STANDARD",
+          "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+          "provider": "builtin",
+          "reason": "normal request (score=1); model: median installed model",
+          "budget": {
+            "max_tokens": 256,
+            "timeout_s": 30,
+            "max_passes": 1,
+            "max_context_chars": 1500,
+            "max_tool_calls": 8
+          },
+          "risk": "LOW",
+          "latency_ms": 0.11,
+          "passes": 1
+        }
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4152.378
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:03:22.792484+00:00",
+      "trace": {
+        "status": "completed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 1,
+        "failed_steps": 0,
+        "completed": [
+          "step-1"
+        ],
+        "failed": [],
+        "reasoning_mode": "STANDARD"
+      }
+    },
+    {
+      "task_id": "uai-skill-autonomy-012",
+      "suite_id": "uai_skills",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 4122.947,
+      "detail": "",
+      "observed": {
+        "task_id": "task-11",
+        "status": "completed",
+        "result": {
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 1,
+          "failed_steps": [],
+          "state": "VERIFIED"
+        },
+        "goal_id": "goal-12",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": true,
+          "steps_verified": 1,
+          "steps_completed": 1,
+          "steps_failed": 0,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [],
+          "recovery_required": false,
+          "recovered": false,
+          "lesson": "goal satisfied: 1 verified steps first try",
+          "step_coverage": 1.0,
+          "verification_coverage": 1.0,
+          "efficiency": 1.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": []
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "1 completed, 0 failed, 0 replans",
+        "correlation_id": "brain-73227e4aa05d",
+        "latency_ms": 4116.313,
+        "reasoning": {
+          "mode": "DETERMINISTIC",
+          "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+          "provider": "builtin",
+          "reason": "simple deterministic: ['MATH']; model: median installed model",
+          "budget": {
+            "max_tokens": 0,
+            "timeout_s": 0,
+            "max_passes": 0,
+            "max_context_chars": 0,
+            "max_tool_calls": 0
+          },
+          "risk": "LOW",
+          "latency_ms": 0.0,
+          "passes": 0
+        }
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4116.313
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:03:26.915431+00:00",
+      "trace": {
+        "autonomy_level": 2,
+        "status": "completed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 1,
+        "failed_steps": 0,
+        "completed": [
+          "step-1"
+        ],
+        "failed": [],
+        "reasoning_mode": "DETERMINISTIC"
+      }
+    }
+  ],
+  "reliability": {
+    "per_task": {
+      "uai-skill-select-001": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4140.9,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "uai-skill-multi-002": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4151.5,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "uai-skill-unvalidated-003": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4104.7,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "uai-skill-unknowncap-004": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4106.1,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "uai-skill-unavailable-005": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4118.6,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "uai-skill-policy-006": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4138.2,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "uai-skill-mismatch-007": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4115.0,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "uai-skill-verify-008": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4111.6,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "uai-skill-recovery-009": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4105.5,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "uai-skill-noinstall-010": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4079.4,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "uai-skill-hard-011": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4157.8,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "uai-skill-autonomy-012": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4122.9,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      }
+    },
+    "summary": {
+      "tasks": 12,
+      "repeated_tasks": 0,
+      "mean_success_rate": 1.0,
+      "tasks_all_passed": 12,
+      "tasks_all_failed": 0
+    }
+  }
+}

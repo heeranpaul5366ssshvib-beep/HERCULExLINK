@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=80.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hercule-ai"
+version = "1.1.0"
+description = "HERCULE AI Operating System"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+authors = [
+    { name = "Heeran Paul" }
+]
+
+keywords = [
+    "AI",
+    "Operating System",
+    "LLM",
+    "Artificial Intelligence",
+    "Automation",
+    "Robotics",
+    "Vision",
+    "Speech",
+    "Engineering"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 3 - Alpha"
+]
+
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["*"]
+exclude = [
+    "tests",
+    "docs",
+    "examples"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+# Explicit loop scope (repo has no async tests/fixtures; this pins the
+# pytest-asyncio future default instead of leaving the notice).
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+line-length = 88

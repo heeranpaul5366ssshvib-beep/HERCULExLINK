@@ -1,0 +1,21 @@
+{
+  "phase": "Phase 3C - CUDA FP32 baseline",
+  "timestamp": "2026-09-24T09:00:00.000000+00:00",
+  "status": "BLOCKED",
+  "reason": "torch.cuda.is_available() == False; 0 CUDA devices on this box",
+  "configs": [],
+  "harness_spec_for_gpu_box": {
+    "commands": [
+      "python -m training.run --config models/hercule_lm/configs/hercule_lm_micro.json --device cuda --steps 10",
+      "python -m training.run --config models/hercule_lm/configs/hercule_lm_s10m.json --device cuda --steps 10"
+    ],
+    "keep_identical": ["dataset (seed)", "tokenizer (cached)", "seq_len", "batch/micro/accum", "seed", "steps"],
+    "measure": ["steady tok/s (excludes step 1)", "step latency", "first-step latency", "peak VRAM", "gpu util (nvidia-smi)", "loss/valid loss", "ckpt time"],
+    "record_to": "reports/frontier_program/phase3_cuda_fp32.json (overwrite BLOCKED stub with MEASURED rows)"
+  },
+  "cpu_reference_steady_toks": {
+    "hercule-lm-micro": 1099.0,
+    "hercule-lm-s10m": 133.0,
+    "evidence": "MEASURED_CPU"
+  }
+}

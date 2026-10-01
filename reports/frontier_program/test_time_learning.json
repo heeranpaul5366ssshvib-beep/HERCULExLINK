@@ -1,0 +1,27 @@
+{
+  "phase": "Phase 6U - Continual test-time learning / mistake-driven adaptation",
+  "timestamp": "2026-09-24T09:00:00.000000+00:00",
+  "status": "IMPLEMENTED+TESTED (22 tests green; no Core semantics changed)",
+  "module": "cognition/adaptation/ (failures, diagnosis, world_state, lessons, retry, executor, env_learner, metrics, ab_eval, offline_export, reflection)",
+  "integration": "DI-based: MemoryManager, ExperienceManager, SkillManager, Planner, PolicyManager accepted as collaborators; Core files untouched",
+  "ab_measurement": {
+    "family": "calc (synthetic tool-schema tasks)",
+    "baseline_success": 0.0,
+    "adaptive_success": 1.0,
+    "verdict": "adaptive-better (measured, synthetic harness)"
+  },
+  "acceptance_demo": {
+    "steps_1_to_11": "PASS in test_acceptance_fail_diagnose_revise_retry_verify_retain_reuse",
+    "mistake_recovery_rate": 1.0,
+    "unrelated_unaffected": true
+  },
+  "safety": {
+    "weights_modified": false,
+    "code_modified": false,
+    "policy_modified": false,
+    "escalation_without_approval": "BLOCKED by retry gate",
+    "scope": "TASK default; broader scopes need consolidation + approval"
+  },
+  "blockers": ["no learned reward model", "no production deployment yet"],
+  "not_run": ["long-horizon production tasks", "multi-user durability"]
+}

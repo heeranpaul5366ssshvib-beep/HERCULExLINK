@@ -1,0 +1,17 @@
+{
+  "model_id": "hercule-lm-micro",
+  "vocab_size": 512,
+  "hidden_size": 768,
+  "num_layers": 12,
+  "num_heads": 12,
+  "ffn_size": 3072,
+  "context_length": 4096,
+  "positional": "rope",
+  "normalization": "rmsnorm",
+  "activation": "geglu",
+  "dropout": 0.1,
+  "initialization": "xavier-uniform",
+  "dtype": "float32",
+  "tokenizer_id": "hercule-bpe-micro-v1",
+  "architecture_hash": "micro-v1"
+}

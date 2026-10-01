@@ -1,0 +1,87 @@
+.card {
+  background-color: var(--surface-elevated, #ffffff);
+  border: 1px solid var(--border-light, #e5e5e5);
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow-sm, 0 1px 2px 0 rgb(0 0 0 / 0.05));
+  overflow: hidden;
+}
+
+.card-outlined {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.card-filled {
+  background-color: var(--surface-secondary, #fafafa);
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.card-padding-none {
+  padding: 0;
+}
+
+.card-padding-sm {
+  padding: 0.75rem;
+}
+
+.card-padding-md {
+  padding: 1rem;
+}
+
+.card-padding-lg {
+  padding: 1.5rem;
+}
+
+.card-hover {
+  transition: box-shadow 150ms ease, border-color 150ms ease;
+}
+
+.card-hover:hover {
+  box-shadow: var(--shadow-md, 0 4px 6px -1px rgb(0 0 0 / 0.1));
+  border-color: var(--border-main, #d4d4d4);
+}
+
+.card-interactive {
+  cursor: pointer;
+}
+
+.card-interactive:focus-visible {
+  outline: 2px solid var(--border-focus, #6366f1);
+  outline-offset: 2px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  margin-bottom: 0.75rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--text-primary, #171717);
+  margin: 0;
+}
+
+.card-description {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--text-secondary, #525252);
+  margin: 0;
+}
+
+.card-content {
+  display: block;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-light, #e5e5e5);
+}

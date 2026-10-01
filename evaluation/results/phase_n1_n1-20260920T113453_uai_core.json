@@ -1,0 +1,2013 @@
+{
+  "phase": "N1",
+  "run_id": "n1-20260920T113453",
+  "suite": "uai_core",
+  "date_time": "2026-09-20T11:39:02.527920+00:00",
+  "model_default": "llama3.2:3b",
+  "provider": "ollama",
+  "ollama_host": "http://127.0.0.1:11434",
+  "ollama_timeout_s": 120.0,
+  "temperature": "UNKNOWN (server default applies)",
+  "mock_used": false,
+  "report": {
+    "run_id": "uai_core-20260920T113503-96149",
+    "scope": "uai_core",
+    "version": "1.1.0",
+    "model": "llama3.2:3b",
+    "provider": "ollama",
+    "started_at": "2026-09-20T11:35:03.432861+00:00",
+    "finished_at": "2026-09-20T11:39:02.524251+00:00",
+    "wall_ms": 239091.351,
+    "config": {
+      "mode": "quick",
+      "suites": [],
+      "model": null,
+      "timeout_s": 120.0,
+      "max_tasks": 0,
+      "parallel": 1,
+      "live": false,
+      "baseline": false,
+      "runs": 1
+    },
+    "counts": {
+      "passed": 24,
+      "failed": 0,
+      "skipped": 0,
+      "error": 0,
+      "timeout": 0
+    },
+    "results": [
+      {
+        "task_id": "uai-core-math-001",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 156.154,
+        "detail": "",
+        "observed": {
+          "task_id": "task-1",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 1,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-1",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 1,
+            "steps_completed": 1,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 1 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "1 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-52b3e13e6cc5",
+          "latency_ms": 143.24,
+          "reasoning": {
+            "mode": "DETERMINISTIC",
+            "model": "llama3.2:3b",
+            "provider": "ollama",
+            "reason": "simple deterministic: ['MATH']; model: configured default model",
+            "budget": {
+              "max_tokens": 0,
+              "timeout_s": 0,
+              "max_passes": 0,
+              "max_context_chars": 0,
+              "max_tool_calls": 0
+            },
+            "risk": "LOW",
+            "latency_ms": 0.0,
+            "passes": 0
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 143.24
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:35:03.589041+00:00",
+        "trace": {
+          "autonomy_level": 2,
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 1,
+          "failed_steps": 0,
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "reasoning_mode": "DETERMINISTIC",
+          "decision_model": "llama3.2:3b",
+          "decision_provider": "ollama",
+          "decision_reason": "simple deterministic: ['MATH']; model: configured default model"
+        }
+      },
+      {
+        "task_id": "uai-core-math-002",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 93.175,
+        "detail": "",
+        "observed": {
+          "task_id": "task-2",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 1,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-2",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 1,
+            "steps_completed": 1,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 1 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "1 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-c5afc3f7fb1b",
+          "latency_ms": 85.457,
+          "reasoning": {
+            "mode": "DETERMINISTIC",
+            "model": "llama3.2:3b",
+            "provider": "ollama",
+            "reason": "simple deterministic: ['MATH']; model: configured default model",
+            "budget": {
+              "max_tokens": 0,
+              "timeout_s": 0,
+              "max_passes": 0,
+              "max_context_chars": 0,
+              "max_tool_calls": 0
+            },
+            "risk": "LOW",
+            "latency_ms": 0.0,
+            "passes": 0
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 85.457
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:35:03.682227+00:00",
+        "trace": {
+          "autonomy_level": 2,
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 1,
+          "failed_steps": 0,
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "reasoning_mode": "DETERMINISTIC",
+          "decision_model": "llama3.2:3b",
+          "decision_provider": "ollama",
+          "decision_reason": "simple deterministic: ['MATH']; model: configured default model"
+        }
+      },
+      {
+        "task_id": "uai-core-math-003",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 82.443,
+        "detail": "",
+        "observed": {
+          "task_id": "task-3",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 1,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-3",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 1,
+            "steps_completed": 1,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 1 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "1 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-4533f2b79372",
+          "latency_ms": 71.263,
+          "reasoning": {
+            "mode": "DETERMINISTIC",
+            "model": "llama3.2:3b",
+            "provider": "ollama",
+            "reason": "simple deterministic: ['MATH']; model: configured default model",
+            "budget": {
+              "max_tokens": 0,
+              "timeout_s": 0,
+              "max_passes": 0,
+              "max_context_chars": 0,
+              "max_tool_calls": 0
+            },
+            "risk": "LOW",
+            "latency_ms": 0.0,
+            "passes": 0
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 71.263
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:35:03.764688+00:00",
+        "trace": {
+          "autonomy_level": 2,
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 1,
+          "failed_steps": 0,
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "reasoning_mode": "DETERMINISTIC",
+          "decision_model": "llama3.2:3b",
+          "decision_provider": "ollama",
+          "decision_reason": "simple deterministic: ['MATH']; model: configured default model"
+        }
+      },
+      {
+        "task_id": "uai-core-math-004",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 79.82,
+        "detail": "",
+        "observed": {
+          "task_id": "task-4",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 1,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-4",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 1,
+            "steps_completed": 1,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 1 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "1 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-c96a11f8d702",
+          "latency_ms": 69.382,
+          "reasoning": {
+            "mode": "DETERMINISTIC",
+            "model": "llama3.2:3b",
+            "provider": "ollama",
+            "reason": "simple deterministic: ['MATH']; model: configured default model",
+            "budget": {
+              "max_tokens": 0,
+              "timeout_s": 0,
+              "max_passes": 0,
+              "max_context_chars": 0,
+              "max_tool_calls": 0
+            },
+            "risk": "LOW",
+            "latency_ms": 0.0,
+            "passes": 0
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 69.382
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:35:03.844508+00:00",
+        "trace": {
+          "autonomy_level": 2,
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 1,
+          "failed_steps": 0,
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "reasoning_mode": "DETERMINISTIC",
+          "decision_model": "llama3.2:3b",
+          "decision_provider": "ollama",
+          "decision_reason": "simple deterministic: ['MATH']; model: configured default model"
+        }
+      },
+      {
+        "task_id": "uai-core-math-005",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 84.259,
+        "detail": "",
+        "observed": {
+          "task_id": "task-5",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 1,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-5",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 1,
+            "steps_completed": 1,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 1 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "1 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-90fedc8e2479",
+          "latency_ms": 71.42,
+          "reasoning": {
+            "mode": "DETERMINISTIC",
+            "model": "llama3.2:3b",
+            "provider": "ollama",
+            "reason": "simple deterministic: ['MATH']; model: configured default model",
+            "budget": {
+              "max_tokens": 0,
+              "timeout_s": 0,
+              "max_passes": 0,
+              "max_context_chars": 0,
+              "max_tool_calls": 0
+            },
+            "risk": "LOW",
+            "latency_ms": 0.0,
+            "passes": 0
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 71.42
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:35:03.928774+00:00",
+        "trace": {
+          "autonomy_level": 2,
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 1,
+          "failed_steps": 0,
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "reasoning_mode": "DETERMINISTIC",
+          "decision_model": "llama3.2:3b",
+          "decision_provider": "ollama",
+          "decision_reason": "simple deterministic: ['MATH']; model: configured default model"
+        }
+      },
+      {
+        "task_id": "uai-core-math-006",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 83.454,
+        "detail": "",
+        "observed": {
+          "task_id": "task-6",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 1,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-6",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 1,
+            "steps_completed": 1,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 1 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "1 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-24c810123e82",
+          "latency_ms": 73.916,
+          "reasoning": {
+            "mode": "DETERMINISTIC",
+            "model": "llama3.2:3b",
+            "provider": "ollama",
+            "reason": "simple deterministic: ['MATH']; model: configured default model",
+            "budget": {
+              "max_tokens": 0,
+              "timeout_s": 0,
+              "max_passes": 0,
+              "max_context_chars": 0,
+              "max_tool_calls": 0
+            },
+            "risk": "LOW",
+            "latency_ms": 0.0,
+            "passes": 0
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 73.916
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:35:04.012234+00:00",
+        "trace": {
+          "autonomy_level": 2,
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 1,
+          "failed_steps": 0,
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "reasoning_mode": "DETERMINISTIC",
+          "decision_model": "llama3.2:3b",
+          "decision_provider": "ollama",
+          "decision_reason": "simple deterministic: ['MATH']; model: configured default model"
+        }
+      },
+      {
+        "task_id": "uai-core-math-007",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 73141.188,
+        "detail": "",
+        "observed": {
+          "task_id": "task-7",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1",
+              "step-2"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 2,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-7",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 2,
+            "steps_completed": 2,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 2 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "2 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-4ad7e8e14746",
+          "latency_ms": 73126.426,
+          "reasoning": {
+            "mode": "DEEP",
+            "model": "qwen3.5:0.8b",
+            "provider": "ollama",
+            "reason": "complex request (score=6, risk=LOW); model: thinking-capable model",
+            "budget": {
+              "max_tokens": 384,
+              "timeout_s": 60,
+              "max_passes": 2,
+              "max_context_chars": 2000,
+              "max_tool_calls": 12
+            },
+            "risk": "LOW",
+            "latency_ms": 73049.33,
+            "passes": 2
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 73126.426
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:36:17.153432+00:00",
+        "trace": {
+          "autonomy_level": 2,
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 2,
+          "failed_steps": 0,
+          "completed": [
+            "step-1",
+            "step-2"
+          ],
+          "failed": [],
+          "reasoning_mode": "DEEP",
+          "decision_model": "qwen3.5:0.8b",
+          "decision_provider": "ollama",
+          "decision_reason": "complex request (score=6, risk=LOW); model: thinking-capable model"
+        }
+      },
+      {
+        "task_id": "uai-core-math-008",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 92.755,
+        "detail": "",
+        "observed": {
+          "task_id": "task-8",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 1,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-8",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 1,
+            "steps_completed": 1,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 1 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "1 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-4dd8869332fb",
+          "latency_ms": 85.361,
+          "reasoning": {
+            "mode": "DETERMINISTIC",
+            "model": "llama3.2:3b",
+            "provider": "ollama",
+            "reason": "simple deterministic: ['MATH']; model: configured default model",
+            "budget": {
+              "max_tokens": 0,
+              "timeout_s": 0,
+              "max_passes": 0,
+              "max_context_chars": 0,
+              "max_tool_calls": 0
+            },
+            "risk": "LOW",
+            "latency_ms": 0.0,
+            "passes": 0
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 85.361
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:36:17.246199+00:00",
+        "trace": {
+          "autonomy_level": 2,
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 1,
+          "failed_steps": 0,
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "reasoning_mode": "DETERMINISTIC",
+          "decision_model": "llama3.2:3b",
+          "decision_provider": "ollama",
+          "decision_reason": "simple deterministic: ['MATH']; model: configured default model"
+        }
+      },
+      {
+        "task_id": "uai-core-plan-chain-009",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 86859.214,
+        "detail": "",
+        "observed": {
+          "task_id": "task-9",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1",
+              "step-2",
+              "step-3"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 3,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-9",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 3,
+            "steps_completed": 3,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 3 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "3 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-1439e5257a3e",
+          "latency_ms": 86848.569,
+          "reasoning": {
+            "mode": "DEEP",
+            "model": "qwen3.5:0.8b",
+            "provider": "ollama",
+            "reason": "complex request (score=6, risk=LOW); model: thinking-capable model",
+            "budget": {
+              "max_tokens": 384,
+              "timeout_s": 60,
+              "max_passes": 2,
+              "max_context_chars": 2000,
+              "max_tool_calls": 12
+            },
+            "risk": "LOW",
+            "latency_ms": 86758.73,
+            "passes": 2
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 86848.569
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:37:44.105421+00:00",
+        "trace": {
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 3,
+          "failed_steps": 0,
+          "completed": [
+            "step-1",
+            "step-2",
+            "step-3"
+          ],
+          "failed": [],
+          "reasoning_mode": "DEEP",
+          "decision_model": "qwen3.5:0.8b",
+          "decision_provider": "ollama",
+          "decision_reason": "complex request (score=6, risk=LOW); model: thinking-capable model"
+        }
+      },
+      {
+        "task_id": "uai-core-plan-single-010",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 97.162,
+        "detail": "",
+        "observed": {
+          "task_id": "task-10",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 1,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-10",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 1,
+            "steps_completed": 1,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 1 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "1 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-f9bdadf29859",
+          "latency_ms": 87.647,
+          "reasoning": {
+            "mode": "DETERMINISTIC",
+            "model": "llama3.2:3b",
+            "provider": "ollama",
+            "reason": "simple deterministic: ['MATH']; model: configured default model",
+            "budget": {
+              "max_tokens": 0,
+              "timeout_s": 0,
+              "max_passes": 0,
+              "max_context_chars": 0,
+              "max_tool_calls": 0
+            },
+            "risk": "LOW",
+            "latency_ms": 0.0,
+            "passes": 0
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 87.647
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:37:44.202593+00:00",
+        "trace": {
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 1,
+          "failed_steps": 0,
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "reasoning_mode": "DETERMINISTIC",
+          "decision_model": "llama3.2:3b",
+          "decision_provider": "ollama",
+          "decision_reason": "simple deterministic: ['MATH']; model: configured default model"
+        }
+      },
+      {
+        "task_id": "uai-core-honest-011",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 0.8,
+        "latency_ms": 85.521,
+        "detail": "",
+        "observed": {
+          "task_id": "task-11",
+          "status": "failed",
+          "result": {
+            "completed": [],
+            "failed": [
+              {
+                "step_id": "step-r2-1",
+                "reason": "step step-r2-1 has no healthy provider for ['FILE_READ']",
+                "code": "NO_HEALTHY_PROVIDER"
+              }
+            ],
+            "replans": 2
+          },
+          "verification": {
+            "passed_steps": 0,
+            "failed_steps": [
+              "step-r2-1"
+            ],
+            "state": "PENDING"
+          },
+          "goal_id": "goal-11",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": false,
+            "steps_verified": 0,
+            "steps_completed": 0,
+            "steps_failed": 1,
+            "replans": 2,
+            "abilities_succeeded": [],
+            "failed_reasons": [
+              "step step-r2-1 has no healthy provider for ['FILE_READ']"
+            ],
+            "recovery_required": true,
+            "recovered": false,
+            "lesson": "goal unsatisfied: step step-r2-1 has no healthy provider for ['FILE_READ']; replans used: 2",
+            "step_coverage": 0.0,
+            "verification_coverage": 0.0,
+            "efficiency": 0.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": [
+              "step step-r2-1 has no healthy provider for ['FILE_READ']"
+            ]
+          },
+          "retries": 0,
+          "replans": 2,
+          "execution_summary": "0 completed, 1 failed, 2 replans",
+          "correlation_id": "brain-bc4e03880529",
+          "latency_ms": 78.402,
+          "error": "subsystem='autonomous-loop' operation='execute' exception='step step-r2-1 has no healthy provider for ['FILE_READ']' recovery='replan-exhausted' result='failed'"
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 78.402
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:37:44.288124+00:00",
+        "trace": {
+          "status": "failed",
+          "replans": 2,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 0,
+          "failed_steps": 1,
+          "completed": [],
+          "failed": [
+            "step-r2-1"
+          ],
+          "error": "subsystem='autonomous-loop' operation='execute' exception='step step-r2-1 has no healthy provider for ['FILE_READ']' recovery='replan-exhausted' result='failed'"
+        }
+      },
+      {
+        "task_id": "uai-core-honest-012",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 0.8,
+        "latency_ms": 77332.363,
+        "detail": "",
+        "observed": {
+          "task_id": "task-12",
+          "status": "failed",
+          "result": {
+            "completed": [],
+            "failed": [
+              {
+                "step_id": "step-r2-1",
+                "reason": "execution failed",
+                "errors": [
+                  "tool:terminal: [TOOL_FAILURE] Approval required before executing high-risk ability 'terminal'. Re-invoke with approval_required=True and approved=True.",
+                  "tool:package_manager: [TOOL_FAILURE] ability reported status 'pending'"
+                ]
+              }
+            ],
+            "replans": 2
+          },
+          "verification": {
+            "passed_steps": 0,
+            "failed_steps": [
+              "step-r2-1"
+            ],
+            "state": "PENDING"
+          },
+          "goal_id": "goal-12",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": false,
+            "steps_verified": 0,
+            "steps_completed": 0,
+            "steps_failed": 1,
+            "replans": 2,
+            "abilities_succeeded": [],
+            "failed_reasons": [
+              "execution failed"
+            ],
+            "recovery_required": true,
+            "recovered": false,
+            "lesson": "goal unsatisfied: execution failed; replans used: 2",
+            "step_coverage": 0.0,
+            "verification_coverage": 0.0,
+            "efficiency": 0.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": [
+              "execution failed"
+            ]
+          },
+          "retries": 0,
+          "replans": 2,
+          "execution_summary": "0 completed, 1 failed, 2 replans",
+          "correlation_id": "brain-6ee4583c4b93",
+          "latency_ms": 77326.593,
+          "error": "subsystem='autonomous-loop' operation='execute' exception='execution failed' recovery='replan-exhausted' result='failed'"
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 77326.593
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:39:01.620487+00:00",
+        "trace": {
+          "status": "failed",
+          "replans": 2,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 0,
+          "failed_steps": 1,
+          "completed": [],
+          "failed": [
+            "step-r2-1"
+          ],
+          "error": "subsystem='autonomous-loop' operation='execute' exception='execution failed' recovery='replan-exhausted' result='failed'"
+        }
+      },
+      {
+        "task_id": "uai-core-autonomy-013",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 104.201,
+        "detail": "",
+        "observed": {
+          "task_id": "task-13",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 1,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-13",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 1,
+            "steps_completed": 1,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 1 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "1 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-aeccdb526ee9",
+          "latency_ms": 89.562,
+          "reasoning": {
+            "mode": "DETERMINISTIC",
+            "model": "llama3.2:3b",
+            "provider": "ollama",
+            "reason": "simple deterministic: ['MATH']; model: configured default model",
+            "budget": {
+              "max_tokens": 0,
+              "timeout_s": 0,
+              "max_passes": 0,
+              "max_context_chars": 0,
+              "max_tool_calls": 0
+            },
+            "risk": "LOW",
+            "latency_ms": 0.0,
+            "passes": 0
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 89.562
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:39:01.724696+00:00",
+        "trace": {
+          "autonomy_level": 2,
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 1,
+          "failed_steps": 0,
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "reasoning_mode": "DETERMINISTIC",
+          "decision_model": "llama3.2:3b",
+          "decision_provider": "ollama",
+          "decision_reason": "simple deterministic: ['MATH']; model: configured default model"
+        }
+      },
+      {
+        "task_id": "uai-core-autonomy-014",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 88.097,
+        "detail": "",
+        "observed": {
+          "task_id": "task-14",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 1,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-14",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 1,
+            "steps_completed": 1,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 1 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "1 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-29aedeb5575d",
+          "latency_ms": 78.622,
+          "reasoning": {
+            "mode": "DETERMINISTIC",
+            "model": "llama3.2:3b",
+            "provider": "ollama",
+            "reason": "simple deterministic: ['MATH']; model: configured default model",
+            "budget": {
+              "max_tokens": 0,
+              "timeout_s": 0,
+              "max_passes": 0,
+              "max_context_chars": 0,
+              "max_tool_calls": 0
+            },
+            "risk": "LOW",
+            "latency_ms": 0.0,
+            "passes": 0
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 78.622
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:39:01.812798+00:00",
+        "trace": {
+          "autonomy_level": 4,
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 1,
+          "failed_steps": 0,
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "reasoning_mode": "DETERMINISTIC",
+          "decision_model": "llama3.2:3b",
+          "decision_provider": "ollama",
+          "decision_reason": "simple deterministic: ['MATH']; model: configured default model"
+        }
+      },
+      {
+        "task_id": "uai-core-verify-015",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 88.007,
+        "detail": "",
+        "observed": {
+          "task_id": "task-15",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 1,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-15",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 1,
+            "steps_completed": 1,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 1 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "1 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-376ccbb39cfb",
+          "latency_ms": 78.292,
+          "reasoning": {
+            "mode": "DETERMINISTIC",
+            "model": "llama3.2:3b",
+            "provider": "ollama",
+            "reason": "simple deterministic: ['MATH']; model: configured default model",
+            "budget": {
+              "max_tokens": 0,
+              "timeout_s": 0,
+              "max_passes": 0,
+              "max_context_chars": 0,
+              "max_tool_calls": 0
+            },
+            "risk": "LOW",
+            "latency_ms": 0.0,
+            "passes": 0
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 78.292
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:39:01.900814+00:00",
+        "trace": {
+          "autonomy_level": 2,
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 1,
+          "failed_steps": 0,
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "reasoning_mode": "DETERMINISTIC",
+          "decision_model": "llama3.2:3b",
+          "decision_provider": "ollama",
+          "decision_reason": "simple deterministic: ['MATH']; model: configured default model"
+        }
+      },
+      {
+        "task_id": "uai-core-verify-016",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 89.204,
+        "detail": "",
+        "observed": {
+          "task_id": "task-16",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 1,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-16",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 1,
+            "steps_completed": 1,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 1 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "1 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-341c264fbe5c",
+          "latency_ms": 82.458,
+          "reasoning": {
+            "mode": "DETERMINISTIC",
+            "model": "llama3.2:3b",
+            "provider": "ollama",
+            "reason": "simple deterministic: ['MATH']; model: configured default model",
+            "budget": {
+              "max_tokens": 0,
+              "timeout_s": 0,
+              "max_passes": 0,
+              "max_context_chars": 0,
+              "max_tool_calls": 0
+            },
+            "risk": "LOW",
+            "latency_ms": 0.0,
+            "passes": 0
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 82.458
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:39:01.990037+00:00",
+        "trace": {
+          "autonomy_level": 2,
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 1,
+          "failed_steps": 0,
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "reasoning_mode": "DETERMINISTIC",
+          "decision_model": "llama3.2:3b",
+          "decision_provider": "ollama",
+          "decision_reason": "simple deterministic: ['MATH']; model: configured default model"
+        }
+      },
+      {
+        "task_id": "uai-core-memory-017",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 17.55,
+        "detail": "",
+        "observed": {
+          "status": "ok",
+          "value": "uai-core-fact-1"
+        },
+        "expected": null,
+        "timings": {},
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:39:02.007573+00:00",
+        "trace": {
+          "status": "ok",
+          "passed_steps": 0,
+          "failed_steps": 0,
+          "completed": [],
+          "failed": []
+        }
+      },
+      {
+        "task_id": "uai-core-memory-018",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 9.097,
+        "detail": "",
+        "observed": {
+          "status": "ok",
+          "value": "UNKNOWN"
+        },
+        "expected": null,
+        "timings": {},
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:39:02.016682+00:00",
+        "trace": {
+          "status": "ok",
+          "passed_steps": 0,
+          "failed_steps": 0,
+          "completed": [],
+          "failed": []
+        }
+      },
+      {
+        "task_id": "uai-core-route-019",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 25.831,
+        "detail": "",
+        "observed": "GOAL",
+        "expected": "GOAL",
+        "timings": {},
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:39:02.042536+00:00",
+        "trace": {}
+      },
+      {
+        "task_id": "uai-core-route-020",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 10.861,
+        "detail": "",
+        "observed": "QUESTION",
+        "expected": "QUESTION",
+        "timings": {},
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:39:02.053404+00:00",
+        "trace": {}
+      },
+      {
+        "task_id": "uai-core-replan-021",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 116.402,
+        "detail": "",
+        "observed": {
+          "task_id": "task-17",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 1,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-17",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 1,
+            "steps_completed": 1,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 1 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "1 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-90425c7bed07",
+          "latency_ms": 102.783,
+          "reasoning": {
+            "mode": "DETERMINISTIC",
+            "model": "llama3.2:3b",
+            "provider": "ollama",
+            "reason": "simple deterministic: ['MATH']; model: configured default model",
+            "budget": {
+              "max_tokens": 0,
+              "timeout_s": 0,
+              "max_passes": 0,
+              "max_context_chars": 0,
+              "max_tool_calls": 0
+            },
+            "risk": "LOW",
+            "latency_ms": 0.0,
+            "passes": 0
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 102.783
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:39:02.169815+00:00",
+        "trace": {
+          "autonomy_level": 2,
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 1,
+          "failed_steps": 0,
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "reasoning_mode": "DETERMINISTIC",
+          "decision_model": "llama3.2:3b",
+          "decision_provider": "ollama",
+          "decision_reason": "simple deterministic: ['MATH']; model: configured default model"
+        }
+      },
+      {
+        "task_id": "uai-core-replan-022",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 118.778,
+        "detail": "",
+        "observed": {
+          "task_id": "task-18",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 1,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-18",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 1,
+            "steps_completed": 1,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 1 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "1 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-64e4c59a510c",
+          "latency_ms": 110.115,
+          "reasoning": {
+            "mode": "DETERMINISTIC",
+            "model": "llama3.2:3b",
+            "provider": "ollama",
+            "reason": "simple deterministic: ['MATH']; model: configured default model",
+            "budget": {
+              "max_tokens": 0,
+              "timeout_s": 0,
+              "max_passes": 0,
+              "max_context_chars": 0,
+              "max_tool_calls": 0
+            },
+            "risk": "LOW",
+            "latency_ms": 0.0,
+            "passes": 0
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 110.115
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:39:02.288611+00:00",
+        "trace": {
+          "autonomy_level": 2,
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 1,
+          "failed_steps": 0,
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "reasoning_mode": "DETERMINISTIC",
+          "decision_model": "llama3.2:3b",
+          "decision_provider": "ollama",
+          "decision_reason": "simple deterministic: ['MATH']; model: configured default model"
+        }
+      },
+      {
+        "task_id": "uai-core-replan-023",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 122.469,
+        "detail": "",
+        "observed": {
+          "task_id": "task-19",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 1,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-19",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 1,
+            "steps_completed": 1,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 1 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "1 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-c07bab2f480a",
+          "latency_ms": 108.221,
+          "reasoning": {
+            "mode": "DETERMINISTIC",
+            "model": "llama3.2:3b",
+            "provider": "ollama",
+            "reason": "simple deterministic: ['MATH']; model: configured default model",
+            "budget": {
+              "max_tokens": 0,
+              "timeout_s": 0,
+              "max_passes": 0,
+              "max_context_chars": 0,
+              "max_tool_calls": 0
+            },
+            "risk": "LOW",
+            "latency_ms": 0.0,
+            "passes": 0
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 108.221
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:39:02.411090+00:00",
+        "trace": {
+          "autonomy_level": 2,
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 1,
+          "failed_steps": 0,
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "reasoning_mode": "DETERMINISTIC",
+          "decision_model": "llama3.2:3b",
+          "decision_provider": "ollama",
+          "decision_reason": "simple deterministic: ['MATH']; model: configured default model"
+        }
+      },
+      {
+        "task_id": "uai-core-replan-024",
+        "suite_id": "uai_core",
+        "category": "HERCULE_INTERNAL",
+        "outcome": "passed",
+        "score": 1.0,
+        "latency_ms": 113.121,
+        "detail": "",
+        "observed": {
+          "task_id": "task-20",
+          "status": "completed",
+          "result": {
+            "completed": [
+              "step-1"
+            ],
+            "failed": [],
+            "replans": 0
+          },
+          "verification": {
+            "passed_steps": 1,
+            "failed_steps": [],
+            "state": "VERIFIED"
+          },
+          "goal_id": "goal-20",
+          "plan_mode": "deterministic",
+          "evaluation": {
+            "goal_satisfied": true,
+            "steps_verified": 1,
+            "steps_completed": 1,
+            "steps_failed": 0,
+            "replans": 0,
+            "abilities_succeeded": [],
+            "failed_reasons": [],
+            "recovery_required": false,
+            "recovered": false,
+            "lesson": "goal satisfied: 1 verified steps first try",
+            "step_coverage": 1.0,
+            "verification_coverage": 1.0,
+            "efficiency": 1.0,
+            "unnecessary_steps": 0,
+            "failed_assumptions": []
+          },
+          "retries": 0,
+          "replans": 0,
+          "execution_summary": "1 completed, 0 failed, 0 replans",
+          "correlation_id": "brain-613634adfbe4",
+          "latency_ms": 101.232,
+          "reasoning": {
+            "mode": "DETERMINISTIC",
+            "model": "llama3.2:3b",
+            "provider": "ollama",
+            "reason": "simple deterministic: ['MATH']; model: configured default model",
+            "budget": {
+              "max_tokens": 0,
+              "timeout_s": 0,
+              "max_passes": 0,
+              "max_context_chars": 0,
+              "max_tool_calls": 0
+            },
+            "risk": "LOW",
+            "latency_ms": 0.0,
+            "passes": 0
+          }
+        },
+        "expected": null,
+        "timings": {
+          "execution_ms": 101.232
+        },
+        "model": "llama3.2:3b",
+        "provider": "ollama",
+        "safety_class": "READ_ONLY",
+        "skipped_reason": "",
+        "llm_calls": null,
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "completed_at": "2026-09-20T11:39:02.524227+00:00",
+        "trace": {
+          "autonomy_level": 2,
+          "status": "completed",
+          "replans": 0,
+          "retries": 0,
+          "plan_mode": "deterministic",
+          "passed_steps": 1,
+          "failed_steps": 0,
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "reasoning_mode": "DETERMINISTIC",
+          "decision_model": "llama3.2:3b",
+          "decision_provider": "ollama",
+          "decision_reason": "simple deterministic: ['MATH']; model: configured default model"
+        }
+      }
+    ]
+  }
+}

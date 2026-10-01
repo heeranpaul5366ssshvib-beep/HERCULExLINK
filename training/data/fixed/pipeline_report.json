@@ -1,0 +1,68 @@
+{
+ "original_stats": {
+  "total_documents": 6450,
+  "unique_documents": 3266,
+  "duplicate_rate": 0.4936434108527131,
+  "total_tokens": 124604,
+  "unique_tokens": 237,
+  "vocab_size": 512,
+  "vocab_coverage": 0.462890625,
+  "total_chars": 248733,
+  "whitespace_ratio": 0.32062373599563415,
+  "space_count": 34351,
+  "newline_count": 5600,
+  "top_tokens": {
+   "36": 34351,
+   "14": 5600,
+   "270": 3000,
+   "269": 3000,
+   "268": 3000,
+   "273": 1816,
+   "57": 1704,
+   "58": 1657,
+   "60": 1604,
+   "61": 1537,
+   "56": 1519,
+   "59": 1486,
+   "55": 1452,
+   "50": 1243,
+   "101": 1228,
+   "278": 1200,
+   "285": 1200,
+   "54": 1168,
+   "47": 1122,
+   "275": 1115,
+   "49": 1105,
+   "104": 1026,
+   "46": 953,
+   "53": 933,
+   "119": 920,
+   "120": 906,
+   "125": 868,
+   "296": 769,
+   "112": 769,
+   "109": 720
+  }
+ },
+ "dedup_report": {
+  "documents_before": 6450,
+  "documents_after": 3266,
+  "duplicates_removed": 3184,
+  "duplicate_rate_before": 0.4936434108527131,
+  "duplicate_rate_after": 0.0
+ },
+ "whitespace_report": {
+  "whitespace_ratio": 0.18520618850671472,
+  "space_count": 175734,
+  "newline_count": 54839,
+  "total_chars": 1244953
+ },
+ "final_stats": {
+  "total_documents": 18347,
+  "total_tokens": 934283,
+  "unique_tokens": 275,
+  "vocab_coverage": 0.537109375,
+  "whitespace_ratio": 0.24679138976091827
+ },
+ "generated_docs": 15081
+}

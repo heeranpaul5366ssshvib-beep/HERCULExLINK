@@ -1,0 +1,36 @@
+{
+ "phase": "Phase 12 scale generalization",
+ "curriculum": "80 single-digit pairs x30 (frozen)",
+ "held_out": "20 pairs (frozen ids)",
+ "eval": "exact numeric + format, greedy, 6 tokens",
+ "arms": {
+  "A-micro-200 (Phase 11)": {
+   "params": 3088384,
+   "steps": 200,
+   "tokens": 51200,
+   "loss": "6.98->0.54",
+   "held_numeric": "0/20",
+   "format": "20/20"
+  },
+  "B-micro-600 (duration 3x)": {
+   "params": 3088384,
+   "steps": 600,
+   "tokens": 153600,
+   "loss": "6.98->0.44",
+   "held_numeric": "0/20",
+   "format": "20/20"
+  },
+  "C-s10m-200 (scale 3x)": {
+   "params": 10561024,
+   "steps": 200,
+   "tokens": 25600,
+   "loss": "7.39->0.61",
+   "held_numeric": "0/20",
+   "format": "20/20",
+   "seen_pair": "3/20"
+  },
+  "D-100M-CUDA": {
+   "status": "BLOCKED (0 CUDA devices)"
+  }
+ }
+}

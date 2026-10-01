@@ -1,0 +1,126 @@
+{
+  "run_id": "iso-b-20260920T124332-04800",
+  "scope": "iso-b",
+  "version": "1.1.0",
+  "model": "mock",
+  "provider": "mock",
+  "started_at": "2026-09-20T12:43:32.078041+00:00",
+  "finished_at": "2026-09-20T12:43:32.083147+00:00",
+  "wall_ms": 5.083,
+  "config": {
+    "mode": "quick",
+    "suites": [],
+    "model": null,
+    "timeout_s": 120.0,
+    "max_tasks": 0,
+    "parallel": 1,
+    "live": false,
+    "baseline": false,
+    "runs": 1
+  },
+  "counts": {
+    "passed": 2,
+    "failed": 0,
+    "skipped": 0,
+    "error": 0,
+    "timeout": 0
+  },
+  "results": [
+    {
+      "task_id": "uai-research-unavail-004",
+      "suite_id": "uai_research",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 0.855,
+      "detail": "",
+      "observed": {
+        "status": "success",
+        "topic": "epsilon uncharted topic",
+        "sources": [],
+        "evidence": [],
+        "synthesis": "No source material could be retrieved in this environment.",
+        "contradictions": [],
+        "confidence": 0.0,
+        "verification_status": "unverified",
+        "subquestions": [
+          "What is known about epsilon uncharted topic?",
+          "What evidence supports claims about epsilon uncharted topic?",
+          "What is uncertain or disputed about epsilon uncharted topic?"
+        ],
+        "error": null,
+        "ability": "research",
+        "capability": "KNOWLEDGE_RETRIEVAL",
+        "execution_time_ms": 0.07,
+        "verification": null
+      },
+      "expected": null,
+      "timings": {},
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "READ_ONLY",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T12:43:32.078908+00:00",
+      "trace": {
+        "status": "success",
+        "passed_steps": 0,
+        "failed_steps": 0,
+        "completed": [],
+        "failed": [],
+        "evidence_count": 0,
+        "verification_status": "unverified"
+      }
+    },
+    {
+      "task_id": "uai-research-empty-005",
+      "suite_id": "uai_research",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 4.209,
+      "detail": "",
+      "observed": {
+        "status": "success",
+        "topic": "zeta empty index",
+        "sources": [],
+        "evidence": [],
+        "synthesis": "No source material could be retrieved in this environment.",
+        "contradictions": [],
+        "confidence": 0.0,
+        "verification_status": "unverified",
+        "subquestions": [
+          "What is known about zeta empty index?",
+          "What evidence supports claims about zeta empty index?",
+          "What is uncertain or disputed about zeta empty index?"
+        ],
+        "error": null,
+        "ability": "research",
+        "capability": "KNOWLEDGE_RETRIEVAL",
+        "execution_time_ms": 0.13,
+        "verification": null
+      },
+      "expected": null,
+      "timings": {},
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "READ_ONLY",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T12:43:32.083111+00:00",
+      "trace": {
+        "status": "success",
+        "passed_steps": 0,
+        "failed_steps": 0,
+        "completed": [],
+        "failed": [],
+        "evidence_count": 0,
+        "verification_status": "unverified"
+      }
+    }
+  ]
+}

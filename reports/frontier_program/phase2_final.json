@@ -1,0 +1,124 @@
+{
+  "phase": "Phase 2 - Real CUDA + Scalable Training Infrastructure",
+  "timestamp": "2026-09-24T08:30:00.000000+00:00",
+  "status": "CPU_VALIDATED_CUDA_BLOCKED",
+  "phase2a_test_fix": {
+    "status": "COMPLETED",
+    "issue": "test_threads_helper_parsing flake due to setdefault() not overriding existing OMP_NUM_THREADS",
+    "fix": "configure_threads() now explicitly sets env vars when HERCULE_LM_THREADS is explicitly provided, uses setdefault only for implicit defaults",
+    "tests": "test_hercule_lm_n4.py::test_threads_helper_parsing now passes deterministically"
+  },
+  "cuda": {
+    "available": false,
+    "actually_executed": false,
+    "gpu": "NONE",
+    "throughput": "N/A",
+    "vram": "N/A",
+    "peak_usage": "N/A",
+    "note": "All CUDA infrastructure implemented and ready; torch.cuda.is_available() == False on this hardware"
+  },
+  "amp": {
+    "fp32": {
+      "status": "MEASURED",
+      "results": "Torch CPU: micro=554 tok/s, s10m=182 tok/s"
+    },
+    "bf16": {
+      "status": "MEASURED (CPU)",
+      "results": "CPU bf16 runs but slow (43 tok/s nano); intended for CUDA"
+    },
+    "fp16": {
+      "status": "BLOCKED",
+      "reason": "Requires CUDA; CLI correctly rejects with explicit error"
+    },
+    "measured_results": "FP32 baseline established; AMP modes tested on CPU for smoke only"
+  },
+  "distributed": {
+    "ddp": {
+      "status": "NOT IMPLEMENTED",
+      "world_size": 1,
+      "scaling": "N/A"
+    },
+    "fsdp": {
+      "status": "NOT IMPLEMENTED"
+    }
+  },
+  "performance": {
+    "numpy_cpu": {
+      "hercule_lm_micro": {"tok_s": 261, "latency_ms": 1964},
+      "hercule_lm_s10m": {"tok_s": 64, "latency_ms": 8060}
+    },
+    "torch_cpu": {
+      "hercule_lm_micro": {"tok_s": 554, "latency_ms": 925, "steady_tok_s": 1099},
+      "hercule_lm_s10m": {"tok_s": 182, "latency_ms": 2807, "steady_tok_s": 133}
+    },
+    "torch_cuda": {
+      "status": "BLOCKED - no GPU"
+    },
+    "ddp_cuda": {
+      "status": "NOT IMPLEMENTED"
+    }
+  },
+  "checkpoint": {
+    "save": "IMPLEMENTED (atomic, weights.pt + weights.npz + manifest)",
+    "load": "IMPLEMENTED (torch native + npz compat)",
+    "resume": "IMPLEMENTED (model + optimizer + step + data cursor + RNG)",
+    "corruption_handling": "IMPLEMENTED (hash validation, explicit errors)"
+  },
+  "model_scaling": {
+    "100m": "BLOCKED (insufficient RAM)",
+    "300m": "BLOCKED (insufficient RAM)",
+    "1b": "BLOCKED (insufficient RAM)",
+    "3b": "BLOCKED (insufficient RAM)",
+    "7b": "BLOCKED (insufficient RAM)",
+    "note": "All models >= 100M blocked on this CPU-only machine; readiness file at reports/frontier_program/model_scaling_readiness.json"
+  },
+  "tests": {
+    "total": 143,
+    "passed": 134,
+    "failed": 0,
+    "skipped": 9,
+    "not_run_cuda": 4
+  },
+  "files": {
+    "added": [
+      "scripts/hardware_inventory.py",
+      "scripts/model_scaling_readiness.py",
+      "reports/frontier_program/hardware_inventory.json",
+      "reports/frontier_program/model_scaling_readiness.json",
+      "reports/frontier_program/phase2_training_performance.json"
+    ],
+    "modified": [
+      "models/hercule_lm/threads.py",
+      "models/hercule_lm/train_torch.py"
+    ],
+    "existing_phase1": [
+      "models/hercule_lm/torch_model.py",
+      "models/hercule_lm/train_torch.py",
+      "models/hercule_lm/checkpoint.py",
+      "models/hercule_lm/train.py",
+      "models/hercule_lm/device.py",
+      "training/run.py",
+      "docs/hercule_lm_backends.md",
+      "tests/test_hercule_lm_torch.py"
+    ]
+  },
+  "blockers": [
+    "No CUDA hardware - all CUDA-dependent phases honestly BLOCKED",
+    "Insufficient system RAM (1.5 GB available) for models >= 100M on CPU",
+    "No multi-GPU hardware - DDP/FSDP cannot be validated",
+    "Activation checkpointing not yet implemented"
+  ],
+  "next_phase": {
+    "phase": "Phase 3 - Model Family",
+    "plan": [
+      "Require GPU hardware (>= 1x CUDA GPU with 8+ GB VRAM)",
+      "Run CUDA validation (Phases 2C, 2D, 2E) on GPU hardware",
+      "Implement DDP multi-GPU (Phase 2H)",
+      "Build versioned model registry with immutable configs",
+      "Produce model cards with lineage, licensing, benchmarks",
+      "Develop tokenizer as independently versioned component",
+      "Build legally auditable pretraining corpus pipeline",
+      "Implement Phase 4 Data Engineering"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "plugin_id": "hercule.automation_demo",
+  "name": "HERCULE Automation Demo",
+  "version": "1.0.0",
+  "description": "Demonstrates sensitive automation permission - requires explicit approval",
+  "author": "HERCULE Team",
+  "homepage": "https://hercule.ai",
+  "min_hercule_version": "1.0.0",
+  "max_hercule_version": "2.0.0",
+  "entrypoint": "plugin",
+  "capabilities": [
+    "automation",
+    "clipboard"
+  ],
+  "permissions": [
+    "automation",
+    "clipboard",
+    "filesystem_read",
+    "filesystem_write"
+  ],
+  "dependencies": [],
+  "configuration_schema": {
+    "safe_mode": {
+      "type": "boolean",
+      "default": true,
+      "description": "Only allow safe automation operations"
+    }
+  },
+  "plugin_api_version": "1.0",
+  "icon": "assets/icon.png",
+  "tags": [
+    "automation",
+    "demo",
+    "sensitive"
+  ]
+}

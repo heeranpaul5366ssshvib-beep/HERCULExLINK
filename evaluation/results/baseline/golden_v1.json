@@ -1,0 +1,997 @@
+{
+  "run_id": "golden_v1-20260920T040139-21889",
+  "scope": "golden_v1",
+  "version": "1.1.0",
+  "model": "mock",
+  "provider": "mock",
+  "started_at": "2026-09-20T04:01:39.166920+00:00",
+  "wall_ms": 37045.3,
+  "counts": {
+    "passed": 10,
+    "failed": 0,
+    "skipped": 0,
+    "error": 0,
+    "timeout": 0
+  },
+  "mean_ms": 3704.5,
+  "median_ms": 4111.8,
+  "p95_ms": 8226.7,
+  "categories": {
+    "AGENTIC": {
+      "tasks": 10,
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "accuracy": 0.96,
+      "mean_ms": 3704.5,
+      "median_ms": 4111.8,
+      "p95_ms": 8226.7
+    }
+  },
+  "results": [
+    {
+      "task_id": "golden-file-roundtrip-01",
+      "suite_id": "golden_v1",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 8226.677,
+      "detail": "",
+      "observed": {
+        "task_id": "task-1",
+        "status": "completed",
+        "result": {
+          "completed": [
+            "step-1",
+            "step-2",
+            "step-3"
+          ],
+          "failed": [],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 3,
+          "failed_steps": [],
+          "state": "VERIFIED"
+        },
+        "goal_id": "goal-1",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": true,
+          "steps_verified": 3,
+          "steps_completed": 3,
+          "steps_failed": 0,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [],
+          "recovery_required": false,
+          "recovered": false,
+          "lesson": "goal satisfied: 3 verified steps first try",
+          "step_coverage": 1.0,
+          "verification_coverage": 1.0,
+          "efficiency": 1.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": []
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "3 completed, 0 failed, 0 replans",
+        "correlation_id": "brain-5e85ad198046",
+        "latency_ms": 8225.68,
+        "reasoning": {
+          "mode": "DEEP",
+          "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+          "provider": "builtin",
+          "reason": "complex request (score=10, risk=HIGH); model: largest installed model",
+          "budget": {
+            "max_tokens": 384,
+            "timeout_s": 60,
+            "max_passes": 2,
+            "max_context_chars": 2000,
+            "max_tool_calls": 12
+          },
+          "risk": "HIGH",
+          "latency_ms": 0.19,
+          "passes": 2
+        }
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 8225.68
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:01:47.393613+00:00",
+      "trace": {
+        "status": "completed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 3,
+        "failed_steps": 0,
+        "completed": [
+          "step-1",
+          "step-2",
+          "step-3"
+        ],
+        "failed": [],
+        "reasoning_mode": "DEEP"
+      }
+    },
+    {
+      "task_id": "golden-math-chain-02",
+      "suite_id": "golden_v1",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 4109.686,
+      "detail": "",
+      "observed": {
+        "task_id": "task-2",
+        "status": "completed",
+        "result": {
+          "completed": [
+            "step-1",
+            "step-2"
+          ],
+          "failed": [],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 2,
+          "failed_steps": [],
+          "state": "VERIFIED"
+        },
+        "goal_id": "goal-2",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": true,
+          "steps_verified": 2,
+          "steps_completed": 2,
+          "steps_failed": 0,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [],
+          "recovery_required": false,
+          "recovered": false,
+          "lesson": "goal satisfied: 2 verified steps first try",
+          "step_coverage": 1.0,
+          "verification_coverage": 1.0,
+          "efficiency": 1.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": []
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "2 completed, 0 failed, 0 replans",
+        "correlation_id": "brain-8128740b4d24",
+        "latency_ms": 4108.768,
+        "reasoning": {
+          "mode": "DEEP",
+          "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+          "provider": "builtin",
+          "reason": "complex request (score=6, risk=LOW); model: largest installed model",
+          "budget": {
+            "max_tokens": 384,
+            "timeout_s": 60,
+            "max_passes": 2,
+            "max_context_chars": 2000,
+            "max_tool_calls": 12
+          },
+          "risk": "LOW",
+          "latency_ms": 0.15,
+          "passes": 2
+        }
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4108.768
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:01:51.503301+00:00",
+      "trace": {
+        "status": "completed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 2,
+        "failed_steps": 0,
+        "completed": [
+          "step-1",
+          "step-2"
+        ],
+        "failed": [],
+        "reasoning_mode": "DEEP"
+      }
+    },
+    {
+      "task_id": "golden-skill-exec-03",
+      "suite_id": "golden_v1",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 4098.452,
+      "detail": "",
+      "observed": {
+        "task_id": "task-3",
+        "status": "completed",
+        "result": {
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 1,
+          "failed_steps": [],
+          "state": "VERIFIED"
+        },
+        "goal_id": "goal-3",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": true,
+          "steps_verified": 1,
+          "steps_completed": 1,
+          "steps_failed": 0,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [],
+          "recovery_required": false,
+          "recovered": false,
+          "lesson": "goal satisfied: 1 verified steps first try",
+          "step_coverage": 1.0,
+          "verification_coverage": 1.0,
+          "efficiency": 1.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": []
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "1 completed, 0 failed, 0 replans",
+        "correlation_id": "brain-df6fa98011fc",
+        "latency_ms": 4094.318,
+        "reasoning": {
+          "mode": "DETERMINISTIC",
+          "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+          "provider": "builtin",
+          "reason": "simple deterministic: ['MATH']; model: median installed model",
+          "budget": {
+            "max_tokens": 0,
+            "timeout_s": 0,
+            "max_passes": 0,
+            "max_context_chars": 0,
+            "max_tool_calls": 0
+          },
+          "risk": "LOW",
+          "latency_ms": 0.0,
+          "passes": 0
+        }
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4094.318
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:01:55.601757+00:00",
+      "trace": {
+        "status": "completed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 1,
+        "failed_steps": 0,
+        "completed": [
+          "step-1"
+        ],
+        "failed": [],
+        "reasoning_mode": "DETERMINISTIC"
+      }
+    },
+    {
+      "task_id": "golden-research-04",
+      "suite_id": "golden_v1",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 1.317,
+      "detail": "",
+      "observed": {
+        "status": "success",
+        "topic": "golden widget standard",
+        "sources": [
+          "https://example.test/g1",
+          "https://example.test/g2"
+        ],
+        "evidence": [
+          {
+            "label": "FACT",
+            "content": "[FACT] Golden widget standard ratified",
+            "source": "https://example.test/g1",
+            "confidence": 0.9
+          },
+          {
+            "label": "FACT",
+            "content": "[FACT] Golden widget ships in Q3",
+            "source": "https://example.test/g2",
+            "confidence": 0.9
+          }
+        ],
+        "synthesis": "Research summary for: golden widget standard\n\n- [FACT] [FACT] Golden widget standard ratified (source: https://example.test/g1)\n- [FACT] [FACT] Golden widget ships in Q3 (source: https://example.test/g2)\n\nNote: labels reflect evidence strength; UNCERTAINTY items are unverified and must not be presented as fact.",
+        "contradictions": [],
+        "confidence": 0.9,
+        "verification_status": "verified",
+        "subquestions": [
+          "What is known about golden widget standard?",
+          "What evidence supports claims about golden widget standard?",
+          "What is uncertain or disputed about golden widget standard?"
+        ],
+        "error": null,
+        "ability": "research",
+        "capability": "KNOWLEDGE_RETRIEVAL",
+        "execution_time_ms": 0.18,
+        "verification": null
+      },
+      "expected": null,
+      "timings": {},
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:01:55.603086+00:00",
+      "trace": {
+        "status": "success",
+        "passed_steps": 0,
+        "failed_steps": 0,
+        "completed": [],
+        "failed": [],
+        "evidence_count": 2,
+        "verification_status": "verified"
+      }
+    },
+    {
+      "task_id": "golden-research-honest-05",
+      "suite_id": "golden_v1",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 0.991,
+      "detail": "",
+      "observed": {
+        "status": "success",
+        "topic": "golden uncharted topic",
+        "sources": [],
+        "evidence": [],
+        "synthesis": "No source material could be retrieved in this environment.",
+        "contradictions": [],
+        "confidence": 0.0,
+        "verification_status": "unverified",
+        "subquestions": [
+          "What is known about golden uncharted topic?",
+          "What evidence supports claims about golden uncharted topic?",
+          "What is uncertain or disputed about golden uncharted topic?"
+        ],
+        "error": null,
+        "ability": "research",
+        "capability": "KNOWLEDGE_RETRIEVAL",
+        "execution_time_ms": 0.09,
+        "verification": null
+      },
+      "expected": null,
+      "timings": {},
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:01:55.604083+00:00",
+      "trace": {
+        "status": "success",
+        "passed_steps": 0,
+        "failed_steps": 0,
+        "completed": [],
+        "failed": [],
+        "evidence_count": 0,
+        "verification_status": "unverified"
+      }
+    },
+    {
+      "task_id": "golden-denial-06",
+      "suite_id": "golden_v1",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 0.8,
+      "latency_ms": 4095.836,
+      "detail": "",
+      "observed": {
+        "task_id": "task-4",
+        "status": "failed",
+        "result": {
+          "completed": [],
+          "failed": [
+            {
+              "reason": "plan invalid",
+              "problems": [
+                {
+                  "code": "PERMISSION_CONFLICT",
+                  "step": "step-1",
+                  "detail": [
+                    "MATH"
+                  ]
+                }
+              ]
+            }
+          ],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 0,
+          "failed_steps": [
+            ""
+          ],
+          "state": "PENDING"
+        },
+        "goal_id": "goal-4",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": false,
+          "steps_verified": 0,
+          "steps_completed": 0,
+          "steps_failed": 1,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [
+            "plan invalid"
+          ],
+          "recovery_required": true,
+          "recovered": false,
+          "lesson": "goal unsatisfied: plan invalid; replans used: 0",
+          "step_coverage": 0.0,
+          "verification_coverage": 0.0,
+          "efficiency": 0.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": [
+            "plan invalid"
+          ]
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "0 completed, 1 failed, 0 replans",
+        "correlation_id": "brain-75bc7b235a38",
+        "latency_ms": 4095.044,
+        "error": "subsystem='autonomous-loop' operation='execute' exception='plan invalid' recovery='replan-exhausted' result='failed'"
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4095.044
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:01:59.699934+00:00",
+      "trace": {
+        "status": "failed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 0,
+        "failed_steps": 1,
+        "completed": [],
+        "failed": [
+          "{'reason': 'plan invalid', 'problems': ["
+        ],
+        "error": "subsystem='autonomous-loop' operation='execute' exception='plan invalid' recovery='replan-exhausted' result='failed'"
+      }
+    },
+    {
+      "task_id": "golden-missing-07",
+      "suite_id": "golden_v1",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 0.8,
+      "latency_ms": 4114.53,
+      "detail": "",
+      "observed": {
+        "task_id": "task-5",
+        "status": "completed",
+        "result": {
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 1,
+          "failed_steps": [],
+          "state": "VERIFIED"
+        },
+        "goal_id": "goal-5",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": true,
+          "steps_verified": 1,
+          "steps_completed": 1,
+          "steps_failed": 0,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [],
+          "recovery_required": false,
+          "recovered": false,
+          "lesson": "goal satisfied: 1 verified steps first try",
+          "step_coverage": 1.0,
+          "verification_coverage": 1.0,
+          "efficiency": 1.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": []
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "1 completed, 0 failed, 0 replans",
+        "correlation_id": "brain-caf3bd98b9bc",
+        "latency_ms": 4113.743,
+        "reasoning": {
+          "mode": "DETERMINISTIC",
+          "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+          "provider": "builtin",
+          "reason": "simple deterministic: ['FILE_READ']; model: median installed model",
+          "budget": {
+            "max_tokens": 0,
+            "timeout_s": 0,
+            "max_passes": 0,
+            "max_context_chars": 0,
+            "max_tool_calls": 0
+          },
+          "risk": "LOW",
+          "latency_ms": 0.0,
+          "passes": 0
+        }
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4113.743
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:02:03.814471+00:00",
+      "trace": {
+        "status": "completed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 1,
+        "failed_steps": 0,
+        "completed": [
+          "step-1"
+        ],
+        "failed": [],
+        "reasoning_mode": "DETERMINISTIC"
+      }
+    },
+    {
+      "task_id": "golden-file-roundtrip-08",
+      "suite_id": "golden_v1",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 4154.243,
+      "detail": "",
+      "observed": {
+        "task_id": "task-6",
+        "status": "completed",
+        "result": {
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 1,
+          "failed_steps": [],
+          "state": "VERIFIED"
+        },
+        "goal_id": "goal-6",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": true,
+          "steps_verified": 1,
+          "steps_completed": 1,
+          "steps_failed": 0,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [],
+          "recovery_required": false,
+          "recovered": false,
+          "lesson": "goal satisfied: 1 verified steps first try",
+          "step_coverage": 1.0,
+          "verification_coverage": 1.0,
+          "efficiency": 1.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": []
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "1 completed, 0 failed, 0 replans",
+        "correlation_id": "brain-10fe01a20747",
+        "latency_ms": 4153.426,
+        "reasoning": {
+          "mode": "DEEP",
+          "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+          "provider": "builtin",
+          "reason": "complex request (score=7, risk=LOW); model: largest installed model",
+          "budget": {
+            "max_tokens": 384,
+            "timeout_s": 60,
+            "max_passes": 2,
+            "max_context_chars": 2000,
+            "max_tool_calls": 12
+          },
+          "risk": "LOW",
+          "latency_ms": 0.14,
+          "passes": 2
+        }
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4153.426
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:02:07.968717+00:00",
+      "trace": {
+        "status": "completed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 1,
+        "failed_steps": 0,
+        "completed": [
+          "step-1"
+        ],
+        "failed": [],
+        "reasoning_mode": "DEEP"
+      }
+    },
+    {
+      "task_id": "golden-bounded-09",
+      "suite_id": "golden_v1",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 4129.65,
+      "detail": "",
+      "observed": {
+        "task_id": "task-7",
+        "status": "completed",
+        "result": {
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 1,
+          "failed_steps": [],
+          "state": "VERIFIED"
+        },
+        "goal_id": "goal-7",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": true,
+          "steps_verified": 1,
+          "steps_completed": 1,
+          "steps_failed": 0,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [],
+          "recovery_required": false,
+          "recovered": false,
+          "lesson": "goal satisfied: 1 verified steps first try",
+          "step_coverage": 1.0,
+          "verification_coverage": 1.0,
+          "efficiency": 1.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": []
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "1 completed, 0 failed, 0 replans",
+        "correlation_id": "brain-6d778d5c96a2",
+        "latency_ms": 4125.403,
+        "reasoning": {
+          "mode": "DETERMINISTIC",
+          "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+          "provider": "builtin",
+          "reason": "simple deterministic: ['MATH']; model: median installed model",
+          "budget": {
+            "max_tokens": 0,
+            "timeout_s": 0,
+            "max_passes": 0,
+            "max_context_chars": 0,
+            "max_tool_calls": 0
+          },
+          "risk": "LOW",
+          "latency_ms": 0.0,
+          "passes": 0
+        }
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4125.403
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:02:12.098369+00:00",
+      "trace": {
+        "autonomy_level": 2,
+        "status": "completed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 1,
+        "failed_steps": 0,
+        "completed": [
+          "step-1"
+        ],
+        "failed": [],
+        "reasoning_mode": "DETERMINISTIC"
+      }
+    },
+    {
+      "task_id": "golden-recovery-10",
+      "suite_id": "golden_v1",
+      "category": "AGENTIC",
+      "outcome": "passed",
+      "score": 1.0,
+      "latency_ms": 4113.819,
+      "detail": "",
+      "observed": {
+        "task_id": "task-8",
+        "status": "completed",
+        "result": {
+          "completed": [
+            "step-1"
+          ],
+          "failed": [],
+          "replans": 0
+        },
+        "verification": {
+          "passed_steps": 1,
+          "failed_steps": [],
+          "state": "VERIFIED"
+        },
+        "goal_id": "goal-8",
+        "plan_mode": "deterministic",
+        "evaluation": {
+          "goal_satisfied": true,
+          "steps_verified": 1,
+          "steps_completed": 1,
+          "steps_failed": 0,
+          "replans": 0,
+          "abilities_succeeded": [],
+          "failed_reasons": [],
+          "recovery_required": false,
+          "recovered": false,
+          "lesson": "goal satisfied: 1 verified steps first try",
+          "step_coverage": 1.0,
+          "verification_coverage": 1.0,
+          "efficiency": 1.0,
+          "unnecessary_steps": 0,
+          "failed_assumptions": []
+        },
+        "retries": 0,
+        "replans": 0,
+        "execution_summary": "1 completed, 0 failed, 0 replans",
+        "correlation_id": "brain-6af18e9a2aa3",
+        "latency_ms": 4112.93,
+        "reasoning": {
+          "mode": "DETERMINISTIC",
+          "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+          "provider": "builtin",
+          "reason": "simple deterministic: ['MATH']; model: median installed model",
+          "budget": {
+            "max_tokens": 0,
+            "timeout_s": 0,
+            "max_passes": 0,
+            "max_context_chars": 0,
+            "max_tool_calls": 0
+          },
+          "risk": "LOW",
+          "latency_ms": 0.0,
+          "passes": 0
+        }
+      },
+      "expected": null,
+      "timings": {
+        "execution_ms": 4112.93
+      },
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-20T04:02:16.212199+00:00",
+      "trace": {
+        "status": "completed",
+        "replans": 0,
+        "retries": 0,
+        "plan_mode": "deterministic",
+        "passed_steps": 1,
+        "failed_steps": 0,
+        "completed": [
+          "step-1"
+        ],
+        "failed": [],
+        "reasoning_mode": "DETERMINISTIC"
+      }
+    }
+  ],
+  "reliability": {
+    "per_task": {
+      "golden-file-roundtrip-01": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 8226.7,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "golden-math-chain-02": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4109.7,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "golden-skill-exec-03": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4098.5,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "golden-research-04": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 1.3,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "golden-research-honest-05": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 1.0,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "golden-denial-06": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4095.8,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "golden-missing-07": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4114.5,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "golden-file-roundtrip-08": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4154.2,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "golden-bounded-09": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4129.6,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      },
+      "golden-recovery-10": {
+        "runs": 1,
+        "passed": 1,
+        "success_rate": 1.0,
+        "pass_at_1": 1.0,
+        "pass_at_k_full": 1.0,
+        "pass_pow_k": 1.0,
+        "latency_mean_ms": 4113.8,
+        "latency_stdev_ms": 0.0,
+        "small_sample": true
+      }
+    },
+    "summary": {
+      "tasks": 10,
+      "repeated_tasks": 0,
+      "mean_success_rate": 1.0,
+      "tasks_all_passed": 10,
+      "tasks_all_failed": 0
+    }
+  }
+}

@@ -1,0 +1,281 @@
+{
+ "checkpoint": "training/checkpoints/micro1/step_00000250",
+ "model_id": "hercule-lm-micro",
+ "eval_version": "hercule-lm-eval-v1",
+ "eval_checksum": "bc6d6e2d8c5b61b1",
+ "items": 30,
+ "hits": 1,
+ "elapsed_s": 9.2,
+ "results": [
+  {
+   "id": "lang-00",
+   "category": "BASIC_LANGUAGE",
+   "prompt": "The sun rises in the ",
+   "expected": "east",
+   "generated": "tool before trusting it.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "lang-01",
+   "category": "BASIC_LANGUAGE",
+   "prompt": "Water freezes into ",
+   "expected": "ice",
+   "generated": "a \n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "lang-02",
+   "category": "BASIC_LANGUAGE",
+   "prompt": "A week has seven ",
+   "expected": "days",
+   "generated": "in a at at level.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "lang-03",
+   "category": "BASIC_LANGUAGE",
+   "prompt": "Birds build ",
+   "expected": "nests",
+   "generated": "is a named container for data ",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "vocab-00",
+   "category": "VOCABULARY",
+   "prompt": "A directory contains ",
+   "expected": "files",
+   "generated": "no were available.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "vocab-01",
+   "category": "VOCABULARY",
+   "prompt": "Verification means ",
+   "expected": "checking",
+   "generated": "unknown topic topic topic no were ",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "fact-00",
+   "category": "FACT_RECALL",
+   "prompt": "At sea level, water boils at ",
+   "expected": "100",
+   "generated": "level.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "fact-01",
+   "category": "FACT_RECALL",
+   "prompt": "The capital of France is ",
+   "expected": "Paris",
+   "generated": "a at at at at level.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "arith-00",
+   "category": "SIMPLE_ARITHMETIC",
+   "prompt": "Q: Calculate 156 + 659.\nA:",
+   "expected": "815.",
+   "generated": " 101.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "arith-01",
+   "category": "SIMPLE_ARITHMETIC",
+   "prompt": "Q: Calculate 198 + 344.\nA:",
+   "expected": "542.",
+   "generated": " 101.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "arith-02",
+   "category": "SIMPLE_ARITHMETIC",
+   "prompt": "Q: Calculate 251 + 795.\nA:",
+   "expected": "1046.",
+   "generated": " 101.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "arith-03",
+   "category": "SIMPLE_ARITHMETIC",
+   "prompt": "Q: Calculate 289 + 910.\nA:",
+   "expected": "1199.",
+   "generated": " 101.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "arith-04",
+   "category": "SIMPLE_ARITHMETIC",
+   "prompt": "Q: Calculate 318 + 382.\nA:",
+   "expected": "700.",
+   "generated": " 101.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "arith-05",
+   "category": "SIMPLE_ARITHMETIC",
+   "prompt": "Q: Calculate 333 + 602.\nA:",
+   "expected": "935.",
+   "generated": " 101.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "arith-06",
+   "category": "SIMPLE_ARITHMETIC",
+   "prompt": "Q: Calculate 502 + 787.\nA:",
+   "expected": "1289.",
+   "generated": " 101.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "arith-07",
+   "category": "SIMPLE_ARITHMETIC",
+   "prompt": "Q: Calculate 507 + 822.\nA:",
+   "expected": "1329.",
+   "generated": " 101.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "arith-08",
+   "category": "SIMPLE_ARITHMETIC",
+   "prompt": "Q: Calculate 562 + 921.\nA:",
+   "expected": "1483.",
+   "generated": " 101.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "arith-09",
+   "category": "SIMPLE_ARITHMETIC",
+   "prompt": "Q: Calculate 564 + 827.\nA:",
+   "expected": "1391.",
+   "generated": " 101.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "arith-10",
+   "category": "SIMPLE_ARITHMETIC",
+   "prompt": "Q: Calculate 740 + 307.\nA:",
+   "expected": "1047.",
+   "generated": " 101.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "arith-11",
+   "category": "SIMPLE_ARITHMETIC",
+   "prompt": "Q: Calculate 821 + 496.\nA:",
+   "expected": "1317.",
+   "generated": " 101.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "pattern-00",
+   "category": "PATTERN_COMPLETION",
+   "prompt": "1 2 3 4 ",
+   "expected": "5",
+   "generated": "+ 127.\nA: 1015\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "pattern-01",
+   "category": "PATTERN_COMPLETION",
+   "prompt": "2 4 6 8 ",
+   "expected": "10",
+   "generated": "+ 5'.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "pattern-02",
+   "category": "PATTERN_COMPLETION",
+   "prompt": "a b c ",
+   "expected": "d",
+   "generated": "is a 451.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "logic-00",
+   "category": "LOGICAL_RULES",
+   "prompt": "All boxes contain books. Crate X is a box. Crate X contains ",
+   "expected": "books",
+   "generated": "no were available.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "instr-00",
+   "category": "INSTRUCTION_FOLLOWING",
+   "prompt": "Reply with exactly the word HELLO and nothing else.\n",
+   "expected": "HELLO",
+   "generated": "",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "ctx-00",
+   "category": "SHORT_CONTEXT",
+   "prompt": "Context: the depot code is 451. Question: what is the depot code?\nAnswer:",
+   "expected": "451",
+   "generated": " is a 451.\n",
+   "hit": true,
+   "error": ""
+  },
+  {
+   "id": "ctx-01",
+   "category": "LONGER_CONTEXT",
+   "prompt": "Filler sentence number 0. Filler sentence number 1. Filler sentence number 2. Filler sentence number 3. Filler sentence number 4. Filler sentence number 5. Filler sentence number 6. Filler sentence number 7. Filler sentence number 8. Filler sentence number 9. Filler sentence number 10. Filler sentence number 11. Filler sentence number 12. Filler sentence number 13. Filler sentence number 14. Filler sentence number 15. Filler sentence number 16. Filler sentence number 17. Filler sentence number 18. Filler sentence number 19. Filler sentence number 20. Filler sentence number 21. Filler sentence number 22. Filler sentence number 23. Filler sentence number 24. Filler sentence number 25. Filler sentence number 26. Filler sentence number 27. Filler sentence number 28. Filler sentence number 29. The hidden number is 777. Filler sentence number 0. Filler sentence number 1. Filler sentence number 2. Filler sentence number 3. Filler sentence number 4. Filler sentence number 5. Filler sentence number 6. Filler sentence number 7. Filler sentence number 8. Filler sentence number 9. Filler sentence number 10. Filler sentence number 11. Filler sentence number 12. Filler sentence number 13. Filler sentence number 14. Filler sentence number 15. Filler sentence number 16. Filler sentence number 17. Filler sentence number 18. Filler sentence number 19. Filler sentence number 20. Filler sentence number 21. Filler sentence number 22. Filler sentence number 23. Filler sentence number 24. Filler sentence number 25. Filler sentence number 26. Filler sentence number 27. Filler sentence number 28. Filler sentence number 29. The hidden number is",
+   "expected": "777",
+   "generated": " + + went went went went",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "code-00",
+   "category": "CODE_SYNTAX",
+   "prompt": "def add(a, b):\n    return ",
+   "expected": "a + b",
+   "generated": "the depot code is is 451.\n",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "herc-00",
+   "category": "HERCULE_TERMINOLOGY",
+   "prompt": "Classify this request: 'compute 5 plus 5'.\n",
+   "expected": "GOAL",
+   "generated": "",
+   "hit": false,
+   "error": ""
+  },
+  {
+   "id": "herc-01",
+   "category": "HERCULE_TERMINOLOGY",
+   "prompt": "A skill must be  before it can execute.\n",
+   "expected": "validated",
+   "generated": "",
+   "hit": false,
+   "error": ""
+  }
+ ]
+}

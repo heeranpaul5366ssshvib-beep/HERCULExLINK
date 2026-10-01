@@ -1,0 +1,59 @@
+{
+  "run_id": "hercule_internal-20260912T123849-69477",
+  "scope": "hercule_internal",
+  "version": "1.1.0",
+  "model": "mock",
+  "provider": "mock",
+  "started_at": "2026-09-12T12:38:49.752560+00:00",
+  "finished_at": "2026-09-12T12:38:49.899957+00:00",
+  "wall_ms": 147.377,
+  "config": {
+    "mode": "quick",
+    "suites": [],
+    "model": null,
+    "timeout_s": 120.0,
+    "max_tasks": 0,
+    "parallel": 1,
+    "live": true,
+    "baseline": false
+  },
+  "counts": {
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "error": 0,
+    "timeout": 0
+  },
+  "results": [
+    {
+      "task_id": "hercule-plan-contract-009",
+      "suite_id": "hercule_internal",
+      "category": "HERCULE_INTERNAL",
+      "outcome": "failed",
+      "score": 0.0,
+      "latency_ms": 147.37,
+      "detail": "",
+      "observed": {
+        "task_id": "",
+        "status": "failed",
+        "result": {},
+        "verification": {},
+        "retries": 0,
+        "execution_summary": "",
+        "error": "subsystem='planner' operation='reference-resolution' exception='AMBIGUOUS_REFERENCE step-2 reference matches multiple objects; clarify which one candidates=['C:\\\\Users\\\\hp\\\\HERCULE\\\\reference_world_test.txt', 'C:\\\\Users\\\\hp\\\\HERCULE\\\\retry_probe.txt', 'plan.txt']' recovery='clarify' result='failed'",
+        "correlation_id": "brain-ae9f57c87e20",
+        "latency_ms": 146.75
+      },
+      "expected": null,
+      "timings": {},
+      "model": "mock",
+      "provider": "mock",
+      "safety_class": "READ_ONLY",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-12T12:38:49.899938+00:00"
+    }
+  ]
+}

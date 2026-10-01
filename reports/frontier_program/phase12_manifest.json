@@ -1,0 +1,9 @@
+{
+  "phase": "Phase 12 - Scale Generalization Test",
+  "curriculum_hash": "frozen Phase 11 (80 pairs x30, 20 held-out ids frozen)",
+  "eval_protocol": "frozen (greedy, 6 tokens, exact numeric + format)",
+  "arms": ["A micro-200 (Phase 11)", "B micro-600 (duration)", "C s10m-200 (scale)", "D 100M-CUDA (BLOCKED)"],
+  "checkpoints": ["ck11/arith-micro (Phase 11)", "ck12/arith-micro-1000/step_00000600", "ck12s/arith-s10m/step_00000200"],
+  "seeds": [0],
+  "leakage_check": "held-out pairs verified absent from corpus before training"
+}

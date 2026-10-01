@@ -1,0 +1,119 @@
+{
+  "run_id": "s-20260912T111850-70722",
+  "scope": "s",
+  "version": "1.1.0",
+  "model": "scripted-mock",
+  "provider": "scripted",
+  "started_at": "2026-09-12T11:18:50.998029+00:00",
+  "finished_at": "2026-09-12T11:18:50.999281+00:00",
+  "wall_ms": 1.23,
+  "config": {
+    "mode": "quick",
+    "suites": [],
+    "model": null,
+    "timeout_s": 120.0,
+    "max_tasks": 0,
+    "parallel": 1,
+    "live": false,
+    "baseline": false
+  },
+  "counts": {
+    "passed": 0,
+    "failed": 3,
+    "skipped": 0,
+    "error": 0,
+    "timeout": 0
+  },
+  "results": [
+    {
+      "task_id": "a-0",
+      "suite_id": "s",
+      "category": "MATH",
+      "outcome": "failed",
+      "score": 0.0,
+      "latency_ms": 0.506,
+      "detail": "",
+      "observed": {
+        "status": "completed",
+        "result": "ok",
+        "verification": {
+          "passed_steps": 1,
+          "total_steps": 1
+        },
+        "replans": 0
+      },
+      "expected": [
+        "ok"
+      ],
+      "timings": {},
+      "model": "scripted-mock",
+      "provider": "scripted",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-12T11:18:50.998547+00:00"
+    },
+    {
+      "task_id": "a-1",
+      "suite_id": "s",
+      "category": "MATH",
+      "outcome": "failed",
+      "score": 0.0,
+      "latency_ms": 0.362,
+      "detail": "",
+      "observed": {
+        "status": "completed",
+        "result": "ok",
+        "verification": {
+          "passed_steps": 1,
+          "total_steps": 1
+        },
+        "replans": 0
+      },
+      "expected": [
+        "ok"
+      ],
+      "timings": {},
+      "model": "scripted-mock",
+      "provider": "scripted",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-12T11:18:50.998918+00:00"
+    },
+    {
+      "task_id": "a-2",
+      "suite_id": "s",
+      "category": "MATH",
+      "outcome": "failed",
+      "score": 0.0,
+      "latency_ms": 0.341,
+      "detail": "",
+      "observed": {
+        "status": "completed",
+        "result": "ok",
+        "verification": {
+          "passed_steps": 1,
+          "total_steps": 1
+        },
+        "replans": 0
+      },
+      "expected": [
+        "ok"
+      ],
+      "timings": {},
+      "model": "scripted-mock",
+      "provider": "scripted",
+      "safety_class": "ACTIVE",
+      "skipped_reason": "",
+      "llm_calls": null,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "completed_at": "2026-09-12T11:18:50.999263+00:00"
+    }
+  ]
+}

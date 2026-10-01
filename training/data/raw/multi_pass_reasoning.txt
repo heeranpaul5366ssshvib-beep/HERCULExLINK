@@ -1,0 +1,150 @@
+USER:
+Q: If a train travels 60 miles in 1.5 hours, what is its average speed? Show your reasoning step by step.
+
+PASS 1:
+To find average speed, I use the formula: speed = distance / time.
+Distance = 60 miles.
+Time = 1.5 hours.
+Speed = 60 / 1.5 = 40 mph.
+
+PASS 2 (verification):
+Let me verify: 40 mph * 1.5 hours = 60 miles. Correct.
+
+TARGET:
+Average speed = 40 mph.
+
+
+USER:
+Q: A rectangle has length 12 and width 8. What is its area and perimeter? Show your work.
+
+PASS 1:
+Area = length * width = 12 * 8 = 96.
+Perimeter = 2 * (length + width) = 2 * (12 + 8) = 2 * 20 = 40.
+
+PASS 2 (verification):
+Area check: 12 * 8 = 96. Perimeter check: 2 * (12 + 8) = 40. Both correct.
+
+TARGET:
+Area = 96, Perimeter = 40.
+
+
+USER:
+Q: If 3 apples cost $1.50, how much do 10 apples cost? Reason step by step.
+
+PASS 1:
+Cost per apple = $1.50 / 3 = $0.50.
+Cost for 10 apples = 10 * $0.50 = $5.00.
+
+PASS 2 (verification):
+3 apples at $0.50 each = $1.50. 10 apples at $0.50 each = $5.00. Consistent.
+
+TARGET:
+$5.00
+
+
+USER:
+Q: A number is multiplied by 4, then 12 is added, giving 60. What is the number? Show your reasoning.
+
+PASS 1:
+Let the number be x.
+4x + 12 = 60
+4x = 60 - 12 = 48
+x = 48 / 4 = 12
+
+PASS 2 (verification):
+4 * 12 + 12 = 48 + 12 = 60. Correct.
+
+TARGET:
+12
+
+
+USER:
+Q: A store sells pens in packs of 12. If you buy 5 packs and give away 18 pens, how many do you have left? Show your work.
+
+PASS 1:
+Total pens = 5 packs * 12 pens = 60 pens.
+Pens left = 60 - 18 = 42.
+
+PASS 2 (verification):
+5 * 12 = 60. 60 - 18 = 42. Correct.
+
+TARGET:
+42
+
+
+USER:
+Q: The sum of three consecutive even numbers is 90. What are the numbers? Show your reasoning.
+
+PASS 1:
+Let the numbers be x, x+2, x+4.
+x + (x+2) + (x+4) = 90
+3x + 6 = 90
+3x = 84
+x = 28
+Numbers: 28, 30, 32.
+
+PASS 2 (verification):
+28 + 30 + 32 = 90. Correct.
+
+TARGET:
+28, 30, 32
+
+
+USER:
+Q: A car uses 8 liters of fuel per 100 km. How much fuel for 350 km? Show your work.
+
+PASS 1:
+Fuel per km = 8 / 100 = 0.08 liters/km.
+Fuel for 350 km = 350 * 0.08 = 28 liters.
+
+PASS 2 (verification):
+350 km / 100 = 3.5 units of 100 km.
+3.5 * 8 = 28 liters. Consistent.
+
+TARGET:
+28 liters
+
+
+USER:
+Q: If x + y = 20 and x - y = 4, find x and y. Show your steps.
+
+PASS 1:
+Adding the equations: (x + y) + (x - y) = 20 + 4
+2x = 24
+x = 12
+Substituting: 12 + y = 20, so y = 8.
+
+PASS 2 (verification):
+12 + 8 = 20. 12 - 8 = 4. Correct.
+
+TARGET:
+x = 12, y = 8
+
+
+USER:
+Q: A pizza is cut into 8 slices. If 3 people eat 2 slices each, what fraction remains? Show your work.
+
+PASS 1:
+Total eaten = 3 * 2 = 6 slices.
+Remaining = 8 - 6 = 2 slices.
+Fraction remaining = 2/8 = 1/4.
+
+PASS 2 (verification):
+6 eaten + 2 remaining = 8 total. 2/8 = 1/4. Correct.
+
+TARGET:
+1/4
+
+
+USER:
+Q: A recipe needs 2.5 cups of flour for 12 cookies. How much flour for 30 cookies? Show your reasoning.
+
+PASS 1:
+Flour per cookie = 2.5 / 12 = 0.20833... cups.
+For 30 cookies = 30 * 2.5 / 12 = 75 / 12 = 6.25 cups.
+
+PASS 2 (verification):
+12 cookies need 2.5 cups. 30 cookies is 2.5x more. 2.5 * 2.5 = 6.25. Correct.
+
+TARGET:
+6.25 cups

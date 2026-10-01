@@ -1,0 +1,30 @@
+{
+  "phase": "Phase 10 - First Real Capability Delta",
+  "timestamp": "2026-09-24T09:00:00.000000+00:00",
+  "status": "PARTIAL_DELTA_MEASURED__GPU_BLOCKED",
+  "GPU_STATUS": "BLOCKED (0 devices; gpu_auto_run.py ready)",
+  "MODEL_TRAINING": "MEASURED (micro 300 steps CPU: train 7.03->1.55, valid 2.22->1.72, ckpt+resume)",
+  "PRETRAINING": "MEASURED (bounded; longer runs need GPU)",
+  "SFT": "MEASURED earlier (UNCHANGED); this phase focused on pretraining delta",
+  "FIRST_DELTA": {
+    "format_adherence_MATH": {"base": "0/6", "trained": "6/6", "verdict": "IMPROVED"},
+    "numeric_correctness_MATH": {"base": 0.0, "trained": 0.0, "verdict": "UNCHANGED"},
+    "REASONING": "UNCHANGED",
+    "detail": "300-step micro learns answer format ('A: <number>') but not arithmetic (100+100->101). Format without computation: expected at this scale."
+  },
+  "REASONING_TRAINING": "NOT_RUN (no base capability to amplify; GPU-gated)",
+  "CODING_TOOL": "agent-level MEASURED earlier; model-level UNCHANGED",
+  "ADAPTATION": "MEASURED (synthetic + repo tasks; weights untouched)",
+  "WORLD_MODEL": "MEASURED (harness)",
+  "MORAL": "INFRA measured; model 0.0",
+  "ARC": "POLICY-ONLY (no data)",
+  "LONG_CONTEXT": "MEASURED mechanics",
+  "SAFETY": "MEASURED (gates green)",
+  "BENCHMARKS": "FROZEN + phase10_capability.json",
+  "WEB": "IMPLEMENTED (loopback, tested)",
+  "RELEASE": "candidate stands; RC2 needs GPU-measured numeric delta",
+  "intervention": "GPU + scale (100M, longer training, lower LR floor) is the smallest high-value step for numeric capability",
+  "tests": {"total": 196, "passed": 187, "failed": 0, "skipped": 9},
+  "blockers": ["0 GPUs", "CPU training too slow for scale", "no multilingual data"],
+  "next": "GPU box: 100M bounded run -> MATH delta; SFT-then-eval loop"
+}

@@ -1,0 +1,33 @@
+{
+  "phase": "Phase 5 - GPU Execution + 100M Validation + Distributed Proof",
+  "timestamp": "2026-09-24T09:00:00.000000+00:00",
+  "status": "GPU_EXECUTION_READY__HARDWARE_BLOCKED",
+  "current_hardware": {"cuda": false, "gpus": 0, "torch": "2.14.0+cpu"},
+  "cuda": "BLOCKED (auto-runner exit 3; stubs in phase5_cuda_smoke.json)",
+  "fp32": "NOT_RUN on CUDA (CPU baseline stands; gpu_auto_run.py will fill phase5_fp32.json)",
+  "bf16": "NOT_RUN on CUDA",
+  "fp16": "NOT_RUN on CUDA",
+  "100m": "BLOCKED here; bounded-run procedure in gpu_auto_run.py (never auto full-pretrain)",
+  "ddp": "HARNESS_VALIDATED (Phase 3); multi-GPU NOT_RUN",
+  "fsdp": "NOT_RUN (scaffold refuses fake sharding)",
+  "performance": {
+    "micro_cpu_steady_toks": 1099.0,
+    "s10m_cpu_steady_toks": 133.0,
+    "cuda": "NOT_RUN"
+  },
+  "model_scaling": "ESTIMATED only (model_scaling_gpu.json); 100M-7B NOT_RUN on GPU",
+  "dataset_v2": {
+    "validated": true,
+    "migrated": false,
+    "evidence": "reports/frontier_program/dataset_v2_integration.json (all checks pass; 45% dup rate; migrate=False by policy)"
+  },
+  "checkpoint": "MEASURED single-device + harness; CUDA resume procedure in gpu_auto_run.py",
+  "tests": {"total": 137, "passed": 128, "failed": 0, "skipped": 9},
+  "gpu_executor": {
+    "script": "scripts/gpu_auto_run.py",
+    "tested_here": "exit 3 path (no-GPU stubs) MEASURED",
+    "gpu_path": "NOT_RUN (executes automatically on first GPU box)"
+  },
+  "blockers": ["0 CUDA devices", "RAM fluctuates (100M+ CPU blocked)", "no licensed multilingual data"],
+  "next": "place repo on T4-class box, run: python scripts/gpu_auto_run.py --steps 10"
+}

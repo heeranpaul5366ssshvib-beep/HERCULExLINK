@@ -1,0 +1,73 @@
+---
+import FeatureCard from './FeatureCard.astro';
+---
+
+<section id="features" aria-labelledby="features-heading">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <div class="text-center mb-16">
+      <h2 id="features-heading" class="text-3xl sm:text-4xl font-bold text-text-primary mb-4">
+        Why Choose HERCULE?
+      </h2>
+      <p class="text-lg text-text-secondary max-w-2xl mx-auto">
+        Built for developers and power users who value privacy, performance, and control.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <FeatureCard 
+        icon="shield" 
+        title="Complete Privacy" 
+        description="Your data never leaves your device. No telemetry, no cloud processing, no account required. Everything runs locally on your hardware."
+        accent="blue"
+      />
+      <FeatureCard 
+        icon="cpu" 
+        title="Hardware Accelerated" 
+        description="Optimized for Apple Silicon, NVIDIA CUDA, AMD ROCm, and Intel GPUs. Automatic hardware detection for maximum performance."
+        accent="violet"
+      />
+      <FeatureCard 
+        icon="wifi-off" 
+        title="Works Offline" 
+        description="No internet connection needed. Chat, code, analyze, and create anywhere — on a plane, in a secure facility, or off the grid."
+        accent="emerald"
+      />
+      <FeatureCard 
+        icon="layers" 
+        title="Multi-Platform" 
+        description="Native apps for Windows, macOS, Linux, iOS, and Android. Consistent experience across all your devices with sync via local network."
+        accent="amber"
+      />
+      <FeatureCard 
+        icon="plug" 
+        title="Extensible Plugins" 
+        description="Connect to GitHub, VS Code, Google Drive, web search, and more. Build custom integrations with our TypeScript plugin SDK."
+        accent="blue"
+      />
+      <FeatureCard 
+        icon="code" 
+        title="Developer First" 
+        description="Built-in code execution, project analysis, debugging assistance, and AI-powered code reviews. Your always-on pair programmer."
+        accent="violet"
+      />
+      <FeatureCard 
+        icon="memory-stick" 
+        title="Long-term Memory" 
+        description="Persistent context across sessions. HERCULE remembers your preferences, projects, and conversations — securely encrypted locally."
+        accent="emerald"
+      />
+      <FeatureCard 
+        icon="zap" 
+        title="Autonomous Agents" 
+        description="Set goals, not prompts. HERCULE can plan multi-step tasks, execute code, browse files, and iterate until the job is done."
+        accent="amber"
+      />
+      <FeatureCard 
+        icon="git-branch" 
+        title="Open Source" 
+        description="MIT licensed. Transparent development. Community-driven. Fork it, customize it, self-host it — no vendor lock-in ever."
+        accent="blue"
+      />
+    </div>
+  </div>
+</section>

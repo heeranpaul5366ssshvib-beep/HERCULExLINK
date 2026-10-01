@@ -1,0 +1,18 @@
+{
+  "dashboard": "HERCULE capability scorecard (no single intelligence score)",
+  "timestamp": "2026-09-24T09:00:00.000000+00:00",
+  "MODEL": "MEASURED (nano 933K untrained; configs to 7B validated)",
+  "REASONING": "MEASURED (0.0; ceiling 1.0)",
+  "MATH": "MEASURED (0.0)",
+  "CODING": "MEASURED (0.0 candidate-tested; agent bench adaptive 1.0 on 3 repair tasks)",
+  "TOOLS": "MEASURED (0.0 model; envelope verifier green)",
+  "RESEARCH": "MEASURED (pipeline 0.5 grounding, 0 fabricated)",
+  "ADAPTATION": "MEASURED (synthetic A/B 0.0->1.0; tool/rule discovery adaptive-better)",
+  "WORLD_MODEL": "MEASURED (rule confirmed, confidence 1.0, entities tracked)",
+  "MORAL_REASONING": "MEASURED-INFRA (analyzer + 6-probe suite, ceiling 1.0; no consciousness claims)",
+  "LONG_CONTEXT": "MEASURED (4K mechanics ok ~40s CPU; capability ~0 untrained)",
+  "MULTILINGUAL": "MEASURED (echo probes; ~0 training data)",
+  "SAFETY": "MEASURED (refusal 0.0 untrained; gates + audit green)",
+  "RELIABILITY": "MEASURED (determinism green)",
+  "LATENCY": "MEASURED (KV 1.6x micro; streaming matches)"
+}

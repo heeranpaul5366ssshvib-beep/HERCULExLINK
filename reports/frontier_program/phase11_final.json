@@ -1,0 +1,18 @@
+{
+  "phase": "Phase 11 - Structural Learning to Real Reasoning",
+  "timestamp": "2026-09-24T09:00:00.000000+00:00",
+  "status": "NEGATIVE_RESULT_RECORDED__GPU_BLOCKED",
+  "GPU": "BLOCKED (0 devices)",
+  "NUMERIC": "MEASURED 0/20 held-out (pure memorization; failure mode documented)",
+  "REASONING": "MEASURED 0/20 held-out (no sequence generalization)",
+  "SFT_CAPABILITY": "NOT_RUN on new checkpoints (prior: UNCHANGED)",
+  "CODING_TOOL_MODEL": "NOT_RUN (no base capability; agent harness stands)",
+  "ADAPTIVE": "MEASURED (repo tasks 0.0->1.0; weights untouched)",
+  "FAILURE_EXPORT": "MEASURED (2 recovered traces -> offline_failures.json; unverified excluded)",
+  "ATTRIBUTION": "DATA+SCALE+DURATION tested; memorization without generalization at 3M/200steps",
+  "EVAL": "STRUCTURAL vs NUMERIC categories recorded in delta report",
+  "milestone": "NOT_ACHIEVED: no held-out MODEL capability beyond formatting",
+  "tests": {"total": 196, "passed": 187, "failed": 0, "skipped": 9},
+  "blockers": ["0 GPUs", "3M scale memorizes; generalization needs scale+tokens"],
+  "next": "GPU box: 100M arithmetic curriculum -> held-out numeric; the experiment design is ready"
+}
