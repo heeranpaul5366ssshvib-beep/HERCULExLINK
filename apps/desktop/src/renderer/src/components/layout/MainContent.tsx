@@ -12,6 +12,7 @@ import { ToolsView } from '@/src/components/views/ToolsView';
 import { PluginsView } from '@/src/components/views/PluginsView';
 import { AutonomyView } from '@/src/components/views/AutonomyView';
 import { SettingsView } from '@/src/components/views/SettingsView';
+import { useTheme, CHAT_WIDTH_CLASS } from '@/src/context/ThemeContext';
 import {
   HERCULE_SYSTEM_PROMPT,
   checkServerHealth,
@@ -42,6 +43,8 @@ function greetingForHour(): string {
 }
 
 export function MainContent({ activeView, modelStatus, currentModel }: MainContentProps) {
+  const { chatWidth } = useTheme();
+  const widthClass = CHAT_WIDTH_CLASS[chatWidth];
   const [messages, setMessages] = useState<Array<{ role: 'user' | 'assistant'; content: string }>>([
     { role: 'assistant', content: "Hello! I'm HERCULE, your local AI assistant. How can I help you today?" }
   ]);
@@ -159,7 +162,7 @@ export function MainContent({ activeView, modelStatus, currentModel }: MainConte
   ];
 
   const inputBar = (
-    <div className="mx-auto w-full max-w-3xl px-4 pb-3">
+    <div className={`mx-auto w-full ${widthClass} px-4 pb-3`}>
       <div className="flex flex-wrap gap-2 mb-3">
         {quickActions.map((action, i) => (
           <QuickActionPill key={i} label={action.label} icon={action.icon} onClick={() => sendMessage(action.prompt)} />
@@ -279,7 +282,7 @@ export function MainContent({ activeView, modelStatus, currentModel }: MainConte
 
       <div className="flex-1 overflow-y-auto">
         {isFresh ? (
-          <div className="mx-auto flex min-h-full w-full max-w-3xl flex-col items-center justify-center px-6 py-10 text-center">
+          <div className={`mx-auto flex min-h-full w-full ${widthClass} flex-col items-center justify-center px-6 py-10 text-center`}>
             <div className="flex h-14 w-14 items-center justify-center rounded-2xl t-accent-gradient text-white shadow-lg mb-5">
               <Brain className="w-7 h-7" />
             </div>
@@ -310,7 +313,7 @@ export function MainContent({ activeView, modelStatus, currentModel }: MainConte
             </div>
           </div>
         ) : (
-          <div className="mx-auto w-full max-w-3xl px-4 py-6 space-y-5">
+          <div className={`mx-auto w-full ${widthClass} px-4 py-6 chat-list`}>
             {messages.map((message, index) => (
               <MessageBubble key={index} message={message} />
             ))}

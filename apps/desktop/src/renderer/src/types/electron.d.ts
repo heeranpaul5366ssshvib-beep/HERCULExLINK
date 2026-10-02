@@ -6,6 +6,10 @@ export interface HerculeModelInfo {
   sha256: string;
   description: string;
   quantizations: string[];
+  kind?: 'gguf' | 'nano';
+  checkpointDir?: string;
+  tokenizerDir?: string;
+  experimental?: boolean;
 }
 
 export interface HerculeSystemStats {

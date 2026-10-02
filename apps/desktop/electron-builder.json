@@ -31,8 +31,8 @@
   "npmRebuild": true,
   "publish": {
     "provider": "github",
-    "owner": "your-org",
-    "repo": "hercule-desktop"
+    "owner": "heeranpaul5366ssshvib-beep",
+    "repo": "HERCULEx"
   },
   "win": {
     "target": [

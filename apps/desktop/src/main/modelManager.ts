@@ -6,7 +6,9 @@ import { autoUpdater } from 'electron-updater';
 import Store from 'electron-store';
 import si from 'systeminformation';
 
-interface ModelInfo {
+export type ModelKind = 'gguf' | 'nano';
+
+export interface ModelInfo {
   name: string;
   version: string;
   url: string;
@@ -14,6 +16,13 @@ interface ModelInfo {
   sha256: string;
   description: string;
   quantizations: string[];
+  kind?: ModelKind;
+  /** Local checkpoint folder (manifest.json + weights.npz) for kind 'nano'. */
+  checkpointDir?: string;
+  /** Folder holding tokenizer.json for kind 'nano'. */
+  tokenizerDir?: string;
+  /** Shown as an experimental badge in the UI. */
+  experimental?: boolean;
 }
 
 interface ModelConfig {
@@ -54,6 +63,19 @@ const AVAILABLE_MODELS: ModelInfo[] = [
     description: 'Balanced quality and speed for everyday tasks (~1.1GB)',
     quantizations: ['q4_k_m'],
   },
+  {
+    name: 'hercule-lm-nano',
+    version: '1.0.0',
+    kind: 'nano',
+    url: '',
+    size: 10485760,
+    sha256: '',
+    description: 'Your own 933K-param micro-model — experimental, ~15MB RAM, 64-token context',
+    quantizations: [],
+    experimental: true,
+    checkpointDir: 'C:\\Users\\hp\\HERCULE\\training\\checkpoints\\100m\\run-1790784378\\step_00005000',
+    tokenizerDir: 'C:\\Users\\hp\\HERCULE\\training\\tokenizer\\hercule-bpe-nano-v1',
+  },
 ];
 
 export const DEFAULT_MODEL_NAME = 'hercule-base-nano';
@@ -89,22 +111,65 @@ export function getAvailableModels(): ModelInfo[] {
   return AVAILABLE_MODELS;
 }
 
+export function isNanoCheckpointReady(modelInfo: ModelInfo): boolean {
+  if (modelInfo.kind !== 'nano') return false;
+  return (
+    existsSync(join(modelInfo.checkpointDir ?? '', 'manifest.json')) &&
+    existsSync(join(modelInfo.checkpointDir ?? '', 'weights.npz')) &&
+    existsSync(join(modelInfo.tokenizerDir ?? '', 'tokenizer.json'))
+  );
+}
+
 export function getInstalledModels(): string[] {
   const modelDir = getModelDir();
-  if (!existsSync(modelDir)) return [];
   const fs = require('fs');
-  return fs
-    .readdirSync(modelDir)
-    .filter((f: string) => f.endsWith('.gguf'))
-    .filter((f: string) => {
+  const gguf: string[] = [];
+  if (existsSync(modelDir)) {
+    for (const f of fs.readdirSync(modelDir)) {
+      if (!f.endsWith('.gguf')) continue;
       // Hide corrupt stubs (e.g. old error pages saved as .gguf).
       try {
-        return fs.statSync(join(modelDir, f)).size >= MIN_MODEL_BYTES;
+        if (fs.statSync(join(modelDir, f)).size < MIN_MODEL_BYTES) continue;
       } catch {
-        return false;
+        continue;
       }
-    })
-    .map((f: string) => f.replace('.gguf', ''));
+      gguf.push(f.replace('.gguf', ''));
+    }
+  }
+  // Local nano checkpoints count as installed when their files verify.
+  for (const m of AVAILABLE_MODELS) {
+    if (m.kind === 'nano' && isNanoCheckpointReady(m)) {
+      gguf.push(`${m.name}-local`);
+    }
+  }
+  return gguf;
+}
+
+/** Verify a local nano checkpoint and register it as the current model. */
+function registerNanoCheckpoint(modelInfo: ModelInfo): string {
+  const checkpointDir = modelInfo.checkpointDir ?? '';
+  const tokenizerDir = modelInfo.tokenizerDir ?? '';
+  const missing: string[] = [];
+  if (!existsSync(join(checkpointDir, 'manifest.json'))) missing.push('manifest.json');
+  if (!existsSync(join(checkpointDir, 'weights.npz'))) missing.push('weights.npz');
+  if (!existsSync(join(tokenizerDir, 'tokenizer.json'))) missing.push('tokenizer.json');
+  if (missing.length > 0) {
+    throw new Error(
+      `hercule-lm-nano checkpoint incomplete (missing: ${missing.join(', ')}). ` +
+        `Place weights.npz + manifest.json under ${checkpointDir || '(checkpoint dir not set)'} ` +
+        `and tokenizer.json under ${tokenizerDir || '(tokenizer dir not set)'}.`
+    );
+  }
+  const config = {
+    name: modelInfo.name,
+    kind: 'nano',
+    version: modelInfo.version,
+    path: checkpointDir,
+    installedAt: new Date().toISOString(),
+  };
+  writeFileSync(getModelConfigPath(modelInfo.name), JSON.stringify(config, null, 2));
+  setCurrentModel(modelInfo.name);
+  return checkpointDir;
 }
 
 /** Delete a corrupt/partial model file so it can be re-downloaded cleanly. */
@@ -134,6 +199,10 @@ export async function downloadModel(
   const modelInfo = AVAILABLE_MODELS.find(m => m.name === modelName);
   if (!modelInfo) {
     throw new Error(`Model ${modelName} not found`);
+  }
+
+  if (modelInfo.kind === 'nano') {
+    return registerNanoCheckpoint(modelInfo);
   }
 
   const modelDir = getModelDir();
@@ -315,13 +384,17 @@ function downloadWithNode(
 }
 
 export function deleteModel(modelName: string): boolean {
-  const modelPath = getModelPath(modelName);
+  const modelInfo = AVAILABLE_MODELS.find((m) => m.name === modelName);
   const configPath = getModelConfigPath(modelName);
   let deleted = false;
 
-  if (existsSync(modelPath)) {
-    unlinkSync(modelPath);
-    deleted = true;
+  // Never delete a user's local nano checkpoint — just unregister it.
+  if (modelInfo?.kind !== 'nano') {
+    const modelPath = getModelPath(modelName);
+    if (existsSync(modelPath)) {
+      unlinkSync(modelPath);
+      deleted = true;
+    }
   }
   if (existsSync(configPath)) {
     unlinkSync(configPath);
@@ -464,6 +537,11 @@ export function startModelServer(
     // Never run two servers: stop any previous instance first.
     await stopModelServer();
 
+    const modelInfo = AVAILABLE_MODELS.find((m) => m.name === modelName);
+    if (modelInfo?.kind === 'nano') {
+      return startNanoServer(modelInfo);
+    }
+
     const modelPath = getModelPath(modelName, quantization);
     removeCorruptModelFile(modelPath);
     if (!existsSync(modelPath)) {
@@ -550,6 +628,7 @@ export function startModelServer(
 }
 
 export async function stopModelServer(): Promise<void> {
+  await stopNanoServer();
   const proc = modelProcess;
   modelProcess = null;
   if (!proc || proc.exitCode !== null) return;
@@ -614,7 +693,49 @@ export async function stopModelServer(): Promise<void> {
 }
 
 export function isModelRunning(): boolean {
+  if (nanoServer !== null) return true;
   return modelProcess !== null && modelProcess.exitCode === null;
+}
+
+// ---------------------------------------------------------------------------
+// hercule-lm-nano: the user's own micro-model, served by a tiny built-in
+// Node HTTP server on the same port + API contract as llama-server,
+// so the chat UI works unchanged.
+// ---------------------------------------------------------------------------
+
+let nanoServer: import('./nano/server').NanoServer | null = null;
+
+async function startNanoServer(modelInfo: ModelInfo): Promise<ModelServerInfo> {
+  const { NanoServer } = await import('./nano/server.js');
+  const checkpointDir = modelInfo.checkpointDir ?? '';
+  const tokenizerDir = modelInfo.tokenizerDir ?? '';
+  const port = modelServerPort;
+
+  const server = new NanoServer(port);
+  try {
+    await server.start({ name: modelInfo.name, checkpointDir, tokenizerDir });
+  } catch (err) {
+    try {
+      await server.stop();
+    } catch {
+      // ignore secondary errors
+    }
+    throw err;
+  }
+  nanoServer = server;
+  // Nano context comes from its own manifest (64); surface it for the UI.
+  return { port, pid: process.pid, ctxSize: 64, threads: 1 };
+}
+
+async function stopNanoServer(): Promise<void> {
+  const server = nanoServer;
+  nanoServer = null;
+  if (!server) return;
+  try {
+    await server.stop();
+  } catch {
+    // ignore
+  }
 }
 
 export function getModelServerUrl(): string {
@@ -686,18 +807,57 @@ export function getAppVersion(): string {
   return app.getVersion();
 }
 
-export async function getSystemStats() {
-  const [cpu, mem, disk, gpu] = await Promise.all([
-    si.currentLoad(),
-    si.mem(),
-    si.fsSize(),
-    si.graphics(),
-  ]);
+let statsInFlight: Promise<{ cpu: number; ram: number; storage: number; gpu: number }> | null = null;
+let statsCache: { cpu: number; ram: number; storage: number; gpu: number } | null = null;
+let statsCacheAt = 0;
 
-  return {
-    cpu: Math.round(cpu.currentLoad),
-    ram: Math.round((mem.active / mem.total) * 100),
-    storage: Math.round((disk[0]?.used / disk[0]?.size) * 100) || 0,
-    gpu: gpu.controllers[0] ? Math.round(Math.random() * 100) : 0,
-  };
+// Lightweight stats: the old version shelled out to si.graphics() (DXDiag/WMIC
+// on Windows — very heavy) every 3s with no overlap guard, so slow machines
+// piled up dozens of helper processes and pinned a CPU core. The GPU value was
+// random anyway, so drop the graphics probe entirely, cache results, and
+// never run two collections at once.
+export async function getSystemStats() {
+  const now = Date.now();
+  if (statsCache && now - statsCacheAt < 8000) return statsCache;
+  if (statsInFlight) return statsInFlight;
+  statsInFlight = (async () => {
+    try {
+      const [cpu, mem, disk] = await Promise.all([si.currentLoad(), si.mem(), si.fsSize()]);
+      const total = mem.total || 1;
+      const used = typeof mem.active === 'number' ? mem.active : total - mem.available;
+      const first = Array.isArray(disk) ? disk[0] : undefined;
+      statsCache = {
+        cpu: Math.round(cpu.currentLoad) || 0,
+        ram: Math.round((used / total) * 100) || 0,
+        storage: first && first.size ? Math.round(((first.used ?? 0) / first.size) * 100) : 0,
+        gpu: statsCache?.gpu ?? 0,
+      };
+    } catch {
+      statsCache = statsCache ?? { cpu: 0, ram: 0, storage: 0, gpu: 0 };
+    }
+    statsCacheAt = Date.now();
+    statsInFlight = null;
+    return statsCache!;
+  })();
+  return statsInFlight;
+}
+
+/** Best-effort sweep of llama-server processes orphaned by earlier runs
+ * (taskkill of HERCULE.exe leaves them behind holding ~500MB + CPU each).
+ * Only matches our own binary name; never touches anything else. */
+export async function killOrphanedModelServers(): Promise<void> {
+  if (process.platform !== 'win32') return;
+  await new Promise<void>((resolve) => {
+    try {
+      const killer = spawn('taskkill', ['/F', '/IM', 'llama-server.exe'], {
+        stdio: 'ignore',
+        windowsHide: true,
+      });
+      killer.on('error', () => resolve());
+      killer.on('exit', () => resolve());
+      setTimeout(resolve, 8000);
+    } catch {
+      resolve();
+    }
+  });
 }

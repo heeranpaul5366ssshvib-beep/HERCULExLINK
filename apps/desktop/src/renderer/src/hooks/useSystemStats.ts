@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 
 interface SystemStats {
   cpu: number;
@@ -10,8 +10,12 @@ interface SystemStats {
 export function useSystemStats() {
   const [stats, setStats] = useState<SystemStats>({ cpu: 0, ram: 0, storage: 0, gpu: 0 });
   const [isLoading, setIsLoading] = useState(true);
+  const inFlight = useRef(false);
 
   const fetchStats = useCallback(async () => {
+    if (inFlight.current) return;
+    if (typeof document !== 'undefined' && document.hidden) return;
+    inFlight.current = true;
     try {
       if (window.electronAPI) {
         const data = await window.electronAPI.system.getStats();
@@ -27,13 +31,14 @@ export function useSystemStats() {
     } catch (err) {
       console.error('Failed to fetch system stats:', err);
     } finally {
+      inFlight.current = false;
       setIsLoading(false);
     }
   }, []);
 
   useEffect(() => {
     fetchStats();
-    const interval = setInterval(fetchStats, 3000);
+    const interval = setInterval(fetchStats, 10000);
     return () => clearInterval(interval);
   }, [fetchStats]);
 

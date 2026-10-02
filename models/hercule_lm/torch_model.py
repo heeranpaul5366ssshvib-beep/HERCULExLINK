@@ -417,9 +417,11 @@ class TorchHerculeLM(nn.Module):
                 alibi_bias = alibi_bias - alibi_bias.transpose(-2, -1)
                 scores = scores + alibi_bias
 
-            # Causal mask
+            # Causal mask (mask value must fit the scores dtype:
+            # -1e9 overflows fp16, whose max is ~65504)
             mask = torch.triu(torch.ones(T, T, dtype=torch.bool, device=ids.device), diagonal=1)
-            scores = scores.masked_fill(mask.unsqueeze(0).unsqueeze(0), -1e9)
+            mask_value = -1e4 if scores.dtype == torch.float16 else -1e9
+            scores = scores.masked_fill(mask.unsqueeze(0).unsqueeze(0), mask_value)
 
             probs = torch.softmax(scores, dim=-1)
             ctx = (probs @ v).transpose(1, 2).reshape(B, T, cfg.hidden_size)

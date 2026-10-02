@@ -8,6 +8,10 @@ interface ModelInfo {
   sha256: string;
   description: string;
   quantizations: string[];
+  kind?: 'gguf' | 'nano';
+  checkpointDir?: string;
+  tokenizerDir?: string;
+  experimental?: boolean;
 }
 
 interface DownloadProgress {
@@ -134,7 +138,7 @@ export function useModels() {
 
   useEffect(() => {
     refreshRunning();
-    const id = setInterval(refreshRunning, 3000);
+    const id = setInterval(refreshRunning, 10000);
     return () => clearInterval(id);
   }, [refreshRunning]);
 

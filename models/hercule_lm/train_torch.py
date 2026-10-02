@@ -222,13 +222,25 @@ def run_from_namespace(args, config: HerculeLMConfig | None = None) -> int:
     tok_dir = args.tokenizer_dir or f"training/tokenizer/{cfg.tokenizer_id}"
     tok_hash_path = Path(tok_dir) / ".corpus_hash"
     tok_current_hash = manifest["dataset_hash"]
-    if (Path(tok_dir) / "tokenizer.json").exists() and tok_hash_path.exists() \
+    # Fast Rust-backed (HF-format) tokenizers take precedence when present;
+    # otherwise fall back to the cached/retrained pure-Python BPE tokenizer.
+    tokenizer = None
+    try:
+        from .hf_tokenizer import load_hf_tokenizer as _load_hf
+
+        tokenizer = _load_hf(tok_dir)
+        tok_hash_path.write_text(tok_current_hash, encoding="utf-8")
+        print(f"tokenizer reused from cache ({tok_dir})", flush=True)
+    except Exception:
+        tokenizer = None
+    if tokenizer is None and (Path(tok_dir) / "tokenizer.json").exists() \
+            and tok_hash_path.exists() \
             and tok_hash_path.read_text(encoding="utf-8").strip() == tok_current_hash:
         from .tokenizer import HerculeBPETokenizer as _Tok
 
         tokenizer = _Tok.load(tok_dir)
         print(f"tokenizer reused from cache ({tok_dir})", flush=True)
-    else:
+    if tokenizer is None:
         from .tokenizer import HerculeBPETokenizer as _Tok
 
         train_texts = [d.text for d in splits["train"]]

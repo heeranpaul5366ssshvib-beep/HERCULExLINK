@@ -6,6 +6,7 @@ import {
 import { cn } from '@/src/utils/cn';
 import { useModels } from '@/src/hooks/useModels';
 import { useTasks, useMemories, useProjects } from '@/src/hooks/useWorkspace';
+import type { SidebarSide } from '@/src/context/ThemeContext';
 
 interface NavItem {
   id: string;
@@ -33,6 +34,7 @@ interface SidebarProps {
   onViewChange: (view: string) => void;
   modelStatus: string;
   updaterStatus: string;
+  side?: SidebarSide;
 }
 
 export function Sidebar({
@@ -42,7 +44,10 @@ export function Sidebar({
   onViewChange,
   modelStatus,
   updaterStatus,
+  side = 'left',
 }: SidebarProps) {
+  void modelStatus;
+  void updaterStatus;
   const [recentOpen, setRecentOpen] = useState(true);
   const { currentModel, isDownloading, downloadProgress } = useModels();
   const { openCount: openTasks } = useTasks();
@@ -63,8 +68,9 @@ export function Sidebar({
   return (
     <aside
       className={cn(
-        'flex flex-col bg-bg-secondary border-r border-border-primary transition-all duration-300 ease-out',
+        'flex flex-col bg-bg-secondary border-border-primary transition-all duration-300 ease-out',
         'relative overflow-hidden',
+        side === 'left' ? 'border-r' : 'border-l',
         collapsed ? 'w-16' : 'w-72'
       )}
       style={{ minWidth: collapsed ? '64px' : '288px' }}

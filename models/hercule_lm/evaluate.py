@@ -44,7 +44,14 @@ def main(argv=None) -> int:
         print(f"CHECKPOINT_CORRUPTED: {exc}", file=sys.stderr)
         return 2
     tok_dir = args.tokenizer_dir or f"training/tokenizer/{config.tokenizer_id}"
-    tokenizer = HerculeBPETokenizer.load(tok_dir)
+    try:
+        from .hf_tokenizer import load_hf_tokenizer
+        try:
+            tokenizer = load_hf_tokenizer(tok_dir)
+        except Exception:
+            tokenizer = HerculeBPETokenizer.load(tok_dir)
+    except Exception:
+        tokenizer = HerculeBPETokenizer.load(tok_dir)
     model = HerculeLM(config, seed=0)
     try:
         ckpt.load_checkpoint(args.checkpoint, model, strict=True)

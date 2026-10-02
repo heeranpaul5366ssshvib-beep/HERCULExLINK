@@ -69,6 +69,7 @@ export function ModelSelector({ currentStatus, onClick, compact = false }: Model
     try {
       if (action === 'download') {
         await downloadModel(modelName);
+        refresh();
         setIsOpen(false);
       } else if (action === 'select') {
         await selectModel(modelName);
@@ -192,6 +193,10 @@ export function ModelSelector({ currentStatus, onClick, compact = false }: Model
               const installed = isModelInstalled(model.name);
               const current = isCurrentModel(model.name);
               const downloading = isDownloading && downloadingModel === model.name;
+              const isNano = model.kind === 'nano';
+              const sizeLabel = model.size >= 1e9
+                ? `~${(model.size / 1e9).toFixed(1)} GB`
+                : `~${Math.max(1, Math.round(model.size / 1e6))} MB`;
 
               return (
                 <div key={model.name} className={cn(
@@ -203,6 +208,11 @@ export function ModelSelector({ currentStatus, onClick, compact = false }: Model
                       <div className="flex items-center gap-2 mb-1">
                         <Bot className={cn('w-4 h-4', current ? 'text-blue-400' : 'text-text-tertiary')} />
                         <span className="font-medium text-text-primary truncate">{model.name}</span>
+                        {model.experimental && (
+                          <span className="px-2 py-0.5 text-xs font-medium rounded-full bg-violet-500/15 text-violet-400 border border-violet-500/20">
+                            Experimental
+                          </span>
+                        )}
                         {current && (
                           <span className="flex items-center gap-1 px-2 py-0.5 text-xs font-medium rounded-full bg-blue-500/15 text-blue-400 border border-blue-500/20">
                             <Check className="w-3 h-3" />
@@ -210,11 +220,17 @@ export function ModelSelector({ currentStatus, onClick, compact = false }: Model
                           </span>
                         )}
                       </div>
-                      <p className="text-xs text-text-tertiary truncate">{model.description}</p>
+                      <p className="text-xs text-text-tertiary truncate" title={model.description}>{model.description}</p>
                       <div className="mt-1 flex items-center gap-2 text-xs text-text-muted">
                         <span>v{model.version}</span>
                         <span>•</span>
-                        <span>~{(model.size / 1e9).toFixed(1)} GB</span>
+                        <span>{sizeLabel}</span>
+                        {isNano && (
+                          <>
+                            <span>•</span>
+                            <span>runs in-app, no download</span>
+                          </>
+                        )}
                       </div>
                     </div>
                     <div className="flex items-center gap-2 flex-shrink-0">
@@ -263,11 +279,20 @@ export function ModelSelector({ currentStatus, onClick, compact = false }: Model
                             onClick={() => handleModelAction(model.name, 'delete')}
                             disabled={starting || isDownloading}
                             className="btn-icon p-1.5 text-text-tertiary hover:text-red-400 hover:bg-red-500/10 rounded-lg disabled:opacity-50"
-                            title="Delete model"
+                            title={isNano ? 'Unregister checkpoint (files are kept)' : 'Delete model'}
                           >
                             <Trash2 className="w-4 h-4" />
                           </button>
                         </div>
+                      ) : isNano ? (
+                        <button
+                          onClick={() => handleModelAction(model.name, 'download')}
+                          className="btn-primary text-xs px-3 py-1.5 flex items-center gap-1.5 whitespace-nowrap"
+                          title="Verify the local checkpoint files and select this model"
+                        >
+                          <Check className="w-3 h-3" />
+                          Use local
+                        </button>
                       ) : (
                         <button
                           onClick={() => handleModelAction(model.name, 'download')}

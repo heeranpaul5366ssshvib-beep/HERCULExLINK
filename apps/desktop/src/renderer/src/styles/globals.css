@@ -20,6 +20,9 @@
     --text-tertiary: #64748b;
     --text-muted: #475569;
 
+    --ui-radius: 14px;
+    --chat-gap: 1.25rem;
+
     --accent-blue: #3b82f6;
     --accent-blue-glow: #60a5fa;
     --accent-violet: #8b5cf6;
@@ -41,6 +44,45 @@
     --radius-xl: 1rem;
     --radius-2xl: 1.5rem;
     --radius-full: 9999px;
+  }
+
+  :root[data-theme='midnight'] {
+    --bg-primary: #000000;
+    --bg-secondary: #05070d;
+    --bg-tertiary: #0a0f1c;
+    --bg-card: #070b15;
+    --bg-card-hover: #0d1425;
+    --bg-elevated: #111a2e;
+    --border-primary: #101828;
+    --border-secondary: #1f2b44;
+  }
+
+  :root[data-theme='light'] {
+    --bg-primary: #f1f5f9;
+    --bg-secondary: #ffffff;
+    --bg-tertiary: #f8fafc;
+    --bg-card: #ffffff;
+    --bg-card-hover: #f8fafc;
+    --bg-elevated: #e2e8f0;
+    --border-primary: #e2e8f0;
+    --border-secondary: #cbd5e1;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-tertiary: #64748b;
+    --text-muted: #94a3b8;
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.06);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.08), 0 2px 4px -2px rgb(0 0 0 / 0.06);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.06);
+  }
+
+  :root[data-density='compact'] {
+    --chat-gap: 0.75rem;
+  }
+  :root[data-density='comfortable'] {
+    --chat-gap: 1.25rem;
+  }
+  :root[data-density='spacious'] {
+    --chat-gap: 1.9rem;
   }
 }
 
@@ -272,4 +314,89 @@
     border-color: var(--theme-accent, #3b82f6);
     box-shadow: 0 0 0 2px var(--theme-accent-glow, rgba(59, 130, 246, 0.35));
   }
+
+  /* Studio: density-aware chat list */
+  .chat-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--chat-gap, 1.25rem);
+  }
+
+  /* Studio: background effects (accent-aware) */
+  .bg-fx {
+    position: relative;
+    isolation: isolate;
+  }
+  .bg-fx::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+  .bg-fx > * {
+    position: relative;
+    z-index: 1;
+  }
+  .bg-fx-none::before {
+    display: none;
+  }
+  .bg-fx-gradient::before {
+    background:
+      radial-gradient(600px 300px at 20% 0%, var(--theme-accent-soft, rgba(59, 130, 246, 0.15)), transparent 70%),
+      radial-gradient(500px 280px at 90% 100%, var(--theme-accent-soft, rgba(139, 92, 246, 0.12)), transparent 70%);
+  }
+  .bg-fx-grid::before {
+    background-image:
+      linear-gradient(var(--border-primary) 1px, transparent 1px),
+      linear-gradient(90deg, var(--border-primary) 1px, transparent 1px);
+    background-size: 28px 28px;
+    opacity: 0.35;
+    mask-image: radial-gradient(ellipse at 50% 0%, black 30%, transparent 75%);
+  }
+  .bg-fx-glow::before {
+    background: radial-gradient(700px 320px at 50% -80px, var(--theme-accent-glow, rgba(59, 130, 246, 0.25)), transparent 70%);
+  }
+  .bg-fx-aurora::before {
+    background:
+      radial-gradient(500px 260px at 15% 10%, var(--theme-accent-soft, rgba(59, 130, 246, 0.18)), transparent 70%),
+      radial-gradient(450px 260px at 85% 20%, rgba(139, 92, 246, 0.16), transparent 70%),
+      radial-gradient(600px 300px at 50% 110%, rgba(16, 185, 129, 0.12), transparent 70%);
+  }
+}
+
+/* Radius scale: applied after Tailwind so it wins */
+.card, .card-hover {
+  border-radius: var(--ui-radius, 14px);
+}
+.btn, .btn-primary, .btn-secondary, .btn-ghost, .input {
+  border-radius: calc(var(--ui-radius, 14px) * 0.7);
+}
+
+/* Motion toggle */
+:root[data-motion='off'] *,
+:root[data-motion='off'] *::before,
+:root[data-motion='off'] *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+}
+
+/* Light-theme overrides for hardcoded dark Tailwind utilities */
+:root[data-theme='light'] body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+:root[data-theme='light'] .glass {
+  background: rgba(255, 255, 255, 0.85);
+  border-color: var(--border-primary);
+}
+:root[data-theme='light'] .glass-strong {
+  background: rgba(255, 255, 255, 0.96);
+  border-color: var(--border-secondary);
+}
+:root[data-theme='light'] .card,
+:root[data-theme='light'] .card-hover {
+  background: rgba(255, 255, 255, 0.92);
+  border-color: var(--border-primary);
 }

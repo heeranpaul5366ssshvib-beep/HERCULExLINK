@@ -3,16 +3,17 @@ import { Sidebar } from './components/sidebar/Sidebar';
 import { MainContent } from './components/layout/MainContent';
 import { RightPanel } from './components/panels/RightPanel';
 import { ErrorBoundary } from './components/layout/ErrorBoundary';
-import { ThemeProvider } from './context/ThemeContext';
+import { ThemeProvider, useTheme } from './context/ThemeContext';
 import { useSystemStats } from './hooks/useSystemStats';
 import { useModels } from './hooks/useModels';
 import { useUpdater } from './hooks/useUpdater';
 import { useAppConfig } from './hooks/useAppConfig';
 import { IDLE_STOP_MINUTES, LAST_CHAT_KEY, IDLE_STOP_KEY } from './constants';
+import { cn } from './utils/cn';
 
 export type AppView = 'home' | 'chat' | 'tasks' | 'projects' | 'memory' | 'tools' | 'plugins' | 'autonomy' | 'settings';
 
-function App() {
+function Shell() {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [activeView, setActiveView] = useState<AppView>('home');
   const { stats, isLoading } = useSystemStats();
@@ -60,37 +61,53 @@ function App() {
     }
   }, [stopModel]);
 
+  const { sidebarSide, showRightPanel, bgEffect } = useTheme();
+
+  const sidebar = (
+    <ErrorBoundary area="the sidebar">
+      <Sidebar
+        collapsed={sidebarCollapsed}
+        onToggle={() => setSidebarCollapsed(!sidebarCollapsed)}
+        activeView={activeView}
+        onViewChange={(v) => setActiveView(v as AppView)}
+        modelStatus={modelStatus}
+        updaterStatus={updaterStatus}
+        side={sidebarSide}
+      />
+    </ErrorBoundary>
+  );
+
   return (
-    <ThemeProvider>
-      <ErrorBoundary area="the app shell">
-        <div className="flex h-screen w-screen overflow-hidden bg-bg-primary text-text-primary">
-          <ErrorBoundary area="the sidebar">
-            <Sidebar
-              collapsed={sidebarCollapsed}
-              onToggle={() => setSidebarCollapsed(!sidebarCollapsed)}
+    <ErrorBoundary area="the app shell">
+      <div className={cn('bg-fx flex h-screen w-screen overflow-hidden bg-bg-primary text-text-primary', `bg-fx-${bgEffect}`)}>
+        {sidebarSide === 'left' && sidebar}
+        <div className="flex-1 flex flex-col overflow-hidden min-w-0">
+          <ErrorBoundary area="this view" key={activeView}>
+            <MainContent
               activeView={activeView}
-              onViewChange={(v) => setActiveView(v as AppView)}
               modelStatus={modelStatus}
-              updaterStatus={updaterStatus}
+              currentModel={currentModel}
+              onModelAction={{ startModel: handleModelStart, stopModel: handleModelStop, installModel: () => downloadModel('hercule-base-nano') }}
+              stats={stats}
+              isLoading={isLoading}
             />
           </ErrorBoundary>
-          <div className="flex-1 flex flex-col overflow-hidden">
-            <ErrorBoundary area="this view" key={activeView}>
-              <MainContent
-                activeView={activeView}
-                modelStatus={modelStatus}
-                currentModel={currentModel}
-                onModelAction={{ startModel: handleModelStart, stopModel: handleModelStop, installModel: () => downloadModel('hercule-base-nano') }}
-                stats={stats}
-                isLoading={isLoading}
-              />
-            </ErrorBoundary>
-          </div>
+        </div>
+        {showRightPanel && (
           <ErrorBoundary area="the monitoring panel">
             <RightPanel stats={stats} isLoading={isLoading} modelStatus={modelStatus} currentModel={currentModel} ctxSize={ctxSizeEffective} />
           </ErrorBoundary>
-        </div>
-      </ErrorBoundary>
+        )}
+        {sidebarSide === 'right' && sidebar}
+      </div>
+    </ErrorBoundary>
+  );
+}
+
+function App() {
+  return (
+    <ThemeProvider>
+      <Shell />
     </ThemeProvider>
   );
 }

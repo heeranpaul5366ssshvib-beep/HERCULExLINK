@@ -52,7 +52,7 @@ export function RightPanel({ stats, isLoading, modelStatus, currentModel, ctxSiz
               className={cn(
                 'px-2.5 py-1 text-xs font-medium rounded-md transition-colors',
                 activeTab === tab
-                  ? 'bg-blue-600/20 text-blue-400'
+                  ? 't-nav-active'
                   : 'text-text-tertiary hover:text-text-primary hover:bg-bg-tertiary'
               )}
             >

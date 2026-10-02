@@ -36,7 +36,11 @@ def main(argv=None) -> int:
         return 2
     tok_dir = args.tokenizer_dir or f"training/tokenizer/{config.tokenizer_id}"
     try:
-        tokenizer = HerculeBPETokenizer.load(tok_dir)
+        try:
+            from .hf_tokenizer import load_hf_tokenizer
+            tokenizer = load_hf_tokenizer(tok_dir)
+        except Exception:
+            tokenizer = HerculeBPETokenizer.load(tok_dir)
     except Exception as exc:
         print(f"TOKENIZER_FAILURE: {exc}", file=sys.stderr)
         return 2

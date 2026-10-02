@@ -100,7 +100,7 @@ export async function runFirstRunSetup(mainWindow: BrowserWindow): Promise<void>
 }
 
 async function checkLlamaServer(): Promise<boolean> {
-  const { getLlamaServerStatus } = await import('./modelManager');
+  const { getLlamaServerStatus } = await import('./modelManager.js');
   const status = await getLlamaServerStatus();
   if (status.found) return true;
   return new Promise((resolve) => {
@@ -268,7 +268,7 @@ async function downloadModelWithProgress(mainWindow: BrowserWindow): Promise<str
 
   // Reuse the same PowerShell/curl downloader as the Model Manager so
   // first-run downloads get retries, redirects and resume support.
-  const { downloadWithShell, removeCorruptModelFile, setCurrentModel } = await import('./modelManager');
+  const { downloadWithShell, removeCorruptModelFile, setCurrentModel } = await import('./modelManager.js');
   removeCorruptModelFile(modelPath);
   if (existsSync(modelPath)) {
     installerStore.set('modelPath', modelPath);
@@ -282,7 +282,7 @@ async function downloadModelWithProgress(mainWindow: BrowserWindow): Promise<str
     message: 'Downloading AI model (PowerShell + curl, resumable)…',
   });
 
-  await downloadWithShell(MODEL_URL, tempPath, MODEL_SIZE, (progress) => {
+  await downloadWithShell(MODEL_URL, tempPath, MODEL_SIZE, (progress: number) => {
     mainWindow.webContents.send('installer:progress', {
       stage: 'downloading-model',
       progress,

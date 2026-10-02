@@ -62,6 +62,13 @@ class HuggingFaceTokenizerWrapper:
     @property
     def vocab_size(self) -> int:
         return len(self._vocab)
+
+    @property
+    def merges(self) -> list:
+        # Compatibility shim: HF backend doesn't expose merge list;
+        # vocab_size - base gives the effective merge count.
+        base = len(self.specials) + 256
+        return [None] * max(0, self.vocab_size - base)
     
     @property
     def pad_id(self) -> int:

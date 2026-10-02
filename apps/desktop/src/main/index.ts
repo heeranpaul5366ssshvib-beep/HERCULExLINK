@@ -25,6 +25,7 @@ import {
   getAppVersion,
   getSystemStats,
   getLlamaServerStatus,
+  killOrphanedModelServers,
 } from './modelManager';
 import { runFirstRunSetup, getInstallerStatus, resetFirstRun, installLlamaServer } from './installer';
 
@@ -183,6 +184,13 @@ if (!gotLock) {
 }
 
 app.whenReady().then(async () => {
+  // Reap inference servers orphaned by earlier runs (taskkill / crash leaves
+  // them behind eating ~500MB + a CPU core each while the UI shows "stopped").
+  try {
+    await killOrphanedModelServers();
+  } catch {
+    // never block startup on cleanup
+  }
   createWindow();
   setupAutoUpdater(mainWindow!);
   
