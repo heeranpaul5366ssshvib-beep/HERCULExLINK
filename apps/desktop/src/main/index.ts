@@ -31,6 +31,10 @@ import {
 import { runFirstRunSetup, getInstallerStatus, resetFirstRun, installLlamaServer } from './installer';
 import { listTools, runTool } from './tools';
 import { listPlugins, previewPlugin, installPlugin, uninstallPlugin, setPluginEnabled } from './plugins';
+import {
+  isSyncEnabled, getSyncInfo, setSyncEnabled, rotatePairingCode, unpairDevice,
+  pushSnapshot, pullSnapshot, setSyncUpdateListener, stopSyncServer,
+} from './sync';
 
 interface AppConfig {
   modelPath: string;
@@ -195,6 +199,17 @@ app.whenReady().then(async () => {
     // never block startup on cleanup
   }
   createWindow();
+  // Restart LAN sync if it was left on (opt-in, off by default).
+  if (isSyncEnabled()) {
+    try {
+      await setSyncEnabled(true);
+    } catch {
+      // sync stays off if the port is busy
+    }
+  }
+  setSyncUpdateListener(() => {
+    mainWindow?.webContents.send('sync:updated');
+  });
   setupAutoUpdater(mainWindow!);
   
   // Run first-run setup if needed
@@ -217,6 +232,7 @@ app.on('window-all-closed', () => {
 app.on('before-quit', () => {
   isQuitting = true;
   stopModelServer();
+  void stopSyncServer();
   if (tray) {
     tray.destroy();
     tray = null;
@@ -294,3 +310,9 @@ ipcMain.handle('plugins:preview', (_, folder: string) => previewPlugin(String(fo
 ipcMain.handle('plugins:install', (_, folder: string) => installPlugin(String(folder ?? '')));
 ipcMain.handle('plugins:uninstall', (_, id: string) => uninstallPlugin(String(id ?? '')));
 ipcMain.handle('plugins:set-enabled', (_, id: string, on: boolean) => setPluginEnabled(String(id ?? ''), on === true));
+ipcMain.handle('sync:info', () => getSyncInfo());
+ipcMain.handle('sync:set-enabled', (_, on: boolean) => setSyncEnabled(on === true));
+ipcMain.handle('sync:rotate-code', () => rotatePairingCode());
+ipcMain.handle('sync:unpair', () => unpairDevice());
+ipcMain.handle('sync:push', (_, snap: Record<string, unknown>) => pushSnapshot((snap ?? {}) as Parameters<typeof pushSnapshot>[0]));
+ipcMain.handle('sync:pull', () => pullSnapshot());

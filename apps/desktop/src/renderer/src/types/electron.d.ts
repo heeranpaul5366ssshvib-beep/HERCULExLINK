@@ -83,6 +83,23 @@ export interface HerculePlugin {
   path?: string;
 }
 
+export interface HerculeSyncInfo {
+  enabled: boolean;
+  addresses: string[];
+  port: number;
+  pairingCode: string;
+  paired: boolean;
+  lastSyncAt: number;
+}
+
+export interface HerculeSyncPush {
+  tasks?: unknown[];
+  projects?: unknown[];
+  memories?: unknown[];
+  goal?: string;
+  goalUpdatedAt?: number;
+}
+
 export interface HerculeElectronAPI {
   config: {
     get: () => Promise<Record<string, unknown>>;
@@ -145,6 +162,15 @@ export interface HerculeElectronAPI {
     install: (folder: string) => Promise<{ id: string; name: string }>;
     uninstall: (id: string) => Promise<void>;
     setEnabled: (id: string, on: boolean) => Promise<void>;
+  };
+  sync: {
+    info: () => Promise<HerculeSyncInfo>;
+    setEnabled: (on: boolean) => Promise<void>;
+    rotateCode: () => Promise<string>;
+    unpair: () => Promise<void>;
+    push: (snap: HerculeSyncPush) => Promise<unknown>;
+    pull: () => Promise<unknown>;
+    onUpdated: (callback: () => void) => () => void;
   };
 }
 

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Settings, Palette, Info, Rocket, Trash2, Cpu, HardDrive, Bot, Check, FlaskConical, Clock, Gauge, Sun, Moon, Contrast, RotateCcw } from 'lucide-react';
+import { Settings, Palette, Info, Rocket, Trash2, Cpu, HardDrive, Bot, Check, FlaskConical, Clock, Gauge, Sun, Moon, Contrast, RotateCcw, Smartphone } from 'lucide-react';
 import { cn } from '@/src/utils/cn';
 import {
   useTheme,
@@ -20,6 +20,7 @@ import { clearWorkspace } from '@/src/hooks/useWorkspace';
 import { clearHerculeStorage, useLocalStorage } from '@/src/hooks/useLocalStorage';
 import { useAppConfig } from '@/src/hooks/useAppConfig';
 import { IDLE_STOP_KEY, IDLE_STOP_MINUTES } from '@/src/constants';
+import { useSync } from '@/src/hooks/useSync';
 
 interface SettingsViewProps {
   modelStatus: string;
@@ -168,6 +169,7 @@ export function SettingsView({ modelStatus, currentModel }: SettingsViewProps) {
   const { num: configNum, set: setConfig } = useAppConfig(0);
   const ctxSize = configNum('ctxSize', 0);
   const ctxEffective = configNum('ctxSizeEffective', 0);
+  const { info: syncInfo, busy: syncBusy, setEnabled: setSyncEnabled, rotateCode, unpair } = useSync();
 
   useEffect(() => {
     if (typeof window !== 'undefined' && window.electronAPI) {
@@ -436,6 +438,64 @@ export function SettingsView({ modelStatus, currentModel }: SettingsViewProps) {
           </div>
           <Toggle on={idleStop} onClick={() => setIdleStop(!idleStop)} label="Free RAM when idle" />
         </div>
+      </div>
+
+      <h2 className="mt-6 mb-3 text-sm font-semibold uppercase tracking-wider text-text-tertiary flex items-center gap-2">
+        <Smartphone className="w-4 h-4" /> Mobile sync
+      </h2>
+      <div className="card p-4 space-y-4">
+        <div className="flex items-center gap-3">
+          <div className="flex-1">
+            <p className="text-sm font-medium text-text-primary">Sync over local Wi-Fi</p>
+            <p className="text-xs text-text-tertiary mt-0.5">
+              Shares tasks, projects, memories and your goal with a paired phone app. Local network only — nothing listens while this is off. Only enable on trusted Wi-Fi.
+            </p>
+          </div>
+          <Toggle on={syncInfo.enabled} onClick={() => setSyncEnabled(!syncInfo.enabled)} label="Enable mobile sync" />
+        </div>
+        {syncInfo.enabled && (
+          <div className="rounded-xl border border-border-primary p-3 space-y-3">
+            <div>
+              <p className="text-xs uppercase tracking-wider text-text-tertiary">Connect to</p>
+              {syncInfo.addresses.length > 0 ? (
+                <div className="mt-1 space-y-1">
+                  {syncInfo.addresses.map((a) => (
+                    <p key={a} className="font-mono text-sm t-accent-text">{a}:{syncInfo.port}</p>
+                  ))}
+                </div>
+              ) : (
+                <p className="mt-1 text-xs text-text-tertiary">No network found — connect to Wi-Fi first.</p>
+              )}
+            </div>
+            <div>
+              <p className="text-xs uppercase tracking-wider text-text-tertiary">Pairing code</p>
+              <p className="mt-1 font-mono text-2xl font-bold tracking-[0.2em] text-text-primary">{syncInfo.pairingCode || '…'}</p>
+              <p className="mt-0.5 text-xs text-text-tertiary">
+                {syncInfo.paired
+                  ? `A device is paired${syncInfo.lastSyncAt ? ` · last sync ${new Date(syncInfo.lastSyncAt).toLocaleTimeString()}` : ''}.`
+                  : 'Enter this code in the phone app to pair.'}
+              </p>
+            </div>
+            <div className="flex gap-2">
+              <button
+                onClick={rotateCode}
+                disabled={syncBusy}
+                className="flex-1 px-4 py-2 text-sm rounded-lg border border-border-primary text-text-secondary hover:text-text-primary hover:bg-bg-tertiary transition-colors disabled:opacity-40"
+              >
+                New code{syncInfo.paired ? ' (unpairs device)' : ''}
+              </button>
+              {syncInfo.paired && (
+                <button
+                  onClick={unpair}
+                  disabled={syncBusy}
+                  className="flex-1 px-4 py-2 text-sm rounded-lg border border-red-500/30 text-red-400 hover:bg-red-500/10 transition-colors disabled:opacity-40"
+                >
+                  Unpair device
+                </button>
+              )}
+            </div>
+          </div>
+        )}
       </div>
 
       <h2 className="mt-6 mb-3 text-sm font-semibold uppercase tracking-wider text-text-tertiary flex items-center gap-2">

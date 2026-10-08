@@ -106,6 +106,19 @@ contextBridge.exposeInMainWorld('electronAPI', {
     uninstall: (id: string) => ipc.invoke<void>('plugins:uninstall', id),
     setEnabled: (id: string, on: boolean) => ipc.invoke<void>('plugins:set-enabled', id, on),
   },
+  sync: {
+    info: () => ipc.invoke<{
+      enabled: boolean; addresses: string[]; port: number;
+      pairingCode: string; paired: boolean; lastSyncAt: number;
+    }>('sync:info'),
+    setEnabled: (on: boolean) => ipc.invoke<void>('sync:set-enabled', on),
+    rotateCode: () => ipc.invoke<string>('sync:rotate-code'),
+    unpair: () => ipc.invoke<void>('sync:unpair'),
+    push: (snap: { tasks?: unknown[]; projects?: unknown[]; memories?: unknown[]; goal?: string; goalUpdatedAt?: number }) =>
+      ipc.invoke<unknown>('sync:push', snap),
+    pull: () => ipc.invoke<unknown>('sync:pull'),
+    onUpdated: (callback: () => void) => ipc.on('sync:updated', () => callback()),
+  },
 });
 
 contextBridge.exposeInMainWorld('nodeAPI', {
@@ -199,6 +212,18 @@ declare global {
         install: (folder: string) => Promise<{ id: string; name: string }>;
         uninstall: (id: string) => Promise<void>;
         setEnabled: (id: string, on: boolean) => Promise<void>;
+      };
+      sync: {
+        info: () => Promise<{
+          enabled: boolean; addresses: string[]; port: number;
+          pairingCode: string; paired: boolean; lastSyncAt: number;
+        }>;
+        setEnabled: (on: boolean) => Promise<void>;
+        rotateCode: () => Promise<string>;
+        unpair: () => Promise<void>;
+        push: (snap: { tasks?: unknown[]; projects?: unknown[]; memories?: unknown[]; goal?: string; goalUpdatedAt?: number }) => Promise<unknown>;
+        pull: () => Promise<unknown>;
+        onUpdated: (callback: () => void) => () => void;
       };
     };
     nodeAPI: { platform: string; versions: NodeJS.ProcessVersions };

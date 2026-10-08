@@ -6,6 +6,7 @@ export interface Task {
   title: string;
   done: boolean;
   createdAt: number;
+  updatedAt: number;
 }
 
 export interface Project {
@@ -42,14 +43,16 @@ export function useTasks() {
     (title: string) => {
       const trimmed = title.trim();
       if (!trimmed) return;
-      setTasks((prev) => [{ id: newId('task'), title: trimmed, done: false, createdAt: Date.now() }, ...prev]);
+      const now = Date.now();
+      setTasks((prev) => [{ id: newId('task'), title: trimmed, done: false, createdAt: now, updatedAt: now }, ...prev]);
     },
     [setTasks]
   );
 
   const toggleTask = useCallback(
     (id: string) => {
-      setTasks((prev) => prev.map((t) => (t.id === id ? { ...t, done: !t.done } : t)));
+      const now = Date.now();
+      setTasks((prev) => prev.map((t) => (t.id === id ? { ...t, done: !t.done, updatedAt: now } : t)));
     },
     [setTasks]
   );
