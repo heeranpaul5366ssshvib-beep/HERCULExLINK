@@ -30,6 +30,8 @@ export function ModelSelector({ currentStatus, onClick, compact = false }: Model
     startModel,
     stopModel,
     refresh,
+    autoRoute,
+    setAutoRoute,
   } = useModels();
 
   useEffect(() => {
@@ -156,6 +158,27 @@ export function ModelSelector({ currentStatus, onClick, compact = false }: Model
               {actionError}
             </div>
           )}
+
+          <div className="px-4 py-2.5 flex items-center gap-2 border-b border-border-primary bg-slate-900/30">
+            <div className="flex h-7 w-7 items-center justify-center rounded-lg flex-shrink-0 t-accent-bg-soft t-accent-text">
+              <Zap className="w-3.5 h-3.5" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="text-xs font-medium text-text-primary">Auto-pick per task</p>
+              <p className="text-[11px] text-text-tertiary truncate">
+                {autoRoute ? 'Code → stronger model, chat → fastest' : 'Off — always use the Active model'}
+              </p>
+            </div>
+            <button
+              role="switch"
+              aria-checked={autoRoute}
+              aria-label="Auto-pick model per task"
+              onClick={() => setAutoRoute(!autoRoute)}
+              className={cn('relative flex-shrink-0 h-6 w-11 rounded-full transition-colors', autoRoute ? 't-toggle-on' : 'bg-slate-700')}
+            >
+              <span className={cn('absolute top-0.5 h-5 w-5 rounded-full bg-white shadow transition-all', autoRoute ? 'left-[22px]' : 'left-0.5')} />
+            </button>
+          </div>
 
           <div className="px-4 py-2.5 flex items-center gap-2 border-b border-border-primary bg-slate-900/30">
             <div className={cn(

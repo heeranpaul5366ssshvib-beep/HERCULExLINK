@@ -90,9 +90,10 @@ export interface HerculeElectronAPI {
     download: (modelName: string, quantization: string) => Promise<string>;
     onDownloadProgress: (callback: (progress: HerculeDownloadProgress) => void) => () => void;
     delete: (modelName: string) => Promise<boolean>;
-    start: () => Promise<{ port: number; pid: number }>;
+    start: (modelName?: string) => Promise<{ port: number; pid: number }>;
     stop: () => Promise<void>;
     isRunning: () => Promise<boolean>;
+    route: (prompt: string) => Promise<{ model: string; reason: string }>;
     getServerUrl: () => Promise<string>;
     getDir: () => Promise<string>;
     setDir: (path: string) => Promise<void>;

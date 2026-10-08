@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
+import { useLocalStorage } from './useLocalStorage';
 
 interface ModelInfo {
   name: string;
@@ -31,6 +32,7 @@ export function useModels() {
   const [error, setError] = useState<string | null>(null);
   const [running, setRunning] = useState(false);
   const [starting, setStarting] = useState(false);
+  const [autoRoute, setAutoRoute] = useLocalStorage<boolean>('hercule-model-auto', false);
 
   const fetchAvailableModels = useCallback(async () => {
     try {
@@ -142,12 +144,16 @@ export function useModels() {
     return () => clearInterval(id);
   }, [refreshRunning]);
 
-  const startModel = useCallback(async () => {
+  const startModel = useCallback(async (modelName?: string) => {
     setStarting(true);
     setError(null);
     try {
       if (window.electronAPI) {
-        const result = await window.electronAPI.models.start();
+        if (modelName) {
+          await window.electronAPI.models.setCurrent(modelName);
+          setCurrentModel(modelName);
+        }
+        const result = await window.electronAPI.models.start(modelName);
         setRunning(true);
         return result;
       }
@@ -159,6 +165,13 @@ export function useModels() {
       setStarting(false);
     }
   }, [refreshRunning]);
+
+  const routeFor = useCallback(async (prompt: string) => {
+    if (window.electronAPI) {
+      return await window.electronAPI.models.route(prompt);
+    }
+    return { model: 'hercule-base-nano', reason: 'Preview mode' };
+  }, []);
 
   const stopModel = useCallback(async () => {
     setStarting(true);
@@ -224,6 +237,9 @@ export function useModels() {
     currentModel,
     running,
     starting,
+    autoRoute,
+    setAutoRoute,
+    routeFor,
     isDownloading,
     downloadProgress,
     downloadingModel,

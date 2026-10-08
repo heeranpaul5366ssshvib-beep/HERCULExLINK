@@ -29,6 +29,7 @@ interface MainContentProps {
     startModel: () => Promise<void>;
     stopModel: () => Promise<void>;
     installModel: () => Promise<void>;
+    routeMessage?: (text: string) => Promise<string | null>;
   };
   stats: { cpu: number; ram: number; storage: number; gpu: number };
   isLoading: boolean;
@@ -42,9 +43,11 @@ function greetingForHour(): string {
   return 'Good evening';
 }
 
-export function MainContent({ activeView, modelStatus, currentModel }: MainContentProps) {
+export function MainContent({ activeView, modelStatus, currentModel, onModelAction }: MainContentProps) {
   const { chatWidth } = useTheme();
   const widthClass = CHAT_WIDTH_CLASS[chatWidth];
+  const [routeNote, setRouteNote] = useState<string | null>(null);
+  const routeNoteTimer = useRef<number | null>(null);
   const [messages, setMessages] = useState<Array<{ role: 'user' | 'assistant'; content: string }>>([
     { role: 'assistant', content: "Hello! I'm HERCULE, your local AI assistant. How can I help you today?" }
   ]);
@@ -64,7 +67,10 @@ export function MainContent({ activeView, modelStatus, currentModel }: MainConte
   }, [messages, activeView]);
 
   useEffect(() => {
-    return () => abortRef.current?.abort();
+    return () => {
+      abortRef.current?.abort();
+      if (routeNoteTimer.current) window.clearTimeout(routeNoteTimer.current);
+    };
   }, []);
 
   const sendMessage = useCallback(async (text: string) => {
@@ -80,6 +86,20 @@ export function MainContent({ activeView, modelStatus, currentModel }: MainConte
     abortRef.current?.abort();
     const controller = new AbortController();
     abortRef.current = controller;
+
+    // v2.2: auto-route to the best installed model before sending.
+    if (onModelAction.routeMessage) {
+      try {
+        const note = await onModelAction.routeMessage(userMessage);
+        if (note) {
+          setRouteNote(note);
+          if (routeNoteTimer.current) window.clearTimeout(routeNoteTimer.current);
+          routeNoteTimer.current = window.setTimeout(() => setRouteNote(null), 6000);
+        }
+      } catch {
+        // routing never blocks the chat; fall through to the active model
+      }
+    }
 
     setInput('');
     setMessages(prev => [...prev, { role: 'user', content: userMessage }, { role: 'assistant', content: '' }]);
@@ -140,7 +160,7 @@ export function MainContent({ activeView, modelStatus, currentModel }: MainConte
       if (abortRef.current === controller) abortRef.current = null;
       setIsSending(false);
     }
-  }, [isSending, messages]);
+  }, [isSending, messages, onModelAction]);
 
   const handleSend = async (e?: React.FormEvent) => {
     e?.preventDefault();
@@ -163,6 +183,11 @@ export function MainContent({ activeView, modelStatus, currentModel }: MainConte
 
   const inputBar = (
     <div className={`mx-auto w-full ${widthClass} px-4 pb-3`}>
+      {routeNote && (
+        <p className="mb-2 rounded-lg border t-accent-border t-accent-bg-soft px-3 py-1.5 text-xs t-accent-text">
+          {routeNote}
+        </p>
+      )}
       <div className="flex flex-wrap gap-2 mb-3">
         {quickActions.map((action, i) => (
           <QuickActionPill key={i} label={action.label} icon={action.icon} onClick={() => sendMessage(action.prompt)} />

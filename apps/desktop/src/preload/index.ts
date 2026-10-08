@@ -42,9 +42,10 @@ contextBridge.exposeInMainWorld('electronAPI', {
     onDownloadProgress: (callback: (progress: { modelName: string; progress: number; downloaded: number; total: number }) => void) =>
       ipc.on('model:download-progress', (_e, progress) => callback(progress)),
     delete: (modelName: string) => ipc.invoke<boolean>('model:delete', modelName),
-    start: () => ipc.invoke<{ port: number; pid: number }>('model:start'),
+    start: (modelName?: string) => ipc.invoke<{ port: number; pid: number }>('model:start', modelName),
     stop: () => ipc.invoke<void>('model:stop'),
     isRunning: () => ipc.invoke<boolean>('model:running'),
+    route: (prompt: string) => ipc.invoke<{ model: string; reason: string }>('model:route', prompt),
     getServerUrl: () => ipc.invoke<string>('model:server-url'),
     getDir: () => ipc.invoke<string>('model:dir'),
     setDir: (path: string) => ipc.invoke<void>('model:set-dir', path),
@@ -127,9 +128,10 @@ declare global {
         download: (modelName: string, quantization: string) => Promise<string>;
         onDownloadProgress: (callback: (progress: { modelName: string; progress: number; downloaded: number; total: number }) => void) => () => void;
         delete: (modelName: string) => Promise<boolean>;
-        start: () => Promise<{ port: number; pid: number }>;
+        start: (modelName?: string) => Promise<{ port: number; pid: number }>;
         stop: () => Promise<void>;
         isRunning: () => Promise<boolean>;
+        route: (prompt: string) => Promise<{ model: string; reason: string }>;
         getServerUrl: () => Promise<string>;
         getDir: () => Promise<string>;
         setDir: (path: string) => Promise<void>;

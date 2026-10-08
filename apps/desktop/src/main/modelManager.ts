@@ -746,6 +746,55 @@ export function setModelServerPort(port: number): void {
   modelServerPort = port;
 }
 
+// ---------------------------------------------------------------------------
+// v2.2: multi-model routing. Picks the cheapest installed model that fits the
+// task: code or long prompts go to the stronger model, quick chats stay on
+// the fastest one. Always returns an *installed* model or throws.
+// ---------------------------------------------------------------------------
+
+export interface RouteDecision {
+  model: string;
+  reason: string;
+}
+
+const CODE_HINT =
+  /(code|function|component|debug|error|stack ?trace|python|javascript|typescript|react|sql|regex|\bapi\b|bug|refactor|script|program|algorithm|compile)/i;
+
+function baseNameOf(installedEntry: string): string | null {
+  if (installedEntry === 'hercule-lm-nano-local') return 'hercule-lm-nano';
+  for (const m of AVAILABLE_MODELS) {
+    if (m.kind === 'nano') continue;
+    if (installedEntry === m.name || installedEntry.startsWith(`${m.name}-`)) return m.name;
+  }
+  return null;
+}
+
+export function routeModel(prompt: string): RouteDecision {
+  const installed = new Set<string>();
+  for (const entry of getInstalledModels()) {
+    const base = baseNameOf(entry);
+    if (base) installed.add(base);
+  }
+  if (installed.size === 0) {
+    throw new Error('No model installed. Download one from the Model Manager first.');
+  }
+  const text = prompt.slice(0, 4000);
+  const wantsBrains = CODE_HINT.test(text) || text.length > 1200;
+  if (wantsBrains && installed.has('hercule-base-small')) {
+    return {
+      model: 'hercule-base-small',
+      reason: CODE_HINT.test(text) ? 'Code task — stronger model' : 'Long prompt — larger model',
+    };
+  }
+  if (installed.has('hercule-base-nano')) {
+    return { model: 'hercule-base-nano', reason: 'Quick chat — fastest model' };
+  }
+  if (installed.has('hercule-base-small')) {
+    return { model: 'hercule-base-small', reason: 'Only capable model installed' };
+  }
+  return { model: 'hercule-lm-nano', reason: 'Experimental micro-model' };
+}
+
 export function getModelDirPath(): string {
   return getModelDir();
 }

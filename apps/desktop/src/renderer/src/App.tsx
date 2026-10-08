@@ -17,7 +17,7 @@ function Shell() {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [activeView, setActiveView] = useState<AppView>('home');
   const { stats, isLoading } = useSystemStats();
-  const { currentModel, running, startModel, stopModel, downloadModel } = useModels();
+  const { currentModel, running, startModel, stopModel, downloadModel, autoRoute, routeFor, selectModel } = useModels();
   const { status: updaterStatus } = useUpdater();
   const { num: configNum } = useAppConfig(15000);
 
@@ -61,6 +61,24 @@ function Shell() {
     }
   }, [stopModel]);
 
+  // v2.2: auto-route a message to the best installed model before sending.
+  // Returns a human note when it switched models, null when it stayed.
+  const handleRouteMessage = useCallback(async (text: string): Promise<string | null> => {
+    if (!autoRoute) return null;
+    try {
+      if (typeof window === 'undefined' || !window.electronAPI) return null;
+      const r = await routeFor(text);
+      if (r.model !== currentModel) {
+        await selectModel(r.model);
+        await startModel(r.model);
+        return `Routed to ${r.model} — ${r.reason}`;
+      }
+    } catch (err) {
+      console.error('Auto-route failed, using active model:', err);
+    }
+    return null;
+  }, [autoRoute, currentModel, routeFor, selectModel, startModel]);
+
   const { sidebarSide, showRightPanel, bgEffect } = useTheme();
 
   const sidebar = (
@@ -87,7 +105,7 @@ function Shell() {
               activeView={activeView}
               modelStatus={modelStatus}
               currentModel={currentModel}
-              onModelAction={{ startModel: handleModelStart, stopModel: handleModelStop, installModel: () => downloadModel('hercule-base-nano') }}
+              onModelAction={{ startModel: handleModelStart, stopModel: handleModelStop, installModel: () => downloadModel('hercule-base-nano'), routeMessage: handleRouteMessage }}
               stats={stats}
               isLoading={isLoading}
             />

@@ -26,6 +26,7 @@ import {
   getSystemStats,
   getLlamaServerStatus,
   killOrphanedModelServers,
+  routeModel,
 } from './modelManager';
 import { runFirstRunSetup, getInstallerStatus, resetFirstRun, installLlamaServer } from './installer';
 import { listTools, runTool } from './tools';
@@ -236,17 +237,19 @@ ipcMain.handle('model:download', async (_, modelName: string, quantization: stri
   });
 });
 ipcMain.handle('model:delete', (_, modelName: string) => deleteModel(modelName));
-ipcMain.handle('model:start', async () => {
-  const currentModel = getCurrentModel();
-  if (!currentModel) {
+ipcMain.handle('model:start', async (_, modelName?: string) => {
+  const target = typeof modelName === 'string' && modelName ? modelName : getCurrentModel();
+  if (!target) {
     throw new Error('No model selected');
   }
+  if (target !== getCurrentModel()) setCurrentModel(target);
   const quantization = store.get('quantization');
   const ctxOverride = store.get('ctxSize') ?? 0;
-  const info = await startModelServer(currentModel, quantization, ctxOverride);
+  const info = await startModelServer(target, quantization, ctxOverride);
   store.set('ctxSizeEffective', info.ctxSize);
   return info;
 });
+ipcMain.handle('model:route', (_, prompt: string) => routeModel(String(prompt ?? '')));
 ipcMain.handle('model:stop', () => stopModelServer());
 ipcMain.handle('model:running', () => isModelRunning());
 ipcMain.handle('model:server-url', () => getModelServerUrl());
