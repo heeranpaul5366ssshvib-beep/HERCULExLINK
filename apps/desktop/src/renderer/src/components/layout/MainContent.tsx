@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
-import { Send, Paperclip, Plus, Zap, Search, Code, Brain, CalendarCheck } from 'lucide-react';
+import { Send, Paperclip, Plus, Zap, Search, Code, Brain, CalendarCheck, ShieldCheck, Check, X } from 'lucide-react';
 import { cn } from '@/src/utils/cn';
 import { QuickActionPill } from '@/src/components/chat/QuickActionPill';
 import { MessageBubble } from '@/src/components/chat/MessageBubble';
@@ -20,6 +20,14 @@ import {
   streamChatCompletion,
   type ChatMessage,
 } from '@/src/utils/inference';
+import {
+  AGENT_SYSTEM_PROMPT,
+  AGENT_MAX_STEPS,
+  extractToolCall,
+  stripToolBlock,
+  readAutonomy,
+  needsApproval,
+} from '@/src/utils/agent';
 
 interface MainContentProps {
   activeView: string;
@@ -48,6 +56,9 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
   const widthClass = CHAT_WIDTH_CLASS[chatWidth];
   const [routeNote, setRouteNote] = useState<string | null>(null);
   const routeNoteTimer = useRef<number | null>(null);
+  const [agentNote, setAgentNote] = useState<string | null>(null);
+  const [pendingApproval, setPendingApproval] = useState<{ tool: string; args: Record<string, unknown> } | null>(null);
+  const approvalResolveRef = useRef<((ok: boolean) => void) | null>(null);
   const [messages, setMessages] = useState<Array<{ role: 'user' | 'assistant'; content: string }>>([
     { role: 'assistant', content: "Hello! I'm HERCULE, your local AI assistant. How can I help you today?" }
   ]);
@@ -69,9 +80,139 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
   useEffect(() => {
     return () => {
       abortRef.current?.abort();
+      approvalResolveRef.current?.(false);
+      approvalResolveRef.current = null;
       if (routeNoteTimer.current) window.clearTimeout(routeNoteTimer.current);
     };
   }, []);
+
+  const settleApproval = (ok: boolean) => {
+    approvalResolveRef.current?.(ok);
+    approvalResolveRef.current = null;
+    setPendingApproval(null);
+  };
+
+  const requestApproval = (tool: string, args: Record<string, unknown>): Promise<boolean> => {
+    return new Promise((resolve) => {
+      approvalResolveRef.current = resolve;
+      setPendingApproval({ tool, args });
+    });
+  };
+
+  // v2.3: plan-act-verify loop. The model plans (tool fence), local tools act,
+  // results feed back so the model verifies/corrects, up to AGENT_MAX_STEPS.
+  const runAgentTurn = useCallback(async (userMessage: string, controller: AbortController) => {
+    const pushAssistant = (content: string) =>
+      setMessages((prev) => [...prev, { role: 'assistant' as const, content }]);
+    const appendToLast = (token: string) =>
+      setMessages((prev) => {
+        const last = prev[prev.length - 1];
+        if (!last || last.role !== 'assistant') return prev;
+        return [...prev.slice(0, -1), { role: 'assistant' as const, content: last.content + token }];
+      });
+    const replaceLast = (content: string) =>
+      setMessages((prev) => {
+        if (prev.length === 0) return prev;
+        return [...prev.slice(0, -1), { role: 'assistant' as const, content }];
+      });
+
+    setMessages((prev) => [...prev, { role: 'user', content: userMessage }]);
+    try {
+      const baseUrl = await getInferenceBaseUrl();
+      const health = await checkServerHealth(baseUrl);
+      if (health === 'down') {
+        pushAssistant('I can\'t reach the local model server. Start a model from the Model Manager (click "Model" below), then try again.');
+        return;
+      }
+      if (health === 'loading') {
+        pushAssistant('The model is still loading into memory. Please wait a few seconds and try again.');
+        return;
+      }
+      const startingAutonomy = readAutonomy();
+      const enabledList = Object.keys(startingAutonomy.enabledTools).filter(
+        (k) => startingAutonomy.enabledTools[k] !== false
+      );
+      const turn: ChatMessage[] = [
+        {
+          role: 'system',
+          content:
+            AGENT_SYSTEM_PROMPT +
+            `\nEnabled tools: ${enabledList.join(', ') || 'none'}. Autonomy level: ${startingAutonomy.level}.`,
+        },
+        ...messages.filter((m) => m.content.trim()).map((m) => ({ role: m.role, content: m.content })),
+        { role: 'user' as const, content: userMessage },
+      ];
+
+      for (let step = 1; step <= AGENT_MAX_STEPS; step++) {
+        if (controller.signal.aborted) return;
+        pushAssistant('');
+        let full = '';
+        try {
+          await streamChatCompletion({
+            baseUrl,
+            messages: turn,
+            signal: controller.signal,
+            onToken: (t) => {
+              full += t;
+              appendToLast(t);
+            },
+          });
+        } catch (err) {
+          if (err instanceof DOMException && err.name === 'AbortError') return;
+          throw err;
+        }
+        const call = extractToolCall(full);
+        const cleaned = stripToolBlock(full);
+        if (!call) {
+          if (!full.trim()) {
+            replaceLast('The model returned an empty response. Please try again or rephrase your message.');
+          }
+          return;
+        }
+        turn.push({ role: 'assistant', content: full });
+        const autonomy = readAutonomy();
+        if (autonomy.enabledTools[call.tool] === false) {
+          replaceLast(
+            (cleaned ? cleaned + '\n\n' : '') +
+              `⚠️ Tool "${call.tool}" is disabled in Tools — enable it to let the agent proceed.`
+          );
+          return;
+        }
+        if (typeof window === 'undefined' || !window.electronAPI?.tools) {
+          replaceLast((cleaned ? cleaned + '\n\n' : '') + '⚠️ Tool execution needs the desktop app.');
+          return;
+        }
+        setAgentNote(`Step ${step}/${AGENT_MAX_STEPS}: ${call.tool}…`);
+        let approved = !needsApproval(call.tool, autonomy);
+        if (!approved) approved = await requestApproval(call.tool, call.args);
+        if (!approved) {
+          turn.push({ role: 'user', content: `[tool ${call.tool} denied by user]` });
+          pushAssistant('Understood — I skipped that tool. Tell me how to proceed.');
+          return;
+        }
+        if (controller.signal.aborted) return;
+        replaceLast((cleaned ? cleaned + '\n\n' : '') + `⚙️ Running ${call.tool}…`);
+        let res: { ok: boolean; output: string; error?: string };
+        try {
+          res = await window.electronAPI.tools.run(call.tool, call.args);
+        } catch (err) {
+          res = { ok: false, output: '', error: err instanceof Error ? err.message : 'Tool failed' };
+        }
+        const resultText = res.ok ? res.output : `ERROR: ${res.error ?? 'failed'}`;
+        turn.push({ role: 'user', content: `[tool ${call.tool} ${res.ok ? 'result' : 'error'}]\n${resultText.slice(0, 4000)}` });
+        pushAssistant(
+          `${res.ok ? '✅' : '❌'} ${call.tool}: ${resultText.slice(0, 300)}${resultText.length > 300 ? '…' : ''}`
+        );
+      }
+      pushAssistant(`Stopped after ${AGENT_MAX_STEPS} steps without a final answer. Try a smaller request.`);
+    } catch (err) {
+      if (err instanceof DOMException && err.name === 'AbortError') return;
+      console.error('Agent turn failed:', err);
+      pushAssistant('Something went wrong talking to the local model. Make sure a model is installed and running, then try again.');
+    } finally {
+      setAgentNote(null);
+    }
+  }, [messages]);
 
   const sendMessage = useCallback(async (text: string) => {
     const userMessage = text.trim();
@@ -84,6 +225,11 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
     }
 
     abortRef.current?.abort();
+    if (approvalResolveRef.current) {
+      approvalResolveRef.current(false);
+      approvalResolveRef.current = null;
+      setPendingApproval(null);
+    }
     const controller = new AbortController();
     abortRef.current = controller;
 
@@ -102,6 +248,16 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
     }
 
     setInput('');
+    if (autoMode) {
+      setIsSending(true);
+      try {
+        await runAgentTurn(userMessage, controller);
+      } finally {
+        if (abortRef.current === controller) abortRef.current = null;
+        setIsSending(false);
+      }
+      return;
+    }
     setMessages(prev => [...prev, { role: 'user', content: userMessage }, { role: 'assistant', content: '' }]);
     setIsSending(true);
 
@@ -160,7 +316,7 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
       if (abortRef.current === controller) abortRef.current = null;
       setIsSending(false);
     }
-  }, [isSending, messages, onModelAction]);
+  }, [isSending, messages, onModelAction, autoMode, runAgentTurn]);
 
   const handleSend = async (e?: React.FormEvent) => {
     e?.preventDefault();
@@ -186,6 +342,11 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
       {routeNote && (
         <p className="mb-2 rounded-lg border t-accent-border t-accent-bg-soft px-3 py-1.5 text-xs t-accent-text">
           {routeNote}
+        </p>
+      )}
+      {agentNote && (
+        <p className="mb-2 rounded-lg border border-violet-500/30 bg-violet-500/10 px-3 py-1.5 text-xs text-violet-300">
+          ⚙️ {agentNote}
         </p>
       )}
       <div className="flex flex-wrap gap-2 mb-3">
@@ -342,6 +503,31 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
             {messages.map((message, index) => (
               <MessageBubble key={index} message={message} />
             ))}
+            {pendingApproval && (
+              <div className="card p-4 border-violet-500/30 animate-slide-up" role="alertdialog" aria-label="Approve tool run">
+                <p className="flex items-center gap-2 text-sm font-semibold text-text-primary">
+                  <ShieldCheck className="w-4 h-4 text-violet-300" />
+                  Agent wants to run {pendingApproval.tool}
+                </p>
+                <pre className="mt-2 max-h-32 overflow-auto whitespace-pre-wrap break-words rounded-lg border border-border-primary bg-slate-950/60 p-2 font-mono text-xs text-text-secondary">
+                  {JSON.stringify(pendingApproval.args, null, 2)}
+                </pre>
+                <div className="mt-3 flex gap-2">
+                  <button
+                    onClick={() => settleApproval(true)}
+                    className="btn-primary px-4 py-1.5 text-xs rounded-lg flex items-center gap-1.5"
+                  >
+                    <Check className="w-3.5 h-3.5" /> Approve & run
+                  </button>
+                  <button
+                    onClick={() => settleApproval(false)}
+                    className="btn-secondary px-4 py-1.5 text-xs rounded-lg flex items-center gap-1.5"
+                  >
+                    <X className="w-3.5 h-3.5" /> Deny
+                  </button>
+                </div>
+              </div>
+            )}
             <div ref={messagesEndRef} />
           </div>
         )}
