@@ -59,6 +59,18 @@ export interface HerculeLlamaStatus {
   bundled: boolean;
 }
 
+export interface HerculeToolDef {
+  name: string;
+  description: string;
+  args: string[];
+}
+
+export interface HerculeToolResult {
+  ok: boolean;
+  output: string;
+  error?: string;
+}
+
 export interface HerculeElectronAPI {
   config: {
     get: () => Promise<Record<string, unknown>>;
@@ -109,6 +121,10 @@ export interface HerculeElectronAPI {
     reset: () => Promise<void>;
     runSetup: () => Promise<void>;
     onProgress: (callback: (progress: HerculeInstallerProgress) => void) => () => void;
+  };
+  tools: {
+    list: () => Promise<HerculeToolDef[]>;
+    run: (name: string, toolArgs: Record<string, unknown>) => Promise<HerculeToolResult>;
   };
 }
 

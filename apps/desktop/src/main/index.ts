@@ -28,6 +28,7 @@ import {
   killOrphanedModelServers,
 } from './modelManager';
 import { runFirstRunSetup, getInstallerStatus, resetFirstRun, installLlamaServer } from './installer';
+import { listTools, runTool } from './tools';
 
 interface AppConfig {
   modelPath: string;
@@ -282,3 +283,5 @@ ipcMain.handle('system:llama-install', async () => {
   }
   return getLlamaServerStatus();
 });
+ipcMain.handle('tools:list', () => listTools());
+ipcMain.handle('tools:run', (_, name: string, toolArgs: Record<string, unknown>) => runTool(name, toolArgs ?? {}));

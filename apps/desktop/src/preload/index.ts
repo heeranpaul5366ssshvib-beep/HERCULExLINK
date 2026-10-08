@@ -86,6 +86,11 @@ contextBridge.exposeInMainWorld('electronAPI', {
     onProgress: (callback: (progress: { stage: string; progress: number; message: string }) => void) =>
       ipc.on('installer:progress', (_e, progress) => callback(progress)),
   },
+  tools: {
+    list: () => ipc.invoke<Array<{ name: string; description: string; args: string[] }>>('tools:list'),
+    run: (name: string, toolArgs: Record<string, unknown>) =>
+      ipc.invoke<{ ok: boolean; output: string; error?: string }>('tools:run', name, toolArgs),
+  },
 });
 
 contextBridge.exposeInMainWorld('nodeAPI', {
@@ -160,6 +165,10 @@ declare global {
         reset: () => Promise<void>;
         runSetup: () => Promise<void>;
         onProgress: (callback: (progress: { stage: string; progress: number; message: string }) => void) => () => void;
+      };
+      tools: {
+        list: () => Promise<Array<{ name: string; description: string; args: string[] }>>;
+        run: (name: string, toolArgs: Record<string, unknown>) => Promise<{ ok: boolean; output: string; error?: string }>;
       };
     };
     nodeAPI: { platform: string; versions: NodeJS.ProcessVersions };

@@ -1,4 +1,5 @@
-import { Wrench, Code, Globe, Search, Calculator, CalendarCheck, Brain } from 'lucide-react';
+import { useState } from 'react';
+import { Wrench, Code, Globe, Search, Calculator, CalendarCheck, Brain, Play, FolderOpen } from 'lucide-react';
 import { cn } from '@/src/utils/cn';
 import { useTools } from '@/src/hooks/useIntegrations';
 
@@ -30,6 +31,100 @@ function Toggle({ on, onChange, label }: { on: boolean; onChange: () => void; la
         )}
       />
     </button>
+  );
+}
+
+const RUNNABLE: Record<string, { placeholder: string; secondPlaceholder?: string; secondLabel?: string }> = {
+  calculator: { placeholder: '4800 * 0.15 + sqrt(144)' },
+  'file-search': { placeholder: 'search text…', secondPlaceholder: 'folder (optional)', secondLabel: 'Browse…' },
+  'web-fetch': { placeholder: 'https://example.com' },
+};
+
+function ToolRunner({ toolId }: { toolId: string }) {
+  const cfg = RUNNABLE[toolId];
+  const [input, setInput] = useState('');
+  const [second, setSecond] = useState('');
+  const [output, setOutput] = useState<string | null>(null);
+  const [failed, setFailed] = useState(false);
+  const [running, setRunning] = useState(false);
+  if (!cfg) return null;
+  const hasBridge = typeof window !== 'undefined' && !!window.electronAPI?.tools;
+
+  const run = async () => {
+    if (!hasBridge || running) return;
+    setRunning(true);
+    setOutput(null);
+    setFailed(false);
+    try {
+      const toolArgs: Record<string, unknown> =
+        toolId === 'calculator' ? { expression: input }
+        : toolId === 'file-search' ? { query: input, ...(second.trim() ? { root: second.trim() } : {}) }
+        : { url: input };
+      const res = await window.electronAPI.tools.run(toolId, toolArgs);
+      setOutput(res.ok ? res.output : res.error ?? 'Failed');
+      setFailed(!res.ok);
+    } catch (err) {
+      setOutput(err instanceof Error ? err.message : 'Failed');
+      setFailed(true);
+    } finally {
+      setRunning(false);
+    }
+  };
+
+  const browse = async () => {
+    try {
+      const paths = await window.electronAPI.dialog.openDirectory({});
+      if (paths?.[0]) setSecond(paths[0]);
+    } catch {
+      // dialog unavailable
+    }
+  };
+
+  return (
+    <div className="mt-3 rounded-lg border border-border-primary bg-slate-900/40 p-3">
+      <div className="flex gap-2">
+        <input
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          onKeyDown={(e) => { if (e.key === 'Enter') run(); }}
+          placeholder={cfg.placeholder}
+          className="input t-focus font-mono text-xs"
+          aria-label={`Try ${toolId}`}
+          disabled={!hasBridge}
+        />
+        <button
+          onClick={run}
+          disabled={!hasBridge || running || !input.trim()}
+          className="btn-primary px-3 py-1.5 text-xs rounded-lg flex items-center gap-1 flex-shrink-0 disabled:opacity-40"
+        >
+          <Play className="w-3.5 h-3.5" /> {running ? '…' : 'Run'}
+        </button>
+      </div>
+      {toolId === 'file-search' && (
+        <div className="mt-2 flex gap-2">
+          <input
+            value={second}
+            onChange={(e) => setSecond(e.target.value)}
+            placeholder={cfg.secondPlaceholder}
+            className="input t-focus font-mono text-xs"
+            aria-label="Search folder"
+            disabled={!hasBridge}
+          />
+          <button onClick={browse} disabled={!hasBridge} className="btn-secondary px-3 py-1.5 text-xs rounded-lg flex items-center gap-1 flex-shrink-0" title="Pick a folder">
+            <FolderOpen className="w-3.5 h-3.5" /> {cfg.secondLabel}
+          </button>
+        </div>
+      )}
+      {!hasBridge && <p className="mt-2 text-[11px] text-text-muted">Runs inside the desktop app.</p>}
+      {output !== null && (
+        <pre className={cn(
+          'mt-2 max-h-48 overflow-auto whitespace-pre-wrap break-words rounded-lg border p-2 font-mono text-xs',
+          failed ? 'border-red-500/30 bg-red-500/5 text-red-300' : 'border-border-primary bg-slate-950/60 text-text-secondary'
+        )}>
+          {output}
+        </pre>
+      )}
+    </div>
   );
 }
 
@@ -70,6 +165,7 @@ export function ToolsView() {
                 </div>
                 <p className="mt-1 text-sm text-text-tertiary">{tool.description}</p>
                 <p className="mt-1.5 text-xs font-mono text-text-muted">Try: {tool.usage}</p>
+                {on && <ToolRunner toolId={tool.id} />}
               </div>
             </div>
           );
