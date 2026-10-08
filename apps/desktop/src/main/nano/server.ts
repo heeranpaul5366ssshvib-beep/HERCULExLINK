@@ -8,7 +8,7 @@ import { existsSync, readFileSync } from 'fs';
 import { join } from 'path';
 import { NanoTokenizer } from './tokenizer';
 import { readNpz } from './npz';
-import { NanoModel, paramsFromNpz, type NanoConfig } from './model';
+import { NanoModel, paramsFromNpz, MAX_NANO_CTX, type NanoConfig } from './model';
 
 export interface NanoCheckpoint {
   name: string;
@@ -57,6 +57,12 @@ function loadCheckpoint(checkpointDir: string, tokenizerDir: string): LoadedNano
       throw new Error(`hercule-lm-nano manifest has an invalid ${k}.`);
     }
   }
+  if (cfg.context_length > MAX_NANO_CTX) {
+    throw new Error(
+      `hercule-lm-nano context_length ${cfg.context_length} exceeds the ${MAX_NANO_CTX}-token engine limit ` +
+        '(plain-JS memory safety on small PCs). Train with context_length ≤ 2048.'
+    );
+  }
   const tok = NanoTokenizer.loadFile(tokenizerPath);
   const params = paramsFromNpz(readNpz(weightsPath));
   const required = ['tokE', 'posE', 'lnfW', 'lnfb', 'headW', 'headb'];
@@ -79,18 +85,28 @@ interface ChatMsg {
   content: string;
 }
 
-function buildPrompt(messages: ChatMsg[], tok: NanoTokenizer, ctx: number): number[] {
-  // Nano context is tiny (64): keep the tail of the conversation only,
-  // always starting with BOS. Reserve room to generate.
-  const parts: string[] = [];
-  for (let i = Math.max(0, messages.length - 4); i < messages.length; i++) {
+/** Cap a single reply so huge contexts can't run unbounded. */
+export const MAX_NEW_TOKENS = 512;
+
+export function buildPrompt(messages: ChatMsg[], tok: NanoTokenizer, ctx: number): number[] {
+  // Fill the context budget with the newest messages (tail-fit), always
+  // starting with BOS. Same wire format as before (system skipped, joined
+  // with newlines) — only the 4-message cap is gone so bigger checkpoints
+  // actually use their window. Reserves room to generate.
+  const reserve = Math.min(MAX_NEW_TOKENS, Math.max(16, Math.floor(ctx * 0.25)));
+  const room = Math.max(8, ctx - reserve);
+  const bodies: string[] = [];
+  for (let i = messages.length - 1; i >= 0; i--) {
     const m = messages[i];
     if (m.role === 'system') continue;
-    parts.push(m.content);
+    bodies.unshift(m.content);
+    if (bodies.length >= 200) break;
   }
-  let ids = tok.encode(parts.join('\n'), true, false);
-  const room = Math.max(8, ctx - 16);
-  if (ids.length > room) ids = ids.slice(ids.length - room);
+  let ids = tok.encode(bodies.join('\n'), true, false);
+  if (ids.length > room) {
+    // Tail-fit but keep BOS first — the model was trained with it leading.
+    ids = [tok.bosId, ...ids.slice(ids.length - room + 1)];
+  }
   return ids;
 }
 
@@ -157,6 +173,11 @@ export class NanoServer {
     return this.server !== null;
   }
 
+  /** Manifest context length of the loaded checkpoint (0 while loading). */
+  get ctxSize(): number {
+    return this.loaded?.ctx ?? 0;
+  }
+
   private readBody(req: IncomingMessage): Promise<any> {
     return new Promise((resolve, reject) => {
       const chunks: Buffer[] = [];
@@ -197,7 +218,7 @@ export class NanoServer {
       const temperature = typeof body.temperature === 'number' ? body.temperature : 0.7;
       const stream = body.stream === true;
       const ids = buildPrompt(messages, loaded.tok, loaded.ctx);
-      const maxNew = Math.max(1, loaded.ctx - ids.length);
+      const maxNew = Math.min(MAX_NEW_TOKENS, Math.max(1, loaded.ctx - ids.length));
 
       // If the client goes away (user sends another message, navigates),
       // stop generating promptly. Never write to a dead socket: an
@@ -223,7 +244,7 @@ export class NanoServer {
 
       const run = async () => {
         const collected: number[] = [];
-        await loaded.model.generate(ids, {
+        await loaded.model.generateIncremental(ids, {
           maxNewTokens: maxNew,
           temperature: temperature <= 0 ? 0 : temperature,
           eosId: loaded.eosId,

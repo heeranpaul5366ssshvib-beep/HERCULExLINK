@@ -70,7 +70,7 @@ const AVAILABLE_MODELS: ModelInfo[] = [
     url: '',
     size: 10485760,
     sha256: '',
-    description: 'Your own 933K-param micro-model — experimental, ~15MB RAM, 64-token context',
+    description: 'Your own micro-model — experimental, tiny RAM, context from your checkpoint (up to 2048)',
     quantizations: [],
     experimental: true,
     checkpointDir: 'C:\\Users\\hp\\HERCULE\\training\\checkpoints\\100m\\run-1790784378\\step_00005000',
@@ -723,8 +723,8 @@ async function startNanoServer(modelInfo: ModelInfo): Promise<ModelServerInfo> {
     throw err;
   }
   nanoServer = server;
-  // Nano context comes from its own manifest (64); surface it for the UI.
-  return { port, pid: process.pid, ctxSize: 64, threads: 1 };
+  // Surface the checkpoint's own context length (was hardcoded 64).
+  return { port, pid: process.pid, ctxSize: server.ctxSize || 64, threads: 1 };
 }
 
 async function stopNanoServer(): Promise<void> {
