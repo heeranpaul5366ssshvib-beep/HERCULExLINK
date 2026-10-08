@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
-import { Send, Paperclip, Plus, Zap, Search, Code, Brain, CalendarCheck, ShieldCheck, Check, X } from 'lucide-react';
+import { Send, Paperclip, Plus, Zap, Search, Code, Brain, CalendarCheck, ShieldCheck, Check, X, Mic, Volume2, VolumeX } from 'lucide-react';
 import { cn } from '@/src/utils/cn';
 import { QuickActionPill } from '@/src/components/chat/QuickActionPill';
 import { MessageBubble } from '@/src/components/chat/MessageBubble';
@@ -28,6 +28,7 @@ import {
   readAutonomy,
   needsApproval,
 } from '@/src/utils/agent';
+import { useVoice } from '@/src/hooks/useVoice';
 
 interface MainContentProps {
   activeView: string;
@@ -59,6 +60,13 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
   const [agentNote, setAgentNote] = useState<string | null>(null);
   const [pendingApproval, setPendingApproval] = useState<{ tool: string; args: Record<string, unknown> } | null>(null);
   const approvalResolveRef = useRef<((ok: boolean) => void) | null>(null);
+  const {
+    voiceOn, setVoiceOn,
+    listening, speaking, voiceError,
+    supportedSTT, supportedTTS,
+    startListening, stopListening, speak, stopSpeaking,
+  } = useVoice();
+  const voiceBaseRef = useRef('');
   const [messages, setMessages] = useState<Array<{ role: 'user' | 'assistant'; content: string }>>([
     { role: 'assistant', content: "Hello! I'm HERCULE, your local AI assistant. How can I help you today?" }
   ]);
@@ -73,6 +81,22 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const toggleMic = () => {
+    if (listening) {
+      stopListening();
+      return;
+    }
+    voiceBaseRef.current = input ? input + ' ' : '';
+    startListening((text, final) => {
+      setInput(voiceBaseRef.current + text + (final ? ' ' : ''));
+    });
+  };
+
+  const toggleSpeaker = () => {
+    if (speaking) stopSpeaking();
+    setVoiceOn(!voiceOn);
+  };
+
   useEffect(() => {
     scrollToBottom();
   }, [messages, activeView]);
@@ -82,6 +106,11 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
       abortRef.current?.abort();
       approvalResolveRef.current?.(false);
       approvalResolveRef.current = null;
+      try {
+        window.speechSynthesis?.cancel();
+      } catch {
+        // ignore
+      }
       if (routeNoteTimer.current) window.clearTimeout(routeNoteTimer.current);
     };
   }, []);
@@ -101,7 +130,7 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
 
   // v2.3: plan-act-verify loop. The model plans (tool fence), local tools act,
   // results feed back so the model verifies/corrects, up to AGENT_MAX_STEPS.
-  const runAgentTurn = useCallback(async (userMessage: string, controller: AbortController) => {
+  const runAgentTurn = useCallback(async (userMessage: string, controller: AbortController, onFinalText?: (text: string) => void) => {
     const pushAssistant = (content: string) =>
       setMessages((prev) => [...prev, { role: 'assistant' as const, content }]);
     const appendToLast = (token: string) =>
@@ -166,6 +195,8 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
         if (!call) {
           if (!full.trim()) {
             replaceLast('The model returned an empty response. Please try again or rephrase your message.');
+          } else {
+            onFinalText?.(full);
           }
           return;
         }
@@ -225,6 +256,7 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
     }
 
     abortRef.current?.abort();
+    stopSpeaking();
     if (approvalResolveRef.current) {
       approvalResolveRef.current(false);
       approvalResolveRef.current = null;
@@ -251,7 +283,9 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
     if (autoMode) {
       setIsSending(true);
       try {
-        await runAgentTurn(userMessage, controller);
+        await runAgentTurn(userMessage, controller, (t) => {
+          if (voiceOn) speak(t);
+        });
       } finally {
         if (abortRef.current === controller) abortRef.current = null;
         setIsSending(false);
@@ -305,6 +339,8 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
 
       if (!fullText.trim()) {
         replaceLastMessage('The model returned an empty response. Please try again or rephrase your message.');
+      } else if (voiceOn) {
+        speak(fullText);
       }
     } catch (err) {
       if (err instanceof DOMException && err.name === 'AbortError') return;
@@ -316,7 +352,7 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
       if (abortRef.current === controller) abortRef.current = null;
       setIsSending(false);
     }
-  }, [isSending, messages, onModelAction, autoMode, runAgentTurn]);
+  }, [isSending, messages, onModelAction, autoMode, runAgentTurn, voiceOn, speak, stopSpeaking]);
 
   const handleSend = async (e?: React.FormEvent) => {
     e?.preventDefault();
@@ -347,6 +383,11 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
       {agentNote && (
         <p className="mb-2 rounded-lg border border-violet-500/30 bg-violet-500/10 px-3 py-1.5 text-xs text-violet-300">
           ⚙️ {agentNote}
+        </p>
+      )}
+      {(voiceError || listening) && (
+        <p className="mb-2 px-1 text-[11px] text-text-tertiary">
+          {listening ? '🎤 Listening… speak now.' : voiceError}
         </p>
       )}
       <div className="flex flex-wrap gap-2 mb-3">
@@ -399,6 +440,44 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
               title="Auto mode: let HERCULE chain tools automatically"
             >
               <Zap className="w-4 h-4" />
+            </button>
+            <button
+              type="button"
+              onClick={toggleMic}
+              disabled={!supportedSTT && !listening}
+              className={cn(
+                'btn-icon p-1.5 transition-all rounded-lg disabled:opacity-40',
+                listening
+                  ? 'text-red-400 t-accent-bg-soft t-accent-border border animate-pulse'
+                  : 'text-text-tertiary hover:text-text-primary'
+              )}
+              aria-label={listening ? 'Stop listening' : 'Voice input'}
+              aria-pressed={listening}
+              title={
+                listening
+                  ? 'Listening… click to stop'
+                  : supportedSTT
+                    ? 'Voice input (browser speech service, needs internet)'
+                    : 'Voice input not available in this build'
+              }
+            >
+              <Mic className="w-4 h-4" />
+            </button>
+            <button
+              type="button"
+              onClick={toggleSpeaker}
+              disabled={!supportedTTS}
+              className={cn(
+                'btn-icon p-1.5 transition-all rounded-lg disabled:opacity-40',
+                voiceOn
+                  ? 't-accent-text t-accent-bg-soft t-accent-border border'
+                  : 'text-text-tertiary hover:text-text-primary'
+              )}
+              aria-label="Read replies aloud"
+              aria-pressed={voiceOn}
+              title={supportedTTS ? 'Read replies aloud (on-device voice)' : 'Speech output not available in this build'}
+            >
+              {voiceOn ? <Volume2 className="w-4 h-4" /> : <VolumeX className="w-4 h-4" />}
             </button>
             <div className="flex-1" />
             <span className="hidden sm:block text-[11px] text-text-muted mr-1">Enter to send · Shift+Enter for new line</span>
