@@ -1,24 +1,58 @@
-import { useCallback, useMemo } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useLocalStorage } from './useLocalStorage';
 import { PLUGINS, TOOLS } from '../data/catalog';
+import type { HerculePlugin } from '../types/electron';
 
 export function usePlugins() {
-  const [enabled, setEnabled] = useLocalStorage<Record<string, boolean>>('hercule-plugins', {
+  const [remote, setRemote] = useState<HerculePlugin[] | null>(null);
+  const [localEnabled, setLocalEnabled] = useLocalStorage<Record<string, boolean>>('hercule-plugins', {
     github: true,
     web: true,
     vscode: true,
   });
 
+  const refresh = useCallback(async () => {
+    try {
+      if (window.electronAPI?.plugins) {
+        setRemote(await window.electronAPI.plugins.list());
+      }
+    } catch {
+      // fall back to the static catalog
+    }
+  }, []);
+
+  useEffect(() => {
+    refresh();
+  }, [refresh]);
+
   const toggle = useCallback(
     (id: string) => {
-      setEnabled((prev) => ({ ...prev, [id]: !prev[id] }));
+      if (remote) {
+        const current = remote.find((p) => p.id === id);
+        const next = !(current?.enabled ?? false);
+        setRemote((prev) => prev?.map((p) => (p.id === id ? { ...p, enabled: next } : p)) ?? prev);
+        window.electronAPI?.plugins?.setEnabled(id, next).then(refresh).catch(refresh);
+      } else {
+        setLocalEnabled((prev) => ({ ...prev, [id]: !prev[id] }));
+      }
     },
-    [setEnabled]
+    [remote, refresh, setLocalEnabled]
   );
 
-  const connected = useMemo(() => PLUGINS.filter((p) => enabled[p.id]), [enabled]);
+  const plugins = useMemo<HerculePlugin[]>(() => {
+    if (remote) return remote;
+    return PLUGINS.map((p) => ({
+      ...p,
+      version: 'built-in',
+      permissions: [] as string[],
+      source: 'built-in' as const,
+      enabled: !!localEnabled[p.id],
+    }));
+  }, [remote, localEnabled]);
 
-  return { plugins: PLUGINS, enabled, toggle, connectedCount: connected.length };
+  const connected = useMemo(() => plugins.filter((p) => p.enabled), [plugins]);
+
+  return { plugins, enabled: Object.fromEntries(plugins.map((p) => [p.id, p.enabled])), toggle, connectedCount: connected.length, refresh };
 }
 
 export function useTools() {

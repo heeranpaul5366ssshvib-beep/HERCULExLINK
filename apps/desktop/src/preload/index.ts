@@ -92,6 +92,20 @@ contextBridge.exposeInMainWorld('electronAPI', {
     run: (name: string, toolArgs: Record<string, unknown>) =>
       ipc.invoke<{ ok: boolean; output: string; error?: string }>('tools:run', name, toolArgs),
   },
+  plugins: {
+    list: () => ipc.invoke<Array<{
+      id: string; name: string; version: string; description: string;
+      category: string; permissions: string[]; source: 'built-in' | 'community';
+      enabled: boolean; path?: string;
+    }>>('plugins:list'),
+    preview: (folder: string) => ipc.invoke<{
+      id: string; name: string; version: string; description: string;
+      category: string; permissions: string[];
+    }>('plugins:preview', folder),
+    install: (folder: string) => ipc.invoke<{ id: string; name: string }>('plugins:install', folder),
+    uninstall: (id: string) => ipc.invoke<void>('plugins:uninstall', id),
+    setEnabled: (id: string, on: boolean) => ipc.invoke<void>('plugins:set-enabled', id, on),
+  },
 });
 
 contextBridge.exposeInMainWorld('nodeAPI', {
@@ -171,6 +185,20 @@ declare global {
       tools: {
         list: () => Promise<Array<{ name: string; description: string; args: string[] }>>;
         run: (name: string, toolArgs: Record<string, unknown>) => Promise<{ ok: boolean; output: string; error?: string }>;
+      };
+      plugins: {
+        list: () => Promise<Array<{
+          id: string; name: string; version: string; description: string;
+          category: string; permissions: string[]; source: 'built-in' | 'community';
+          enabled: boolean; path?: string;
+        }>>;
+        preview: (folder: string) => Promise<{
+          id: string; name: string; version: string; description: string;
+          category: string; permissions: string[];
+        }>;
+        install: (folder: string) => Promise<{ id: string; name: string }>;
+        uninstall: (id: string) => Promise<void>;
+        setEnabled: (id: string, on: boolean) => Promise<void>;
       };
     };
     nodeAPI: { platform: string; versions: NodeJS.ProcessVersions };

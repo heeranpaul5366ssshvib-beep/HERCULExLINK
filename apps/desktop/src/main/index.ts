@@ -30,6 +30,7 @@ import {
 } from './modelManager';
 import { runFirstRunSetup, getInstallerStatus, resetFirstRun, installLlamaServer } from './installer';
 import { listTools, runTool } from './tools';
+import { listPlugins, previewPlugin, installPlugin, uninstallPlugin, setPluginEnabled } from './plugins';
 
 interface AppConfig {
   modelPath: string;
@@ -288,3 +289,8 @@ ipcMain.handle('system:llama-install', async () => {
 });
 ipcMain.handle('tools:list', () => listTools());
 ipcMain.handle('tools:run', (_, name: string, toolArgs: Record<string, unknown>) => runTool(name, toolArgs ?? {}));
+ipcMain.handle('plugins:list', () => listPlugins());
+ipcMain.handle('plugins:preview', (_, folder: string) => previewPlugin(String(folder ?? '')));
+ipcMain.handle('plugins:install', (_, folder: string) => installPlugin(String(folder ?? '')));
+ipcMain.handle('plugins:uninstall', (_, id: string) => uninstallPlugin(String(id ?? '')));
+ipcMain.handle('plugins:set-enabled', (_, id: string, on: boolean) => setPluginEnabled(String(id ?? ''), on === true));

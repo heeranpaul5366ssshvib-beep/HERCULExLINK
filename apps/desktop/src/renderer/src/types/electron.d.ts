@@ -71,6 +71,18 @@ export interface HerculeToolResult {
   error?: string;
 }
 
+export interface HerculePlugin {
+  id: string;
+  name: string;
+  version: string;
+  description: string;
+  category: string;
+  permissions: string[];
+  source: 'built-in' | 'community';
+  enabled: boolean;
+  path?: string;
+}
+
 export interface HerculeElectronAPI {
   config: {
     get: () => Promise<Record<string, unknown>>;
@@ -126,6 +138,13 @@ export interface HerculeElectronAPI {
   tools: {
     list: () => Promise<HerculeToolDef[]>;
     run: (name: string, toolArgs: Record<string, unknown>) => Promise<HerculeToolResult>;
+  };
+  plugins: {
+    list: () => Promise<HerculePlugin[]>;
+    preview: (folder: string) => Promise<HerculePlugin>;
+    install: (folder: string) => Promise<{ id: string; name: string }>;
+    uninstall: (id: string) => Promise<void>;
+    setEnabled: (id: string, on: boolean) => Promise<void>;
   };
 }
 
