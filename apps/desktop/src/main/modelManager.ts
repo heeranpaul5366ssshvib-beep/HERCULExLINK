@@ -220,9 +220,17 @@ export async function downloadModel(
 
   // Download through the PC's own shell (PowerShell / sh) using curl:
   // automatic retries, redirect following, and resume of partial files.
+  // If the shell path fails (broken curl, blocked PowerShell, odd exit
+  // codes), fall back to a plain Node download so one bad tool never
+  // bricks the whole install.
   const hasCurl = await resolveBinary(process.platform === 'win32' ? 'curl.exe' : 'curl');
   if (hasCurl) {
-    await downloadWithShell(modelInfo.url, tempPath, modelInfo.size, onProgress);
+    try {
+      await downloadWithShell(modelInfo.url, tempPath, modelInfo.size, onProgress);
+    } catch (shellErr) {
+      console.error('[models] shell download failed, trying Node fallback:', shellErr instanceof Error ? shellErr.message : shellErr);
+      await downloadWithNode(modelInfo.url, tempPath, onProgress);
+    }
   } else {
     await downloadWithNode(modelInfo.url, tempPath, onProgress);
   }
@@ -294,6 +302,9 @@ export function downloadWithShell(
   return new Promise((resolve, reject) => {
     const proc = spawn(shell, shellArgs, { stdio: ['ignore', 'ignore', 'pipe'], windowsHide: true });
     let lastPct = -1;
+    // Keep curl's stderr tail: exit code 1 alone says nothing, the last
+    // lines say whether it was DNS, TLS, 404, disk-full, or blocked.
+    let errTail = '';
 
     const emitFromFileSize = () => {
       const downloaded = fileSizeSafe(destPart);
@@ -306,9 +317,12 @@ export function downloadWithShell(
       }
     };
 
-    proc.stderr?.on('data', () => {
+    proc.stderr?.on('data', (d: Buffer) => {
       // curl writes its progress meter to stderr; use it as a heartbeat
       // and compute real progress from the growing file (resume-safe).
+      // Also keep the tail: on failure it names the real cause.
+      errTail += d.toString();
+      if (errTail.length > 2000) errTail = errTail.slice(-2000);
       emitFromFileSize();
     });
 
@@ -322,9 +336,12 @@ export function downloadWithShell(
         onProgress(100, downloaded, totalSize > 0 ? totalSize : downloaded);
         resolve();
       } else {
+        const detail = errTail.replace(/[\r\n]+/g, ' ').trim().slice(-300);
         reject(
           new Error(
-            `Model download failed (exit code ${code}). Check your internet connection and retry — the download will resume where it stopped.`
+            `Model download failed (exit code ${code}).` +
+              (detail ? ` Tool said: ${detail}` : '') +
+              ' Check your internet connection and retry — the download will resume where it stopped.'
           )
         );
       }
