@@ -1,3 +1,0 @@
-START
-import pytest
-pytest imported OK: 9.1.1

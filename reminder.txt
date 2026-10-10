@@ -1,1 +1,0 @@
-create a file called reminder.txt with the word tea in reminder.txt

@@ -1,7 +1,0 @@
-{
-  "checkpoints": [
-    {"arm": "B", "path": "ck12/arith-micro-1000/step_00000600 (temp)", "format": "hercule-torch-v1", "arch": "334685359cebcfa5"},
-    {"arm": "C", "path": "ck12s/arith-s10m/step_00000200 (temp)", "format": "hercule-torch-v1", "arch": "60e0e63f0af8ed5d"}
-  ],
-  "note": "Temp-dir checkpoints (scratch); eval results + hashes in phase12_scale_ablation.json. Promote to artifacts/ only on milestone achievement."
-}
