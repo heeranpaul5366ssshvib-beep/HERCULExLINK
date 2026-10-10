@@ -26,6 +26,7 @@ export interface ToolDef {
 export const TOOLS: ToolDef[] = [
   { id: 'code-runner', name: 'Code Runner', description: 'Execute Python and JavaScript snippets in a sandbox.', usage: 'Ask HERCULE to "run this code"' },
   { id: 'web-fetch', name: 'Web Fetch', description: 'Fetch a URL and extract readable content.', usage: 'Paste a link and ask for a summary' },
+  { id: 'web-search', name: 'Web Search', description: 'Search the web and get titles, links and snippets.', usage: '"Search for latest AI research papers"' },
   { id: 'file-search', name: 'File Search', description: 'Find files by name or content in your projects.', usage: '"Find where X is defined"' },
   { id: 'calculator', name: 'Calculator', description: 'Exact arithmetic, unit conversion and dates.', usage: '"What is 15% of 4,800?"' },
   { id: 'task-planner', name: 'Task Planner', description: 'Break goals into tracked steps in Tasks.', usage: '"Plan a website redesign"' },

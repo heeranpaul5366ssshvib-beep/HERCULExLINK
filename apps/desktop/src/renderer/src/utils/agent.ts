@@ -9,7 +9,7 @@ export interface AgentToolCall {
 }
 
 /** Tools safe to run without asking in assisted/autonomous modes. */
-export const READ_ONLY_TOOLS = new Set(['calculator', 'file-search', 'web-fetch']);
+export const READ_ONLY_TOOLS = new Set(['calculator', 'file-search', 'web-fetch', 'web-search']);
 
 export interface AutonomySnapshot {
   level: 'supervised' | 'assisted' | 'autonomous';
@@ -23,6 +23,7 @@ export const AGENT_SYSTEM_PROMPT =
   '- calculator: {"expression": "2+2*3"} — exact arithmetic, functions like sqrt/sin/log, ^ for power.\n' +
   '- file-search: {"query": "text", "root": "optional folder"} — find text in local files.\n' +
   '- web-fetch: {"url": "https://..."} — read a public web page as text.\n' +
+  '- web-search: {"query": "latest AI research papers"} — search the web, returns titles/URLs/snippets.\n' +
   'To use a tool, put EXACTLY ONE fenced block at the end of your reply:\n' +
   '```hercule-tool\n{"tool": "calculator", "args": {"expression": "15*37"}}\n```\n' +
   'Write a one-line plan before the block. After a tool result arrives, either use another tool or give the final answer with NO tool block. ' +

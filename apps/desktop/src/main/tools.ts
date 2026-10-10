@@ -375,8 +375,87 @@ async function runWebFetch(args: Record<string, unknown>): Promise<ToolResult> {
 }
 
 // ---------------------------------------------------------------------------
-// registry + dispatcher
+// web-search: keyless web search via DuckDuckGo's HTML endpoint, parsed
+// server-side. Fixed public host (still SSRF-checked), 15s timeout.
 // ---------------------------------------------------------------------------
+
+function decodeEntities(s: string): string {
+  return s
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, n) => String.fromCharCode(parseInt(n, 16)))
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ');
+}
+
+function stripTags(s: string): string {
+  return decodeEntities(s.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
+}
+
+function unwrapDDG(href: string): string {
+  const m = /[?&]uddg=([^&]+)/.exec(href);
+  if (m?.[1]) {
+    try {
+      return decodeURIComponent(m[1]);
+    } catch {
+      // fall through to raw href
+    }
+  }
+  return href;
+}
+
+async function runWebSearch(args: Record<string, unknown>): Promise<ToolResult> {
+  const query = String(args.query ?? '').slice(0, 300).trim();
+  if (!query) return { ok: false, output: '', error: 'Empty search query' };
+  const count = Math.min(Math.max(Number(args.count ?? 8) || 8, 3), 15);
+  try {
+    await assertPublicUrl('https://html.duckduckgo.com/html/');
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 15000);
+    let html: string;
+    try {
+      const res = await fetch(`https://html.duckduckgo.com/html/?q=${encodeURIComponent(query)}`, {
+        signal: ctrl.signal,
+        headers: {
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) HERCULE/2.0 (local-assistant)',
+          accept: 'text/html',
+        },
+      });
+      if (!res.ok) return { ok: false, output: '', error: `Search failed (HTTP ${res.status})` };
+      html = await res.text();
+    } finally {
+      clearTimeout(timer);
+    }
+    if (/no-results|No results/i.test(html.slice(0, 20000)) && !/result__a/.test(html)) {
+      return { ok: true, output: `No results for "${query}". Try different keywords.` };
+    }
+    const titles: Array<{ href: string; title: string }> = [];
+    const linkRe = /<a[^>]*class="result__a"[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi;
+    let m: RegExpExecArray | null;
+    while ((m = linkRe.exec(html)) !== null && titles.length < count) {
+      const title = stripTags(m[2]).slice(0, 200);
+      if (!title) continue;
+      titles.push({ href: unwrapDDG(m[1]).slice(0, 500), title });
+    }
+    const snippets: string[] = [];
+    const snipRe = /class="result__snippet"[^>]*>([\s\S]*?)<\/a>/gi;
+    while ((m = snipRe.exec(html)) !== null && snippets.length < count) {
+      snippets.push(stripTags(m[1]).slice(0, 300));
+    }
+    if (titles.length === 0) {
+      return { ok: false, output: '', error: 'Search returned no parseable results. Try again.' };
+    }
+    const lines = titles.map((t, i) => {
+      const snip = snippets[i] ? `\n  ${snippets[i]}` : '';
+      return `${i + 1}. ${t.title}\n  ${t.href}${snip}`;
+    });
+    return { ok: true, output: `Top ${titles.length} results for "${query}":\n${lines.join('\n')}` };
+  } catch (err) {
+    if (err instanceof Error && err.name === 'AbortError') {
+      return { ok: false, output: '', error: 'Search timed out after 15s' };
+    }
+    return { ok: false, output: '', error: err instanceof Error ? err.message : 'Search failed' };
+  }
+}
 
 export interface ToolDef {
   name: string;
@@ -384,11 +463,16 @@ export interface ToolDef {
   args: string[];
 }
 
+// ---------------------------------------------------------------------------
+// registry + dispatcher
+// ---------------------------------------------------------------------------
+
 export function listTools(): ToolDef[] {
   return [
     { name: 'calculator', description: 'Exact arithmetic: + - * / % ^, parentheses, sqrt/sin/log and more.', args: ['expression'] },
     { name: 'file-search', description: 'Substring search across text files under one folder (sandboxed).', args: ['query', 'root?'] },
     { name: 'web-fetch', description: 'Fetch a public URL and extract readable text (SSRF-guarded).', args: ['url', 'maxChars?'] },
+    { name: 'web-search', description: 'Search the web (no key needed) and get titles, URLs and snippets.', args: ['query', 'count?'] },
   ];
 }
 
@@ -400,6 +484,8 @@ export async function runTool(name: string, args: Record<string, unknown>): Prom
       return runFileSearch(args);
     case 'web-fetch':
       return runWebFetch(args);
+    case 'web-search':
+      return runWebSearch(args);
     default:
       return { ok: false, output: '', error: `Unknown tool '${name}'` };
   }

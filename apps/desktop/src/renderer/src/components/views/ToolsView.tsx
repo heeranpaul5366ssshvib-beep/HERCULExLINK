@@ -1,11 +1,12 @@
 import { useState } from 'react';
-import { Wrench, Code, Globe, Search, Calculator, CalendarCheck, Brain, Play, FolderOpen } from 'lucide-react';
+import { Wrench, Code, Globe, Search, Calculator, CalendarCheck, Brain, Play, FolderOpen, Link } from 'lucide-react';
 import { cn } from '@/src/utils/cn';
 import { useTools } from '@/src/hooks/useIntegrations';
 
 const TOOL_ICONS: Record<string, React.ReactNode> = {
   'code-runner': <Code className="w-5 h-5" />,
-  'web-fetch': <Globe className="w-5 h-5" />,
+  'web-fetch': <Link className="w-5 h-5" />,
+  'web-search': <Globe className="w-5 h-5" />,
   'file-search': <Search className="w-5 h-5" />,
   calculator: <Calculator className="w-5 h-5" />,
   'task-planner': <CalendarCheck className="w-5 h-5" />,
@@ -38,6 +39,7 @@ const RUNNABLE: Record<string, { placeholder: string; secondPlaceholder?: string
   calculator: { placeholder: '4800 * 0.15 + sqrt(144)' },
   'file-search': { placeholder: 'search text…', secondPlaceholder: 'folder (optional)', secondLabel: 'Browse…' },
   'web-fetch': { placeholder: 'https://example.com' },
+  'web-search': { placeholder: 'latest AI research papers' },
 };
 
 function ToolRunner({ toolId }: { toolId: string }) {
@@ -59,6 +61,7 @@ function ToolRunner({ toolId }: { toolId: string }) {
       const toolArgs: Record<string, unknown> =
         toolId === 'calculator' ? { expression: input }
         : toolId === 'file-search' ? { query: input, ...(second.trim() ? { root: second.trim() } : {}) }
+        : toolId === 'web-search' ? { query: input }
         : { url: input };
       const res = await window.electronAPI.tools.run(toolId, toolArgs);
       setOutput(res.ok ? res.output : res.error ?? 'Failed');

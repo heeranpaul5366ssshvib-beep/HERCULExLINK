@@ -59,6 +59,7 @@ export function useTools() {
   const [enabled, setEnabled] = useLocalStorage<Record<string, boolean>>('hercule-tools', {
     'code-runner': true,
     'web-fetch': true,
+    'web-search': true,
     'file-search': true,
     calculator: true,
     'task-planner': true,
