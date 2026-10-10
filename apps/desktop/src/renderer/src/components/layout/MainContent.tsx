@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
-import { Send, Paperclip, Plus, Zap, Search, Code, Brain, CalendarCheck, ShieldCheck, Check, X, Mic, Volume2, VolumeX } from 'lucide-react';
+import { Send, Paperclip, Plus, Zap, Search, Code, Brain, CalendarCheck, ShieldCheck, Check, X, Mic, Volume2, VolumeX, Trash2 } from 'lucide-react';
 import { cn } from '@/src/utils/cn';
 import { QuickActionPill } from '@/src/components/chat/QuickActionPill';
 import { MessageBubble } from '@/src/components/chat/MessageBubble';
@@ -18,6 +18,7 @@ import {
   checkServerHealth,
   getInferenceBaseUrl,
   streamChatCompletion,
+  trimHistory,
   type ChatMessage,
 } from '@/src/utils/inference';
 import {
@@ -29,6 +30,7 @@ import {
   needsApproval,
 } from '@/src/utils/agent';
 import { useVoice } from '@/src/hooks/useVoice';
+import { useChats } from '@/src/hooks/useChats';
 
 interface MainContentProps {
   activeView: string;
@@ -42,6 +44,7 @@ interface MainContentProps {
   };
   stats: { cpu: number; ram: number; storage: number; gpu: number };
   isLoading: boolean;
+  ctxBudget?: number;
 }
 
 function greetingForHour(): string {
@@ -52,9 +55,11 @@ function greetingForHour(): string {
   return 'Good evening';
 }
 
-export function MainContent({ activeView, modelStatus, currentModel, onModelAction }: MainContentProps) {
+export function MainContent({ activeView, modelStatus, currentModel, onModelAction, ctxBudget = 4096 }: MainContentProps) {
   const { chatWidth } = useTheme();
   const widthClass = CHAT_WIDTH_CLASS[chatWidth];
+  const historyBudget = Math.max(256, Math.floor(ctxBudget * 0.7));
+  const { active, newChat, saveMessages, ensureTitle, deleteChat } = useChats();
   const [routeNote, setRouteNote] = useState<string | null>(null);
   const routeNoteTimer = useRef<number | null>(null);
   const [agentNote, setAgentNote] = useState<string | null>(null);
@@ -67,9 +72,28 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
     startListening, stopListening, speak, stopSpeaking,
   } = useVoice();
   const voiceBaseRef = useRef('');
-  const [messages, setMessages] = useState<Array<{ role: 'user' | 'assistant'; content: string }>>([
-    { role: 'assistant', content: "Hello! I'm HERCULE, your local AI assistant. How can I help you today?" }
-  ]);
+  const [messages, setMessages] = useState(active.messages);
+  // Session switching: swap the transcript when the active chat changes.
+  // Guarded by id so per-token store writes while streaming don't reset us.
+  const lastChatId = useRef<string>(active.id);
+  const chatSidRef = useRef<string | null>(null);
+  const saveTimer = useRef<number | null>(null);
+  if (lastChatId.current !== active.id) {
+    lastChatId.current = active.id;
+    chatSidRef.current = null;
+    setMessages(active.messages);
+  }
+  // Persist (debounced) so history survives restarts, even mid-stream.
+  useEffect(() => {
+    if (saveTimer.current) window.clearTimeout(saveTimer.current);
+    saveTimer.current = window.setTimeout(() => {
+      const sid = chatSidRef.current ?? (active.id === '__fresh__' ? null : active.id);
+      if (sid) saveMessages(sid, messages);
+    }, 800);
+    return () => {
+      if (saveTimer.current) window.clearTimeout(saveTimer.current);
+    };
+  }, [messages, active.id, saveMessages]);
   const [input, setInput] = useState('');
   const [isSending, setIsSending] = useState(false);
   const [autoMode, setAutoMode] = useState(false);
@@ -168,7 +192,12 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
             AGENT_SYSTEM_PROMPT +
             `\nEnabled tools: ${enabledList.join(', ') || 'none'}. Autonomy level: ${startingAutonomy.level}.`,
         },
-        ...messages.filter((m) => m.content.trim()).map((m) => ({ role: m.role, content: m.content })),
+        ...trimHistory(
+          messages
+            .filter((m) => m.content.trim())
+            .map((m) => ({ role: m.role as 'user' | 'assistant', content: m.content })),
+          historyBudget
+        ),
         { role: 'user' as const, content: userMessage },
       ];
 
@@ -243,11 +272,15 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
     } finally {
       setAgentNote(null);
     }
-  }, [messages]);
+  }, [messages, historyBudget]);
 
-  const sendMessage = useCallback(async (text: string) => {
+  const doSend = useCallback(async (text: string) => {
     const userMessage = text.trim();
     if (!userMessage || isSending) return;
+
+    // Chat memory: pin this turn to a real session id, title if untitled.
+    chatSidRef.current = active.id === '__fresh__' ? null : active.id;
+    ensureTitle(chatSidRef.current ?? active.id, userMessage);
 
     try {
       localStorage.setItem('hercule-last-chat', String(Date.now()));
@@ -326,7 +359,12 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
 
       const history: ChatMessage[] = [
         { role: 'system', content: HERCULE_SYSTEM_PROMPT },
-        ...messages.map(m => ({ role: m.role, content: m.content })),
+        ...trimHistory(
+          messages
+            .filter((m) => m.content.trim())
+            .map((m) => ({ role: m.role as 'user' | 'assistant', content: m.content })),
+          historyBudget
+        ),
         { role: 'user' as const, content: userMessage },
       ];
 
@@ -352,7 +390,32 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
       if (abortRef.current === controller) abortRef.current = null;
       setIsSending(false);
     }
-  }, [isSending, messages, onModelAction, autoMode, runAgentTurn, voiceOn, speak, stopSpeaking]);
+  }, [isSending, messages, onModelAction, autoMode, runAgentTurn, voiceOn, speak, stopSpeaking, active.id, ensureTitle]);
+
+  const doSendRef = useRef(doSend);
+  doSendRef.current = doSend;
+  const pendingSendRef = useRef<string | null>(null);
+
+  // Fresh chat: materialize the session first, then send into it.
+  useEffect(() => {
+    if (pendingSendRef.current && active.id !== '__fresh__') {
+      const text = pendingSendRef.current;
+      pendingSendRef.current = null;
+      void doSendRef.current(text);
+    }
+  }, [active.id]);
+
+  const sendMessage = useCallback((text: string) => {
+    const userMessage = text.trim();
+    if (!userMessage || isSending) return;
+    if (active.id === '__fresh__') {
+      newChat(currentModel);
+      pendingSendRef.current = userMessage;
+      setInput('');
+      return;
+    }
+    void doSend(userMessage);
+  }, [isSending, active.id, currentModel, newChat, doSend]);
 
   const handleSend = async (e?: React.FormEvent) => {
     e?.preventDefault();
@@ -541,9 +604,35 @@ export function MainContent({ activeView, modelStatus, currentModel, onModelActi
 
   const isFresh = messages.length <= 1;
 
+  const chatHeader = (
+    <div className="flex items-center gap-2 px-5 py-1.5 border-b border-border-primary bg-bg-secondary/60">
+      <span className="text-xs font-medium text-text-secondary truncate" title={active.title}>
+        {active.title}
+      </span>
+      <div className="flex-1" />
+      <button
+        onClick={() => newChat(currentModel)}
+        className="flex items-center gap-1 px-2 py-1 text-xs font-medium rounded-md text-text-tertiary hover:text-text-primary hover:bg-bg-tertiary transition-colors"
+        title="Start a new chat"
+      >
+        <Plus className="w-3.5 h-3.5" /> New
+      </button>
+      {!isFresh && (
+        <button
+          onClick={() => deleteChat(active.id)}
+          className="flex items-center gap-1 px-2 py-1 text-xs font-medium rounded-md text-text-tertiary hover:text-red-400 hover:bg-red-500/10 transition-colors"
+          title="Delete this chat"
+        >
+          <Trash2 className="w-3.5 h-3.5" />
+        </button>
+      )}
+    </div>
+  );
+
   return (
     <main className="flex-1 flex flex-col overflow-hidden bg-bg-primary">
       <CapabilityStrip modelStatus={modelStatus} currentModel={currentModel} />
+      {chatHeader}
 
       <div className="flex-1 overflow-y-auto">
         {isFresh ? (

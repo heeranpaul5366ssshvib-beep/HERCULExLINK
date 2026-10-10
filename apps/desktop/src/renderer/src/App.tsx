@@ -108,6 +108,7 @@ function Shell() {
               onModelAction={{ startModel: handleModelStart, stopModel: handleModelStop, installModel: () => downloadModel('hercule-base-nano'), routeMessage: handleRouteMessage }}
               stats={stats}
               isLoading={isLoading}
+              ctxBudget={ctxSizeEffective || 4096}
             />
           </ErrorBoundary>
         </div>

@@ -6,6 +6,7 @@ import {
 import { cn } from '@/src/utils/cn';
 import { useModels } from '@/src/hooks/useModels';
 import { useTasks, useMemories, useProjects } from '@/src/hooks/useWorkspace';
+import { useChats } from '@/src/hooks/useChats';
 import type { SidebarSide } from '@/src/context/ThemeContext';
 
 interface NavItem {
@@ -53,17 +54,25 @@ export function Sidebar({
   const { openCount: openTasks } = useTasks();
   const { memories } = useMemories();
   const { projects } = useProjects();
+  const { sessions, setActiveId, newChat } = useChats();
 
   const NAV_ITEMS: NavItem[] = BASE_NAV_ITEMS.map((item) =>
     item.id === 'tasks' && openTasks > 0 ? { ...item, badge: openTasks } : item
   );
 
   const recentItems = [
-    ...(projects[0] ? [{ id: `proj-${projects[0].id}`, label: projects[0].name, icon: <FolderKanban className="w-4 h-4" />, view: 'projects', time: 'recent' }] : []),
-    ...(openTasks > 0 ? [{ id: 'tasks-open', label: `${openTasks} open tasks`, icon: <CheckSquare className="w-4 h-4" />, view: 'tasks', time: 'now' }] : []),
-    { id: 'chat-new', label: 'New chat', icon: <MessageSquare className="w-4 h-4" />, view: 'chat', time: '' },
-    ...(memories[0] ? [{ id: `mem-${memories[0].id}`, label: memories[0].title, icon: <Database className="w-4 h-4" />, view: 'memory', time: '' }] : []),
+    ...sessions.slice(0, 3).map((s) => ({ id: `chat-${s.id}`, label: s.title, icon: <MessageSquare className="w-4 h-4" />, view: 'chat', time: '', chatId: s.id as string | undefined })),
+    ...(projects[0] ? [{ id: `proj-${projects[0].id}`, label: projects[0].name, icon: <FolderKanban className="w-4 h-4" />, view: 'projects', time: 'recent', chatId: undefined as string | undefined }] : []),
+    ...(openTasks > 0 ? [{ id: 'tasks-open', label: `${openTasks} open tasks`, icon: <CheckSquare className="w-4 h-4" />, view: 'tasks', time: 'now', chatId: undefined as string | undefined }] : []),
+    { id: 'chat-new', label: 'New chat', icon: <MessageSquare className="w-4 h-4" />, view: 'chat', time: '', chatId: undefined as string | undefined, fresh: true },
+    ...(memories[0] ? [{ id: `mem-${memories[0].id}`, label: memories[0].title, icon: <Database className="w-4 h-4" />, view: 'memory', time: '', chatId: undefined as string | undefined }] : []),
   ].slice(0, 4);
+
+  const handleRecent = (item: { view: string; chatId?: string; fresh?: boolean }) => {
+    if (item.fresh) newChat(null);
+    else if (item.chatId) setActiveId(item.chatId);
+    onViewChange(item.view);
+  };
 
   return (
     <aside
@@ -156,7 +165,7 @@ export function Sidebar({
               {recentItems.map((item) => (
                 <button
                   key={item.id}
-                  onClick={() => onViewChange(item.view)}
+                  onClick={() => handleRecent(item)}
                   className={cn(
                     'flex w-full items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors',
                     'text-text-tertiary hover:text-text-primary hover:bg-bg-tertiary'

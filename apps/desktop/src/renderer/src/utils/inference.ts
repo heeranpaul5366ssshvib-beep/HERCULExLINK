@@ -8,6 +8,32 @@ export const HERCULE_SYSTEM_PROMPT =
   'Answer clearly and concisely. Format code with markdown code blocks. ' +
   'If you do not know something, say so honestly.';
 
+/** Rough token estimate (chars/4) for context budgeting. */
+export function estimateTokens(text: string): number {
+  return Math.ceil(text.length / 4);
+}
+
+/**
+ * Keep the newest messages that fit in `budgetTokens`, preserving order.
+ * Guarantees the latest user message survives even in tiny budgets.
+ */
+export function trimHistory<T extends { role: string; content: string }>(
+  messages: T[],
+  budgetTokens: number
+): T[] {
+  if (messages.length === 0) return messages;
+  const kept: T[] = [];
+  let used = 0;
+  for (let i = messages.length - 1; i >= 0; i--) {
+    const m = messages[i] as T;
+    const cost = estimateTokens(m.content) + 4;
+    if (kept.length > 0 && used + cost > budgetTokens) break;
+    kept.unshift(m);
+    used += cost;
+  }
+  return kept;
+}
+
 const DEFAULT_BASE_URL = 'http://127.0.0.1:8765';
 
 export async function getInferenceBaseUrl(): Promise<string> {
